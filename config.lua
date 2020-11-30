@@ -147,7 +147,7 @@ defaultPriority = "high"
 startupDatabaseOptimization = true
 
 -- Status server info
-ownerName = "luks"
+ownerName = "luksnew"
 ownerEmail = "lukscma1@gmail.com"
 url = "http://209.126.8.8/"
 location = "Brazil"
