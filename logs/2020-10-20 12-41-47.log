@@ -1,0 +1,53 @@
+2020-10-20 12:41:47 -  [Thread debugging using libthread_db enabled]
+2020-10-20 12:41:47 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2020-10-20 12:41:47 -  [New Thread 0x7ffff3dbb700 (LWP 17897)]
+2020-10-20 12:41:47 -  [New Thread 0x7ffff35ba700 (LWP 17898)]
+2020-10-20 12:41:47 -  The OTG-Premium-Version - Version: (1.3)
+2020-10-20 12:41:47 -  Compiled with: GNU C++ version 5.4.0 20160609
+2020-10-20 12:41:47 -  Compiled on Sep 17 2020 19:49:36 for platform x64
+2020-10-20 12:41:47 -  
+2020-10-20 12:41:47 -  Special Credits for: OTG Team, Johncore, Vankk, Erick Nunes, Leonardo Pereira, Leandro Baldissera, Talis, Marcomoa, Marson Schneider, Douglas, Mark Samman, OTXServer (Mattyx Gomez) and The Forgotten Server Developers.
+2020-10-20 12:41:47 -  Link of repository: https://github.com/Johncorex/OTG-Premium-Version
+2020-10-20 12:41:47 -  
+2020-10-20 12:41:47 -  >> Loading config: config.lua
+2020-10-20 12:41:47 -  >> Establishing database connection... MySQL 5.7.31
+2020-10-20 12:41:47 -  >> Running database manager
+2020-10-20 12:41:47 -  [New Thread 0x7ffff2ba7700 (LWP 17899)]
+2020-10-20 12:41:47 -  > Optimizing table players_online... [success]
+2020-10-20 12:41:47 -  > Optimizing table tile_store... [success]
+2020-10-20 12:41:47 -  >> Loading vocations
+2020-10-20 12:41:47 -  >> Loading items
+2020-10-20 12:41:47 -  >> Loading script systems
+2020-10-20 12:41:47 -  >> Loading lua libs
+2020-10-20 12:41:48 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-20 12:41:48 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-20 12:41:49 -  >> Loading lua scripts
+2020-10-20 12:41:49 -  >> Loading monsters
+2020-10-20 12:41:49 -  >> Loading lua monsters
+2020-10-20 12:41:49 -  >> Loading outfits
+2020-10-20 12:41:49 -  >> Loading prey data
+2020-10-20 12:41:49 -  >> Checking world type... PVP
+2020-10-20 12:41:49 -  >> Loading map
+2020-10-20 12:41:51 -  > Map size: 34143x33812.
+2020-10-20 12:41:57 -  > Map loading time: 7.518 seconds.
+2020-10-20 12:42:25 -  > Loaded house items in: 0.08 s
+2020-10-20 12:42:25 -  >> Initializing gamestate
+2020-10-20 12:42:29 -  >> Loaded 43 npcs and spawned 72708 monsters.
+2020-10-20 12:42:29 -  >> Loaded 27 towns with 1074 houses in total.
+2020-10-20 12:42:29 -  [Castle War]
+2020-10-20 12:42:29 -  [POWERGAMERS]
+2020-10-20 12:42:29 -  [SISTEMA DE LOTERIA] OPERANTE
+2020-10-20 12:42:29 -  Advanced NPC spawn system | All NPCs will be loaded trough lib.
+2020-10-20 12:42:29 -  [REGEN BOOST] CARREGADO
+2020-10-20 12:42:29 -  [SPOOF COUNTER]
+2020-10-20 12:42:29 -  [STAMINA]
+2020-10-20 12:42:29 -  warvariables
+2020-10-20 12:42:29 -  Agenda:	10
+2020-10-20 12:42:29 -  eu sou o checkWarmode... 12:42!
+2020-10-20 12:42:29 -  12	42	18
+2020-10-20 12:42:29 -  >> Loaded all modules, server starting up...
+2020-10-20 12:42:29 -  > Warning: OTG-Premium-Version has been executed as root user, please consider running it as a normal user.
+2020-10-20 12:42:29 -  >> Honera Global Server Online!
+2020-10-20 12:42:29 -  
+2020-10-20 12:50:31 -  SABADOU!! NPC HONERA CRIADO
+2020-10-20 12:50:31 -  Thurusbango has logged in.

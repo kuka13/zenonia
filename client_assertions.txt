@@ -1,0 +1,977 @@
+----- 27/07/2020 14:50:49 - Worry (187.254.99.107) -----
+Debug Assertion 1100 Objects.cpp 640
+Mon Jul 27 13:45:53 2020
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in MEX
+Processor: AMD A4-9125 R
+Video Card: ATI Radeon AMD (TM) 
+Last Packet Types: 100 130 015 010 023 238 238 238 232 232
+Last Packet: 232 000 003 009 012 000 068 114 097 107 101 110 032 069 108 105
+Player Name: Worry (Honera Global)
+Player Action: 048 046 048 046 048 046 048 058 055 049 055 050
+Player.cpp 344: exception occurred, reason:
+Network.cpp 873: exception occurred, reason:
+Control.cpp 1535: exception occurred (Type = 100) (MainWindow = 03FBADA0), reason:
+Communication.cpp 2524: exception occurred (PlayerX = 32097) (PlayerY = 32220), reason:
+Communication.cpp 2502: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 2481: exception occurred (Type = 1) (OldType = 3655), reason:
+Objects.cpp 643: exception occurred (Type = 1) (Flag = 10), reason:
+Objects.cpp 640: assertion failed (Type = 1) (ObjectProperties->high() = 30291), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Comment: 
+----- 27/07/2020 17:15:17 - One Player (187.254.99.107) -----
+Debug Assertion 1100 NWin32Exception.cpp 55
+Mon Jul 27 16:11:43 2020
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in MEX
+Processor: AMD A4-9125 R
+Video Card: ATI Radeon AMD (TM) 
+Last Packet Types: 029 109 030 252 025 252 025 252 025 223
+Last Packet: 029 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000
+Player Position: [32343,32219,7]
+Player Name: One Player (Honera Global)
+Player Action: 048 046 048 046 048 046 048 058 055 049 055 050
+Player.cpp 344: exception occurred, reason:
+MainFrm.cpp 664: exception occurred (point.x = 1021) (point.y = 577), reason:
+Control.cpp 787: exception occurred (x = 1021) (y = 577), reason:
+DialogsGeneric.cpp 288: exception occurred (x = 498) (y = 394), reason:
+GUI.cpp 1936: exception occurred (x = 498) (y = 394), reason:
+GUI.cpp 1936: exception occurred (x = 480) (y = 362), reason:
+GUI.cpp 1936: exception occurred (x = 315) (y = 276), reason:
+DialogElements.cpp 1405: exception occurred (x = 51) (y = 12), reason:
+GUI.cpp 2515: exception occurred, reason:
+DialogsIngameShop.cpp 1326: exception occurred, reason:
+NWin32Exception.cpp 55: win32 exception occurred, reason:
+access violation (read attempt at 00E20CD8)
+Comment: 
+----- 22/08/2020 16:39:17 - Macaco Executer (201.10.103.64) -----
+Debug Assertion 1100 Control.cpp 1530
+Sat Aug 22 17:30:53 2020
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: Intel CORE I3-5
+Video Card: Intel (R) HD GR
+Last Packet Types: 000 232 029 109 108 109 109 109 160 161
+Last Packet: 029 232 000 001 000 000 000 236 238 010 000 000 000 000 000 000
+Player Position: [32108,32201,8]
+Player Name: Duuh Kooh (Draconia Online)
+Player Action: 048 046 048 046 048 046 048 058 055 049 055 050
+Player.cpp 344: exception occurred, reason:
+Network.cpp 873: exception occurred, reason:
+Control.cpp 1535: exception occurred (Type = 0) (MainWindow = 04A3D248), reason:
+Control.cpp 1530: unknown packet type during game (Type = 0)
+
+----- 29/08/2020 15:36:27 - [VIP]GOD Marson (186.251.86.44) -----
+
+
+
+
+----- 29/08/2020 15:55:40 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 29/08/2020 17:01:22 - [VIP]GOD Marson (186.251.86.44) -----
+
+
+
+
+----- 29/08/2020 17:04:30 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 31/08/2020 17:52:42 - Utamo Lih (192.145.212.134) -----
+
+
+
+
+----- 31/08/2020 21:38:19 - Mr Pikles (191.6.80.215) -----
+
+
+
+
+----- 31/08/2020 21:43:00 - Mr Pikles (191.6.80.215) -----
+
+
+
+
+----- 31/08/2020 21:43:46 - Tester (189.110.119.60) -----
+
+
+
+
+----- 31/08/2020 21:45:20 - Testando (177.52.252.229) -----
+
+
+
+
+----- 31/08/2020 21:51:59 - Mr Pikles (191.6.80.215) -----
+
+
+
+
+----- 01/09/2020 12:17:28 - [VIP]GOD Marson (186.251.86.44) -----
+
+
+
+
+----- 01/09/2020 17:29:52 - Utamo Lih (192.145.212.134) -----
+
+
+
+
+----- 04/09/2020 16:47:21 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 08/09/2020 22:30:04 - [VIP]GOD Marson (186.251.86.44) -----
+
+
+
+
+----- 09/09/2020 18:32:31 - Loud Graubi (191.35.76.226) -----
+
+
+
+
+----- 09/09/2020 19:15:18 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 12/09/2020 12:08:39 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 12/09/2020 12:17:43 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 12/09/2020 13:17:40 - Loud Graubi (191.35.64.230) -----
+
+
+
+
+----- 12/09/2020 13:22:30 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 12/09/2020 14:20:24 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 12/09/2020 14:35:12 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 12/09/2020 14:42:20 - Utamo Litez (192.145.213.183) -----
+
+
+
+
+----- 12/09/2020 14:59:51 - Loud Graubi (191.35.64.230) -----
+
+
+
+
+----- 12/09/2020 17:53:12 - Loud Graubi (191.33.59.139) -----
+
+
+
+
+----- 13/09/2020 14:55:30 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 13/09/2020 17:18:42 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 13/09/2020 17:28:54 - Loud Graubi (191.33.59.139) -----
+
+
+
+
+----- 13/09/2020 18:23:55 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 13/09/2020 20:15:03 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 13/09/2020 20:22:18 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 13/09/2020 20:37:46 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 13/09/2020 20:46:19 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 13/09/2020 20:50:15 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 13/09/2020 22:08:38 - Demon (170.80.194.69) -----
+
+
+
+
+----- 14/09/2020 10:55:55 - Painer (189.26.23.114) -----
+
+
+
+
+----- 14/09/2020 10:59:35 - [VIP]GOD Marson (186.251.86.44) -----
+
+
+
+
+----- 14/09/2020 11:09:36 - Painer (189.26.23.114) -----
+
+
+
+
+----- 14/09/2020 11:33:47 - Painer (189.26.23.114) -----
+
+
+
+
+----- 14/09/2020 12:02:33 - Painer (189.26.23.114) -----
+
+
+
+
+----- 14/09/2020 14:52:13 - Loud Graubi (191.33.59.139) -----
+
+
+
+
+----- 14/09/2020 16:13:38 - Painer (189.26.23.114) -----
+
+
+
+
+----- 14/09/2020 17:41:27 - [VIP]GOD Marson (186.251.86.44) -----
+
+
+
+
+----- 14/09/2020 17:50:08 - [VIP]GOD Marson (186.251.86.44) -----
+
+
+
+
+----- 15/09/2020 10:29:20 - Knight Exori (187.67.138.128) -----
+
+
+
+
+----- 15/09/2020 12:55:31 - Elitedois (177.137.142.44) -----
+
+
+
+
+----- 15/09/2020 13:05:50 - Loud Graubi (191.35.102.131) -----
+
+
+
+
+----- 15/09/2020 13:17:01 - Elite (177.137.142.44) -----
+
+
+
+
+----- 15/09/2020 13:24:47 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 15/09/2020 14:00:00 - Geziak (190.21.132.173) -----
+
+
+
+
+----- 15/09/2020 14:43:04 - Elite (177.137.142.44) -----
+
+
+
+
+----- 15/09/2020 15:49:35 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 15/09/2020 19:08:34 - Elite (177.137.142.44) -----
+
+
+
+
+----- 15/09/2020 20:31:16 - Elite (177.137.142.44) -----
+
+
+
+
+----- 15/09/2020 20:56:59 - Gandalf (170.83.213.38) -----
+
+
+
+
+----- 15/09/2020 21:04:06 - Loud Graubi (191.35.102.131) -----
+
+
+
+
+----- 16/09/2020 11:38:27 - Loud Graubi (191.35.102.131) -----
+
+
+
+
+----- 16/09/2020 13:26:23 - Loud Graubi (191.35.102.131) -----
+
+
+
+
+----- 16/09/2020 17:16:50 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 17/09/2020 19:01:28 - Graubi (191.35.67.32) -----
+
+
+
+
+----- 17/09/2020 19:01:59 - Loud Graubi (191.35.67.32) -----
+
+
+
+
+----- 17/09/2020 19:14:00 - Loud Graubi (191.35.67.32) -----
+
+
+
+
+----- 17/09/2020 19:58:02 - Loud Graubi (191.35.67.32) -----
+
+
+
+
+----- 17/09/2020 20:00:40 - Graubi (191.35.67.32) -----
+
+
+
+
+----- 17/09/2020 21:24:29 - [VIP]GOD Marson (186.251.86.45) -----
+
+
+
+
+----- 18/09/2020 09:27:32 - [VIP]GOD Marson (186.251.86.45) -----
+
+
+
+
+----- 18/09/2020 09:28:54 - Loud Graubi (191.35.67.32) -----
+
+
+
+
+----- 18/09/2020 10:33:09 - Loud Graubi (191.35.67.32) -----
+
+
+
+
+----- 18/09/2020 10:41:42 - Utamo Litez (192.145.212.134) -----
+
+
+
+
+----- 18/09/2020 10:44:15 - Gandalf (170.83.213.14) -----
+Debug Assertion 1100 NWin32Exception.cpp 55
+Fri Sep 18 11:43:43 2020
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 64 Bit in BRA
+Processor: Intel CORE I3-2
+Video Card: Intel (R) HD GR
+Last Packet Types: 180 140 131 131 131 131 131 131 131 131
+Last Packet: 131 116 126 175 124 007 013 140 176 229 000 064 100 180 028 116
+Player Position: [32367,31918,7]
+Player Name: Gandalf (Honera Global)
+Player Action: 048 046 048 046 048 046 048 058 055 049 055 050
+Player.cpp 344: exception occurred, reason:
+MainFrm.cpp 664: exception occurred (point.x = 904) (point.y = 512), reason:
+Control.cpp 787: exception occurred (x = 904) (y = 512), reason:
+DialogsGeneric.cpp 288: exception occurred (x = 498) (y = 394), reason:
+GUI.cpp 1936: exception occurred (x = 498) (y = 394), reason:
+GUI.cpp 1936: exception occurred (x = 480) (y = 362), reason:
+GUI.cpp 1936: exception occurred (x = 315) (y = 276), reason:
+DialogElements.cpp 1405: exception occurred (x = 51) (y = 12), reason:
+GUI.cpp 2515: exception occurred, reason:
+DialogsIngameShop.cpp 1326: exception occurred, reason:
+NWin32Exception.cpp 55: win32 exception occurred, reason:
+access violation (read attempt at 31F66607)
+Comment: 
+----- 18/09/2020 11:20:38 - Utamo Litez (192.145.212.134) -----
+
+
+
+
+----- 18/09/2020 11:47:37 - [VIP]GOD Marson (186.251.86.45) -----
+
+
+
+
+----- 18/09/2020 11:52:56 - Utamo Litez (192.145.212.134) -----
+
+
+
+
+----- 18/09/2020 14:55:12 - Utamo Litez (192.145.212.134) -----
+
+
+
+
+----- 18/09/2020 15:05:52 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 18/09/2020 15:30:19 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 18/09/2020 15:47:59 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 18/09/2020 16:00:48 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 18/09/2020 16:19:16 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 18/09/2020 17:55:46 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 18/09/2020 21:23:38 - Lgsin (168.228.69.163) -----
+
+
+
+
+----- 19/09/2020 10:28:04 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 19/09/2020 10:52:19 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 19/09/2020 10:54:02 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 19/09/2020 14:20:24 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 19/09/2020 16:57:19 - Shaka (138.255.235.46) -----
+
+
+
+
+----- 19/09/2020 18:07:15 - Shaka (138.255.235.46) -----
+
+
+
+
+----- 19/09/2020 22:59:18 - Shaka (138.255.235.46) -----
+
+
+
+
+----- 20/09/2020 11:28:04 - Loud Graubi (191.35.72.174) -----
+
+
+
+
+----- 20/09/2020 12:01:54 - Loud Graubi (191.35.72.174) -----
+
+
+
+
+----- 21/09/2020 08:12:09 - Sir Graubi (191.33.61.62) -----
+
+
+
+
+----- 21/09/2020 08:13:15 - Graubi (191.33.61.62) -----
+
+
+
+
+----- 21/09/2020 08:13:38 - Loud Graubi (191.33.61.62) -----
+
+
+
+
+----- 21/09/2020 08:31:14 - Beybe (201.95.184.121) -----
+Debug Assertion 1100 NWin32Exception.cpp 55
+Mon Sep 21 09:30:38 2020
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: Intel Pentium G630 @ 2.
+Video Card: NVIDIA GeForce GT 710
+Last Packet Types: 131 109 029 109 109 029 181 180 181 181
+Last Packet: 131 170 129 019 124 005 013 000 000 000 000 000 000 000 000 000
+Player Position: [33202,31762,3]
+Player Name: Beybe (Honera Global)
+Player Action: 048 046 048 046 048 046 048 058 055 049 055 050
+Player.cpp 344: exception occurred, reason:
+Player.cpp 448: exception occurred, reason:
+Control.cpp 2205: exception occurred (MessageType: 0 MaW: 3F4CAD0 MoW: 0), reason:
+Control.cpp 2200: exception occurred, reason:
+Control.cpp 541: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 133: exception occurred (Surface = 1), reason:
+GUI.cpp 1848: exception occurred (Surface = 1), reason:
+MapWindow.cpp 985: exception occurred (Surface = 1), reason:
+MapWindow.cpp 558: exception occurred (Obj = 1128), reason:
+NWin32Exception.cpp 55: win32 exception occurred, reason:
+access violation (read attempt at 00C122BB)
+Comment: 
+----- 21/09/2020 09:01:08 - Sir Graubi (191.33.61.62) -----
+
+
+
+
+----- 21/09/2020 11:36:59 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 21/09/2020 12:09:02 - Cassiano (170.80.194.68) -----
+
+
+
+
+----- 21/09/2020 14:53:35 - Cassiano (170.80.194.68) -----
+
+
+
+
+----- 21/09/2020 22:31:03 - Shaka (138.255.235.46) -----
+
+
+
+
+----- 22/09/2020 07:42:40 - Graubi (191.33.61.62) -----
+
+
+
+
+----- 22/09/2020 07:43:00 - Sir Graubi (191.33.61.62) -----
+
+
+
+
+----- 22/09/2020 07:43:19 - Loud Graubi (191.33.61.62) -----
+
+
+
+
+----- 22/09/2020 11:43:10 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 22/09/2020 12:17:16 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 22/09/2020 12:45:57 - Shaka (138.255.235.46) -----
+
+
+
+
+----- 22/09/2020 15:01:10 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 22/09/2020 15:28:42 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 22/09/2020 16:40:01 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 22/09/2020 16:40:45 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 22/09/2020 16:44:59 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 22/09/2020 19:06:02 - Trimagasi (192.145.213.183) -----
+
+
+
+
+----- 22/09/2020 21:40:01 - Shaka (138.255.235.46) -----
+
+
+
+
+----- 22/09/2020 22:02:02 - Trimagasi (192.145.213.183) -----
+
+
+
+
+----- 22/09/2020 22:10:53 - Trimagasi (192.145.213.183) -----
+
+
+
+
+----- 23/09/2020 08:27:10 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 23/09/2020 09:09:06 - Loud Graubi (191.35.104.32) -----
+
+
+
+
+----- 23/09/2020 11:07:58 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 23/09/2020 11:23:57 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 23/09/2020 11:55:01 - Loud Graubi (191.35.104.32) -----
+
+
+
+
+----- 23/09/2020 12:52:13 - Trimagasi (192.145.213.183) -----
+
+
+
+
+----- 23/09/2020 16:40:35 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 23/09/2020 16:55:49 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 23/09/2020 20:39:54 - Shaka (138.255.235.46) -----
+
+
+
+
+----- 23/09/2020 21:28:06 - Utamo Litez (192.145.213.183) -----
+
+
+
+
+----- 24/09/2020 12:50:25 - Trimagasi (192.145.213.183) -----
+
+
+
+
+----- 24/09/2020 16:39:27 - Cassiano (170.80.194.68) -----
+
+
+
+
+----- 24/09/2020 18:28:31 - Cassiano (170.80.194.68) -----
+
+
+
+
+----- 24/09/2020 18:55:20 - Shaka (138.255.235.46) -----
+
+
+
+
+----- 25/09/2020 06:36:07 - Cassiano (170.80.194.68) -----
+
+
+
+
+----- 25/09/2020 09:56:37 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 25/09/2020 16:20:11 - Cassiano (170.80.194.68) -----
+
+
+
+
+----- 25/09/2020 17:27:54 - Cassiano (170.80.194.68) -----
+
+
+
+
+----- 25/09/2020 17:28:48 - Master (170.80.194.68) -----
+
+
+
+
+----- 25/09/2020 17:47:07 - Cassiano (170.80.194.68) -----
+
+
+
+
+----- 26/09/2020 14:28:25 - Loud Graubi (191.35.120.223) -----
+
+
+
+
+----- 26/09/2020 17:30:54 - Porpii (191.19.172.177) -----
+
+
+
+
+----- 27/09/2020 10:02:13 - Cassiano (170.80.194.68) -----
+
+
+
+
+----- 27/09/2020 10:34:44 - Trimagasi (192.145.213.183) -----
+
+
+
+
+----- 27/09/2020 12:42:10 - Trimagasi (192.145.213.183) -----
+
+
+
+
+----- 27/09/2020 14:08:46 - Trimagasi (192.145.213.183) -----
+
+
+
+
+----- 29/09/2020 11:39:07 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 29/09/2020 12:04:06 - Trimagasi (192.145.212.134) -----
+
+
+
+
+----- 29/09/2020 20:29:10 - Loud Graubi (191.33.89.191) -----
+
+
+
+
+----- 29/09/2020 20:32:47 - Sir Graubi (191.33.89.191) -----
+
+
+
+
+----- 01/10/2020 10:04:42 - Utamo Litez (192.145.212.134) -----
+
+
+
+
+----- 01/10/2020 10:17:00 - Utamo Litez (192.145.212.134) -----
+
+
+
+
+----- 01/10/2020 10:44:51 - Utamo Litez (192.145.212.134) -----
+
+
+
+
+----- 01/10/2020 11:28:00 - Utamo Litez (192.145.212.134) -----
+
+
+
+
+----- 01/10/2020 12:16:58 - Demonzin (186.251.86.45) -----
+
+
+
+
+----- 03/10/2020 16:42:12 - Dev Marson (186.251.86.45) -----
+
+
+
+
+----- 04/10/2020 10:17:48 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 04/10/2020 10:22:12 - Trimagasi (192.145.213.222) -----
+
+
+
+
+----- 07/10/2020 09:02:44 - Utamo Litez (192.145.212.134) -----
+
+
+
+
+----- 20/10/2020 13:18:43 - Cacadorzin (186.216.103.207) -----
+
+
+
+
+----- 20/10/2020 13:28:41 - Cacadorzin (186.216.103.207) -----
+
+
+
+
+----- 20/10/2020 13:39:48 - Biro Biro (179.93.158.17) -----
+Debug Assertion 1100 NWin32Exception.cpp 55
+Tue Oct 20 14:39:28 2020
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Home Premium Edition 64 Bit in BRA
+Processor: Intel Celeron 1007U @ 1
+Video Card: NVIDIA GeForce 8400GS
+Last Packet Types: 109 029 252 025 252 025 252 025 252 025
+Last Packet: 109 064 126 208 125 006 001 065 126 208 125 006 000 000 000 000
+Player Position: [32319,32213,6]
+Player Name: Biro Biro (Honera Global)
+Player Action: 048 046 048 046 048 046 048 058 055 049 055 050
+Player.cpp 344: exception occurred, reason:
+MainFrm.cpp 664: exception occurred (point.x = 719) (point.y = 515), reason:
+Control.cpp 787: exception occurred (x = 719) (y = 515), reason:
+DialogsGeneric.cpp 288: exception occurred (x = 484) (y = 398), reason:
+GUI.cpp 1936: exception occurred (x = 484) (y = 398), reason:
+GUI.cpp 1936: exception occurred (x = 466) (y = 366), reason:
+GUI.cpp 1936: exception occurred (x = 301) (y = 280), reason:
+DialogElements.cpp 1405: exception occurred (x = 37) (y = 16), reason:
+GUI.cpp 2515: exception occurred, reason:
+DialogsIngameShop.cpp 1326: exception occurred, reason:
+NWin32Exception.cpp 55: win32 exception occurred, reason:
+access violation (read attempt at 7954656C)
+Comment: 
+----- 21/10/2020 12:19:11 - Demonzin (186.251.86.45) -----
+
+
+
+
+----- 23/10/2020 20:31:45 - Royal Gordinn (177.170.134.204) -----
+
+
+
+
+----- 24/10/2020 14:55:27 - Groselha (187.255.225.124) -----
+
+
+
+
+----- 24/10/2020 15:44:51 - Groselha (187.255.225.124) -----
+
+
+
+
+----- 24/10/2020 16:41:29 - Groselha (187.255.225.124) -----
+
+
+
+
+----- 24/10/2020 16:42:04 - Tamarindo (187.255.225.124) -----
+
+
+
+
+----- 25/10/2020 14:04:20 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 25/10/2020 14:08:18 - Cacadorzin (191.240.82.65) -----
+
+
+
+
+----- 25/10/2020 14:17:16 - Cacadorzin (191.240.82.65) -----
+
+
+
+
+----- 25/10/2020 15:26:52 - Mestre Do Axe (131.72.36.80) -----
+
+
+
+
+----- 25/10/2020 15:33:45 - Cacadorzin (191.240.82.65) -----
+
+
+
+
+----- 25/10/2020 16:10:51 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 25/10/2020 18:21:43 - Super Xandao (189.6.246.2) -----
+
+
+
+
+----- 26/10/2020 11:03:50 - Cassiano (170.80.194.69) -----
+
+
+
+
+----- 26/10/2020 13:44:11 - Cassiano (170.80.194.69) -----
+
+
+
+

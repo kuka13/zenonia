@@ -1,0 +1,81 @@
+<npc name="Bonelord [Imbuements]" script="npclootmakert.lua" walkinterval="0" floorchange="0">
+<health now="150" max="150" />
+<look type="1124" head="58" body="116" legs="95" feet="20" addons="0" mount="0"/>
+<parameters> 
+	 <parameter key="module_shop" value="1" />
+<parameter key="shop_buyable" value="
+
+demon horn,5954,9000;
+slime heart,23565,9000;
+some grimeleech wings,25386,9000;
+draken sulphur,12614,9000;
+seacrest hair,24170,9000;
+vexclaw talon,25384,9000;
+frazzle skin,22533,9000;
+Piece of Dead Brain,10580,9000;
+Little Bowl of Myrrhs,29007,9000 ;
+Goosebump Leather,22539,9000;
+Fiery Hearts,10553,3000;
+Swamp Grass,10603,3000;  
+Frosty Hearts,10578,3000; 
+Rorc Feathers,21310,3000;	 
+Pile of Grave Earth,12440,3000;
+Vampire Teeth,10602,3000;
+Rope Belts,12448,3000;
+Gloom Wolf Fur,24663,3000;
+Flasks of Embalming Fluid,12422,3000;
+Snake Skin,10611,3000;
+Pieces of Swampling Wood,20103,3000;
+Green Dragon Leathers,5877,3000;
+Winter Wolf Furs,11212,3000;
+Wyvern Talisman,10561,3000;
+Cultish Robes,10556,3000;
+Damselfly Wing,19738,3000;
+Orc Tooths,11113,3000;
+Lions Manes,10608,3000;
+Cyclops Toes,10574,3000;
+Pieces of Scarab Shell,10558,3000;
+Elvish Talismans,10552,3000;
+Fairy Wings,28999,3000;
+Demonic Skeletal Hands,10564,3000;
+Peacock feather fan,24631,3000;
+Metal spike,11215,3000;
+Elven scouting glass,12420,3000;
+Broken shamanic staff,12408,3000;
+Strand of Medusa Hair,11226,3000;
+Protective Charm,12400,3000;
+Deepling Warts,15425,3000;
+Wyrm Scale,10582,3000;
+Hellspawn Tail,11221,3000;
+Waspoid Wing,15484,3000;
+War Crystal,10571,3000;
+Poisonous Slimes,10557,5000;
+Seacrest Hairs,24170,5000;
+Bloody Pincers,10550,5000;
+Silencer Claws,22534,5000;
+Sabretooth,11228,5000;
+Blazing Bones,18425,5000;
+Thick Furs,11224,5000;
+Crawler Head Platings,15482,5000;
+Cultish Masks,10555,5000;
+Compass,11219,5000;
+Battle Stones,12403,5000;
+Mooh'tah Shells,23573,5000;
+Ogre Nose Rings,24845,5000;
+Elven Hoofs,21311,5000;
+Brimstone Shells,12659,5000;
+Broken Shamanic Staffs,12408,5000;
+Energy Vein,26164,5000;
+Mystical Hourglass,10577,5000;
+Brimstone Fangs,12658,5000;
+Warmasters Wristguards,11322,5000
+
+
+ 
+
+" /> 
+	
+		<parameter key="message_walkaway" value="So I am alone again." />
+	
+</parameters>
+</npc>

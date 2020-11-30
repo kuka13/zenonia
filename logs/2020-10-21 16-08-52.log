@@ -1,0 +1,175 @@
+2020-10-21 16:08:53 -  [Thread debugging using libthread_db enabled]
+2020-10-21 16:08:53 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2020-10-21 16:08:53 -  [New Thread 0x7ffff3dbb700 (LWP 5455)]
+2020-10-21 16:08:53 -  [New Thread 0x7ffff35ba700 (LWP 5456)]
+2020-10-21 16:08:53 -  The OTG-Premium-Version - Version: (1.3)
+2020-10-21 16:08:53 -  Compiled with: GNU C++ version 5.4.0 20160609
+2020-10-21 16:08:53 -  Compiled on Sep 17 2020 19:49:36 for platform x64
+2020-10-21 16:08:53 -  
+2020-10-21 16:08:53 -  Special Credits for: OTG Team, Johncore, Vankk, Erick Nunes, Leonardo Pereira, Leandro Baldissera, Talis, Marcomoa, Marson Schneider, Douglas, Mark Samman, OTXServer (Mattyx Gomez) and The Forgotten Server Developers.
+2020-10-21 16:08:53 -  Link of repository: https://github.com/Johncorex/OTG-Premium-Version
+2020-10-21 16:08:53 -  
+2020-10-21 16:08:53 -  >> Loading config: config.lua
+2020-10-21 16:08:53 -  >> Establishing database connection... MySQL 5.7.31
+2020-10-21 16:08:53 -  >> Running database manager
+2020-10-21 16:08:53 -  [New Thread 0x7ffff2ba7700 (LWP 5457)]
+2020-10-21 16:08:53 -  > Optimizing table tile_store... [success]
+2020-10-21 16:08:53 -  >> Loading vocations
+2020-10-21 16:08:53 -  >> Loading items
+2020-10-21 16:08:53 -  >> Loading script systems
+2020-10-21 16:08:53 -  >> Loading lua libs
+2020-10-21 16:08:54 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-21 16:08:54 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-21 16:08:55 -  >> Loading lua scripts
+2020-10-21 16:08:55 -  >> Loading monsters
+2020-10-21 16:08:55 -  >> Loading lua monsters
+2020-10-21 16:08:55 -  >> Loading outfits
+2020-10-21 16:08:55 -  >> Loading prey data
+2020-10-21 16:08:55 -  >> Checking world type... PVP
+2020-10-21 16:08:55 -  >> Loading map
+2020-10-21 16:08:57 -  > Map size: 34143x33812.
+2020-10-21 16:09:02 -  > Map loading time: 7.326 seconds.
+2020-10-21 16:09:03 -  > Loaded house items in: 0.016 s
+2020-10-21 16:09:03 -  >> Initializing gamestate
+2020-10-21 16:09:06 -  >> Loaded 43 npcs and spawned 72708 monsters.
+2020-10-21 16:09:06 -  >> Loaded 27 towns with 1074 houses in total.
+2020-10-21 16:09:06 -  [Castle War]
+2020-10-21 16:09:06 -  [POWERGAMERS]
+2020-10-21 16:09:06 -  [SISTEMA DE LOTERIA] OPERANTE
+2020-10-21 16:09:06 -  Advanced NPC spawn system | All NPCs will be loaded trough lib.
+2020-10-21 16:09:06 -  [REGEN BOOST] CARREGADO
+2020-10-21 16:09:06 -  [SPOOF COUNTER]
+2020-10-21 16:09:06 -  [STAMINA]
+2020-10-21 16:09:06 -  warvariables
+2020-10-21 16:09:06 -  Agenda:	10
+2020-10-21 16:09:06 -  eu sou o checkWarmode... 16:9!
+2020-10-21 16:09:06 -  Buscando valores guilds where id = 3
+2020-10-21 16:09:06 -  > Broadcasted message: "[Warmode] Atencao Honerianos! A Guild TesteWarmode desafiou a Guild Vai tomando para uma batalha que vai iniciar agora!".
+2020-10-21 16:09:06 -  16	09	51
+2020-10-21 16:09:06 -  >> Loaded all modules, server starting up...
+2020-10-21 16:09:06 -  > Warning: OTG-Premium-Version has been executed as root user, please consider running it as a normal user.
+2020-10-21 16:09:06 -  >> Honera Global Server Online!
+2020-10-21 16:09:06 -  
+2020-10-21 16:09:07 -  Robalo has logged in.
+2020-10-21 16:09:07 -  funcao onLogin
+2020-10-21 16:09:07 -  Dev Marson has logged in.
+2020-10-21 16:09:09 -  funcao onLogin
+2020-10-21 16:09:09 -  SABADOU!! NPC HONERA CRIADO
+2020-10-21 16:09:09 -  Demonzin has logged in.
+2020-10-21 16:10:02 -  funcao onLogin
+2020-10-21 16:10:02 -  funcaoKill!!
+2020-10-21 16:10:02 -  um player que estava dentro da war, foi morto
+2020-10-21 16:10:02 -  endWarmode
+2020-10-21 16:10:02 -  Demonzin has logged out.
+2020-10-21 16:10:08 -  Demonzin has logged in.
+2020-10-21 16:11:06 -  funcao onLogin
+2020-10-21 16:11:06 -  endWarmode
+2020-10-21 16:11:06 -  [Error - mysql_real_query] Query: UPDATE `guild_warmode` SET `winner` = 255 `WHERE `challenger` = 3 AND `challenged` = 5 AND `winner` = 0
+2020-10-21 16:11:06 -  Message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`WHERE `challenger` = 3 AND `challenged` = 5 AND `winner` = 0' at line 1
+2020-10-21 16:15:31 -  
+2020-10-21 16:15:31 -  Thread 1 "tfs" received signal SIGINT, Interrupt.
+2020-10-21 16:15:31 -  0x00007ffff7b14ad3 in epoll_wait () at ../sysdeps/unix/syscall-template.S:84
+2020-10-21 16:15:31 -  84	../sysdeps/unix/syscall-template.S: No such file or directory.
+2020-10-21 16:15:31 -  
+2020-10-21 16:15:31 -  Thread 4 (Thread 0x7ffff2ba7700 (LWP 5457)):
+2020-10-21 16:15:31 -  #0  pthread_cond_wait@@GLIBC_2.3.2 () at ../sysdeps/unix/sysv/linux/x86_64/pthread_cond_wait.S:185
+2020-10-21 16:15:31 -  No locals.
+2020-10-21 16:15:31 -  #1  0x00007ffff5e7491c in std::condition_variable::wait(std::unique_lock<std::mutex>&) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-21 16:15:32 -  No symbol table info available.
+2020-10-21 16:15:32 -  #2  0x00000000006228bf in DatabaseTasks::threadMain() (this=0x8e39a0 <g_databaseTasks>) at /home/otg/src/databasetasks.cpp:42
+2020-10-21 16:15:32 -          taskLockUnique = {_M_device = 0x8e3a08 <g_databaseTasks+104>, _M_owns = true}
+2020-10-21 16:15:32 -  #3  0x00007ffff5e79c80 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-21 16:15:32 -  No symbol table info available.
+2020-10-21 16:15:32 -  #4  0x00007ffff614a6ba in start_thread (arg=0x7ffff2ba7700) at pthread_create.c:333
+2020-10-21 16:15:32 -          __res = <optimized out>
+2020-10-21 16:15:32 -          pd = 0x7ffff2ba7700
+2020-10-21 16:15:32 -          now = <optimized out>
+2020-10-21 16:15:32 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737265694464, 2659071004366967670, 0, 140737284647471, 140737265695168, 9334528, -2659077021055478922, -2659086596389760138}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2020-10-21 16:15:32 -          not_first_call = <optimized out>
+2020-10-21 16:15:32 -          pagesize_m1 = <optimized out>
+2020-10-21 16:15:32 -          sp = <optimized out>
+2020-10-21 16:15:32 -          freesize = <optimized out>
+2020-10-21 16:15:32 -          __PRETTY_FUNCTION__ = "start_thread"
+2020-10-21 16:15:32 -  #5  0x00007ffff7b144dd in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+2020-10-21 16:15:32 -  No locals.
+2020-10-21 16:15:32 -  
+2020-10-21 16:15:32 -  Thread 3 (Thread 0x7ffff35ba700 (LWP 5456)):
+2020-10-21 16:15:32 -  #0  pthread_cond_timedwait@@GLIBC_2.3.2 () at ../sysdeps/unix/sysv/linux/x86_64/pthread_cond_timedwait.S:225
+2020-10-21 16:15:32 -  No locals.
+2020-10-21 16:15:32 -  #1  0x0000000000506210 in __gthread_cond_timedwait () at /usr/include/x86_64-linux-gnu/c++/5/bits/gthr-default.h:871
+2020-10-21 16:15:32 -  No locals.
+2020-10-21 16:15:32 -  #2  std::condition_variable::__wait_until_impl (__atime=..., __lock=..., this=0x8e6fa0 <g_scheduler+64>) at /usr/include/c++/5/condition_variable:165
+2020-10-21 16:15:32 -          __ts = {tv_sec = 1603311331, tv_nsec = 843014640}
+2020-10-21 16:15:32 -  #3  std::condition_variable::wait_until<std::chrono::duration<long, std::ratio<1l, 1000000000l> > > () at /usr/include/c++/5/condition_variable:105
+2020-10-21 16:15:32 -          __lock = @0x7ffff35b9e90: {_M_device = 0x8e6f78 <g_scheduler+24>, _M_owns = true}
+2020-10-21 16:15:32 -          this = 0x8e6fa0 <g_scheduler+64>
+2020-10-21 16:15:32 -  #4  Scheduler::threadMain (this=0x8e6f60 <g_scheduler>) at /home/otg/src/scheduler.cpp:36
+2020-10-21 16:15:32 -          ret = std::cv_status::no_timeout
+2020-10-21 16:15:32 -          eventLockUnique = {_M_device = 0x8e6f78 <g_scheduler+24>, _M_owns = true}
+2020-10-21 16:15:32 -  #5  0x00007ffff5e79c80 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-21 16:15:32 -  No symbol table info available.
+2020-10-21 16:15:32 -  #6  0x00007ffff614a6ba in start_thread (arg=0x7ffff35ba700) at pthread_create.c:333
+2020-10-21 16:15:32 -          __res = <optimized out>
+2020-10-21 16:15:32 -          pd = 0x7ffff35ba700
+2020-10-21 16:15:32 -          now = <optimized out>
+2020-10-21 16:15:32 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737276258048, 2659071004366967670, 0, 140737488346847, 140737276258752, 9437376, -2659080591783914634, -2659086596389760138}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2020-10-21 16:15:32 -          not_first_call = <optimized out>
+2020-10-21 16:15:32 -          pagesize_m1 = <optimized out>
+2020-10-21 16:15:32 -          sp = <optimized out>
+2020-10-21 16:15:32 -          freesize = <optimized out>
+2020-10-21 16:15:32 -          __PRETTY_FUNCTION__ = "start_thread"
+2020-10-21 16:15:32 -  #7  0x00007ffff7b144dd in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+2020-10-21 16:15:32 -  No locals.
+2020-10-21 16:15:32 -  
+2020-10-21 16:15:32 -  Thread 2 (Thread 0x7ffff3dbb700 (LWP 5455)):
+2020-10-21 16:15:32 -  #0  pthread_cond_wait@@GLIBC_2.3.2 () at ../sysdeps/unix/sysv/linux/x86_64/pthread_cond_wait.S:185
+2020-10-21 16:15:32 -  No locals.
+2020-10-21 16:15:32 -  #1  0x00007ffff5e7491c in std::condition_variable::wait(std::unique_lock<std::mutex>&) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-21 16:15:32 -  No symbol table info available.
+2020-10-21 16:15:32 -  #2  0x000000000055af7b in Dispatcher::threadMain() (this=0x8e6ec0 <g_dispatcher>) at /home/otg/src/tasks.cpp:50
+2020-10-21 16:15:32 -          taskLockUnique = {_M_device = 0x8e6ed8 <g_dispatcher+24>, _M_owns = true}
+2020-10-21 16:15:32 -  #3  0x00007ffff5e79c80 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-21 16:15:32 -  No symbol table info available.
+2020-10-21 16:15:32 -  #4  0x00007ffff614a6ba in start_thread (arg=0x7ffff3dbb700) at pthread_create.c:333
+2020-10-21 16:15:32 -          __res = <optimized out>
+2020-10-21 16:15:32 -          pd = 0x7ffff3dbb700
+2020-10-21 16:15:32 -          now = <optimized out>
+2020-10-21 16:15:32 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737284650752, 2659071004366967670, 0, 140737488346847, 140737284651456, 9437376, -2659079492809157770, -2659086596389760138}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2020-10-21 16:15:32 -          not_first_call = <optimized out>
+2020-10-21 16:15:32 -          pagesize_m1 = <optimized out>
+2020-10-21 16:15:32 -          sp = <optimized out>
+2020-10-21 16:15:32 -          freesize = <optimized out>
+2020-10-21 16:15:32 -          __PRETTY_FUNCTION__ = "start_thread"
+2020-10-21 16:15:32 -  #5  0x00007ffff7b144dd in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+2020-10-21 16:15:32 -  No locals.
+2020-10-21 16:15:32 -  
+2020-10-21 16:15:32 -  Thread 1 (Thread 0x7ffff7fe6740 (LWP 5451)):
+2020-10-21 16:15:32 -  #0  0x00007ffff7b14ad3 in epoll_wait () at ../sysdeps/unix/syscall-template.S:84
+2020-10-21 16:15:32 -  No locals.
+2020-10-21 16:15:32 -  #1  0x00000000005b70e7 in boost::asio::detail::epoll_reactor::run(bool, boost::asio::detail::op_queue<boost::asio::detail::task_io_service_operation>&) [clone .constprop.204] (this=0x901570, block=<optimized out>, ops=...) at /usr/include/boost/asio/detail/impl/epoll_reactor.ipp:392
+2020-10-21 16:15:32 -          timeout = <optimized out>
+2020-10-21 16:15:32 -          events = {{events = 1, data = {ptr = 0x9015c8, fd = 9442760, u32 = 9442760, u64 = 9442760}}, {events = 2147457675, data = {ptr = 0x7fff9a8b2e880000, fd = 780664832, u32 = 780664832, u64 = 9223260484449861632}}, {events = 3003121664, data = {ptr = 0x793100007fff9a8a, fd = 2147457674, u32 = 2147457674, u64 = 8732761154595560074}}, {events = 2147417961, data = {ptr = 0x7ffeff69793c0000, fd = 2033975296, u32 = 2033975296, u64 = 9223089915371978752}}, {events = 778043392, data = {ptr = 0x7fff9a8b, fd = 2147457675, u32 = 2147457675, u64 = 2147457675}}, {events = 0, data = {ptr = 0x7fff9a8ab3010000, fd = -1291780096, u32 = 3003187200, u64 = 9223260482377416704}}, {events = 2035220480, data = {ptr = 0x7ffeff69, fd = 2147417961, u32 = 2147417961, u64 = 2147417961}}, {events = 0, data = {ptr = 0x7fffed9a11680000, fd = 292028416, u32 = 292028416, u64 = 9223351807850840064}}, {events = 797966336, data = {ptr = 0x2bc000007fff9a8b, fd = 2147457675, u32 = 2147457675, u64 = 3152519741306804875}}, {events = 2147457675, data = {ptr = 0x7fff9a8b30980000, fd = 815267840, u32 = 815267840, u64 = 9223260484484464640}}, {events = 787480576, data = {ptr = 0xb30000007fff9a8b, fd = 2147457675, u32 = 2147457675, u64 = 12898309334936558219}}, {events = 2147457674, data = {ptr = 0x7ffeff6979550000, fd = 2035613696, u32 = 2035613696, u64 = 9223089915373617152}}, {events = 2036203520, data = {ptr = 0x2f6800007ffeff69, fd = 2147417961, u32 = 2147417961, u64 = 3415980319507939177}}, {events = 2147457675, data = {ptr = 0x7fff9a8b2f180000, fd = 790102016, u32 = 790102016, u64 = 9223260484459298816}}, {events = 3003121664, data = {ptr = 0x796500007fff9a8a, fd = 2147457674, u32 = 2147457674, u64 = 8747397853384514186}}, {events = 2147417961, data = {ptr = 0x7ffeff69796e0000, fd = 2037252096, u32 = 2037252096, u64 = 9223089915375255552}}, {events = 787480576, data = {ptr = 0x2f4000007fff9a8b, fd = 2147457675, u32 = 2147457675, u64 = 3404721320439552651}}, {events = 2147457675, data = {ptr = 0x7fff9a8ab3000000, fd = -1291845632, u32 = 3003121664, u64 = 9223260482377351168}}, {events = 2037710848, data = {ptr = 0x797e00007ffeff69, fd = 2147417961, u32 = 2147417961, u64 = 8754434727802240873}}, {events = 2147417961, data = {ptr = 0x7fff9a8b2f180000, fd = 790102016, u32 = 790102016, u64 = 9223260484459298816}}, {events = 795344896, data = {ptr = 0xb30000007fff9a8b, fd = 2147457675, u32 = 2147457675, u64 = 12898309334936558219}}, {events = 2147457674, data = {ptr = 0x7ffeff6979820000, fd = 2038562816, u32 = 2038562816, u64 = 9223089915376566272}}, {events = 2039087104, data = {ptr = 0x2f4000007ffeff69, fd = 2147417961, u32 = 2147417961, u64 = 3404721320439512937}}, {events = 2147457675, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 3003187200, data = {ptr = 0x799100007fff9a8a, fd = 2147457674, u32 = 2147457674, u64 = 8759782752359783050}}, {events = 2147417961, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 783286272, data = {ptr = 0x7fff9a8b, fd = 2147457675, u32 = 2147457675, u64 = 2147457675}}, {events = 0, data = {ptr = 0x7fff9a8b2f900000, fd = 797966336, u32 = 797966336, u64 = 9223260484467163136}}, {events = 0, data = {ptr = 0x2fd0000000000000, fd = 0, u32 = 0, u64 = 3445253714938429440}}, {events = 2147457675, data = {ptr = 0x7fff9a8ab3000000, fd = -1291845632, u32 = 3003121664, u64 = 9223260482377351168}}, {events = 2040070144, data = {ptr = 0x799f00007ffeff69, fd = 2147417961, u32 = 2147417961, u64 = 8763723402033692521}}, {events = 2147417961, data = {ptr = 0x7fff9a8b30700000, fd = 812646400, u32 = 812646400, u64 = 9223260484481843200}}, {events = 804782080, data = {ptr = 0xb30000007fff9a8b, fd = 2147457675, u32 = 2147457675, u64 = 12898309334936558219}}, {events = 2147457674, data = {ptr = 0x7ffeff6979b00000, fd = 2041577472, u32 = 2041577472, u64 = 9223089915379580928}}, {events = 2041774080, data = {ptr = 0x2fd000007ffeff69, fd = 2147417961, u32 = 2147417961, u64 = 3445253717085847401}}, {events = 2147457675, data = {ptr = 0x7fff9a8b30200000, fd = 807403520, u32 = 807403520, u64 = 9223260484476600320}}, {events = 3003121664, data = {ptr = 0x79b700007fff9a8a, fd = 2147457674, u32 = 2147457674, u64 = 8770478801474787978}}, {events = 2147417961, data = {ptr = 0x7ffeff6979ba0000, fd = 2042232832, u32 = 2042232832, u64 = 9223089915380236288}}, {events = 804782080, data = {ptr = 0x304800007fff9a8b, fd = 2147457675, u32 = 2147457675, u64 = 3479030714291165835}}, {events = 2147457675, data = {ptr = 0x7fff9a8ab3000000, fd = -1291845632, u32 = 3003121664, u64 = 9223260482377351168}}, {events = 2042429440, data = {ptr = 0x79c000007ffeff69, fd = 2147417961, u32 = 2147417961, u64 = 8773012076265144169}}, {events = 2147417961, data = {ptr = 0x7fff9a8b30200000, fd = 807403520, u32 = 807403520, u64 = 9223260484476600320}}, {events = 812646400, data = {ptr = 0xb30000007fff9a8b, fd = 2147457675, u32 = 2147457675, u64 = 12898309334936558219}}, {events = 2147457674, data = {ptr = 0x7ffeff6979c40000, fd = 2042888192, u32 = 2042888192, u64 = 9223089915380891648}}, {events = 2043609088, data = {ptr = 0x304800007ffeff69, fd = 2147417961, u32 = 2147417961, u64 = 3479030714291126121}}, {events = 2147457675, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 3003187200, data = {ptr = 0x79e200007fff9a8a, fd = 2147457674, u32 = 2147457674, u64 = 8782582225473346186}}, {events = 2147417961, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 292028416, data = {ptr = 0x317800007fffed9a, fd = 2147478938, u32 = 2147478938, u64 = 3564599107211226522}}, {events = 2147457675, data = {ptr = 0x7fff9a8b2eb00000, fd = 783286272, u32 = 783286272, u64 = 9223260484452483072}}, {events = 3814719488, data = {ptr = 0x30d800007fffc2a4, fd = 2147467940, u32 = 2147467940, u64 = 3519563110937510564}}, {events = 2147457675, data = {ptr = 0x7fff9a8ab3000000, fd = -1291845632, u32 = 3003121664, u64 = 9223260482377351168}}, {events = 11, data = {ptr = 0xa17ffeff69, fd = 2147417961, u32 = 2147417961, u64 = 693637152617}}, {events = 0, data = {ptr = 0x7fff9a8b31500000, fd = 827326464, u32 = 827326464, u64 = 9223260484496523264}}, {events = 822083584, data = {ptr = 0xb30000007fff9a8b, fd = 2147457675, u32 = 2147457675, u64 = 12898309334936558219}}, {events = 2147457674, data = {ptr = 0x7ffeff6979f80000, fd = 2046296064, u32 = 2046296064, u64 = 9223089915384299520}}, {events = 2046885888, data = {ptr = 0x30d800007ffeff69, fd = 2147417961, u32 = 2147417961, u64 = 3519563110937460585}}, {events = 2147457675, data = {ptr = 0x7fff9a8b31280000, fd = 824705024, u32 = 824705024, u64 = 9223260484493901824}}, {events = 4155593817, data = {ptr = 0x7fff, fd = 32767, u32 = 32767, u64 = 32767}}, {events = 0, data = {ptr = 0x5828f4 <boost::asio::detail::reactive_socket_recv_op_base<boost::asio::mutable_buffers_1>::do_perform(boost::asio::detail::reactor_op*)+228>, fd = 5777652, u32 = 5777652, u64 = 5777652}}, {events = 822083584, data = {ptr = 0x1ff9a8b, fd = 33528459, u32 = 33528459, u64 = 33528459}}, {events = 13, data = {ptr = 0x7fff9a8a3276, fd = -1702219146, u32 = 2592748150, u64 = 140735786136182}}, {events = 2, data = {ptr = 0x200000000, fd = 0, u32 = 0, u64 = 8589934592}}, {events = 0, data = {ptr = 0x5f9096e3, fd = 1603311331, u32 = 1603311331, u64 = 1603311331}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x7fffffffdb80, fd = -9344, u32 = 4294957952, u64 = 140737488345984}}, {events = 1, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x9a8a325000000000, fd = 0, u32 = 0, u64 = 11135768347805745152}}, {events = 32767, data = {ptr = 0x7fffe9261b30, fd = -383378640, u32 = 3911588656, u64 = 140737104976688}}, {events = 9578224, data = {ptr = 0x9a8b335800000000, fd = 0, u32 = 0, u64 = 11136050956653821952}}, {events = 32767, data = {ptr = 0x901c08, fd = 9444360, u32 = 9444360, u64 = 9444360}}, {events = 13, data = {ptr = 0x5200000000, fd = 0, u32 = 0, u64 = 352187318272}}, {events = 0, data = {ptr = 0x901570, fd = 9442672, u32 = 9442672, u64 = 9442672}}, {events = 6449413, data = {ptr = 0x7a42000000000000, fd = 0, u32 = 0, u64 = 8809603821090111488}}, {events = 2147417961, data = {ptr = 0x7fff0000000d, fd = 13, u32 = 13, u64 = 140733193388045}}, {events = 0, data = {ptr = 0x56f20000000000, fd = 0, u32 = 0, u64 = 24472929811038208}}, {events = 0, data = {ptr = 0x7ffeff697a450000, fd = 2051342336, u32 = 2051342336, u64 = 9223089915389345792}}, {events = 2051538944, data = {ptr = 0xffffdc707ffeff69, fd = 2147417961, u32 = 2147417961, u64 = 18446704974474706793}}, {events = 32767, data = {ptr = 0x9226f0, fd = 9578224, u32 = 9578224, u64 = 9578224}}, {events = 9578224, data = {ptr = 0x901d9000000000, fd = 0, u32 = 0, u64 = 40564900958830592}}, {events = 0, data = {ptr = 0x7fff9a8b3358, fd = -1702153384, u32 = 2592813912, u64 = 140735786201944}}, {events = 2592748150, data = {ptr = 0x200007fff, fd = 32767, u32 = 32767, u64 = 8589967359}}, {events = 0, data = {ptr = 0x7fff00000001, fd = 1, u32 = 1, u64 = 140733193388033}}, {events = 0, data = {ptr = 0x56f20000000000, fd = 0, u32 = 0, u64 = 24472929811038208}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x9a8b32f800000000, fd = 0, u32 = 0, u64 = 11136050544336961536}}, {events = 32767, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 4128564479, data = {ptr = 0x9a8a326000007fff, fd = 32767, u32 = 32767, u64 = 11135768416525254655}}, {events = 32767, data = {ptr = 0x7fff9c2279b0, fd = -1675462224, u32 = 2619505072, u64 = 140735812893104}}, {events = 2758173840, data = {ptr = 0x9a8b32f800007fff, fd = 32767, u32 = 32767, u64 = 11136050544336994303}}, {events = 32767, data = {ptr = 0x7fffffffde78, fd = -8584, u32 = 4294958712, u64 = 140737488346744}}, {events = 0, data = {ptr = 0xf7a9158c00000000, fd = 0, u32 = 0, u64 = 17845818689471905792}}, {events = 32767, data = {ptr = 0x900090, fd = 9437328, u32 = 9437328, u64 = 9437328}}, {events = 4294958640, data = {ptr = 0x90009000007fff, fd = 32767, u32 = 32767, u64 = 40533015121657855}}, {events = 0, data = {ptr = 0x7fff9a8a3260, fd = -1702219168, u32 = 2592748128, u64 = 140735786136160}}, {events = 14, data = {ptr = 0x9a8a326000000000, fd = 0, u32 = 0, u64 = 11135768416525221888}}, {events = 32767, data = {ptr = 0x7fff9c2279b0, fd = -1675462224, u32 = 2619505072, u64 = 140735812893104}}, {events = 2758173840, data = {ptr = 0x9a8b32f800007fff, fd = 32767, u32 = 32767, u64 = 11136050544336994303}}, {events = 32767, data = {ptr = 0x58a8b4 <Connection::onWriteOperation(boost::system::error_code const&)+260>, fd = 5810356, u32 = 5810356, u64 = 5810356}}, {events = 0, data = {ptr = 0xf71e50e000000000, fd = 0, u32 = 0, u64 = 17806758899672416256}}, {events = 32767, data = {ptr = 0xffffde30, fd = -8656, u32 = 4294958640, u64 = 4294958640}}, {events = 14, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 4294958640, data = {ptr = 0x58574500007fff, fd = 32767, u32 = 32767, u64 = 24865751814930431}}, {events = 0, data = {ptr = 0x13, fd = 19, u32 = 19, u64 = 19}}, {events = 4155593817, data = {ptr = 0xffffde3000007fff, fd = 32767, u32 = 32767, u64 = 18446706896472670207}}, {events = 32767, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 13, data = {ptr = 0x7fff9a8b3358, fd = -1702153384, u32 = 2592813912, u64 = 140735786201944}}, {events = 4294958720, data = {ptr = 0x90009000007fff, fd = 32767, u32 = 32767, u64 = 40533015121657855}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x9000c000000000, fd = 0, u32 = 0, u64 = 40533221280055296}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 4155053452, data = {ptr = 0x9a8a325000007fff, fd = 32767, u32 = 32767, u64 = 11135768347805777919}}, {events = 32767, data = {ptr = 0x6564602000000000, fd = 0, u32 = 0, u64 = 7306070186057007104}}, {events = 4145959136, data = {ptr = 0x58a73100007fff, fd = 32767, u32 = 32767, u64 = 24953626845806591}}, {events = 0, data = {ptr = 0x7fffe9269e30, fd = -383345104, u32 = 3911622192, u64 = 140737105010224}}, {events = 4294958720, data = {ptr = 0x90009000007fff, fd = 32767, u32 = 32767, u64 = 40533015121657855}}, {events = 0, data = {ptr = 0x7fffffffde80, fd = -8576, u32 = 4294958720, u64 = 140737488346752}}, {events = 9437328, data = {ptr = 0x58646e00000000, fd = 0, u32 = 0, u64 = 24880221559717888}}, {events = 0, data = {ptr = 0x7fff9a8a3260, fd = -1702219168, u32 = 2592748128, u64 = 140735786136160}}, {events = 2592748112, data = {ptr = 0xffffde8000007fff, fd = 32767, u32 = 32767, u64 = 18446707240070053887}}, {events = 32767, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 32767, data = {ptr = 0x58a720 <Connection::handleTimeout(std::weak_ptr<Connection>, boost::system::error_code const&)>, fd = 5809952, u32 = 5809952, u64 = 5809952}}, {events = 2592748128, data = {ptr = 0x9a8a325000007fff, fd = 32767, u32 = 32767, u64 = 11135768347805777919}}, {events = 32767, data = {ptr = 0x6e6972750000007d, fd = 125, u32 = 125, u64 = 7956016063563432061}}}
+2020-10-21 16:15:32 -          num_events = <optimized out>
+2020-10-21 16:15:32 -          check_timers = <optimized out>
+2020-10-21 16:15:32 -  #2  0x000000000055dcd3 in do_run_one (ec=..., this_thread=..., lock=<synthetic pointer>, this=0x900090) at /usr/include/boost/asio/detail/impl/task_io_service.ipp:356
+2020-10-21 16:15:32 -          more_handlers = <optimized out>
+2020-10-21 16:15:32 -  #3  run (ec=..., this=0x900090) at /usr/include/boost/asio/detail/impl/task_io_service.ipp:149
+2020-10-21 16:15:32 -          this_thread = {private_op_queue = {front_ = 0x0, back_ = 0x0}, private_outstanding_work = 0}
+2020-10-21 16:15:32 -          ctx = {key_ = 0x900090, value_ = 0x7fffffffdf40, next_ = 0x0}
+2020-10-21 16:15:32 -          lock = {mutex_ = @0x9000c0, locked_ = <optimized out>}
+2020-10-21 16:15:32 -          n = 4773
+2020-10-21 16:15:32 -  #4  _ZN5boost4asio10io_service3runEv.isra.226 () at /usr/include/boost/asio/impl/io_service.ipp:59
+2020-10-21 16:15:32 -          ec = {m_val = 0, m_cat = 0x7ffff71e50e0}
+2020-10-21 16:15:32 -  #5  ServiceManager::run() (this=this@entry=0x7fffffffdff0) at /home/otg/src/server.cpp:47
+2020-10-21 16:15:33 -  No locals.
+2020-10-21 16:15:33 -  #6  0x0000000000474c46 in main (argc=1, argv=0x7fffffffe1b8) at /home/otg/src/otserv.cpp:96
+2020-10-21 16:15:33 -          serviceManager = {acceptors = {_M_h = {_M_buckets = 0x7fffed9a0f60, _M_bucket_count = 5, _M_before_begin = {_M_nxt = 0x7fffe9269f00}, _M_element_count = 2, _M_rehash_policy = {_M_max_load_factor = 1, _M_next_resize = 5}, _M_single_bucket = 0x0}}, io_service = {service_registry_ = 0x900040, impl_ = @0x900090}, signals = {set = {<No data fields>}}, death_timer = {<No data fields>}, running = true}
+2020-10-21 16:15:33 -  > Broadcasted message: "[Warmode] A War acabou por tempo! Parabens a Guild Vencedora Vai tomando!".
+2020-10-21 16:15:33 -  removendo players da tabela porque a war acabou
+2020-10-21 16:15:33 -  Saving server...
+2020-10-21 16:15:33 -  > Saved house items in: 0.395 s
+2020-10-21 16:15:33 -  A debugging session is active.
+2020-10-21 16:15:33 -  
+2020-10-21 16:15:33 -  	Inferior 1 [process 5451] will be killed.
+2020-10-21 16:15:33 -  
+2020-10-21 16:15:33 -  Quit anyway? (y or n) [answered Y; input not from terminal]

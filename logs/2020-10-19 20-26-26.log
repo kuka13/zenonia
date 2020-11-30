@@ -1,0 +1,67 @@
+2020-10-19 20:26:27 -  [Thread debugging using libthread_db enabled]
+2020-10-19 20:26:27 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2020-10-19 20:26:27 -  [New Thread 0x7ffff3dbb700 (LWP 29503)]
+2020-10-19 20:26:27 -  [New Thread 0x7ffff35ba700 (LWP 29504)]
+2020-10-19 20:26:27 -  The OTG-Premium-Version - Version: (1.3)
+2020-10-19 20:26:27 -  Compiled with: GNU C++ version 5.4.0 20160609
+2020-10-19 20:26:27 -  Compiled on Sep 17 2020 19:49:36 for platform x64
+2020-10-19 20:26:27 -  
+2020-10-19 20:26:27 -  Special Credits for: OTG Team, Johncore, Vankk, Erick Nunes, Leonardo Pereira, Leandro Baldissera, Talis, Marcomoa, Marson Schneider, Douglas, Mark Samman, OTXServer (Mattyx Gomez) and The Forgotten Server Developers.
+2020-10-19 20:26:27 -  Link of repository: https://github.com/Johncorex/OTG-Premium-Version
+2020-10-19 20:26:27 -  
+2020-10-19 20:26:27 -  >> Loading config: config.lua
+2020-10-19 20:26:27 -  >> Establishing database connection... MySQL 5.7.31
+2020-10-19 20:26:27 -  >> Running database manager
+2020-10-19 20:26:27 -  [New Thread 0x7ffff2ba7700 (LWP 29505)]
+2020-10-19 20:26:27 -  > Optimizing table tile_store... [success]
+2020-10-19 20:26:27 -  >> Loading vocations
+2020-10-19 20:26:27 -  >> Loading items
+2020-10-19 20:26:27 -  >> Loading script systems
+2020-10-19 20:26:27 -  >> Loading lua libs
+2020-10-19 20:26:28 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-19 20:26:28 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-19 20:26:29 -  >> Loading lua scripts
+2020-10-19 20:26:29 -  >> Loading monsters
+2020-10-19 20:26:29 -  >> Loading lua monsters
+2020-10-19 20:26:29 -  >> Loading outfits
+2020-10-19 20:26:29 -  >> Loading prey data
+2020-10-19 20:26:29 -  >> Checking world type... PVP
+2020-10-19 20:26:29 -  >> Loading map
+2020-10-19 20:26:30 -  > Map size: 34143x33812.
+2020-10-19 20:26:36 -  > Map loading time: 7.41 seconds.
+2020-10-19 20:27:12 -  > Loaded house items in: 0.068 s
+2020-10-19 20:27:12 -  >> Initializing gamestate
+2020-10-19 20:27:16 -  >> Loaded 43 npcs and spawned 72708 monsters.
+2020-10-19 20:27:16 -  >> Loaded 27 towns with 1074 houses in total.
+2020-10-19 20:27:16 -  [Castle War]
+2020-10-19 20:27:16 -  [POWERGAMERS]
+2020-10-19 20:27:16 -  [SISTEMA DE LOTERIA] OPERANTE
+2020-10-19 20:27:16 -  Advanced NPC spawn system | All NPCs will be loaded trough lib.
+2020-10-19 20:27:16 -  [REGEN BOOST] CARREGADO
+2020-10-19 20:27:16 -  [SPOOF COUNTER]
+2020-10-19 20:27:16 -  [STAMINA]
+2020-10-19 20:27:16 -  warvariables
+2020-10-19 20:27:16 -  Agenda:	0
+2020-10-19 20:27:16 -  eu sou o checkWarmode... 20:27
+2020-10-19 20:27:16 -  20	27	33
+2020-10-19 20:27:16 -  >> Loaded all modules, server starting up...
+2020-10-19 20:27:16 -  > Warning: OTG-Premium-Version has been executed as root user, please consider running it as a normal user.
+2020-10-19 20:27:16 -  >> Honera Global Server Online!
+2020-10-19 20:27:16 -  
+2020-10-19 20:27:16 -  Dev Marson has logged in.
+2020-10-19 20:27:16 -  Robalo has logged in.
+2020-10-19 21:10:17 -  SABADOU!! NPC HONERA CRIADO
+2020-10-19 21:10:17 -  eu sou o checkWarmode... 21:00
+2020-10-19 21:10:17 -  > Broadcasted message: "Beware! Mawhawk!".
+2020-10-19 22:10:42 -  eu sou o checkWarmode... 22:00
+2020-10-19 22:10:42 -  [Warning - Event::checkScript] Can not load script: scripts/warmode.lua
+2020-10-19 22:10:42 -  data/creaturescripts/scripts/warmode.lua:410: 'end' expected (to close 'function' at line 1) near 'elseif'
+2020-10-19 22:16:47 -  
+2020-10-19 22:16:47 -  Thread 1 "tfs" received signal SIGINT, Interrupt.
+2020-10-19 22:16:47 -  0x00007ffff7b14ad3 in epoll_wait () at ../sysdeps/unix/syscall-template.S:84
+2020-10-19 22:16:47 -  84	../sysdeps/unix/syscall-template.S: No such file or directory.
+2020-10-19 22:16:47 -  
+2020-10-19 22:16:47 -  Thread 4 (Thread 0x7ffff2ba7700 (LWP 29505)):
+2020-10-19 22:16:47 -  #0  pthread_cond_wait@@GLIBC_2.3.2 () at ../sysdeps/unix/sysv/linux/x86_64/pthread_cond_wait.S:185
+2020-10-19 22:16:47 -  No locals.
+2020-10-19 22:16:47 -  #1  0x00007ffff5e7491c in std::condition_variable::wait(std::unique_lock<std::mutex>&) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6

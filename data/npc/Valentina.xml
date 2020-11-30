@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Valentina" script="Valentina.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="157" head="116" body="116" legs="98" feet="45" addons="1" />
+	
+	<parameters>
+                    <parameter key="message_greet" value="Hello sweet |PLAYERNAME|. What do you want to change? I have {Rotworm Stews}, {Blessed Steak}, {Love Potion}, {Four-Leaf Clover}, {Blood Herb}, {Heart Backpack}, {Frozen Heart}, {Demon Infant}, {Truelove Teddy} e {Sweetheart Ring}." />
+                    <parameter key="message_farewell" value="Bye bye!" />
+          </parameters>
+		  
+</npc>

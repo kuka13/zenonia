@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Halloween Witch" script="Halloween.lua" walkinterval="2000" floorchange="0">
+	<health now="2" max="100" />
+	<look type="557" />
+	
+	
+	
+</npc>

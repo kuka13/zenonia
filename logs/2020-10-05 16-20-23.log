@@ -1,0 +1,1724 @@
+2020-10-05 16:20:23 -  [Thread debugging using libthread_db enabled]
+2020-10-05 16:20:23 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2020-10-05 16:20:23 -  [New Thread 0x7ffff3dbb700 (LWP 7895)]
+2020-10-05 16:20:23 -  [New Thread 0x7ffff35ba700 (LWP 7896)]
+2020-10-05 16:20:23 -  The OTG-Premium-Version - Version: (1.3)
+2020-10-05 16:20:23 -  Compiled with: GNU C++ version 5.4.0 20160609
+2020-10-05 16:20:23 -  Compiled on Sep 17 2020 19:49:36 for platform x64
+2020-10-05 16:20:23 -  
+2020-10-05 16:20:23 -  Special Credits for: OTG Team, Johncore, Vankk, Erick Nunes, Leonardo Pereira, Leandro Baldissera, Talis, Marcomoa, Marson Schneider, Douglas, Mark Samman, OTXServer (Mattyx Gomez) and The Forgotten Server Developers.
+2020-10-05 16:20:23 -  Link of repository: https://github.com/Johncorex/OTG-Premium-Version
+2020-10-05 16:20:23 -  
+2020-10-05 16:20:23 -  >> Loading config: config.lua
+2020-10-05 16:20:23 -  >> Establishing database connection... MySQL 5.7.31
+2020-10-05 16:20:23 -  >> Running database manager
+2020-10-05 16:20:23 -  [New Thread 0x7ffff2ba7700 (LWP 7897)]
+2020-10-05 16:20:23 -  > Optimizing table players_online... [success]
+2020-10-05 16:20:23 -  > Optimizing table tile_store... [success]
+2020-10-05 16:20:23 -  >> Loading vocations
+2020-10-05 16:20:23 -  >> Loading items
+2020-10-05 16:20:23 -  >> Loading script systems
+2020-10-05 16:20:23 -  >> Loading lua libs
+2020-10-05 16:20:24 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-05 16:20:24 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-05 16:20:25 -  >> Loading lua scripts
+2020-10-05 16:20:25 -  >> Loading monsters
+2020-10-05 16:20:25 -  >> Loading lua monsters
+2020-10-05 16:20:25 -  >> Loading outfits
+2020-10-05 16:20:25 -  >> Loading prey data
+2020-10-05 16:20:25 -  >> Checking world type... PVP
+2020-10-05 16:20:25 -  >> Loading map
+2020-10-05 16:20:27 -  > Map size: 34143x33812.
+2020-10-05 16:20:33 -  > Map loading time: 7.608 seconds.
+2020-10-05 16:21:06 -  > Loaded house items in: 0.115 s
+2020-10-05 16:21:06 -  >> Initializing gamestate
+2020-10-05 16:21:10 -  >> Loaded 43 npcs and spawned 72496 monsters.
+2020-10-05 16:21:10 -  >> Loaded 27 towns with 1074 houses in total.
+2020-10-05 16:21:10 -  [Castle War]
+2020-10-05 16:21:10 -  [POWERGAMERS]
+2020-10-05 16:21:10 -  [SISTEMA DE LOTERIA] OPERANTE
+2020-10-05 16:21:10 -  Advanced NPC spawn system | All NPCs will be loaded trough lib.
+2020-10-05 16:21:10 -  [REGEN BOOST] CARREGADO
+2020-10-05 16:21:10 -  [SPOOF COUNTER]
+2020-10-05 16:21:10 -  [STAMINA]
+2020-10-05 16:21:10 -  >> Loaded all modules, server starting up...
+2020-10-05 16:21:10 -  > Warning: OTG-Premium-Version has been executed as root user, please consider running it as a normal user.
+2020-10-05 16:21:10 -  >> Honera Global Server Online!
+2020-10-05 16:21:10 -  
+2020-10-05 16:21:11 -  Robalo has logged in.
+2020-10-05 16:21:11 -  Jackie Chan has logged in.
+2020-10-05 16:21:11 -  Arrow has logged in.
+2020-10-05 16:21:11 -  Scooby Doo has logged in.
+2020-10-05 16:21:13 -  SABADOU!! NPC HONERA CRIADO
+2020-10-05 16:21:13 -  Flash has logged in.
+2020-10-05 16:21:13 -  Yostknot has logged in.
+2020-10-05 16:21:13 -  Nobre Cavalheiro has logged in.
+2020-10-05 16:21:21 -  Dev Marson has logged in.
+2020-10-05 16:21:21 -  Midas has logged in.
+2020-10-05 16:21:23 -  Top Spin has logged in.
+2020-10-05 16:37:23 -  Dev Marson has logged out.
+2020-10-05 16:37:24 -  Dev Marson has logged in.
+2020-10-05 17:05:31 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-05 17:05:31 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-05 17:06:20 -  Dev Marson has logged out.
+2020-10-05 17:06:21 -  Dev Marson has logged in.
+2020-10-05 17:08:41 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-05 17:08:41 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-05 17:09:55 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-05 17:09:55 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-05 17:10:13 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-05 17:10:13 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-05 17:10:17 -  
+2020-10-05 17:10:17 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:10:17 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:10:17 -  data/actions/scripts/other/decayto.lua:46: attempt to concatenate global 'texto' (a nil value)
+2020-10-05 17:10:17 -  stack traceback:
+2020-10-05 17:10:17 -  	[C]: in function '__concat'
+2020-10-05 17:10:17 -  	data/actions/scripts/other/decayto.lua:46: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:10:25 -  
+2020-10-05 17:10:25 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:10:25 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:10:25 -  data/actions/scripts/other/decayto.lua:46: attempt to concatenate global 'texto' (a nil value)
+2020-10-05 17:10:25 -  stack traceback:
+2020-10-05 17:10:25 -  	[C]: in function '__concat'
+2020-10-05 17:10:25 -  	data/actions/scripts/other/decayto.lua:46: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:10:29 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-05 17:10:29 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-05 17:10:36 -  
+2020-10-05 17:10:36 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:10:36 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:10:36 -  data/actions/scripts/other/decayto.lua:46: attempt to concatenate global 'texto' (a nil value)
+2020-10-05 17:10:36 -  stack traceback:
+2020-10-05 17:10:36 -  	[C]: in function '__concat'
+2020-10-05 17:10:36 -  	data/actions/scripts/other/decayto.lua:46: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:10:50 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-05 17:10:50 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-05 17:16:17 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-05 17:16:17 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-05 17:16:59 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-05 17:16:59 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-05 17:17:01 -  
+2020-10-05 17:17:01 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:17:01 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:17:01 -  data/actions/scripts/other/decayto.lua:51: attempt to index global 'topParent' (a nil value)
+2020-10-05 17:17:01 -  stack traceback:
+2020-10-05 17:17:01 -  	[C]: in function '__index'
+2020-10-05 17:17:01 -  	data/actions/scripts/other/decayto.lua:51: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:17:02 -  
+2020-10-05 17:17:02 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:17:02 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:17:02 -  data/actions/scripts/other/decayto.lua:51: attempt to index global 'topParent' (a nil value)
+2020-10-05 17:17:02 -  stack traceback:
+2020-10-05 17:17:02 -  	[C]: in function '__index'
+2020-10-05 17:17:02 -  	data/actions/scripts/other/decayto.lua:51: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:17:03 -  
+2020-10-05 17:17:03 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:17:03 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:17:03 -  data/actions/scripts/other/decayto.lua:51: attempt to index global 'topParent' (a nil value)
+2020-10-05 17:17:03 -  stack traceback:
+2020-10-05 17:17:03 -  	[C]: in function '__index'
+2020-10-05 17:17:03 -  	data/actions/scripts/other/decayto.lua:51: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:17:49 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-05 17:17:49 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-05 17:18:33 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-05 17:18:33 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-05 17:19:20 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-05 17:19:20 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-05 17:19:22 -  
+2020-10-05 17:19:22 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:19:22 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:19:22 -  data/actions/scripts/other/decayto.lua:52: attempt to concatenate local 'topParent' (a userdata value)
+2020-10-05 17:19:22 -  stack traceback:
+2020-10-05 17:19:22 -  	[C]: in function '__concat'
+2020-10-05 17:19:22 -  	data/actions/scripts/other/decayto.lua:52: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:19:23 -  
+2020-10-05 17:19:23 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:19:23 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:19:23 -  data/actions/scripts/other/decayto.lua:52: attempt to concatenate local 'topParent' (a userdata value)
+2020-10-05 17:19:23 -  stack traceback:
+2020-10-05 17:19:23 -  	[C]: in function '__concat'
+2020-10-05 17:19:23 -  	data/actions/scripts/other/decayto.lua:52: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:19:24 -  
+2020-10-05 17:19:24 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:19:24 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:19:24 -  data/actions/scripts/other/decayto.lua:52: attempt to concatenate local 'topParent' (a userdata value)
+2020-10-05 17:19:24 -  stack traceback:
+2020-10-05 17:19:24 -  	[C]: in function '__concat'
+2020-10-05 17:19:24 -  	data/actions/scripts/other/decayto.lua:52: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:19:24 -  
+2020-10-05 17:19:24 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:19:24 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:19:24 -  data/actions/scripts/other/decayto.lua:52: attempt to concatenate local 'topParent' (a userdata value)
+2020-10-05 17:19:24 -  stack traceback:
+2020-10-05 17:19:24 -  	[C]: in function '__concat'
+2020-10-05 17:19:24 -  	data/actions/scripts/other/decayto.lua:52: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:19:53 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-05 17:19:53 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-05 17:19:55 -  
+2020-10-05 17:19:55 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:19:55 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:19:55 -  data/actions/scripts/other/decayto.lua:52: attempt to concatenate local 'topParent' (a userdata value)
+2020-10-05 17:19:55 -  stack traceback:
+2020-10-05 17:19:55 -  	[C]: in function '__concat'
+2020-10-05 17:19:55 -  	data/actions/scripts/other/decayto.lua:52: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:19:56 -  
+2020-10-05 17:19:56 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:19:56 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:19:56 -  data/actions/scripts/other/decayto.lua:52: attempt to concatenate local 'topParent' (a userdata value)
+2020-10-05 17:19:56 -  stack traceback:
+2020-10-05 17:19:56 -  	[C]: in function '__concat'
+2020-10-05 17:19:56 -  	data/actions/scripts/other/decayto.lua:52: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:20:27 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-05 17:20:27 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-05 17:20:57 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-05 17:20:57 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-05 17:22:27 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-05 17:22:27 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-05 17:22:38 -  
+2020-10-05 17:22:38 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:22:38 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:22:38 -  data/actions/scripts/other/decayto.lua:58: attempt to call method 'getId' (a nil value)
+2020-10-05 17:22:38 -  stack traceback:
+2020-10-05 17:22:38 -  	[C]: in function 'getId'
+2020-10-05 17:22:38 -  	data/actions/scripts/other/decayto.lua:58: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:22:39 -  
+2020-10-05 17:22:39 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:22:39 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:22:39 -  data/actions/scripts/other/decayto.lua:58: attempt to call method 'getId' (a nil value)
+2020-10-05 17:22:39 -  stack traceback:
+2020-10-05 17:22:39 -  	[C]: in function 'getId'
+2020-10-05 17:22:39 -  	data/actions/scripts/other/decayto.lua:58: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:22:41 -  
+2020-10-05 17:22:41 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:22:41 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:22:41 -  data/actions/scripts/other/decayto.lua:58: attempt to call method 'getId' (a nil value)
+2020-10-05 17:22:41 -  stack traceback:
+2020-10-05 17:22:41 -  	[C]: in function 'getId'
+2020-10-05 17:22:41 -  	data/actions/scripts/other/decayto.lua:58: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:22:43 -  
+2020-10-05 17:22:43 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:22:43 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:22:43 -  data/actions/scripts/other/decayto.lua:58: attempt to call method 'getId' (a nil value)
+2020-10-05 17:22:43 -  stack traceback:
+2020-10-05 17:22:43 -  	[C]: in function 'getId'
+2020-10-05 17:22:43 -  	data/actions/scripts/other/decayto.lua:58: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:22:48 -  
+2020-10-05 17:22:48 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:22:48 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:22:48 -  data/actions/scripts/other/decayto.lua:58: attempt to call method 'getId' (a nil value)
+2020-10-05 17:22:48 -  stack traceback:
+2020-10-05 17:22:48 -  	[C]: in function 'getId'
+2020-10-05 17:22:48 -  	data/actions/scripts/other/decayto.lua:58: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:24:14 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-05 17:24:14 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-05 17:24:17 -  
+2020-10-05 17:24:17 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:24:17 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:24:17 -  data/actions/scripts/other/decayto.lua:52: attempt to call method 'getId' (a nil value)
+2020-10-05 17:24:17 -  stack traceback:
+2020-10-05 17:24:17 -  	[C]: in function 'getId'
+2020-10-05 17:24:17 -  	data/actions/scripts/other/decayto.lua:52: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:24:18 -  
+2020-10-05 17:24:18 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:24:18 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:24:18 -  data/actions/scripts/other/decayto.lua:52: attempt to call method 'getId' (a nil value)
+2020-10-05 17:24:18 -  stack traceback:
+2020-10-05 17:24:18 -  	[C]: in function 'getId'
+2020-10-05 17:24:18 -  	data/actions/scripts/other/decayto.lua:52: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:24:47 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-05 17:24:47 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-05 17:24:51 -  
+2020-10-05 17:24:51 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:24:51 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:24:51 -  data/actions/scripts/other/decayto.lua:52: attempt to call method 'getId' (a nil value)
+2020-10-05 17:24:51 -  stack traceback:
+2020-10-05 17:24:51 -  	[C]: in function 'getId'
+2020-10-05 17:24:51 -  	data/actions/scripts/other/decayto.lua:52: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:24:52 -  
+2020-10-05 17:24:52 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:24:52 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:24:52 -  data/actions/scripts/other/decayto.lua:52: attempt to call method 'getId' (a nil value)
+2020-10-05 17:24:52 -  stack traceback:
+2020-10-05 17:24:52 -  	[C]: in function 'getId'
+2020-10-05 17:24:52 -  	data/actions/scripts/other/decayto.lua:52: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:25:33 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-05 17:25:33 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-05 17:25:35 -  
+2020-10-05 17:25:35 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:25:35 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:25:35 -  data/actions/scripts/other/decayto.lua:51: attempt to call method 'getId' (a nil value)
+2020-10-05 17:25:35 -  stack traceback:
+2020-10-05 17:25:35 -  	[C]: in function 'getId'
+2020-10-05 17:25:35 -  	data/actions/scripts/other/decayto.lua:51: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:25:36 -  
+2020-10-05 17:25:36 -  Lua Script Error: [Action Interface] 
+2020-10-05 17:25:36 -  data/actions/scripts/other/decayto.lua:onUse
+2020-10-05 17:25:36 -  data/actions/scripts/other/decayto.lua:51: attempt to call method 'getId' (a nil value)
+2020-10-05 17:25:36 -  stack traceback:
+2020-10-05 17:25:36 -  	[C]: in function 'getId'
+2020-10-05 17:25:36 -  	data/actions/scripts/other/decayto.lua:51: in function <data/actions/scripts/other/decayto.lua:36>
+2020-10-05 17:26:26 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-05 17:26:26 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-05 17:53:54 -  [Castle War votacao aberta]
+2020-10-05 17:53:54 -  > Broadcasted message: "[Castle War]: Foi iniciada a votação para decidir o objetivo do castelo que abre em alguns minutos. Use !castle1 para votar no objetivo (Dominar o castelo por mais tempo). Use !castle2 para votar no objetivo (Ultimo que dominar o castelo). Caso não haja votações, o objetivo será aleatorio.".
+2020-10-05 17:53:54 -  > Broadcasted message: "[CastleWar] Atencao, O CASTELO esta aberto para batalha, junte-se com sua guild e  conquiste-o. O castelo encerra em 1 hora. Resultado das votacoes: First: 0 Second: 1 Resultado: (Ultimo a Dominar o castelo) foi escolhido".
+2020-10-05 17:53:54 -  castleWar Encerrado
+2020-10-05 17:53:54 -  MAILSYSTEM Dev Marson
+2020-10-05 17:53:54 -  MAILSYSTEM Dev Marson
+2020-10-05 17:53:54 -  Nosferatu has logged in.
+2020-10-05 18:30:20 -  Shaka has logged in.
+2020-10-05 18:32:10 -  Sonia has logged in.
+2020-10-05 18:32:16 -  Sonia has logged out.
+2020-10-05 18:32:19 -  Boskizeus has logged in.
+2020-10-05 18:46:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 18:46:14 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 18:46:26 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 19:20:25 -  
+2020-10-05 19:20:25 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-05 19:20:25 -  data/globalevents/scripts/bosses/Abyssador.lua:onThink
+2020-10-05 19:20:25 -  data/lib/rewardboss.lua:8: Rewards can only be enabled to rewards bosses.
+2020-10-05 19:20:25 -  stack traceback:
+2020-10-05 19:20:25 -  	[C]: at 0x00602980
+2020-10-05 19:20:25 -  	[C]: in function 'error'
+2020-10-05 19:20:25 -  	data/lib/rewardboss.lua:8: in function 'setReward'
+2020-10-05 19:20:25 -  	data/globalevents/scripts/bosses/Abyssador.lua:28: in function <data/globalevents/scripts/bosses/Abyssador.lua:21>
+2020-10-05 19:20:25 -  [Error - GlobalEvents::think] Failed to execute event: Abyssador
+2020-10-05 19:20:25 -  
+2020-10-05 19:20:25 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-05 19:20:25 -  data/globalevents/scripts/bosses/Deathstrike.lua:onThink
+2020-10-05 19:20:25 -  data/lib/rewardboss.lua:8: Rewards can only be enabled to rewards bosses.
+2020-10-05 19:20:25 -  stack traceback:
+2020-10-05 19:20:25 -  	[C]: at 0x00602980
+2020-10-05 19:20:25 -  	[C]: in function 'error'
+2020-10-05 19:20:25 -  	data/lib/rewardboss.lua:8: in function 'setReward'
+2020-10-05 19:20:25 -  	data/globalevents/scripts/bosses/Deathstrike.lua:28: in function <data/globalevents/scripts/bosses/Deathstrike.lua:21>
+2020-10-05 19:20:25 -  [Error - GlobalEvents::think] Failed to execute event: Deathstrike
+2020-10-05 19:20:25 -  
+2020-10-05 19:20:25 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-05 19:20:25 -  data/globalevents/scripts/bosses/Gnomevil.lua:onThink
+2020-10-05 19:20:25 -  data/lib/rewardboss.lua:8: Rewards can only be enabled to rewards bosses.
+2020-10-05 19:20:25 -  stack traceback:
+2020-10-05 19:20:25 -  	[C]: at 0x00602980
+2020-10-05 19:20:25 -  	[C]: in function 'error'
+2020-10-05 19:20:25 -  	data/lib/rewardboss.lua:8: in function 'setReward'
+2020-10-05 19:20:25 -  	data/globalevents/scripts/bosses/Gnomevil.lua:28: in function <data/globalevents/scripts/bosses/Gnomevil.lua:21>
+2020-10-05 19:20:25 -  [Error - GlobalEvents::think] Failed to execute event: Gnomevil
+2020-10-05 19:55:11 -  > Broadcasted message: "There are dragons rising in Draconia!".
+2020-10-05 20:01:53 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 20:16:49 -  ip inválido
+2020-10-05 20:16:49 -  Boskizeus has logged out.
+2020-10-05 20:45:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-05 20:48:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 20:49:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 20:49:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 20:49:47 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 20:49:47 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 20:49:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 20:52:18 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 20:52:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 20:52:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 20:53:18 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 20:53:24 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-05 20:54:08 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 20:56:24 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 20:56:26 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 20:58:20 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 20:58:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 20:58:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 20:59:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 20:59:20 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:01:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:02:17 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:04:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:06:32 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:06:33 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:06:37 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:06:39 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:06:52 -  
+2020-10-05 21:06:52 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:06:52 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:06:52 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:06:52 -  stack traceback:
+2020-10-05 21:06:52 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:06:52 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:06:52 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:07:12 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:07:18 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:10:12 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:17:38 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 21:17:38 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 21:17:38 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 21:19:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:21:11 -  > Broadcasted message: "The dragons of the Dragonblaze Mountains have descended to Zao to protect the lizardkin!".
+2020-10-05 21:25:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-05 21:26:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:29:31 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:29:33 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:30:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-05 21:30:14 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-05 21:30:14 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-05 21:32:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:34:06 -  
+2020-10-05 21:34:06 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:06 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:06 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:34:06 -  stack traceback:
+2020-10-05 21:34:06 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:34:06 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:34:06 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:13 -  
+2020-10-05 21:34:13 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:13 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:13 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:34:13 -  stack traceback:
+2020-10-05 21:34:13 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:34:13 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:34:13 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:13 -  
+2020-10-05 21:34:13 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:13 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:13 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:34:13 -  stack traceback:
+2020-10-05 21:34:13 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:34:13 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:34:13 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:18 -  
+2020-10-05 21:34:18 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:18 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:18 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:34:18 -  stack traceback:
+2020-10-05 21:34:18 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:34:18 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:34:18 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:18 -  
+2020-10-05 21:34:18 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:18 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:18 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:34:18 -  stack traceback:
+2020-10-05 21:34:18 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:34:18 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:34:18 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:23 -  
+2020-10-05 21:34:23 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:23 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:23 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:34:23 -  stack traceback:
+2020-10-05 21:34:23 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:34:23 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:34:23 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:23 -  
+2020-10-05 21:34:23 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:23 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:23 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:34:23 -  stack traceback:
+2020-10-05 21:34:23 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:34:23 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:34:23 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:26 -  
+2020-10-05 21:34:26 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:26 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:26 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:34:26 -  stack traceback:
+2020-10-05 21:34:26 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:34:26 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:34:26 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:26 -  
+2020-10-05 21:34:26 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:26 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:26 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:34:26 -  stack traceback:
+2020-10-05 21:34:26 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:34:26 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:34:26 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:32 -  
+2020-10-05 21:34:32 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:32 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:32 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:34:32 -  stack traceback:
+2020-10-05 21:34:32 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:34:32 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:34:32 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:32 -  
+2020-10-05 21:34:32 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:32 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:32 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:34:32 -  stack traceback:
+2020-10-05 21:34:32 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:34:32 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:34:32 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:35 -  
+2020-10-05 21:34:35 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:35 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:35 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:34:35 -  stack traceback:
+2020-10-05 21:34:35 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:34:35 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:34:35 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:35 -  
+2020-10-05 21:34:35 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:35 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:35 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:34:35 -  stack traceback:
+2020-10-05 21:34:35 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:34:35 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:34:35 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:38 -  
+2020-10-05 21:34:38 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:38 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:38 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:34:38 -  stack traceback:
+2020-10-05 21:34:38 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:34:38 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:34:38 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:38 -  
+2020-10-05 21:34:38 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:38 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:38 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:34:38 -  stack traceback:
+2020-10-05 21:34:38 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:34:38 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:34:38 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:42 -  
+2020-10-05 21:34:42 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:42 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:42 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:34:42 -  stack traceback:
+2020-10-05 21:34:42 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:34:42 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:34:42 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:42 -  
+2020-10-05 21:34:42 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:42 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:42 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:34:42 -  stack traceback:
+2020-10-05 21:34:42 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:34:42 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:34:42 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 21:34:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 21:34:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 21:34:47 -  
+2020-10-05 21:34:47 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:47 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:47 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:34:47 -  stack traceback:
+2020-10-05 21:34:47 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:34:47 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:34:47 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:47 -  
+2020-10-05 21:34:47 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:47 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:47 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:34:47 -  stack traceback:
+2020-10-05 21:34:47 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:34:47 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:34:47 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:52 -  
+2020-10-05 21:34:52 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:52 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:52 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:34:52 -  stack traceback:
+2020-10-05 21:34:52 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:34:52 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:34:52 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:52 -  
+2020-10-05 21:34:52 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:52 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:52 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:34:52 -  stack traceback:
+2020-10-05 21:34:52 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:34:52 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:34:52 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:55 -  
+2020-10-05 21:34:55 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:55 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:55 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:34:55 -  stack traceback:
+2020-10-05 21:34:55 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:34:55 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:34:55 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:55 -  
+2020-10-05 21:34:55 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:55 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:55 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:34:55 -  stack traceback:
+2020-10-05 21:34:55 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:34:55 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:34:55 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:57 -  
+2020-10-05 21:34:57 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:57 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:57 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:34:57 -  stack traceback:
+2020-10-05 21:34:57 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:34:57 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:34:57 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:34:58 -  
+2020-10-05 21:34:58 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:34:58 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:34:58 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:34:58 -  stack traceback:
+2020-10-05 21:34:58 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:34:58 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:34:58 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:00 -  
+2020-10-05 21:35:00 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:00 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:00 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:35:00 -  stack traceback:
+2020-10-05 21:35:00 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:35:00 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:35:00 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:00 -  
+2020-10-05 21:35:00 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:00 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:00 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:35:00 -  stack traceback:
+2020-10-05 21:35:00 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:35:00 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:35:00 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:04 -  
+2020-10-05 21:35:04 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:04 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:04 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:35:04 -  stack traceback:
+2020-10-05 21:35:04 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:35:04 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:35:04 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:04 -  
+2020-10-05 21:35:04 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:04 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:04 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:35:04 -  stack traceback:
+2020-10-05 21:35:04 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:35:04 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:35:04 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:08 -  
+2020-10-05 21:35:08 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:08 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:08 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:35:08 -  stack traceback:
+2020-10-05 21:35:08 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:35:08 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:35:08 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:08 -  
+2020-10-05 21:35:08 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:08 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:08 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:35:08 -  stack traceback:
+2020-10-05 21:35:08 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:35:08 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:35:08 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:09 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:35:10 -  
+2020-10-05 21:35:10 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:10 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:10 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:35:10 -  stack traceback:
+2020-10-05 21:35:10 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:35:10 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:35:10 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:10 -  
+2020-10-05 21:35:10 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:10 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:10 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:35:10 -  stack traceback:
+2020-10-05 21:35:10 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:35:10 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:35:10 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:13 -  
+2020-10-05 21:35:13 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:13 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:13 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:35:13 -  stack traceback:
+2020-10-05 21:35:13 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:35:13 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:35:13 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:13 -  
+2020-10-05 21:35:13 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:13 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:13 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:35:13 -  stack traceback:
+2020-10-05 21:35:13 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:35:13 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:35:13 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:35:16 -  
+2020-10-05 21:35:16 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:16 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:16 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:35:16 -  stack traceback:
+2020-10-05 21:35:16 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:35:16 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:35:16 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:16 -  
+2020-10-05 21:35:16 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:16 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:16 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:35:16 -  stack traceback:
+2020-10-05 21:35:16 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:35:16 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:35:16 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:35:17 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:35:20 -  
+2020-10-05 21:35:20 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:20 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:20 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:35:20 -  stack traceback:
+2020-10-05 21:35:20 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:35:20 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:35:20 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:20 -  
+2020-10-05 21:35:20 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:20 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:20 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:35:20 -  stack traceback:
+2020-10-05 21:35:20 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:35:20 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:35:20 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:23 -  
+2020-10-05 21:35:23 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:23 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:23 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:35:23 -  stack traceback:
+2020-10-05 21:35:23 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:35:23 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:35:23 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:23 -  
+2020-10-05 21:35:23 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:23 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:23 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:35:23 -  stack traceback:
+2020-10-05 21:35:23 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:35:23 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:35:23 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:25 -  
+2020-10-05 21:35:25 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:25 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:25 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:35:25 -  stack traceback:
+2020-10-05 21:35:25 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:35:25 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:35:25 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:25 -  
+2020-10-05 21:35:25 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:25 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:25 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:35:25 -  stack traceback:
+2020-10-05 21:35:25 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:35:25 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:35:25 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:29 -  
+2020-10-05 21:35:29 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:29 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:29 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:35:29 -  stack traceback:
+2020-10-05 21:35:29 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:35:29 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:35:29 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:29 -  
+2020-10-05 21:35:29 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:29 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:29 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:35:29 -  stack traceback:
+2020-10-05 21:35:29 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:35:29 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:35:29 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:33 -  
+2020-10-05 21:35:33 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:33 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:33 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:35:33 -  stack traceback:
+2020-10-05 21:35:33 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:35:33 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:35:33 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:33 -  
+2020-10-05 21:35:33 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:33 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:33 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:35:33 -  stack traceback:
+2020-10-05 21:35:33 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:35:33 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:35:33 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:37 -  
+2020-10-05 21:35:37 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:37 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:37 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:35:37 -  stack traceback:
+2020-10-05 21:35:37 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:35:37 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:35:37 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:37 -  
+2020-10-05 21:35:37 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:37 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:37 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:35:37 -  stack traceback:
+2020-10-05 21:35:37 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:35:37 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:35:37 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:40 -  
+2020-10-05 21:35:40 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:40 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:40 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:35:40 -  stack traceback:
+2020-10-05 21:35:40 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:35:40 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:35:40 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:40 -  
+2020-10-05 21:35:40 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:40 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:40 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:35:40 -  stack traceback:
+2020-10-05 21:35:40 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:35:40 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:35:40 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:44 -  
+2020-10-05 21:35:44 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:44 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:44 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:35:44 -  stack traceback:
+2020-10-05 21:35:44 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:35:44 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:35:44 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:44 -  
+2020-10-05 21:35:44 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:44 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:44 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:35:44 -  stack traceback:
+2020-10-05 21:35:44 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:35:44 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:35:44 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:46 -  
+2020-10-05 21:35:46 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:46 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:46 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:35:46 -  stack traceback:
+2020-10-05 21:35:46 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:35:46 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:35:46 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:47 -  
+2020-10-05 21:35:47 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:47 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:47 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:35:47 -  stack traceback:
+2020-10-05 21:35:47 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:35:47 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:35:47 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:49 -  
+2020-10-05 21:35:49 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:49 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:49 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:35:49 -  stack traceback:
+2020-10-05 21:35:49 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:35:49 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:35:49 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:49 -  
+2020-10-05 21:35:49 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:49 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:49 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:35:49 -  stack traceback:
+2020-10-05 21:35:49 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:35:49 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:35:49 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:51 -  
+2020-10-05 21:35:51 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:51 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:51 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:35:51 -  stack traceback:
+2020-10-05 21:35:51 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:35:51 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:35:51 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:51 -  
+2020-10-05 21:35:51 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:51 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:51 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:35:51 -  stack traceback:
+2020-10-05 21:35:51 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:35:51 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:35:51 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:53 -  
+2020-10-05 21:35:53 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:53 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:53 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:35:53 -  stack traceback:
+2020-10-05 21:35:53 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:35:53 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:35:53 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:53 -  
+2020-10-05 21:35:53 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:53 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:53 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:35:53 -  stack traceback:
+2020-10-05 21:35:53 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:35:53 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:35:53 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:55 -  
+2020-10-05 21:35:55 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:55 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:55 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:35:55 -  stack traceback:
+2020-10-05 21:35:55 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:35:55 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:35:55 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:55 -  
+2020-10-05 21:35:55 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:55 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:55 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:35:55 -  stack traceback:
+2020-10-05 21:35:55 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:35:55 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:35:55 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:56 -  
+2020-10-05 21:35:56 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:56 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:56 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:35:56 -  stack traceback:
+2020-10-05 21:35:56 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:35:56 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:35:56 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:56 -  
+2020-10-05 21:35:56 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:56 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:56 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:35:56 -  stack traceback:
+2020-10-05 21:35:56 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:35:56 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:35:56 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:58 -  
+2020-10-05 21:35:58 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:58 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:58 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:35:58 -  stack traceback:
+2020-10-05 21:35:58 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:35:58 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:35:58 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:58 -  
+2020-10-05 21:35:58 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:58 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:58 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:35:58 -  stack traceback:
+2020-10-05 21:35:58 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:35:58 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:35:58 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:59 -  
+2020-10-05 21:35:59 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:59 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:59 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:35:59 -  stack traceback:
+2020-10-05 21:35:59 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:35:59 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:35:59 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:35:59 -  
+2020-10-05 21:35:59 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:35:59 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:35:59 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:35:59 -  stack traceback:
+2020-10-05 21:35:59 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:35:59 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:35:59 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:01 -  
+2020-10-05 21:36:01 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:01 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:01 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:36:01 -  stack traceback:
+2020-10-05 21:36:01 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:36:01 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:36:01 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:01 -  
+2020-10-05 21:36:01 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:01 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:01 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:36:01 -  stack traceback:
+2020-10-05 21:36:01 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:36:01 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:36:01 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:03 -  
+2020-10-05 21:36:03 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:03 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:03 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:36:03 -  stack traceback:
+2020-10-05 21:36:03 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:36:03 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:36:03 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:03 -  
+2020-10-05 21:36:03 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:03 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:03 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:36:03 -  stack traceback:
+2020-10-05 21:36:03 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:36:03 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:36:03 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:04 -  
+2020-10-05 21:36:04 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:04 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:04 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:36:04 -  stack traceback:
+2020-10-05 21:36:04 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:36:04 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:36:04 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:04 -  
+2020-10-05 21:36:04 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:04 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:04 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:36:04 -  stack traceback:
+2020-10-05 21:36:04 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:36:04 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:36:04 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:05 -  
+2020-10-05 21:36:05 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:05 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:05 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:36:05 -  stack traceback:
+2020-10-05 21:36:05 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:36:05 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:36:05 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:05 -  
+2020-10-05 21:36:05 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:05 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:05 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:36:05 -  stack traceback:
+2020-10-05 21:36:05 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:36:05 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:36:05 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:07 -  
+2020-10-05 21:36:07 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:07 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:07 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:36:07 -  stack traceback:
+2020-10-05 21:36:07 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:36:07 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:36:07 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:07 -  
+2020-10-05 21:36:07 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:07 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:07 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:36:07 -  stack traceback:
+2020-10-05 21:36:07 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:36:07 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:36:07 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:10 -  
+2020-10-05 21:36:10 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:10 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:10 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:36:10 -  stack traceback:
+2020-10-05 21:36:10 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:36:10 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:36:10 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:10 -  
+2020-10-05 21:36:10 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:10 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:10 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:36:10 -  stack traceback:
+2020-10-05 21:36:10 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:36:10 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:36:10 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:12 -  
+2020-10-05 21:36:12 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:12 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:12 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:36:12 -  stack traceback:
+2020-10-05 21:36:12 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:36:12 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:36:12 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:12 -  
+2020-10-05 21:36:12 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:12 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:12 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:36:12 -  stack traceback:
+2020-10-05 21:36:12 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:36:12 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:36:12 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:15 -  
+2020-10-05 21:36:15 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:15 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:15 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:36:15 -  stack traceback:
+2020-10-05 21:36:15 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:36:15 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:36:15 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:15 -  
+2020-10-05 21:36:15 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:15 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:15 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:36:15 -  stack traceback:
+2020-10-05 21:36:15 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:36:15 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:36:15 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:19 -  
+2020-10-05 21:36:19 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:19 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:19 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:36:19 -  stack traceback:
+2020-10-05 21:36:19 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:36:19 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:36:19 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:19 -  
+2020-10-05 21:36:19 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:19 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:19 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:36:19 -  stack traceback:
+2020-10-05 21:36:19 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:36:19 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:36:19 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:22 -  
+2020-10-05 21:36:22 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:22 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:22 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:36:22 -  stack traceback:
+2020-10-05 21:36:22 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:36:22 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:36:22 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:22 -  
+2020-10-05 21:36:22 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:22 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:22 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:36:22 -  stack traceback:
+2020-10-05 21:36:22 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:36:22 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:36:22 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:24 -  
+2020-10-05 21:36:24 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:24 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:24 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:36:24 -  stack traceback:
+2020-10-05 21:36:24 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:36:24 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:36:24 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:24 -  
+2020-10-05 21:36:24 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:24 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:24 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:36:24 -  stack traceback:
+2020-10-05 21:36:24 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:36:24 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:36:24 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:27 -  
+2020-10-05 21:36:27 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:27 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:27 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:36:27 -  stack traceback:
+2020-10-05 21:36:27 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:36:27 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:36:27 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:27 -  
+2020-10-05 21:36:27 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:27 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:27 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:36:27 -  stack traceback:
+2020-10-05 21:36:27 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:36:27 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:36:27 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:29 -  
+2020-10-05 21:36:29 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:29 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:29 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:36:29 -  stack traceback:
+2020-10-05 21:36:29 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:36:29 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:36:29 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:29 -  
+2020-10-05 21:36:29 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:29 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:29 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:36:29 -  stack traceback:
+2020-10-05 21:36:29 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:36:29 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:36:29 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:31 -  
+2020-10-05 21:36:31 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:31 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:31 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:36:31 -  stack traceback:
+2020-10-05 21:36:31 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:36:31 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:36:31 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:31 -  
+2020-10-05 21:36:31 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:31 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:31 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:36:31 -  stack traceback:
+2020-10-05 21:36:31 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:36:31 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:36:31 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:32 -  
+2020-10-05 21:36:32 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:32 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:32 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:36:32 -  stack traceback:
+2020-10-05 21:36:32 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:36:32 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:36:32 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:32 -  
+2020-10-05 21:36:32 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:32 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:32 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:36:32 -  stack traceback:
+2020-10-05 21:36:32 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:36:32 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:36:32 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:35 -  
+2020-10-05 21:36:35 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:35 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:35 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:36:35 -  stack traceback:
+2020-10-05 21:36:35 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:36:35 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:36:35 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:35 -  
+2020-10-05 21:36:35 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:35 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:35 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:36:35 -  stack traceback:
+2020-10-05 21:36:35 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:36:35 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:36:35 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:36 -  
+2020-10-05 21:36:36 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:36 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:36 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:36:36 -  stack traceback:
+2020-10-05 21:36:36 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:36:36 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:36:36 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:36 -  
+2020-10-05 21:36:36 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:36 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:36 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:36:36 -  stack traceback:
+2020-10-05 21:36:36 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:36:36 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:36:36 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:38 -  
+2020-10-05 21:36:38 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:38 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:38 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-05 21:36:38 -  stack traceback:
+2020-10-05 21:36:38 -  	[C]: in function 'getPreyUnlocked'
+2020-10-05 21:36:38 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-05 21:36:38 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:36:38 -  
+2020-10-05 21:36:38 -  Lua Script Error: [Modules Interface] 
+2020-10-05 21:36:38 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-05 21:36:38 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-05 21:36:38 -  stack traceback:
+2020-10-05 21:36:38 -  	[C]: in function 'getPreyMonsterList'
+2020-10-05 21:36:38 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-05 21:36:38 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-05 21:45:09 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 21:46:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-05 21:51:50 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-05 21:51:50 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-05 21:51:50 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-05 21:51:50 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-05 21:51:50 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-05 21:51:50 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-05 21:52:03 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-05 21:52:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:52:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 21:52:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 21:52:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:52:24 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:52:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:54:08 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:54:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:54:15 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:54:17 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:55:00 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:55:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:55:03 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:55:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:55:06 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:55:06 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:55:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:55:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:56:39 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:57:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:57:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:58:36 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:58:39 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 21:58:41 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 22:00:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 22:00:36 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-05 22:08:03 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-05 22:09:31 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 22:09:31 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 22:18:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 22:18:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 22:20:25 -  
+2020-10-05 22:20:25 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-05 22:20:25 -  data/globalevents/scripts/Ghulosh.lua:onThink
+2020-10-05 22:20:25 -  data/globalevents/scripts/Ghulosh.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-05 22:20:25 -  stack traceback:
+2020-10-05 22:20:25 -  	[C]: in function '__index'
+2020-10-05 22:20:25 -  	data/globalevents/scripts/Ghulosh.lua:34: in function <data/globalevents/scripts/Ghulosh.lua:21>
+2020-10-05 22:20:25 -  [Error - GlobalEvents::think] Failed to execute event: Ghulosh
+2020-10-05 22:20:25 -  
+2020-10-05 22:20:25 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-05 22:20:25 -  data/globalevents/scripts/Gorzindel.lua:onThink
+2020-10-05 22:20:25 -  data/globalevents/scripts/Gorzindel.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-05 22:20:25 -  stack traceback:
+2020-10-05 22:20:25 -  	[C]: in function '__index'
+2020-10-05 22:20:25 -  	data/globalevents/scripts/Gorzindel.lua:34: in function <data/globalevents/scripts/Gorzindel.lua:21>
+2020-10-05 22:20:25 -  [Error - GlobalEvents::think] Failed to execute event: Gorzindel
+2020-10-05 22:20:25 -  
+2020-10-05 22:20:25 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-05 22:20:25 -  data/globalevents/scripts/Lokathmor.lua:onThink
+2020-10-05 22:20:25 -  data/globalevents/scripts/Lokathmor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-05 22:20:25 -  stack traceback:
+2020-10-05 22:20:25 -  	[C]: in function '__index'
+2020-10-05 22:20:25 -  	data/globalevents/scripts/Lokathmor.lua:34: in function <data/globalevents/scripts/Lokathmor.lua:21>
+2020-10-05 22:20:25 -  [Error - GlobalEvents::think] Failed to execute event: Lokathmor
+2020-10-05 22:20:25 -  
+2020-10-05 22:20:25 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-05 22:20:25 -  data/globalevents/scripts/Mazzinor.lua:onThink
+2020-10-05 22:20:25 -  data/globalevents/scripts/Mazzinor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-05 22:20:25 -  stack traceback:
+2020-10-05 22:20:25 -  	[C]: in function '__index'
+2020-10-05 22:20:25 -  	data/globalevents/scripts/Mazzinor.lua:34: in function <data/globalevents/scripts/Mazzinor.lua:21>
+2020-10-05 22:20:25 -  [Error - GlobalEvents::think] Failed to execute event: Mazzinor
+2020-10-05 22:20:25 -  [Warning - Monsters::loadMonster] Non-unique loot item "Giant Sapphire". 
+2020-10-05 22:20:25 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-05 22:20:25 -  [Warning - Monsters::loadMonster] Non-unique loot item "Collar of Blue Plasma". 
+2020-10-05 22:20:25 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-05 22:20:25 -  [Warning - Monsters::loadMonster] Non-unique loot item "Giant Shimmering Pearl". 
+2020-10-05 22:20:25 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-05 22:20:25 -  [Warning - Monsters::loadMonster] Unknown loot item "The Calamity". 
+2020-10-05 22:20:25 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-05 22:20:25 -  
+2020-10-05 22:20:25 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-05 22:20:25 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:onThink
+2020-10-05 22:20:25 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-05 22:20:25 -  stack traceback:
+2020-10-05 22:20:25 -  	[C]: in function '__index'
+2020-10-05 22:20:25 -  	data/globalevents/scripts/The Scourge Of Oblivion.lua:34: in function <data/globalevents/scripts/The Scourge Of Oblivion.lua:21>
+2020-10-05 22:20:25 -  [Error - GlobalEvents::think] Failed to execute event: The Scourge Of Oblivion
+2020-10-05 22:31:59 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 22:31:59 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 22:37:11 -  > Broadcasted message: "Scouts report a barbarian army gathering near Svargrond".
+2020-10-05 22:37:14 -  > Broadcasted message: "Some invaders might try to access Svargrond via the ice to the North.".
+2020-10-05 22:37:18 -  > Broadcasted message: "Raiders are attacking Svargrond!".
+2020-10-05 22:37:41 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 22:37:41 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 22:43:15 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 22:43:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 22:58:35 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-05 22:59:33 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 23:02:39 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-05 23:12:11 -  > Broadcasted message: "There seems to be a big gnarlhoud gang in Zao Steppe.".
+2020-10-05 23:12:30 -  > Broadcasted message: "The gnarlhounds seem to multiply by the minute.".
+2020-10-05 23:14:10 -  > Broadcasted message: "The gnarlhounds roam free in the Zao Steppe. Watch out!".
+2020-10-05 23:15:17 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 23:15:17 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-05 23:29:10 -  ip inválido
+2020-10-05 23:29:10 -  ip inválido
+2020-10-05 23:29:10 -  ip inválido
+2020-10-05 23:29:10 -  ip inválido
+2020-10-05 23:29:10 -  ip inválido
+2020-10-05 23:29:10 -  ip inválido
+2020-10-05 23:29:10 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  ip inválido
+2020-10-06 02:00:11 -  > Broadcasted message: "Something is moving in the depths of the sea around Liberty Bay".
+2020-10-06 02:00:30 -  ip inválido
+2020-10-06 02:00:30 -  > Broadcasted message: "Numerous Quara fins have been sighted in the seas around Liberty Bay.".
+2020-10-06 02:01:10 -  > Broadcasted message: "Quara emerged from the sea to attack Liberty Bay.".
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  ip inválido
+2020-10-06 02:47:11 -  > Broadcasted message: "Beware! Mawhawk!".
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  ip inválido
+2020-10-06 04:09:11 -  > Broadcasted message: "Many aggressive beasts are roaming south of Ab'Dendriel! Take care!".
+2020-10-06 04:20:25 -  ip inválido
+2020-10-06 04:20:25 -  ip inválido
+2020-10-06 04:20:25 -  ip inválido
+2020-10-06 04:20:25 -  ip inválido
+2020-10-06 04:20:25 -  ip inválido
+2020-10-06 04:20:25 -  ip inválido
+2020-10-06 04:20:25 -  ip inválido
+2020-10-06 04:20:25 -  ip inválido
+2020-10-06 04:20:25 -  ip inválido
+2020-10-06 04:20:25 -  ip inválido
+2020-10-06 04:20:25 -  ip inválido
+2020-10-06 04:20:25 -  
+2020-10-06 04:20:25 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-06 04:20:25 -  data/globalevents/scripts/Ghulosh.lua:onThink
+2020-10-06 04:20:25 -  data/globalevents/scripts/Ghulosh.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-06 04:20:25 -  stack traceback:
+2020-10-06 04:20:25 -  	[C]: in function '__index'
+2020-10-06 04:20:25 -  	data/globalevents/scripts/Ghulosh.lua:34: in function <data/globalevents/scripts/Ghulosh.lua:21>
+2020-10-06 04:20:25 -  [Error - GlobalEvents::think] Failed to execute event: Ghulosh
+2020-10-06 04:20:25 -  
+2020-10-06 04:20:25 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-06 04:20:25 -  data/globalevents/scripts/Gorzindel.lua:onThink
+2020-10-06 04:20:25 -  data/globalevents/scripts/Gorzindel.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-06 04:20:25 -  stack traceback:
+2020-10-06 04:20:25 -  	[C]: in function '__index'
+2020-10-06 04:20:25 -  	data/globalevents/scripts/Gorzindel.lua:34: in function <data/globalevents/scripts/Gorzindel.lua:21>
+2020-10-06 04:20:25 -  [Error - GlobalEvents::think] Failed to execute event: Gorzindel
+2020-10-06 04:20:25 -  
+2020-10-06 04:20:25 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-06 04:20:25 -  data/globalevents/scripts/Mazzinor.lua:onThink
+2020-10-06 04:20:25 -  data/globalevents/scripts/Mazzinor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-06 04:20:25 -  stack traceback:
+2020-10-06 04:20:25 -  	[C]: in function '__index'
+2020-10-06 04:20:25 -  	data/globalevents/scripts/Mazzinor.lua:34: in function <data/globalevents/scripts/Mazzinor.lua:21>
+2020-10-06 04:20:25 -  [Error - GlobalEvents::think] Failed to execute event: Mazzinor
+2020-10-06 04:20:25 -  ip inválido
+2020-10-06 04:20:25 -  
+2020-10-06 04:20:25 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-06 04:20:25 -  data/globalevents/scripts/Lokathmor.lua:onThink
+2020-10-06 04:20:25 -  data/globalevents/scripts/Lokathmor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-06 04:20:25 -  stack traceback:
+2020-10-06 04:20:25 -  	[C]: in function '__index'
+2020-10-06 04:20:25 -  	data/globalevents/scripts/Lokathmor.lua:34: in function <data/globalevents/scripts/Lokathmor.lua:21>
+2020-10-06 04:20:25 -  [Error - GlobalEvents::think] Failed to execute event: Lokathmor
+2020-10-06 04:20:25 -  
+2020-10-06 04:20:25 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-06 04:20:25 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:onThink
+2020-10-06 04:20:25 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-06 04:20:25 -  stack traceback:
+2020-10-06 04:20:25 -  	[C]: in function '__index'
+2020-10-06 04:20:25 -  	data/globalevents/scripts/The Scourge Of Oblivion.lua:34: in function <data/globalevents/scripts/The Scourge Of Oblivion.lua:21>
+2020-10-06 04:20:25 -  [Error - GlobalEvents::think] Failed to execute event: The Scourge Of Oblivion
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  ip inválido
+2020-10-06 05:05:00 -  Saving server...
+2020-10-06 05:05:02 -  > Saved house items in: 1.522 s
+2020-10-06 05:05:02 -  Nosferatu has logged out.
+2020-10-06 05:05:02 -  Arrow has logged out.
+2020-10-06 05:05:02 -  Jackie Chan has logged out.
+2020-10-06 05:05:02 -  Robalo has logged out.
+2020-10-06 05:05:02 -  Flash has logged out.
+2020-10-06 05:05:02 -  Nobre Cavalheiro has logged out.
+2020-10-06 05:05:02 -  Yostknot has logged out.
+2020-10-06 05:05:02 -  Top Spin has logged out.
+2020-10-06 05:05:02 -  Midas has logged out.
+2020-10-06 05:05:02 -  Shaka has logged out.
+2020-10-06 05:05:02 -  Scooby Doo has logged out.
+2020-10-06 05:05:02 -  Dev Marson has logged out.
+2020-10-06 05:05:02 -  Saving server...
+2020-10-06 05:05:03 -  > Saved house items in: 0.265 s
+2020-10-06 05:05:03 -  eu sou o checkname
+2020-10-06 05:05:03 -  Shutting down...Saving server...
+2020-10-06 05:05:03 -  > Saved house items in: 0.217 s
+2020-10-06 05:05:03 -  [Thread 0x7ffff2ba7700 (LWP 7897) exited]
+2020-10-06 05:05:03 -  [Thread 0x7ffff35ba700 (LWP 7896) exited]
+2020-10-06 05:05:05 -   done!
+2020-10-06 05:05:05 -  [Thread 0x7ffff3dbb700 (LWP 7895) exited]
+2020-10-06 05:05:50 -  [Inferior 1 (process 7891) exited normally]

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Crazed Winter Vanguard" nameDescription="a Crazed Winter Vanguard" race="blood" experience="6500" speed="195" manacost="0">
+	<health now="7200" max="7200" />
+	<look type="1136" head="3" body="124" legs="38" feet="38" addons="3" corpse="6325" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+				<flag isblockable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="190" max="-800" />
+		<attack name="physical" interval="2000" chance="10" range="7" min="190" max="-650">
+			<attribute key="shootEffect" value="arrow" />
+		</attack>
+	</attacks>
+	<defenses armor="70" defense="20" />
+	<elements>
+		<element firePercent="20" />
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+	</immunities>
+	<loot>
+<!--common-->
+<item id="2547" chance="1000000" /> 
+<item id="7759" count="2" chance="1000000" /> 
+<item id="2152" count="11" chance="1000000" /> 
+<!--uncommon-->
+<item id="5921" chance="2000" />
+<item id="34643" chance="3000" />    
+<item id="10552" chance="3000" />
+<item id="18414" chance="3000" />
+<item id="7760" chance="3000" />
+<item id="34633" chance="300" />
+<!--semi-rare-->
+<item id="2145" chance="200" /> 
+<item id="2154" chance="200" />  
+<item id="7891" chance="200" />
+	</loot>
+</monster>

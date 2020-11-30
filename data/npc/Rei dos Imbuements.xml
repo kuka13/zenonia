@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Rei dos Imbuements" script="Rei dos Imbuements.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="78" />
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+		    Warmaster's Wristguards,11322,10000;
+			war crystal,10571,10000;
+			Moohtant Horn,23571,10000;
+			Magic Sulphur,5904,50000;
+			metal spike,11215,10000;
+			Strands of Medusa Hair,11226,10000;
+			Piece of Dead Brain,10580,10000;
+			Some Grimeleech Wings,25386,10000;
+			vexclaw talon,25384,10000;
+			hellspawn tail,11221,10000;
+			fiery heart,10553,10000;
+			goosebump leather,22539,10000;
+			single human eye,29006,10000;
+			shimmering beetles,28998,10000;
+			mystical hourglass,10577,10000;
+			deepling warts,15425,10000;
+			swamp grass,10603,10000;
+			energy vein,26164,10000;
+			frosty heart,10578,10000;	
+            pile of grave earth,12440,10000;
+			vampire teeth,10602,10000;
+			rope belt,12448,10000;
+            protective charm,12400,10000;
+			flask of embalming fluid,12422,10000;
+			piece of swampling wood,20103,10000;
+			green dragon leather,5877,10000;
+			winter wolf fur,11212,10000;
+			wyvern talisman,10561,10000;
+			cultish robe,10556,10000;
+			damselfly wing,19738,10000;
+			orc tooth,11113,10000;
+			lion's mane,10608,10000;
+			cyclops toe,10574,10000;
+			elven scouting glass,12420,10000;
+			piece of scarab shell,10558,10000;
+			elvish talisman,10552,10000;
+			fairy wings,28999,10000;
+            green dragon scale,5920,10000;
+			poisonous slime,10557,10000;
+			polar bear paw,10567,10000;
+			seacrest hair,24170,10000;
+			peacock feather fan,24631,10000;
+			demonic skeletal hand,10564,10000;
+			bloody pincers,10550,10000;
+			silencer claws,22534,10000;
+			sabretooth,11228,10000;
+			gloom wolf fur,24663,10000;
+			snake skin,10611,10000;
+			blazing bone,18425,10000;
+			thick fur,11224,10000;
+			crawler head plating,15482,10000;
+			cultish mask,10555,10000;
+			compass,11219,10000;
+			battle stone,12403,10000;
+			mooh'tah shell,23573,10000;
+			ogre nose ring,24845,10000;
+			elven hoof,21311,10000;
+			brimstone shell,12659,10000;
+			broken shamanic staff,12408,10000;
+			little bowl of myrrh,29007,10000;
+			rorc feather,21310,10000;
+			demon horn,5954,10000;
+			waspoid wing,15484,35000;
+			
+			energy soil,8303,50000;" />
+		<parameter key="shop_sellable" value="
+			Demonic Essence,6500,1000;" />
+	</parameters>
+</npc>

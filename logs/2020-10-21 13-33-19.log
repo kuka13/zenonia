@@ -1,0 +1,132 @@
+2020-10-21 13:33:19 -  [Thread debugging using libthread_db enabled]
+2020-10-21 13:33:19 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2020-10-21 13:33:19 -  [New Thread 0x7ffff3dbb700 (LWP 736)]
+2020-10-21 13:33:19 -  [New Thread 0x7ffff35ba700 (LWP 737)]
+2020-10-21 13:33:19 -  The OTG-Premium-Version - Version: (1.3)
+2020-10-21 13:33:19 -  Compiled with: GNU C++ version 5.4.0 20160609
+2020-10-21 13:33:19 -  Compiled on Sep 17 2020 19:49:36 for platform x64
+2020-10-21 13:33:19 -  
+2020-10-21 13:33:19 -  Special Credits for: OTG Team, Johncore, Vankk, Erick Nunes, Leonardo Pereira, Leandro Baldissera, Talis, Marcomoa, Marson Schneider, Douglas, Mark Samman, OTXServer (Mattyx Gomez) and The Forgotten Server Developers.
+2020-10-21 13:33:19 -  Link of repository: https://github.com/Johncorex/OTG-Premium-Version
+2020-10-21 13:33:19 -  
+2020-10-21 13:33:19 -  >> Loading config: config.lua
+2020-10-21 13:33:19 -  >> Establishing database connection... MySQL 5.7.31
+2020-10-21 13:33:19 -  >> Running database manager
+2020-10-21 13:33:19 -  [New Thread 0x7ffff2ba7700 (LWP 738)]
+2020-10-21 13:33:20 -  > Optimizing table tile_store... [success]
+2020-10-21 13:33:20 -  >> Loading vocations
+2020-10-21 13:33:20 -  >> Loading items
+2020-10-21 13:33:20 -  >> Loading script systems
+2020-10-21 13:33:20 -  >> Loading lua libs
+2020-10-21 13:33:20 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-21 13:33:20 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-21 13:33:21 -  >> Loading lua scripts
+2020-10-21 13:33:21 -  >> Loading monsters
+2020-10-21 13:33:21 -  >> Loading lua monsters
+2020-10-21 13:33:21 -  >> Loading outfits
+2020-10-21 13:33:21 -  >> Loading prey data
+2020-10-21 13:33:21 -  >> Checking world type... PVP
+2020-10-21 13:33:21 -  >> Loading map
+2020-10-21 13:33:22 -  
+2020-10-21 13:33:22 -  Thread 1 "tfs" received signal SIGINT, Interrupt.
+2020-10-21 13:33:22 -  pthread_cond_wait@@GLIBC_2.3.2 () at ../sysdeps/unix/sysv/linux/x86_64/pthread_cond_wait.S:185
+2020-10-21 13:33:22 -  185	../sysdeps/unix/sysv/linux/x86_64/pthread_cond_wait.S: No such file or directory.
+2020-10-21 13:33:22 -  
+2020-10-21 13:33:22 -  Thread 4 (Thread 0x7ffff2ba7700 (LWP 738)):
+2020-10-21 13:33:22 -  #0  pthread_cond_wait@@GLIBC_2.3.2 () at ../sysdeps/unix/sysv/linux/x86_64/pthread_cond_wait.S:185
+2020-10-21 13:33:22 -  No locals.
+2020-10-21 13:33:22 -  #1  0x00007ffff5e7491c in std::condition_variable::wait(std::unique_lock<std::mutex>&) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-21 13:33:22 -  No symbol table info available.
+2020-10-21 13:33:22 -  #2  0x00000000006228bf in DatabaseTasks::threadMain() (this=0x8e39a0 <g_databaseTasks>) at /home/otg/src/databasetasks.cpp:42
+2020-10-21 13:33:22 -          taskLockUnique = {_M_device = 0x8e3a08 <g_databaseTasks+104>, _M_owns = true}
+2020-10-21 13:33:22 -  #3  0x00007ffff5e79c80 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-21 13:33:22 -  No symbol table info available.
+2020-10-21 13:33:22 -  #4  0x00007ffff614a6ba in start_thread (arg=0x7ffff2ba7700) at pthread_create.c:333
+2020-10-21 13:33:22 -          __res = <optimized out>
+2020-10-21 13:33:22 -          pd = 0x7ffff2ba7700
+2020-10-21 13:33:22 -          now = <optimized out>
+2020-10-21 13:33:22 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737265694464, 2531949188177280590, 0, 140737284647471, 140737265695168, 9334528, -2531956287229051314, -2531965863102300594}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2020-10-21 13:33:22 -          not_first_call = <optimized out>
+2020-10-21 13:33:22 -          pagesize_m1 = <optimized out>
+2020-10-21 13:33:22 -          sp = <optimized out>
+2020-10-21 13:33:22 -          freesize = <optimized out>
+2020-10-21 13:33:22 -          __PRETTY_FUNCTION__ = "start_thread"
+2020-10-21 13:33:22 -  #5  0x00007ffff7b144dd in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+2020-10-21 13:33:22 -  No locals.
+2020-10-21 13:33:22 -  
+2020-10-21 13:33:22 -  Thread 3 (Thread 0x7ffff35ba700 (LWP 737)):
+2020-10-21 13:33:22 -  #0  pthread_cond_wait@@GLIBC_2.3.2 () at ../sysdeps/unix/sysv/linux/x86_64/pthread_cond_wait.S:185
+2020-10-21 13:33:22 -  No locals.
+2020-10-21 13:33:22 -  #1  0x00007ffff5e7491c in std::condition_variable::wait(std::unique_lock<std::mutex>&) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-21 13:33:22 -  No symbol table info available.
+2020-10-21 13:33:22 -  #2  0x00000000005063bb in Scheduler::threadMain (this=0x8e6f60 <g_scheduler>) at /home/otg/src/scheduler.cpp:34
+2020-10-21 13:33:22 -          ret = std::cv_status::no_timeout
+2020-10-21 13:33:22 -          eventLockUnique = {_M_device = 0x8e6f78 <g_scheduler+24>, _M_owns = true}
+2020-10-21 13:33:22 -  #3  0x00007ffff5e79c80 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-21 13:33:22 -  No symbol table info available.
+2020-10-21 13:33:22 -  #4  0x00007ffff614a6ba in start_thread (arg=0x7ffff35ba700) at pthread_create.c:333
+2020-10-21 13:33:22 -          __res = <optimized out>
+2020-10-21 13:33:22 -          pd = 0x7ffff35ba700
+2020-10-21 13:33:22 -          now = <optimized out>
+2020-10-21 13:33:22 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737276258048, 2531949188177280590, 0, 140737488346847, 140737276258752, 9437376, -2531958777773212082, -2531965863102300594}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2020-10-21 13:33:22 -          not_first_call = <optimized out>
+2020-10-21 13:33:22 -          pagesize_m1 = <optimized out>
+2020-10-21 13:33:22 -          sp = <optimized out>
+2020-10-21 13:33:22 -          freesize = <optimized out>
+2020-10-21 13:33:22 -          __PRETTY_FUNCTION__ = "start_thread"
+2020-10-21 13:33:22 -  #5  0x00007ffff7b144dd in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+2020-10-21 13:33:22 -  No locals.
+2020-10-21 13:33:22 -  
+2020-10-21 13:33:22 -  Thread 2 (Thread 0x7ffff3dbb700 (LWP 736)):
+2020-10-21 13:33:22 -  #0  OTB::Loader::parseTree() (this=0x7ffff3dba9e0) at /home/otg/src/fileloader.cpp:85
+2020-10-21 13:33:22 -          currentNode = @0x7fffd7b9b060: {children = {<No data fields>}, propsBegin = 0x7fffdce67f1e "\344\323\t9\022\377\376\005\345\320\t\b\022\377\376\005\345\321\t\006\022\377\376\005\345\322\t", propsEnd = 0x0, type = 5 '\005'}
+2020-10-21 13:33:22 -          it = 0x7fffdce67f23 "\377\376\005\345\320\t\b\022\377\376\005\345\321\t\006\022\377\376\005\345\322\t"
+2020-10-21 13:33:22 -          parseStack = {c = {<No data fields>}}
+2020-10-21 13:33:22 -  #1  0x00000000005da7f7 in IOMap::loadMap(Map*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (this=this@entry=0x7ffff3dbaa80, map=map@entry=0x8e77b0 <g_game+80>, fileName=...) at /home/otg/src/iomap.cpp:76
+2020-10-21 13:33:22 -          start = 1603301601962
+2020-10-21 13:33:22 -          loader = {fileContents = {pimpl_ = {px = 0x7fffed5b0e90, pn = {pi_ = 0x7fffed59e980}}}, root = {children = {<No data fields>}, propsBegin = 0x7fffda3c8006 "\002", propsEnd = 0x7fffda3c8016 "\376\002\001\"", type = 0 '\000'}, propBuffer = {<No data fields>}}
+2020-10-21 13:33:22 -          root = <optimized out>
+2020-10-21 13:33:22 -          propStream = {p = 0xffffffffffffffff <error: Cannot access memory at address 0xffffffffffffffff>, end = 0xffff00000000ffff <error: Cannot access memory at address 0xffff00000000ffff>}
+2020-10-21 13:33:22 -          headerVersion = <optimized out>
+2020-10-21 13:33:22 -  #2  0x00000000004e4c95 in Map::loadMap(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) (this=this@entry=0x8e77b0 <g_game+80>, identifier=..., loadHouses=loadHouses@entry=true) at /home/otg/src/map.cpp:36
+2020-10-21 13:33:22 -          loader = {errorString = <incomplete type>}
+2020-10-21 13:33:22 -  #3  0x000000000059cab0 in Game::loadMainMap(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (this=0x8e7760 <g_game>, filename=...) at /home/otg/src/game.cpp:254
+2020-10-21 13:33:22 -  No locals.
+2020-10-21 13:33:22 -  #4  0x0000000000531bcf in mainLoader(int, char**, ServiceManager*) (argc=<optimized out>, argv=0x7fffffffe1b8, services=0x7fffffffdff0) at /home/otg/src/otserv.cpp:264
+2020-10-21 13:33:22 -          worldType = <incomplete type>
+2020-10-21 13:33:22 -          rentPeriod = <optimized out>
+2020-10-21 13:33:22 -          strRentPeriod = <incomplete type>
+2020-10-21 13:33:22 -  #5  0x000000000055af2d in std::function<void ()>::operator()() const () at /usr/include/c++/5/functional:2267
+2020-10-21 13:33:22 -          this = 0x901bb0
+2020-10-21 13:33:22 -  #6  Task::operator()() () at /home/otg/src/tasks.h:42
+2020-10-21 13:33:22 -          this = 0x901ba0
+2020-10-21 13:33:22 -  #7  Dispatcher::threadMain() (this=0x8e6ec0 <g_dispatcher>) at /home/otg/src/tasks.cpp:62
+2020-10-21 13:33:22 -          task = 0x901ba0
+2020-10-21 13:33:22 -          taskLockUnique = {_M_device = 0x8e6ed8 <g_dispatcher+24>, _M_owns = false}
+2020-10-21 13:33:22 -  #8  0x00007ffff5e79c80 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-21 13:33:22 -  No symbol table info available.
+2020-10-21 13:33:22 -  #9  0x00007ffff614a6ba in start_thread (arg=0x7ffff3dbb700) at pthread_create.c:333
+2020-10-21 13:33:22 -          __res = <optimized out>
+2020-10-21 13:33:22 -          pd = 0x7ffff3dbb700
+2020-10-21 13:33:22 -          now = <optimized out>
+2020-10-21 13:33:22 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737284650752, 2531949188177280590, 0, 140737488346847, 140737284651456, 9437376, -2531957676650971570, -2531965863102300594}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2020-10-21 13:33:22 -          not_first_call = <optimized out>
+2020-10-21 13:33:22 -          pagesize_m1 = <optimized out>
+2020-10-21 13:33:22 -          sp = <optimized out>
+2020-10-21 13:33:22 -          freesize = <optimized out>
+2020-10-21 13:33:22 -          __PRETTY_FUNCTION__ = "start_thread"
+2020-10-21 13:33:22 -  #10 0x00007ffff7b144dd in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+2020-10-21 13:33:22 -  No locals.
+2020-10-21 13:33:22 -  
+2020-10-21 13:33:22 -  Thread 1 (Thread 0x7ffff7fe6740 (LWP 732)):
+2020-10-21 13:33:22 -  #0  pthread_cond_wait@@GLIBC_2.3.2 () at ../sysdeps/unix/sysv/linux/x86_64/pthread_cond_wait.S:185
+2020-10-21 13:33:22 -  No locals.
+2020-10-21 13:33:22 -  #1  0x00007ffff5e7491c in std::condition_variable::wait(std::unique_lock<std::mutex>&) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-21 13:33:22 -  No symbol table info available.
+2020-10-21 13:33:22 -  #2  0x0000000000474b4a in main (argc=1, argv=0x7fffffffe1b8) at /home/otg/src/otserv.cpp:91
+2020-10-21 13:33:22 -          serviceManager = {acceptors = {_M_h = {_M_buckets = 0x7fffffffe020, _M_bucket_count = 1, _M_before_begin = {_M_nxt = 0x0}, _M_element_count = 0, _M_rehash_policy = {_M_max_load_factor = 1, _M_next_resize = 0}, _M_single_bucket = 0x0}}, io_service = {service_registry_ = 0x900040, impl_ = @0x900090}, signals = {set = {<No data fields>}}, death_timer = {<No data fields>}, running = false}
+2020-10-21 13:33:22 -  A debugging session is active.
+2020-10-21 13:33:22 -  
+2020-10-21 13:33:22 -  	Inferior 1 [process 732] will be killed.
+2020-10-21 13:33:22 -  
+2020-10-21 13:33:22 -  Quit anyway? (y or n) [answered Y; input not from terminal]

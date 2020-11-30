@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Izcandar the Banished" nameDescription="a Izcandar the Banished" race="blood" experience="150000" speed="1200" manacost="0" script="boss.lua">
+	<health now="3500000" max="3500000" />
+	<look type="1137" head="0" body="114" legs="76" feet="0" addons="3" corpse="6325" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+        <flag rewardboss="1" />
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag isblockable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="1000" max="-2000" />
+		<attack name="fire" interval="3000" chance="35" range="7" radius="7" target="1" min="-1700" max="-2200">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+		<attack name="melee" interval="1800" chance="40" range="7" radius="5" target="0" min="-950" max="-2400">
+			<attribute key="areaEffect" value="blackspark" />
+		</attack>
+		<attack name="energy" interval="3000" chance="30" length="8" spread="0" min="-800" max="-2200">
+			<attribute key="areaEffect" value="energy" />
+		</attack>
+		<attack name="physical" interval="2500" chance="20" range="7" radius="5" target="0" min="-700" max="-3480">
+			<attribute key="areaEffect" value="greenshimmer" />
+		</attack>
+		<attack name="physical" interval="2000" chance="15" range="7" radius="13" target="0" min="-850" max="-2500">
+			<attribute key="areaEffect" value="rednote" />
+		</attack>
+		<attack name="physical" interval="2000" chance="20" radius="14" target="0" min="-900" max="-3450">
+			<attribute key="areaEffect" value="bluebubble" />
+		</attack>
+		<attack name="melee" interval="3000" chance="15" range="7" radius="3" target="0" min="-800" max="-2200">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</attack>
+		<attack name="ice" interval="2000" chance="10" length="8" spread="3" min="1300" max="-2100">
+			<attribute key="areaEffect" value="iceattack" />
+		</attack>
+		<attack name="ice" interval="2000" chance="20" range="7" min="1500" max="-3110">
+			<attribute key="shootEffect" value="snowball" />
+		</attack>
+		<attack name="ice" interval="2000" chance="10" length="8" spread="3" min="-2300" max="-3750">
+			<attribute key="areaEffect" value="icearea" />
+		</attack>
+		<attack name="speed" interval="2000" chance="15" range="7" speedchange="-630" duration="20000">
+			<attribute key="areaEffect" value="icetornado" />
+		</attack>
+
+
+	</attacks>
+	<defenses armor="20" defense="20" />
+	<elements>
+		<element firePercent="20" />
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+	</immunities>
+	<loot>
+<!--gold-->
+		<item name="platinum coin" countmax="5" chance="20000" />
+		<item name="crystal coin" countmax="3" chance="20000" />
+		<item name="piggy bank" countmax="1" chance="10000" />
+	<!--potions-->
+		<item name="supreme health potion" countmax="20" chance="20000" />
+		<item name="ultimate mana potion" countmax="20" chance="20000" />
+		<item name="ultimate spirit potion" countmax="20" chance="20000" />
+		<item name="berserk potion" countmax="10" chance="10000" />
+		<item name="bullseye potion" countmax="10" chance="10000" />
+		<item name="mastermind potion" countmax="10" chance="10000" />
+	<!--token-->
+		<item name="gold token" countmax="2" chance="10000" />
+		<item name="silver token" countmax="5" chance="10000" />
+	<!--gems-->
+		<item name="green gem" countmax="2" chance="10000" />
+		<item name="red gem" countmax="1" chance="10000" />
+		<item name="blue gem" countmax="1" chance="10000" />
+		<item name="yellow gem" countmax="1" chance="10000" />
+		<item name="violet gem" countmax="1" chance="10000" />			
+		<item id="7633" chance="1000" />
+		<item name="giant sapphire" countmax="1" chance="4000" />
+		<item name="gold ingot" countmax="1" chance="10000" />
+		<item name="izcandar's snow globe" countmax="1" chance="3000" />
+		<item name="Iczandar's sundial" countmax="1" chance="3000" />
+		<item name="ornate locket" countmax="1" chance="1600" />
+	<!--equips-->
+		<item name="royal star" countmax="100" chance="10000" />
+		<item name="chaos mace" countmax="1" chance="10000" />	
+		<item name="arcane staff" countmax="1" chance="2000" />
+		<item name="skull staff" countmax="1" chance="4000" />
+		<item name="ring of the sky" countmax="1" chance="4000" />
+		<item name="summerblade" countmax="1" chance="800" />
+		<item name="winterblade" countmax="1" chance="800" />
+	<!--misc-->
+		<item name="energy bar" countmax="1" chance="20000" />
+		<item name="mysterious remains" countmax="1" chance="10000" />
+		<item name="purple tendril lantern" countmax="1" chance="800" />
+		<item name="turquoise tendril lantern" countmax="1" chance="800" />
+	<!--plasma-->
+		<item id="26198" chance="2000" countmax="4" />			<!-- collar of blue plasma -->
+		<item id="26199" chance="2000" countmax="4" />			<!-- collar of green plasma -->
+		<item id="26200" chance="2000" countmax="4" />			<!-- collar of red plasma -->
+		<item id="26185" chance="2000" countmax="4" />			<!-- ring of blue plasma -->
+		<item id="26187" chance="2000" countmax="4" />			<!-- ring of green plasma -->
+		<item id="26189" chance="2000" countmax="4" />			<!-- ring of red plasma -->
+	<!--addon-->
+		<item name="huge chunk of crude iron" countmax="1" chance="4000" />
+		<item name="magic sulphur" countmax="1" chance="10000" />
+		<item name="soul stone" countmax="1" chance="1000" />
+		<item name="pomegranate" countmax="1" chance="3000" />
+		<item name="ice shield" countmax="1" chance="800" />	</loot>
+</monster>

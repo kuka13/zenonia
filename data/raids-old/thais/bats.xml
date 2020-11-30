@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+  <announce delay="1000" type="Event" message="As cavernas ficaram pequenas! Nessa noite eles estão a solta! " />
+  <announce delay="60000" type="Event" message="Tome cuidado! Eles tem sede de sangue!!!" />
+
+
+  <areaspawn delay="60000" fromx="32358" fromy="32161" fromz="7" tox="32368" toy="32192" toz="7">
+    <monster name="bat" amount="8" />
+  </areaspawn>
+  <areaspawn delay="60000" fromx="32360" fromy="32161" fromz="7" tox="32343" toy="32213" toz="7">
+    <monster name="bat" amount="8" />
+  </areaspawn>
+  <areaspawn delay="60000" fromx="32360" fromy="32161" fromz="7" tox="32350" toy="32190" toz="7">
+    <monster name="bat" amount="10" />
+  </areaspawn>
+  <areaspawn delay="60000" fromx="32359" fromy="32161" fromz="7" tox="32333" toy="32216" toz="7">
+    <monster name="bat" amount="15" />
+  </areaspawn>
+  <areaspawn delay="60000" fromx="32360" fromy="32161" fromz="7" tox="32324" toy="32214" toz="7">
+    <monster name="bat" amount="3" />
+  </areaspawn>
+  <areaspawn delay="60000" fromx="32452" fromy="32235" fromz="7" tox="32333" toy="32227" toz="7">
+    <monster name="bat" amount="8" />
+    <monster name="bat" amount="6" />
+    <monster name="bat" amount="13" />
+    <monster name="bat" amount="12" />
+    <monster name="bat" amount="5" />
+  </areaspawn>
+  <areaspawn delay="60000" fromx="32348" fromy="32286" fromz="7" tox="32337" toy="32240" toz="7">
+    <monster name="bat" amount="8" />
+    <monster name="bat" amount="6" />
+    <monster name="bat" amount="13" />
+    <monster name="bat" amount="23" />
+    <monster name="bat" amount="18" />
+  </areaspawn>
+  <areaspawn delay="60000" fromx="32261" fromy="32271" fromz="7" tox="32338" toy="32248" toz="7">
+    <monster name="bat" amount="18" />
+    <monster name="bat" amount="3" />
+	    <monster name="bat" amount="1" />
+    <monster name="bat" amount="26" />
+    <monster name="bat" amount="13" />
+    <monster name="bat" amount="21" />
+  </areaspawn>
+
+  <areaspawn delay="120000" fromx="32358" fromy="32161" fromz="7" tox="32374" toy="32173" toz="7">
+    <monster name="bat" amount="14" />
+  </areaspawn>
+  <areaspawn delay="120000" fromx="32360" fromy="32161" fromz="7" tox="32374" toy="32173" toz="7">
+    <monster name="bat" amount="13" />
+  </areaspawn>
+  <areaspawn delay="120000" fromx="32360" fromy="32161" fromz="7" tox="32374" toy="32173" toz="7">
+    <monster name="bat" amount="13" />
+  </areaspawn>
+  <areaspawn delay="120000" fromx="32359" fromy="32161" fromz="7" tox="32374" toy="32173" toz="7">
+    <monster name="bat" amount="10" />
+  </areaspawn>
+  <areaspawn delay="120000" fromx="32360" fromy="32161" fromz="7" tox="32374" toy="32173" toz="7">
+    <monster name="vampire" amount="10" />
+  </areaspawn>
+  <areaspawn delay="120000" fromx="32452" fromy="32235" fromz="7" tox="32399" toy="32214" toz="7">
+    <monster name="bat" amount="6" />
+    <monster name="bat" amount="13" />
+    <monster name="bat" amount="13" />
+    <monster name="bat" amount="3" />
+  </areaspawn>
+  <areaspawn delay="120000" fromx="32348" fromy="32286" fromz="7" tox="32335" toy="32297" toz="7">
+    <monster name="bat" amount="8" />
+    <monster name="vampire" amount="16" />
+    <monster name="bat" amount="13" />
+    <monster name="bat" amount="13" />
+  </areaspawn>
+  <areaspawn delay="120000" fromx="32261" fromy="32271" fromz="7" tox="32287" toy="32297" toz="7">
+    <monster name="bat" amount="8" />
+    <monster name="bat" amount="3" />
+    <monster name="bat" amount="6" />
+    <monster name="bat" amount="13" />
+    <monster name="vampire" amount="13" />
+  </areaspawn>
+</raid>

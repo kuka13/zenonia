@@ -1,0 +1,1686 @@
+2020-10-08 05:05:42 -  [Thread debugging using libthread_db enabled]
+2020-10-08 05:05:42 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2020-10-08 05:05:42 -  [New Thread 0x7ffff3dbb700 (LWP 23189)]
+2020-10-08 05:05:42 -  [New Thread 0x7ffff35ba700 (LWP 23190)]
+2020-10-08 05:05:42 -  The OTG-Premium-Version - Version: (1.3)
+2020-10-08 05:05:42 -  Compiled with: GNU C++ version 5.4.0 20160609
+2020-10-08 05:05:42 -  Compiled on Sep 17 2020 19:49:36 for platform x64
+2020-10-08 05:05:42 -  
+2020-10-08 05:05:42 -  Special Credits for: OTG Team, Johncore, Vankk, Erick Nunes, Leonardo Pereira, Leandro Baldissera, Talis, Marcomoa, Marson Schneider, Douglas, Mark Samman, OTXServer (Mattyx Gomez) and The Forgotten Server Developers.
+2020-10-08 05:05:42 -  Link of repository: https://github.com/Johncorex/OTG-Premium-Version
+2020-10-08 05:05:42 -  
+2020-10-08 05:05:42 -  >> Loading config: config.lua
+2020-10-08 05:05:42 -  >> Establishing database connection... MySQL 5.7.31
+2020-10-08 05:05:42 -  >> Running database manager
+2020-10-08 05:05:42 -  [New Thread 0x7ffff2ba7700 (LWP 23191)]
+2020-10-08 05:05:42 -  > Optimizing table players_online... [success]
+2020-10-08 05:05:42 -  > Optimizing table tile_store... [success]
+2020-10-08 05:05:42 -  >> Loading vocations
+2020-10-08 05:05:42 -  >> Loading items
+2020-10-08 05:05:42 -  >> Loading script systems
+2020-10-08 05:05:42 -  >> Loading lua libs
+2020-10-08 05:05:42 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-08 05:05:42 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-08 05:05:43 -  >> Loading lua scripts
+2020-10-08 05:05:43 -  >> Loading monsters
+2020-10-08 05:05:43 -  >> Loading lua monsters
+2020-10-08 05:05:44 -  >> Loading outfits
+2020-10-08 05:05:44 -  >> Loading prey data
+2020-10-08 05:05:44 -  >> Checking world type... PVP
+2020-10-08 05:05:44 -  >> Loading map
+2020-10-08 05:05:45 -  > Map size: 34143x33812.
+2020-10-08 05:05:51 -  > Map loading time: 7.349 seconds.
+2020-10-08 05:06:25 -  > Loaded house items in: 0.06 s
+2020-10-08 05:06:25 -  >> Initializing gamestate
+2020-10-08 05:06:29 -  >> Loaded 43 npcs and spawned 72496 monsters.
+2020-10-08 05:06:29 -  >> Loaded 27 towns with 1074 houses in total.
+2020-10-08 05:06:29 -  [Castle War]
+2020-10-08 05:06:29 -  [POWERGAMERS]
+2020-10-08 05:06:29 -  [SISTEMA DE LOTERIA] OPERANTE
+2020-10-08 05:06:29 -  Advanced NPC spawn system | All NPCs will be loaded trough lib.
+2020-10-08 05:06:29 -  [REGEN BOOST] CARREGADO
+2020-10-08 05:06:29 -  [SPOOF COUNTER]
+2020-10-08 05:06:29 -  [STAMINA]
+2020-10-08 05:06:29 -  >> Loaded all modules, server starting up...
+2020-10-08 05:06:29 -  > Warning: OTG-Premium-Version has been executed as root user, please consider running it as a normal user.
+2020-10-08 05:06:29 -  >> Honera Global Server Online!
+2020-10-08 05:06:29 -  
+2020-10-08 05:06:31 -  SABADOU!! NPC HONERA CRIADO
+2020-10-08 05:06:31 -  Shaka has logged in.
+2020-10-08 07:23:36 -  Nosferatu has logged in.
+2020-10-08 08:05:43 -  
+2020-10-08 08:05:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-08 08:05:43 -  data/globalevents/scripts/bosses/Abyssador.lua:onThink
+2020-10-08 08:05:43 -  data/lib/rewardboss.lua:8: Rewards can only be enabled to rewards bosses.
+2020-10-08 08:05:43 -  stack traceback:
+2020-10-08 08:05:43 -  	[C]: at 0x00602980
+2020-10-08 08:05:43 -  	[C]: in function 'error'
+2020-10-08 08:05:43 -  	data/lib/rewardboss.lua:8: in function 'setReward'
+2020-10-08 08:05:43 -  	data/globalevents/scripts/bosses/Abyssador.lua:28: in function <data/globalevents/scripts/bosses/Abyssador.lua:21>
+2020-10-08 08:05:43 -  [Error - GlobalEvents::think] Failed to execute event: Abyssador
+2020-10-08 08:05:43 -  
+2020-10-08 08:05:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-08 08:05:43 -  data/globalevents/scripts/bosses/Deathstrike.lua:onThink
+2020-10-08 08:05:43 -  data/lib/rewardboss.lua:8: Rewards can only be enabled to rewards bosses.
+2020-10-08 08:05:43 -  stack traceback:
+2020-10-08 08:05:43 -  	[C]: at 0x00602980
+2020-10-08 08:05:43 -  	[C]: in function 'error'
+2020-10-08 08:05:43 -  	data/lib/rewardboss.lua:8: in function 'setReward'
+2020-10-08 08:05:43 -  	data/globalevents/scripts/bosses/Deathstrike.lua:28: in function <data/globalevents/scripts/bosses/Deathstrike.lua:21>
+2020-10-08 08:05:43 -  [Error - GlobalEvents::think] Failed to execute event: Deathstrike
+2020-10-08 08:05:43 -  
+2020-10-08 08:05:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-08 08:05:43 -  data/globalevents/scripts/bosses/Gnomevil.lua:onThink
+2020-10-08 08:05:43 -  data/lib/rewardboss.lua:8: Rewards can only be enabled to rewards bosses.
+2020-10-08 08:05:43 -  stack traceback:
+2020-10-08 08:05:43 -  	[C]: at 0x00602980
+2020-10-08 08:05:43 -  	[C]: in function 'error'
+2020-10-08 08:05:43 -  	data/lib/rewardboss.lua:8: in function 'setReward'
+2020-10-08 08:05:43 -  	data/globalevents/scripts/bosses/Gnomevil.lua:28: in function <data/globalevents/scripts/bosses/Gnomevil.lua:21>
+2020-10-08 08:05:43 -  [Error - GlobalEvents::think] Failed to execute event: Gnomevil
+2020-10-08 10:27:29 -  > Broadcasted message: "Sightings of undead, west of Darashia! Imminent invasion is suspected!".
+2020-10-08 10:27:38 -  > Broadcasted message: "The undead are attacking Darashia!".
+2020-10-08 11:05:43 -  
+2020-10-08 11:05:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-08 11:05:43 -  data/globalevents/scripts/Ghulosh.lua:onThink
+2020-10-08 11:05:43 -  data/globalevents/scripts/Ghulosh.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-08 11:05:43 -  stack traceback:
+2020-10-08 11:05:43 -  	[C]: in function '__index'
+2020-10-08 11:05:43 -  	data/globalevents/scripts/Ghulosh.lua:34: in function <data/globalevents/scripts/Ghulosh.lua:21>
+2020-10-08 11:05:43 -  [Error - GlobalEvents::think] Failed to execute event: Ghulosh
+2020-10-08 11:05:43 -  
+2020-10-08 11:05:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-08 11:05:43 -  data/globalevents/scripts/Gorzindel.lua:onThink
+2020-10-08 11:05:43 -  data/globalevents/scripts/Gorzindel.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-08 11:05:43 -  stack traceback:
+2020-10-08 11:05:43 -  	[C]: in function '__index'
+2020-10-08 11:05:43 -  	data/globalevents/scripts/Gorzindel.lua:34: in function <data/globalevents/scripts/Gorzindel.lua:21>
+2020-10-08 11:05:43 -  [Error - GlobalEvents::think] Failed to execute event: Gorzindel
+2020-10-08 11:05:43 -  
+2020-10-08 11:05:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-08 11:05:43 -  data/globalevents/scripts/Lokathmor.lua:onThink
+2020-10-08 11:05:43 -  data/globalevents/scripts/Lokathmor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-08 11:05:43 -  stack traceback:
+2020-10-08 11:05:43 -  	[C]: in function '__index'
+2020-10-08 11:05:43 -  	data/globalevents/scripts/Lokathmor.lua:34: in function <data/globalevents/scripts/Lokathmor.lua:21>
+2020-10-08 11:05:43 -  [Error - GlobalEvents::think] Failed to execute event: Lokathmor
+2020-10-08 11:05:43 -  
+2020-10-08 11:05:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-08 11:05:43 -  data/globalevents/scripts/Mazzinor.lua:onThink
+2020-10-08 11:05:43 -  data/globalevents/scripts/Mazzinor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-08 11:05:43 -  stack traceback:
+2020-10-08 11:05:43 -  	[C]: in function '__index'
+2020-10-08 11:05:43 -  	data/globalevents/scripts/Mazzinor.lua:34: in function <data/globalevents/scripts/Mazzinor.lua:21>
+2020-10-08 11:05:43 -  [Error - GlobalEvents::think] Failed to execute event: Mazzinor
+2020-10-08 11:05:43 -  [Warning - Monsters::loadMonster] Non-unique loot item "Giant Sapphire". 
+2020-10-08 11:05:43 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-08 11:05:43 -  [Warning - Monsters::loadMonster] Non-unique loot item "Collar of Blue Plasma". 
+2020-10-08 11:05:43 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-08 11:05:43 -  [Warning - Monsters::loadMonster] Non-unique loot item "Giant Shimmering Pearl". 
+2020-10-08 11:05:43 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-08 11:05:43 -  [Warning - Monsters::loadMonster] Unknown loot item "The Calamity". 
+2020-10-08 11:05:43 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-08 11:05:43 -  
+2020-10-08 11:05:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-08 11:05:43 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:onThink
+2020-10-08 11:05:43 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-08 11:05:43 -  stack traceback:
+2020-10-08 11:05:43 -  	[C]: in function '__index'
+2020-10-08 11:05:43 -  	data/globalevents/scripts/The Scourge Of Oblivion.lua:34: in function <data/globalevents/scripts/The Scourge Of Oblivion.lua:21>
+2020-10-08 11:05:43 -  [Error - GlobalEvents::think] Failed to execute event: The Scourge Of Oblivion
+2020-10-08 11:10:29 -  > Broadcasted message: "Feverish Citizens are invading the streets of Venore!".
+2020-10-08 11:11:01 -  [Network error - Connection::parseHeader] Invalid Client Login
+2020-10-08 11:15:48 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-08 11:16:00 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-08 11:16:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-08 11:27:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 11:27:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 11:32:50 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 11:36:50 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 11:36:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 11:36:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 11:37:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 11:40:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 11:40:33 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 11:40:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 11:45:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 11:49:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 11:51:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 11:53:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 11:53:20 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 11:56:59 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 11:57:47 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 11:57:48 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 12:07:50 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 12:13:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 12:19:41 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 12:19:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 12:32:24 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 12:32:24 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 12:36:29 -  > Broadcasted message: "The dragons of the Dragonblaze Mountains have descended to Zao to protect the lizardkin!".
+2020-10-08 12:37:27 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 12:37:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 12:42:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 12:48:08 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 13:17:29 -  > Broadcasted message: "Beware! Mawhawk!".
+2020-10-08 16:13:29 -  > Broadcasted message: "There are some Kongras congregating south of Banuta.".
+2020-10-08 16:13:48 -  > Broadcasted message: "More furry primates in Banuta.".
+2020-10-08 16:15:29 -  > Broadcasted message: "More ape and fur flurry south of Banuta!".
+2020-10-08 17:05:43 -  
+2020-10-08 17:05:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-08 17:05:43 -  data/globalevents/scripts/Ghulosh.lua:onThink
+2020-10-08 17:05:43 -  data/globalevents/scripts/Ghulosh.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-08 17:05:43 -  stack traceback:
+2020-10-08 17:05:43 -  	[C]: in function '__index'
+2020-10-08 17:05:43 -  	data/globalevents/scripts/Ghulosh.lua:34: in function <data/globalevents/scripts/Ghulosh.lua:21>
+2020-10-08 17:05:43 -  [Error - GlobalEvents::think] Failed to execute event: Ghulosh
+2020-10-08 17:05:43 -  
+2020-10-08 17:05:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-08 17:05:43 -  data/globalevents/scripts/Gorzindel.lua:onThink
+2020-10-08 17:05:43 -  data/globalevents/scripts/Gorzindel.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-08 17:05:43 -  stack traceback:
+2020-10-08 17:05:43 -  	[C]: in function '__index'
+2020-10-08 17:05:43 -  	data/globalevents/scripts/Gorzindel.lua:34: in function <data/globalevents/scripts/Gorzindel.lua:21>
+2020-10-08 17:05:43 -  [Error - GlobalEvents::think] Failed to execute event: Gorzindel
+2020-10-08 17:05:43 -  
+2020-10-08 17:05:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-08 17:05:43 -  data/globalevents/scripts/Lokathmor.lua:onThink
+2020-10-08 17:05:43 -  data/globalevents/scripts/Lokathmor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-08 17:05:43 -  stack traceback:
+2020-10-08 17:05:43 -  	[C]: in function '__index'
+2020-10-08 17:05:43 -  	data/globalevents/scripts/Lokathmor.lua:34: in function <data/globalevents/scripts/Lokathmor.lua:21>
+2020-10-08 17:05:43 -  [Error - GlobalEvents::think] Failed to execute event: Lokathmor
+2020-10-08 17:05:43 -  
+2020-10-08 17:05:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-08 17:05:43 -  data/globalevents/scripts/Mazzinor.lua:onThink
+2020-10-08 17:05:43 -  data/globalevents/scripts/Mazzinor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-08 17:05:43 -  stack traceback:
+2020-10-08 17:05:43 -  	[C]: in function '__index'
+2020-10-08 17:05:43 -  	data/globalevents/scripts/Mazzinor.lua:34: in function <data/globalevents/scripts/Mazzinor.lua:21>
+2020-10-08 17:05:43 -  [Error - GlobalEvents::think] Failed to execute event: Mazzinor
+2020-10-08 17:05:43 -  
+2020-10-08 17:05:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-08 17:05:43 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:onThink
+2020-10-08 17:05:43 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-08 17:05:43 -  stack traceback:
+2020-10-08 17:05:43 -  	[C]: in function '__index'
+2020-10-08 17:05:43 -  	data/globalevents/scripts/The Scourge Of Oblivion.lua:34: in function <data/globalevents/scripts/The Scourge Of Oblivion.lua:21>
+2020-10-08 17:05:43 -  [Error - GlobalEvents::think] Failed to execute event: The Scourge Of Oblivion
+2020-10-08 17:34:28 -  Shaka Knight has logged in.
+2020-10-08 18:00:29 -  [Castle War votacao aberta]
+2020-10-08 18:00:29 -  > Broadcasted message: "[Castle War]: Foi iniciada a votação para decidir o objetivo do castelo que abre em alguns minutos. Use !castle1 para votar no objetivo (Dominar o castelo por mais tempo). Use !castle2 para votar no objetivo (Ultimo que dominar o castelo). Caso não haja votações, o objetivo será aleatorio.".
+2020-10-08 18:00:29 -  > Broadcasted message: "[CastleWar] Atencao, O CASTELO esta aberto para batalha, junte-se com sua guild e  conquiste-o. O castelo encerra em 1 hora. Resultado das votacoes: First: 1 Second: 0 Resultado: (Dominar o castelo por mais tempo) foi escolhido".
+2020-10-08 18:00:29 -  castleWar Encerrado
+2020-10-08 18:00:29 -  > Broadcasted message: "Let da mashing begin! Cyclops riot east of Thais.".
+2020-10-08 18:11:57 -  Demonzin has logged in.
+2020-10-08 18:14:17 -  Dev Marson has logged in.
+2020-10-08 18:14:36 -  Dev Marson has logged out.
+2020-10-08 18:14:38 -  Dev Marson has logged in.
+2020-10-08 18:14:46 -  Dev Marson has logged out.
+2020-10-08 18:14:47 -  Dev Marson has logged in.
+2020-10-08 18:16:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:16:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:16:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:16:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:16:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:16:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:18:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:18:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:18:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:18:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:18:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:18:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:18:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:18:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:18:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:18:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:18:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:18:55 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:18:55 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:19:55 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:20:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:21:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:25:38 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:25:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:26:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:26:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:26:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:26:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:26:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:26:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:26:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:26:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:26:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:26:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:26:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:26:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:26:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:27:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:27:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:27:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:27:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:27:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:27:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:27:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:27:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:27:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:27:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:27:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:27:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:27:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:27:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:27:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:27:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:29:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:29:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:31:12 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:31:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:32:41 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:33:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:33:58 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 18:33:58 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 18:34:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:35:32 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:36:36 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:37:00 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:38:37 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:39:20 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:39:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:39:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:39:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:39:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:40:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:40:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:40:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:40:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:40:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:40:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:40:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:40:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:40:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:40:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:40:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:40:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:40:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:42:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 18:44:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:44:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:45:26 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:46:59 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:49:16 -  ip inválido
+2020-10-08 18:49:16 -  Dev Marson has logged out.
+2020-10-08 18:53:38 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:53:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:54:39 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 18:54:39 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 18:54:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 18:56:00 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 18:57:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:57:18 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-08 18:57:18 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-08 18:58:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:58:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:58:10 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:58:38 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:58:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:59:14 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 18:59:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:00:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:01:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:01:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:01:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:01:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:01:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:01:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:01:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:01:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:01:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:01:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:01:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:01:31 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:01:32 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:01:33 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:02:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:02:41 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:02:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:02:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:02:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:02:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:02:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:02:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:02:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:02:58 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:03:06 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:03:08 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:03:29 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:03:41 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:03:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:05:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:05:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:05:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:05:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:05:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:05:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:05:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:05:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:05:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:05:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:05:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:05:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:05:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:05:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:05:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:05:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:05:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:06:03 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:06:38 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:06:48 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:06:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:07:12 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:07:33 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:07:33 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:07:33 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:07:33 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:07:33 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:07:35 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:07:35 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:07:35 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:07:35 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:07:35 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:07:35 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:07:35 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:07:35 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:09:00 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:09:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:10:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:11:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:13:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:14:27 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:14:48 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 19:14:48 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 19:17:06 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:19:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-08 19:19:25 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-08 19:19:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-08 19:19:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-08 19:21:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:21:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:21:37 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:22:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:22:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:22:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:22:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:22:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:22:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:22:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:22:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:22:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:22:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:22:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:22:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:22:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:22:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:22:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:23:00 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:23:00 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:23:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 19:23:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 19:23:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 19:24:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:24:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:24:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:24:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:26:29 -  > Broadcasted message: "Inumerous Rats invaded Rookgaard!".
+2020-10-08 19:27:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:27:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:27:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:27:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:27:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:27:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:27:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:27:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:27:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:27:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:27:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:27:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:27:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:27:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:27:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:27:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:27:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:27:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 19:29:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 19:29:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:29:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:30:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:32:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:32:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:32:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:32:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:32:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:32:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:32:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:32:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:32:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:32:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:32:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:32:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:32:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 19:33:33 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:35:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:37:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:38:18 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:38:41 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:41:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:42:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:43:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:44:08 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:44:25 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:45:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:45:55 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:46:25 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 19:46:26 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 19:46:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:46:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:47:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:47:08 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:47:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:48:18 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:48:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:49:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:51:15 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 19:56:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 20:12:36 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:12:36 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:12:36 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:12:36 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:12:36 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:12:36 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:12:36 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:12:36 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:12:36 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:12:36 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:14:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:15:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:15:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:17:03 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:18:26 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-08 20:18:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-08 20:18:55 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 20:18:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 20:19:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:22:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:22:09 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:23:24 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:23:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:23:31 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:23:35 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:23:36 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:24:09 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:25:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:25:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:26:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-08 20:27:55 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:28:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 20:28:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 20:28:06 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 20:28:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:29:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:30:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:30:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:30:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:30:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:30:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:30:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:30:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:30:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:30:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:31:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:31:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:32:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:32:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:32:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:33:00 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:33:00 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:33:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:34:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 20:34:53 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 20:35:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:35:18 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:36:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:36:15 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:37:24 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:37:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:37:32 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:37:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:38:36 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:38:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:39:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:39:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:39:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:39:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:39:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:39:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:40:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:40:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:40:12 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 20:40:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:40:14 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:40:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:40:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:42:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-08 20:42:32 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-08 20:42:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-08 20:45:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 20:45:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 20:45:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 20:45:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:48:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:48:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:52:29 -  ip inválido
+2020-10-08 20:52:29 -  ip inválido
+2020-10-08 20:52:29 -  ip inválido
+2020-10-08 20:52:29 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:54:30 -  ip inválido
+2020-10-08 20:54:30 -  ip inválido
+2020-10-08 20:54:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:56:15 -  ip inválido
+2020-10-08 20:56:15 -  ip inválido
+2020-10-08 20:56:15 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 20:57:38 -  ip inválido
+2020-10-08 20:57:38 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 20:57:38 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 20:57:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:57:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:57:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:57:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:57:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:57:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:57:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:57:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:57:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:57:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:57:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-08 20:57:57 -  ip inválido
+2020-10-08 20:57:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 21:01:43 -  ip inválido
+2020-10-08 21:01:43 -  ip inválido
+2020-10-08 21:01:43 -  ip inválido
+2020-10-08 21:01:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-08 21:02:52 -  ip inválido
+2020-10-08 21:02:52 -  ip inválido
+2020-10-08 21:02:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 21:02:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 21:04:41 -  ip inválido
+2020-10-08 21:04:41 -  Dev Marson has logged in.
+2020-10-08 21:05:08 -  ip inválido
+2020-10-08 21:05:08 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 21:05:29 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 21:08:54 -  ip inválido
+2020-10-08 21:08:54 -  ip inválido
+2020-10-08 21:08:54 -  ip inválido
+2020-10-08 21:08:54 -  ip inválido
+2020-10-08 21:08:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-08 21:10:15 -  ip inválido
+2020-10-08 21:10:15 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 21:10:15 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 21:10:39 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 21:14:52 -  ip inválido
+2020-10-08 21:14:52 -  ip inválido
+2020-10-08 21:14:52 -  ip inválido
+2020-10-08 21:14:52 -  ip inválido
+2020-10-08 21:14:52 -  ip inválido
+2020-10-08 21:14:52 -  ip inválido
+2020-10-08 21:14:52 -  ip inválido
+2020-10-08 21:14:52 -  ip inválido
+2020-10-08 21:14:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 21:15:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 21:15:09 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 21:15:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 21:16:45 -  ip inválido
+2020-10-08 21:16:45 -  ip inválido
+2020-10-08 21:16:45 -  ip inválido
+2020-10-08 21:16:45 -  ip inválido
+2020-10-08 21:16:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 21:18:13 -  ip inválido
+2020-10-08 21:18:13 -  ip inválido
+2020-10-08 21:18:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 21:18:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 21:18:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 21:19:18 -  ip inválido
+2020-10-08 21:19:18 -  ip inválido
+2020-10-08 21:19:18 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 21:19:27 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 21:19:27 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 21:19:29 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 21:20:09 -  ip inválido
+2020-10-08 21:20:09 -  ip inválido
+2020-10-08 21:20:09 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-08 21:25:42 -  ip inválido
+2020-10-08 21:25:42 -  ip inválido
+2020-10-08 21:25:42 -  ip inválido
+2020-10-08 21:25:42 -  ip inválido
+2020-10-08 21:25:42 -  ip inválido
+2020-10-08 21:25:42 -  ip inválido
+2020-10-08 21:25:42 -  ip inválido
+2020-10-08 21:25:42 -  ip inválido
+2020-10-08 21:25:42 -  ip inválido
+2020-10-08 21:25:42 -  ip inválido
+2020-10-08 21:25:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 21:25:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 21:30:51 -  ip inválido
+2020-10-08 21:30:51 -  ip inválido
+2020-10-08 21:30:51 -  ip inválido
+2020-10-08 21:30:51 -  ip inválido
+2020-10-08 21:30:51 -  ip inválido
+2020-10-08 21:30:51 -  ip inválido
+2020-10-08 21:30:51 -  ip inválido
+2020-10-08 21:30:51 -  ip inválido
+2020-10-08 21:30:51 -  ip inválido
+2020-10-08 21:30:51 -  ip inválido
+2020-10-08 21:30:51 -  ip inválido
+2020-10-08 21:30:51 -  ip inválido
+2020-10-08 21:30:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 21:30:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 21:30:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 21:30:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 21:35:52 -  ip inválido
+2020-10-08 21:35:52 -  ip inválido
+2020-10-08 21:35:52 -  ip inválido
+2020-10-08 21:35:52 -  ip inválido
+2020-10-08 21:35:52 -  ip inválido
+2020-10-08 21:35:52 -  ip inválido
+2020-10-08 21:35:52 -  ip inválido
+2020-10-08 21:35:52 -  ip inválido
+2020-10-08 21:35:52 -  ip inválido
+2020-10-08 21:35:52 -  ip inválido
+2020-10-08 21:35:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 21:40:53 -  ip inválido
+2020-10-08 21:40:53 -  ip inválido
+2020-10-08 21:40:53 -  ip inválido
+2020-10-08 21:40:53 -  ip inválido
+2020-10-08 21:40:53 -  ip inválido
+2020-10-08 21:40:53 -  ip inválido
+2020-10-08 21:40:53 -  ip inválido
+2020-10-08 21:40:53 -  ip inválido
+2020-10-08 21:40:53 -  ip inválido
+2020-10-08 21:40:53 -  ip inválido
+2020-10-08 21:40:53 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 21:40:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 21:47:21 -  ip inválido
+2020-10-08 21:47:21 -  ip inválido
+2020-10-08 21:47:21 -  ip inválido
+2020-10-08 21:47:21 -  ip inválido
+2020-10-08 21:47:21 -  ip inválido
+2020-10-08 21:47:21 -  ip inválido
+2020-10-08 21:47:21 -  ip inválido
+2020-10-08 21:47:21 -  ip inválido
+2020-10-08 21:47:21 -  ip inválido
+2020-10-08 21:47:21 -  ip inválido
+2020-10-08 21:47:21 -  ip inválido
+2020-10-08 21:47:21 -  ip inválido
+2020-10-08 21:47:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 21:47:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 21:53:03 -  ip inválido
+2020-10-08 21:53:03 -  ip inválido
+2020-10-08 21:53:03 -  ip inválido
+2020-10-08 21:53:03 -  ip inválido
+2020-10-08 21:53:03 -  ip inválido
+2020-10-08 21:53:03 -  ip inválido
+2020-10-08 21:53:03 -  ip inválido
+2020-10-08 21:53:03 -  ip inválido
+2020-10-08 21:53:03 -  ip inválido
+2020-10-08 21:53:03 -  ip inválido
+2020-10-08 21:53:03 -  ip inválido
+2020-10-08 21:53:03 -  ip inválido
+2020-10-08 21:53:03 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  ip inválido
+2020-10-08 22:45:24 -  Dev Marson has logged out.
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  ip inválido
+2020-10-08 23:05:43 -  
+2020-10-08 23:05:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-08 23:05:43 -  data/globalevents/scripts/Ghulosh.lua:onThink
+2020-10-08 23:05:43 -  data/globalevents/scripts/Ghulosh.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-08 23:05:43 -  stack traceback:
+2020-10-08 23:05:43 -  	[C]: in function '__index'
+2020-10-08 23:05:43 -  	data/globalevents/scripts/Ghulosh.lua:34: in function <data/globalevents/scripts/Ghulosh.lua:21>
+2020-10-08 23:05:43 -  [Error - GlobalEvents::think] Failed to execute event: Ghulosh
+2020-10-08 23:05:43 -  
+2020-10-08 23:05:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-08 23:05:43 -  data/globalevents/scripts/Gorzindel.lua:onThink
+2020-10-08 23:05:43 -  data/globalevents/scripts/Gorzindel.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-08 23:05:43 -  stack traceback:
+2020-10-08 23:05:43 -  	[C]: in function '__index'
+2020-10-08 23:05:43 -  	data/globalevents/scripts/Gorzindel.lua:34: in function <data/globalevents/scripts/Gorzindel.lua:21>
+2020-10-08 23:05:43 -  [Error - GlobalEvents::think] Failed to execute event: Gorzindel
+2020-10-08 23:05:43 -  
+2020-10-08 23:05:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-08 23:05:43 -  data/globalevents/scripts/Lokathmor.lua:onThink
+2020-10-08 23:05:43 -  data/globalevents/scripts/Lokathmor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-08 23:05:43 -  stack traceback:
+2020-10-08 23:05:43 -  	[C]: in function '__index'
+2020-10-08 23:05:43 -  	data/globalevents/scripts/Lokathmor.lua:34: in function <data/globalevents/scripts/Lokathmor.lua:21>
+2020-10-08 23:05:43 -  [Error - GlobalEvents::think] Failed to execute event: Lokathmor
+2020-10-08 23:05:43 -  
+2020-10-08 23:05:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-08 23:05:43 -  data/globalevents/scripts/Mazzinor.lua:onThink
+2020-10-08 23:05:43 -  data/globalevents/scripts/Mazzinor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-08 23:05:43 -  stack traceback:
+2020-10-08 23:05:43 -  	[C]: in function '__index'
+2020-10-08 23:05:43 -  	data/globalevents/scripts/Mazzinor.lua:34: in function <data/globalevents/scripts/Mazzinor.lua:21>
+2020-10-08 23:05:43 -  [Error - GlobalEvents::think] Failed to execute event: Mazzinor
+2020-10-08 23:05:43 -  
+2020-10-08 23:05:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-08 23:05:43 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:onThink
+2020-10-08 23:05:43 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-08 23:05:43 -  stack traceback:
+2020-10-08 23:05:43 -  	[C]: in function '__index'
+2020-10-08 23:05:43 -  	data/globalevents/scripts/The Scourge Of Oblivion.lua:34: in function <data/globalevents/scripts/The Scourge Of Oblivion.lua:21>
+2020-10-08 23:05:43 -  [Error - GlobalEvents::think] Failed to execute event: The Scourge Of Oblivion
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  ip inválido
+2020-10-08 23:32:29 -  > Broadcasted message: "Something is moving in the northern grounds of the Rookgaard.".
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  ip inválido
+2020-10-09 01:03:29 -  > Broadcasted message: "There are more lions than usual west of Darashia.".
+2020-10-09 01:03:49 -  ip inválido
+2020-10-09 01:03:49 -  ip inválido
+2020-10-09 01:03:49 -  > Broadcasted message: "Even more lions west of Darashia!".
+2020-10-09 01:05:30 -  ip inválido
+2020-10-09 01:05:30 -  ip inválido
+2020-10-09 01:05:30 -  > Broadcasted message: "Zomba, the king of lions is roaming the Darashia desert!".
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  ip inválido
+2020-10-09 01:42:29 -  > Broadcasted message: "Many aggressive beasts are roaming south of Ab'Dendriel! Take care!".
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  ip inválido
+2020-10-09 02:37:30 -  > Broadcasted message: "Beware of Ocyakao!".
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  ip inválido
+2020-10-09 05:05:00 -  Saving server...
+2020-10-09 05:05:01 -  > Saved house items in: 1.05 s
+2020-10-09 05:05:01 -  Shaka has logged out.
+2020-10-09 05:05:01 -  Nosferatu has logged out.
+2020-10-09 05:05:01 -  Shaka Knight has logged out.
+2020-10-09 05:05:01 -  Demonzin has logged out.
+2020-10-09 05:05:01 -  Saving server...
+2020-10-09 05:05:02 -  > Saved house items in: 0.289 s
+2020-10-09 05:05:02 -  eu sou o checkname
+2020-10-09 05:05:02 -  Shutting down...Saving server...
+2020-10-09 05:05:02 -  > Saved house items in: 0.211 s
+2020-10-09 05:05:02 -  [Thread 0x7ffff2ba7700 (LWP 23191) exited]
+2020-10-09 05:05:02 -  [Thread 0x7ffff35ba700 (LWP 23190) exited]
+2020-10-09 05:05:02 -   done!
+2020-10-09 05:05:02 -  [Thread 0x7ffff3dbb700 (LWP 23189) exited]
+2020-10-09 05:05:41 -  [Inferior 1 (process 23185) exited normally]

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Mighty Terror Bird" nameDescription="a mighty terror bird" race="blood" experience="15050" speed="500" manacost="490">
+	<health now="20000" max="20000" />
+	<look type="218" corpse="6057" />
+	<targetchange interval="2000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="300" max="-690" />
+	</attacks>
+	<defenses armor="15" defense="130" />
+	<elements>
+		<element energyPercent="20" />
+		<element icePercent="20" />
+		<element firePercent="-10" />
+		<element earthPercent="-10" />
+		<element deathPercent="-5" />
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="CRAAAHHH!" />
+		<voice sentence="Gruuuh Gruuuh." />
+		<voice sentence="Carrah Carrah!" />
+	</voices>
+	<loot>
+		<item name="platinum coin" countmax="30" chance="82430" />
+		<item name="meat" countmax="3" chance="48550" />
+		<item name="worm" countmax="3" chance="9540" />
+		<item name="colourful feather" chance="3090" />
+		<item name="steel boots" chance="2090" />
+		<item name="medusa shield" chance="2090" />
+		<item name="skull helmet" chance="2090" />
+		<item name="health potion" chance="660" />
+		<item name="seeds" chance="240" />
+
+	</loot>
+</monster>

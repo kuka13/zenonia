@@ -1,0 +1,1979 @@
+2020-10-03 05:06:14 -  [Thread debugging using libthread_db enabled]
+2020-10-03 05:06:14 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2020-10-03 05:06:14 -  [New Thread 0x7ffff3dbb700 (LWP 25233)]
+2020-10-03 05:06:14 -  [New Thread 0x7ffff35ba700 (LWP 25234)]
+2020-10-03 05:06:14 -  The OTG-Premium-Version - Version: (1.3)
+2020-10-03 05:06:14 -  Compiled with: GNU C++ version 5.4.0 20160609
+2020-10-03 05:06:14 -  Compiled on Sep 17 2020 19:49:36 for platform x64
+2020-10-03 05:06:14 -  
+2020-10-03 05:06:14 -  Special Credits for: OTG Team, Johncore, Vankk, Erick Nunes, Leonardo Pereira, Leandro Baldissera, Talis, Marcomoa, Marson Schneider, Douglas, Mark Samman, OTXServer (Mattyx Gomez) and The Forgotten Server Developers.
+2020-10-03 05:06:14 -  Link of repository: https://github.com/Johncorex/OTG-Premium-Version
+2020-10-03 05:06:14 -  
+2020-10-03 05:06:14 -  >> Loading config: config.lua
+2020-10-03 05:06:14 -  >> Establishing database connection... MySQL 5.7.31
+2020-10-03 05:06:14 -  >> Running database manager
+2020-10-03 05:06:14 -  [New Thread 0x7ffff2ba7700 (LWP 25235)]
+2020-10-03 05:06:14 -  > Optimizing table players_online... [success]
+2020-10-03 05:06:14 -  > Optimizing table tile_store... [success]
+2020-10-03 05:06:14 -  >> Loading vocations
+2020-10-03 05:06:14 -  >> Loading items
+2020-10-03 05:06:14 -  >> Loading script systems
+2020-10-03 05:06:14 -  >> Loading lua libs
+2020-10-03 05:06:14 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-03 05:06:14 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-03 05:06:15 -  >> Loading lua scripts
+2020-10-03 05:06:15 -  >> Loading monsters
+2020-10-03 05:06:15 -  >> Loading lua monsters
+2020-10-03 05:06:15 -  >> Loading outfits
+2020-10-03 05:06:15 -  >> Loading prey data
+2020-10-03 05:06:16 -  >> Checking world type... PVP
+2020-10-03 05:06:16 -  >> Loading map
+2020-10-03 05:06:17 -  > Map size: 34143x33812.
+2020-10-03 05:06:23 -  > Map loading time: 7.401 seconds.
+2020-10-03 05:07:06 -  > Loaded house items in: 0.03 s
+2020-10-03 05:07:06 -  >> Initializing gamestate
+2020-10-03 05:07:09 -  >> Loaded 43 npcs and spawned 72496 monsters.
+2020-10-03 05:07:09 -  >> Loaded 27 towns with 1074 houses in total.
+2020-10-03 05:07:09 -  [Castle War]
+2020-10-03 05:07:09 -  [POWERGAMERS]
+2020-10-03 05:07:09 -  [SISTEMA DE LOTERIA] OPERANTE
+2020-10-03 05:07:09 -  Advanced NPC spawn system | All NPCs will be loaded trough lib.
+2020-10-03 05:07:09 -  [REGEN BOOST] CARREGADO
+2020-10-03 05:07:09 -  [SPOOF COUNTER]
+2020-10-03 05:07:09 -  [STAMINA]
+2020-10-03 05:07:09 -  >> Loaded all modules, server starting up...
+2020-10-03 05:07:09 -  > Warning: OTG-Premium-Version has been executed as root user, please consider running it as a normal user.
+2020-10-03 05:07:09 -  >> Honera Global Server Online!
+2020-10-03 05:07:09 -  
+2020-10-03 05:07:11 -  SABADOU!! NPC HONERA CRIADO
+2020-10-03 05:07:11 -  Nobre Cavalheiro has logged in.
+2020-10-03 05:07:11 -  Top Spin has logged in.
+2020-10-03 06:42:17 -  Nobre Cavalheiro has logged out.
+2020-10-03 06:42:18 -  Nobre Cavalheiro has logged in.
+2020-10-03 07:11:46 -  Nosferatu has logged in.
+2020-10-03 07:20:03 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-03 07:21:05 -  Nobre Cavalheiro has logged out.
+2020-10-03 07:21:09 -  Nobre Cavalheiro has logged in.
+2020-10-03 07:34:09 -  > Broadcasted message: "Feverish Citizens are invading the streets of Venore!".
+2020-10-03 07:37:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-03 07:41:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 07:53:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-03 08:06:15 -  
+2020-10-03 08:06:15 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-03 08:06:15 -  data/globalevents/scripts/bosses/Abyssador.lua:onThink
+2020-10-03 08:06:15 -  data/lib/rewardboss.lua:8: Rewards can only be enabled to rewards bosses.
+2020-10-03 08:06:15 -  stack traceback:
+2020-10-03 08:06:15 -  	[C]: at 0x00602980
+2020-10-03 08:06:15 -  	[C]: in function 'error'
+2020-10-03 08:06:15 -  	data/lib/rewardboss.lua:8: in function 'setReward'
+2020-10-03 08:06:15 -  	data/globalevents/scripts/bosses/Abyssador.lua:28: in function <data/globalevents/scripts/bosses/Abyssador.lua:21>
+2020-10-03 08:06:15 -  [Error - GlobalEvents::think] Failed to execute event: Abyssador
+2020-10-03 08:06:15 -  
+2020-10-03 08:06:15 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-03 08:06:15 -  data/globalevents/scripts/bosses/Deathstrike.lua:onThink
+2020-10-03 08:06:15 -  data/lib/rewardboss.lua:8: Rewards can only be enabled to rewards bosses.
+2020-10-03 08:06:15 -  stack traceback:
+2020-10-03 08:06:15 -  	[C]: at 0x00602980
+2020-10-03 08:06:15 -  	[C]: in function 'error'
+2020-10-03 08:06:15 -  	data/lib/rewardboss.lua:8: in function 'setReward'
+2020-10-03 08:06:15 -  	data/globalevents/scripts/bosses/Deathstrike.lua:28: in function <data/globalevents/scripts/bosses/Deathstrike.lua:21>
+2020-10-03 08:06:15 -  [Error - GlobalEvents::think] Failed to execute event: Deathstrike
+2020-10-03 08:06:15 -  
+2020-10-03 08:06:15 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-03 08:06:15 -  data/globalevents/scripts/bosses/Gnomevil.lua:onThink
+2020-10-03 08:06:15 -  data/lib/rewardboss.lua:8: Rewards can only be enabled to rewards bosses.
+2020-10-03 08:06:15 -  stack traceback:
+2020-10-03 08:06:15 -  	[C]: at 0x00602980
+2020-10-03 08:06:15 -  	[C]: in function 'error'
+2020-10-03 08:06:15 -  	data/lib/rewardboss.lua:8: in function 'setReward'
+2020-10-03 08:06:15 -  	data/globalevents/scripts/bosses/Gnomevil.lua:28: in function <data/globalevents/scripts/bosses/Gnomevil.lua:21>
+2020-10-03 08:06:15 -  [Error - GlobalEvents::think] Failed to execute event: Gnomevil
+2020-10-03 08:07:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-03 08:13:07 -  Shaka has logged in.
+2020-10-03 08:14:22 -  Shaka Knight has logged in.
+2020-10-03 08:14:53 -  Shaka Elder has logged in.
+2020-10-03 08:16:27 -  ip inválido
+2020-10-03 08:16:27 -  ip inválido
+2020-10-03 08:16:27 -  ip inválido
+2020-10-03 08:16:27 -  Shaka Elder has logged out.
+2020-10-03 08:17:52 -  ip inválido
+2020-10-03 08:17:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 08:31:48 -  ip inválido
+2020-10-03 08:31:48 -  ip inválido
+2020-10-03 08:31:48 -  ip inválido
+2020-10-03 08:31:48 -  ip inválido
+2020-10-03 08:31:48 -  ip inválido
+2020-10-03 08:31:48 -  ip inválido
+2020-10-03 08:31:48 -  ip inválido
+2020-10-03 08:31:48 -  ip inválido
+2020-10-03 08:31:48 -  ip inválido
+2020-10-03 08:31:48 -  ip inválido
+2020-10-03 08:31:48 -  ip inválido
+2020-10-03 08:31:48 -  ip inválido
+2020-10-03 08:31:48 -  ip inválido
+2020-10-03 08:31:48 -  ip inválido
+2020-10-03 08:31:48 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-03 08:36:33 -  ip inválido
+2020-10-03 08:36:33 -  ip inválido
+2020-10-03 08:36:33 -  ip inválido
+2020-10-03 08:36:33 -  ip inválido
+2020-10-03 08:36:33 -  ip inválido
+2020-10-03 08:36:33 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 08:45:43 -  ip inválido
+2020-10-03 08:45:43 -  ip inválido
+2020-10-03 08:45:43 -  ip inválido
+2020-10-03 08:45:43 -  ip inválido
+2020-10-03 08:45:43 -  ip inválido
+2020-10-03 08:45:43 -  ip inválido
+2020-10-03 08:45:43 -  ip inválido
+2020-10-03 08:45:43 -  ip inválido
+2020-10-03 08:45:43 -  ip inválido
+2020-10-03 08:45:43 -  Nobre Cavalheiro has logged out.
+2020-10-03 08:59:40 -  ip inválido
+2020-10-03 08:59:40 -  ip inválido
+2020-10-03 08:59:40 -  ip inválido
+2020-10-03 08:59:40 -  ip inválido
+2020-10-03 08:59:40 -  ip inválido
+2020-10-03 08:59:40 -  ip inválido
+2020-10-03 08:59:40 -  ip inválido
+2020-10-03 08:59:40 -  ip inválido
+2020-10-03 08:59:40 -  ip inválido
+2020-10-03 08:59:40 -  ip inválido
+2020-10-03 08:59:40 -  ip inválido
+2020-10-03 08:59:40 -  ip inválido
+2020-10-03 08:59:40 -  ip inválido
+2020-10-03 08:59:40 -  ip inválido
+2020-10-03 08:59:40 -  Nobre Cavalheiro has logged in.
+2020-10-03 09:20:08 -  ip inválido
+2020-10-03 09:20:08 -  ip inválido
+2020-10-03 09:20:08 -  ip inválido
+2020-10-03 09:20:08 -  ip inválido
+2020-10-03 09:20:08 -  ip inválido
+2020-10-03 09:20:08 -  ip inválido
+2020-10-03 09:20:08 -  ip inválido
+2020-10-03 09:20:08 -  ip inválido
+2020-10-03 09:20:08 -  ip inválido
+2020-10-03 09:20:08 -  ip inválido
+2020-10-03 09:20:08 -  ip inválido
+2020-10-03 09:20:08 -  ip inválido
+2020-10-03 09:20:08 -  ip inválido
+2020-10-03 09:20:08 -  ip inválido
+2020-10-03 09:20:08 -  ip inválido
+2020-10-03 09:20:08 -  ip inválido
+2020-10-03 09:20:08 -  ip inválido
+2020-10-03 09:20:08 -  ip inválido
+2020-10-03 09:20:08 -  ip inválido
+2020-10-03 09:20:08 -  ip inválido
+2020-10-03 09:20:08 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-03 09:26:40 -  ip inválido
+2020-10-03 09:26:40 -  ip inválido
+2020-10-03 09:26:40 -  ip inválido
+2020-10-03 09:26:40 -  ip inválido
+2020-10-03 09:26:40 -  ip inválido
+2020-10-03 09:26:40 -  ip inválido
+2020-10-03 09:26:40 -  ip inválido
+2020-10-03 09:26:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 09:30:03 -  ip inválido
+2020-10-03 09:30:03 -  ip inválido
+2020-10-03 09:30:03 -  ip inválido
+2020-10-03 09:30:03 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 09:33:53 -  ip inválido
+2020-10-03 09:33:53 -  ip inválido
+2020-10-03 09:33:53 -  ip inválido
+2020-10-03 09:33:53 -  ip inválido
+2020-10-03 09:33:53 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 09:34:00 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 09:34:24 -  ip inválido
+2020-10-03 09:34:24 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 09:36:48 -  ip inválido
+2020-10-03 09:36:48 -  ip inválido
+2020-10-03 09:36:48 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 09:37:03 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 09:37:52 -  ip inválido
+2020-10-03 09:37:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 09:37:55 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 09:39:28 -  ip inválido
+2020-10-03 09:39:28 -  ip inválido
+2020-10-03 09:39:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 09:40:30 -  ip inválido
+2020-10-03 09:40:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 09:43:13 -  ip inválido
+2020-10-03 09:43:13 -  ip inválido
+2020-10-03 09:43:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 09:43:39 -  ip inválido
+2020-10-03 09:43:39 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 09:44:31 -  ip inválido
+2020-10-03 09:44:31 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 09:47:50 -  ip inválido
+2020-10-03 09:47:50 -  ip inválido
+2020-10-03 09:47:50 -  ip inválido
+2020-10-03 09:47:50 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 09:48:58 -  ip inválido
+2020-10-03 09:48:58 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-03 09:50:22 -  ip inválido
+2020-10-03 09:50:22 -  ip inválido
+2020-10-03 09:50:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 09:50:59 -  Top Spin has logged out.
+2020-10-03 09:51:00 -  Top Spin has logged in.
+2020-10-03 09:51:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 09:51:44 -  ip inválido
+2020-10-03 09:51:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 09:52:10 -  
+2020-10-03 09:52:10 -  Lua Script Error: [Modules Interface] 
+2020-10-03 09:52:10 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-03 09:52:10 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-03 09:52:10 -  stack traceback:
+2020-10-03 09:52:10 -  	[C]: in function 'getPreyMonsterList'
+2020-10-03 09:52:10 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-03 09:52:10 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-03 09:55:20 -  ip inválido
+2020-10-03 09:55:20 -  ip inválido
+2020-10-03 09:55:20 -  ip inválido
+2020-10-03 09:55:20 -  ip inválido
+2020-10-03 09:55:20 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 09:55:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 09:56:26 -  ip inválido
+2020-10-03 09:56:26 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 09:58:40 -  ip inválido
+2020-10-03 09:58:40 -  ip inválido
+2020-10-03 09:58:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 09:59:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-03 09:59:08 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-03 10:06:03 -  ip inválido
+2020-10-03 10:06:03 -  ip inválido
+2020-10-03 10:06:03 -  ip inválido
+2020-10-03 10:06:03 -  ip inválido
+2020-10-03 10:06:03 -  ip inválido
+2020-10-03 10:06:03 -  ip inválido
+2020-10-03 10:06:03 -  ip inválido
+2020-10-03 10:06:03 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 10:06:45 -  ip inválido
+2020-10-03 10:06:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 10:07:32 -  ip inválido
+2020-10-03 10:07:32 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 10:09:57 -  ip inválido
+2020-10-03 10:09:57 -  ip inválido
+2020-10-03 10:09:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 10:10:45 -  ip inválido
+2020-10-03 10:10:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 10:10:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 10:11:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 10:16:37 -  ip inválido
+2020-10-03 10:16:37 -  ip inválido
+2020-10-03 10:16:37 -  ip inválido
+2020-10-03 10:16:37 -  ip inválido
+2020-10-03 10:16:37 -  ip inválido
+2020-10-03 10:16:37 -  ip inválido
+2020-10-03 10:16:37 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 10:17:51 -  ip inválido
+2020-10-03 10:17:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 10:23:39 -  ip inválido
+2020-10-03 10:23:39 -  ip inválido
+2020-10-03 10:23:39 -  ip inválido
+2020-10-03 10:23:39 -  ip inválido
+2020-10-03 10:23:39 -  ip inválido
+2020-10-03 10:23:39 -  ip inválido
+2020-10-03 10:23:39 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 10:26:32 -  ip inválido
+2020-10-03 10:26:32 -  ip inválido
+2020-10-03 10:26:32 -  ip inválido
+2020-10-03 10:26:32 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 10:28:52 -  ip inválido
+2020-10-03 10:28:52 -  ip inválido
+2020-10-03 10:28:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-03 10:30:37 -  ip inválido
+2020-10-03 10:30:37 -  ip inválido
+2020-10-03 10:30:37 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 10:33:10 -  ip inválido
+2020-10-03 10:33:10 -  ip inválido
+2020-10-03 10:33:10 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 10:33:55 -  ip inválido
+2020-10-03 10:33:55 -  Nobre Cavalheiro has logged out.
+2020-10-03 10:33:56 -  Nobre Cavalheiro has logged in.
+2020-10-03 10:35:56 -  ip inválido
+2020-10-03 10:35:56 -  ip inválido
+2020-10-03 10:35:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 10:56:30 -  ip inválido
+2020-10-03 10:56:30 -  ip inválido
+2020-10-03 10:56:30 -  ip inválido
+2020-10-03 10:56:30 -  ip inválido
+2020-10-03 10:56:30 -  ip inválido
+2020-10-03 10:56:30 -  ip inválido
+2020-10-03 10:56:30 -  ip inválido
+2020-10-03 10:56:30 -  ip inválido
+2020-10-03 10:56:30 -  ip inválido
+2020-10-03 10:56:30 -  ip inválido
+2020-10-03 10:56:30 -  ip inválido
+2020-10-03 10:56:30 -  ip inválido
+2020-10-03 10:56:30 -  ip inválido
+2020-10-03 10:56:30 -  ip inválido
+2020-10-03 10:56:30 -  ip inválido
+2020-10-03 10:56:30 -  ip inválido
+2020-10-03 10:56:30 -  ip inválido
+2020-10-03 10:56:30 -  ip inválido
+2020-10-03 10:56:30 -  ip inválido
+2020-10-03 10:56:30 -  ip inválido
+2020-10-03 10:56:30 -  ip inválido
+2020-10-03 10:56:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:00:00 -  ip inválido
+2020-10-03 11:00:00 -  ip inválido
+2020-10-03 11:00:00 -  ip inválido
+2020-10-03 11:00:00 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:00:53 -  ip inválido
+2020-10-03 11:00:53 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:01:54 -  ip inválido
+2020-10-03 11:01:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:01:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:01:55 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:02:15 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:03:35 -  ip inválido
+2020-10-03 11:03:35 -  ip inválido
+2020-10-03 11:03:35 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:05:02 -  ip inválido
+2020-10-03 11:05:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:06:14 -  ip inválido
+2020-10-03 11:06:14 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:06:15 -  ip inválido
+2020-10-03 11:06:15 -  
+2020-10-03 11:06:15 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-03 11:06:15 -  data/globalevents/scripts/Ghulosh.lua:onThink
+2020-10-03 11:06:15 -  data/globalevents/scripts/Ghulosh.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-03 11:06:15 -  stack traceback:
+2020-10-03 11:06:15 -  	[C]: in function '__index'
+2020-10-03 11:06:15 -  	data/globalevents/scripts/Ghulosh.lua:34: in function <data/globalevents/scripts/Ghulosh.lua:21>
+2020-10-03 11:06:15 -  [Error - GlobalEvents::think] Failed to execute event: Ghulosh
+2020-10-03 11:06:15 -  
+2020-10-03 11:06:15 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-03 11:06:15 -  data/globalevents/scripts/Gorzindel.lua:onThink
+2020-10-03 11:06:15 -  data/globalevents/scripts/Gorzindel.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-03 11:06:15 -  stack traceback:
+2020-10-03 11:06:15 -  	[C]: in function '__index'
+2020-10-03 11:06:15 -  	data/globalevents/scripts/Gorzindel.lua:34: in function <data/globalevents/scripts/Gorzindel.lua:21>
+2020-10-03 11:06:15 -  [Error - GlobalEvents::think] Failed to execute event: Gorzindel
+2020-10-03 11:06:15 -  
+2020-10-03 11:06:15 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-03 11:06:15 -  data/globalevents/scripts/Lokathmor.lua:onThink
+2020-10-03 11:06:15 -  data/globalevents/scripts/Lokathmor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-03 11:06:15 -  stack traceback:
+2020-10-03 11:06:15 -  	[C]: in function '__index'
+2020-10-03 11:06:15 -  	data/globalevents/scripts/Lokathmor.lua:34: in function <data/globalevents/scripts/Lokathmor.lua:21>
+2020-10-03 11:06:15 -  [Error - GlobalEvents::think] Failed to execute event: Lokathmor
+2020-10-03 11:06:15 -  
+2020-10-03 11:06:15 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-03 11:06:15 -  data/globalevents/scripts/Mazzinor.lua:onThink
+2020-10-03 11:06:15 -  data/globalevents/scripts/Mazzinor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-03 11:06:15 -  stack traceback:
+2020-10-03 11:06:15 -  	[C]: in function '__index'
+2020-10-03 11:06:15 -  	data/globalevents/scripts/Mazzinor.lua:34: in function <data/globalevents/scripts/Mazzinor.lua:21>
+2020-10-03 11:06:15 -  [Error - GlobalEvents::think] Failed to execute event: Mazzinor
+2020-10-03 11:06:15 -  [Warning - Monsters::loadMonster] Non-unique loot item "Giant Sapphire". 
+2020-10-03 11:06:15 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-03 11:06:15 -  [Warning - Monsters::loadMonster] Non-unique loot item "Collar of Blue Plasma". 
+2020-10-03 11:06:15 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-03 11:06:15 -  [Warning - Monsters::loadMonster] Non-unique loot item "Giant Shimmering Pearl". 
+2020-10-03 11:06:15 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-03 11:06:15 -  [Warning - Monsters::loadMonster] Unknown loot item "The Calamity". 
+2020-10-03 11:06:15 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-03 11:06:15 -  
+2020-10-03 11:06:15 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-03 11:06:15 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:onThink
+2020-10-03 11:06:15 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-03 11:06:15 -  stack traceback:
+2020-10-03 11:06:15 -  	[C]: in function '__index'
+2020-10-03 11:06:15 -  	data/globalevents/scripts/The Scourge Of Oblivion.lua:34: in function <data/globalevents/scripts/The Scourge Of Oblivion.lua:21>
+2020-10-03 11:06:15 -  [Error - GlobalEvents::think] Failed to execute event: The Scourge Of Oblivion
+2020-10-03 11:06:59 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:07:09 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:07:12 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:07:48 -  ip inválido
+2020-10-03 11:07:48 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:08:16 -  ip inválido
+2020-10-03 11:08:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:10:18 -  ip inválido
+2020-10-03 11:10:18 -  ip inválido
+2020-10-03 11:10:18 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:12:57 -  ip inválido
+2020-10-03 11:12:57 -  ip inválido
+2020-10-03 11:12:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:13:43 -  ip inválido
+2020-10-03 11:13:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:14:31 -  ip inválido
+2020-10-03 11:14:31 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:15:17 -  ip inválido
+2020-10-03 11:15:17 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:18:34 -  ip inválido
+2020-10-03 11:18:34 -  ip inválido
+2020-10-03 11:18:34 -  ip inválido
+2020-10-03 11:18:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:21:40 -  ip inválido
+2020-10-03 11:21:40 -  ip inválido
+2020-10-03 11:21:40 -  ip inválido
+2020-10-03 11:21:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:22:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:23:51 -  ip inválido
+2020-10-03 11:23:51 -  ip inválido
+2020-10-03 11:23:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:26:09 -  ip inválido
+2020-10-03 11:26:09 -  ip inválido
+2020-10-03 11:26:09 -  > Broadcasted message: "Beware! Mawhawk!".
+2020-10-03 11:26:47 -  ip inválido
+2020-10-03 11:26:47 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:27:16 -  ip inválido
+2020-10-03 11:27:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:28:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:29:12 -  ip inválido
+2020-10-03 11:29:12 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:31:46 -  ip inválido
+2020-10-03 11:31:46 -  ip inválido
+2020-10-03 11:31:46 -  ip inválido
+2020-10-03 11:31:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:33:12 -  ip inválido
+2020-10-03 11:33:12 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:33:13 -  Lady Tech has logged in.
+2020-10-03 11:33:19 -  ip inválido
+2020-10-03 11:33:19 -  Lady Tech has logged out.
+2020-10-03 11:33:21 -  Lord Tech has logged in.
+2020-10-03 11:33:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:35:14 -  ip inválido
+2020-10-03 11:35:14 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:35:17 -  ip inválido
+2020-10-03 11:35:17 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:37:05 -  ip inválido
+2020-10-03 11:37:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:38:30 -  ip inválido
+2020-10-03 11:38:30 -  ip inválido
+2020-10-03 11:38:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:39:12 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:40:15 -  ip inválido
+2020-10-03 11:40:15 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:41:31 -  ip inválido
+2020-10-03 11:41:31 -  ip inválido
+2020-10-03 11:41:31 -  ip inválido
+2020-10-03 11:41:31 -  ip inválido
+2020-10-03 11:41:31 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:42:04 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:42:23 -  ip inválido
+2020-10-03 11:42:23 -  ip inválido
+2020-10-03 11:42:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:42:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:45:57 -  ip inválido
+2020-10-03 11:45:57 -  ip inválido
+2020-10-03 11:45:57 -  ip inválido
+2020-10-03 11:45:57 -  ip inválido
+2020-10-03 11:45:57 -  ip inválido
+2020-10-03 11:45:57 -  ip inválido
+2020-10-03 11:45:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 11:49:29 -  ip inválido
+2020-10-03 11:49:29 -  ip inválido
+2020-10-03 11:49:29 -  ip inválido
+2020-10-03 11:49:29 -  ip inválido
+2020-10-03 11:49:29 -  ip inválido
+2020-10-03 11:49:29 -  ip inválido
+2020-10-03 11:49:29 -  ip inválido
+2020-10-03 11:49:29 -  ip inválido
+2020-10-03 11:49:29 -  Nobre Cavalheiro has logged out.
+2020-10-03 11:49:30 -  Nobre Cavalheiro has logged in.
+2020-10-03 12:00:33 -  ip inválido
+2020-10-03 12:00:33 -  ip inválido
+2020-10-03 12:00:33 -  ip inválido
+2020-10-03 12:00:33 -  ip inválido
+2020-10-03 12:00:33 -  ip inválido
+2020-10-03 12:00:33 -  ip inválido
+2020-10-03 12:00:33 -  ip inválido
+2020-10-03 12:00:33 -  ip inválido
+2020-10-03 12:00:33 -  ip inválido
+2020-10-03 12:00:33 -  ip inválido
+2020-10-03 12:00:33 -  ip inválido
+2020-10-03 12:00:33 -  ip inválido
+2020-10-03 12:00:33 -  ip inválido
+2020-10-03 12:00:33 -  ip inválido
+2020-10-03 12:00:33 -  ip inválido
+2020-10-03 12:00:33 -  ip inválido
+2020-10-03 12:00:33 -  ip inválido
+2020-10-03 12:00:33 -  ip inválido
+2020-10-03 12:00:33 -  ip inválido
+2020-10-03 12:00:33 -  ip inválido
+2020-10-03 12:00:33 -  ip inválido
+2020-10-03 12:00:33 -  ip inválido
+2020-10-03 12:00:33 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-03 12:00:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-03 12:04:17 -  ip inválido
+2020-10-03 12:04:17 -  ip inválido
+2020-10-03 12:04:17 -  ip inválido
+2020-10-03 12:04:17 -  ip inválido
+2020-10-03 12:04:17 -  ip inválido
+2020-10-03 12:04:17 -  ip inválido
+2020-10-03 12:04:17 -  ip inválido
+2020-10-03 12:04:17 -  ip inválido
+2020-10-03 12:04:17 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  ip inválido
+2020-10-03 12:21:09 -  > Broadcasted message: "Forrest animals spread out close to Ab'Dendriel!".
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  ip inválido
+2020-10-03 12:40:49 -  Dragon Lord has logged in.
+2020-10-03 12:44:31 -  ip inválido
+2020-10-03 12:44:31 -  ip inválido
+2020-10-03 12:44:31 -  ip inválido
+2020-10-03 12:44:31 -  ip inválido
+2020-10-03 12:44:31 -  ip inválido
+2020-10-03 12:44:31 -  ip inválido
+2020-10-03 12:44:31 -  ip inválido
+2020-10-03 12:44:31 -  ip inválido
+2020-10-03 12:44:31 -  Dragon Lord has logged out.
+2020-10-03 12:44:31 -  
+2020-10-03 12:44:31 -  Lua Script Error: [MoveEvents Interface] 
+2020-10-03 12:44:31 -  data/movements/scripts/vocationtrial.lua:onStepIn
+2020-10-03 12:44:31 -  data/movements/scripts/vocationtrial.lua:249: attempt to compare number with boolean
+2020-10-03 12:44:31 -  stack traceback:
+2020-10-03 12:44:31 -  	[C]: in function '__lt'
+2020-10-03 12:44:31 -  	data/movements/scripts/vocationtrial.lua:249: in function 'changeVocation'
+2020-10-03 12:44:31 -  	data/movements/scripts/vocationtrial.lua:280: in function <data/movements/scripts/vocationtrial.lua:269>
+2020-10-03 12:44:33 -  Dragon Lord has logged in.
+2020-10-03 12:45:28 -  ip inválido
+2020-10-03 12:45:28 -  ip inválido
+2020-10-03 12:45:28 -  Dev Marson has logged in.
+2020-10-03 12:50:48 -  ip inválido
+2020-10-03 12:50:48 -  ip inválido
+2020-10-03 12:50:48 -  ip inválido
+2020-10-03 12:50:48 -  ip inválido
+2020-10-03 12:50:48 -  ip inválido
+2020-10-03 12:50:48 -  ip inválido
+2020-10-03 12:50:48 -  ip inválido
+2020-10-03 12:50:48 -  ip inválido
+2020-10-03 12:50:48 -  ip inválido
+2020-10-03 12:50:48 -  ip inválido
+2020-10-03 12:50:48 -  [Warning - Monsters::loadMonster] Non-unique loot item "Giant Sapphire". 
+2020-10-03 12:50:48 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-03 12:50:48 -  [Warning - Monsters::loadMonster] Non-unique loot item "Collar of Blue Plasma". 
+2020-10-03 12:50:48 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-03 12:50:48 -  [Warning - Monsters::loadMonster] Non-unique loot item "Giant Shimmering Pearl". 
+2020-10-03 12:50:48 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-03 12:50:48 -  [Warning - Monsters::loadMonster] Unknown loot item "The Calamity". 
+2020-10-03 12:50:48 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-03 12:52:03 -  ip inválido
+2020-10-03 12:52:03 -  ip inválido
+2020-10-03 12:52:03 -  [Warning - Monsters::loadMonster] Non-unique loot item "Giant Sapphire". 
+2020-10-03 12:52:03 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-03 12:52:03 -  [Warning - Monsters::loadMonster] Non-unique loot item "Collar of Blue Plasma". 
+2020-10-03 12:52:03 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-03 12:52:03 -  [Warning - Monsters::loadMonster] Non-unique loot item "Giant Shimmering Pearl". 
+2020-10-03 12:52:03 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-03 12:52:03 -  [Warning - Monsters::loadMonster] Unknown loot item "The Calamity". 
+2020-10-03 12:52:03 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-03 12:52:30 -  ip inválido
+2020-10-03 12:52:30 -  ip inválido
+2020-10-03 12:52:30 -  [Warning - Monsters::loadMonster] Non-unique loot item "Giant Sapphire". 
+2020-10-03 12:52:30 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-03 12:52:30 -  [Warning - Monsters::loadMonster] Non-unique loot item "Collar of Blue Plasma". 
+2020-10-03 12:52:30 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-03 12:52:30 -  [Warning - Monsters::loadMonster] Non-unique loot item "Giant Shimmering Pearl". 
+2020-10-03 12:52:30 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-03 12:52:30 -  [Warning - Monsters::loadMonster] Unknown loot item "The Calamity". 
+2020-10-03 12:52:30 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-03 12:53:06 -  Demonzin has logged in.
+2020-10-03 12:58:51 -  ip inválido
+2020-10-03 12:58:51 -  ip inválido
+2020-10-03 12:58:51 -  ip inválido
+2020-10-03 12:58:51 -  ip inválido
+2020-10-03 12:58:51 -  ip inválido
+2020-10-03 12:58:51 -  ip inválido
+2020-10-03 12:58:51 -  ip inválido
+2020-10-03 12:58:51 -  ip inválido
+2020-10-03 12:58:51 -  ip inválido
+2020-10-03 12:58:51 -  ip inválido
+2020-10-03 12:58:51 -  ip inválido
+2020-10-03 12:58:51 -  ip inválido
+2020-10-03 12:58:51 -  ip inválido
+2020-10-03 12:58:51 -  Dragon Lord has logged out.
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  ip inválido
+2020-10-03 13:39:31 -  Yostknot has logged in.
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  ip inválido
+2020-10-03 13:47:42 -  Yostknot has logged out.
+2020-10-03 13:48:42 -  ip inválido
+2020-10-03 13:48:42 -  ip inválido
+2020-10-03 13:48:42 -  ip inválido
+2020-10-03 13:48:42 -  ip inválido
+2020-10-03 13:48:42 -  Yostknot has logged in.
+2020-10-03 13:52:44 -  ip inválido
+2020-10-03 13:52:44 -  ip inválido
+2020-10-03 13:52:44 -  ip inválido
+2020-10-03 13:52:44 -  ip inválido
+2020-10-03 13:52:44 -  ip inválido
+2020-10-03 13:52:44 -  ip inválido
+2020-10-03 13:52:44 -  ip inválido
+2020-10-03 13:52:44 -  ip inválido
+2020-10-03 13:52:44 -  ip inválido
+2020-10-03 13:52:44 -  ip inválido
+2020-10-03 13:52:44 -  ip inválido
+2020-10-03 13:52:44 -  ip inválido
+2020-10-03 13:52:44 -  ip inválido
+2020-10-03 13:52:44 -  ip inválido
+2020-10-03 13:52:44 -  ip inválido
+2020-10-03 13:52:44 -  ip inválido
+2020-10-03 13:52:44 -  Yostknot has logged out.
+2020-10-03 13:52:47 -  Yostknot has logged in.
+2020-10-03 13:53:47 -  ip inválido
+2020-10-03 13:53:47 -  ip inválido
+2020-10-03 13:53:47 -  ip inválido
+2020-10-03 13:53:47 -  ip inválido
+2020-10-03 13:53:47 -  ip inválido
+2020-10-03 13:53:47 -  Yostknot has logged out.
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:12:15 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  ip inválido
+2020-10-03 15:50:09 -  > Broadcasted message: "Something bad is happening deep, deep down under Banuta.".
+2020-10-03 15:50:28 -  ip inválido
+2020-10-03 15:50:28 -  ip inválido
+2020-10-03 15:50:28 -  ip inválido
+2020-10-03 15:50:28 -  ip inválido
+2020-10-03 15:50:28 -  > Broadcasted message: "Something is sizzling deep under many sheets of soil in Banuta.".
+2020-10-03 15:52:09 -  ip inválido
+2020-10-03 15:52:09 -  ip inválido
+2020-10-03 15:52:09 -  ip inválido
+2020-10-03 15:52:09 -  ip inválido
+2020-10-03 15:52:09 -  > Broadcasted message: "Hordes of slippery spawns slither in Deeper Banuta!".
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  ip inválido
+2020-10-03 16:20:45 -  Top Spin has logged out.
+2020-10-03 16:20:47 -  Top Spin has logged in.
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  Dev Marson moveu corpo dentro de corpo
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  ip inválido
+2020-10-03 16:48:22 -  [Warning - Events::load] Can not load script: player.lua
+2020-10-03 16:48:22 -  data/events/scripts/player.lua:282: function arguments expected near ':'
+2020-10-03 16:49:08 -  [Warning - Events::load] Can not load script: player.lua
+2020-10-03 16:49:08 -  data/events/scripts/player.lua:282: function arguments expected near ':'
+2020-10-03 16:50:21 -  ip inválido
+2020-10-03 16:50:21 -  ip inválido
+2020-10-03 16:50:21 -  ip inválido
+2020-10-03 16:50:21 -  ip inválido
+2020-10-03 16:50:21 -  ip inválido
+2020-10-03 16:50:21 -  ip inválido
+2020-10-03 16:50:21 -  [Warning - Events::load] Can not load script: player.lua
+2020-10-03 16:50:21 -  data/events/scripts/player.lua:283: function arguments expected near ':'
+2020-10-03 16:50:47 -  [Warning - Events::load] Can not load script: player.lua
+2020-10-03 16:50:47 -  data/events/scripts/player.lua:286: function arguments expected near ':'
+2020-10-03 16:56:20 -  ip inválido
+2020-10-03 16:56:20 -  ip inválido
+2020-10-03 16:56:20 -  ip inválido
+2020-10-03 16:56:20 -  ip inválido
+2020-10-03 16:56:20 -  ip inválido
+2020-10-03 16:56:20 -  ip inválido
+2020-10-03 16:56:20 -  ip inválido
+2020-10-03 16:56:20 -  ip inválido
+2020-10-03 16:56:20 -  ip inválido
+2020-10-03 16:56:20 -  ip inválido
+2020-10-03 16:56:20 -  ip inválido
+2020-10-03 16:56:20 -  ip inválido
+2020-10-03 16:56:20 -  ip inválido
+2020-10-03 16:56:20 -  ip inválido
+2020-10-03 16:56:20 -  ip inválido
+2020-10-03 16:56:20 -  ip inválido
+2020-10-03 16:56:20 -  ip inválido
+2020-10-03 16:56:20 -  ip inválido
+2020-10-03 16:56:20 -  
+2020-10-03 16:56:20 -  Lua Script Error: [Event Interface] 
+2020-10-03 16:56:20 -  data/events/scripts/player.lua:Player@onMoveItem
+2020-10-03 16:56:20 -  data/events/scripts/player.lua:289: attempt to concatenate local 'debugF' (a nil value)
+2020-10-03 16:56:20 -  stack traceback:
+2020-10-03 16:56:20 -  	[C]: in function '__concat'
+2020-10-03 16:56:20 -  	data/events/scripts/player.lua:289: in function <data/events/scripts/player.lua:282>
+2020-10-03 16:56:33 -  
+2020-10-03 16:56:33 -  Lua Script Error: [Event Interface] 
+2020-10-03 16:56:33 -  data/events/scripts/player.lua:Player@onMoveItem
+2020-10-03 16:56:33 -  data/events/scripts/player.lua:289: attempt to concatenate local 'debugF' (a nil value)
+2020-10-03 16:56:33 -  stack traceback:
+2020-10-03 16:56:33 -  	[C]: in function '__concat'
+2020-10-03 16:56:33 -  	data/events/scripts/player.lua:289: in function <data/events/scripts/player.lua:282>
+2020-10-03 16:56:37 -  
+2020-10-03 16:56:37 -  Lua Script Error: [Event Interface] 
+2020-10-03 16:56:37 -  data/events/scripts/player.lua:Player@onMoveItem
+2020-10-03 16:56:37 -  data/events/scripts/player.lua:289: attempt to concatenate local 'debugF' (a nil value)
+2020-10-03 16:56:37 -  stack traceback:
+2020-10-03 16:56:37 -  	[C]: in function '__concat'
+2020-10-03 16:56:37 -  	data/events/scripts/player.lua:289: in function <data/events/scripts/player.lua:282>
+2020-10-03 17:03:58 -  ip inválido
+2020-10-03 17:03:58 -  ip inválido
+2020-10-03 17:03:58 -  ip inválido
+2020-10-03 17:03:58 -  ip inválido
+2020-10-03 17:03:58 -  ip inválido
+2020-10-03 17:03:58 -  ip inválido
+2020-10-03 17:03:58 -  ip inválido
+2020-10-03 17:03:58 -  ip inválido
+2020-10-03 17:03:58 -  ip inválido
+2020-10-03 17:03:58 -  ip inválido
+2020-10-03 17:03:58 -  ip inválido
+2020-10-03 17:03:58 -  ip inválido
+2020-10-03 17:03:58 -  ip inválido
+2020-10-03 17:03:58 -  ip inválido
+2020-10-03 17:03:58 -  ip inválido
+2020-10-03 17:03:58 -  ip inválido
+2020-10-03 17:03:58 -  ip inválido
+2020-10-03 17:03:58 -  ip inválido
+2020-10-03 17:03:58 -  ip inválido
+2020-10-03 17:03:58 -  ip inválido
+2020-10-03 17:03:58 -  ip inválido
+2020-10-03 17:03:58 -  Dev Marson has logged out.
+2020-10-03 17:04:00 -  Dev Marson has logged in.
+2020-10-03 17:06:15 -  ip inválido
+2020-10-03 17:06:15 -  ip inválido
+2020-10-03 17:06:15 -  ip inválido
+2020-10-03 17:06:15 -  ip inválido
+2020-10-03 17:06:15 -  ip inválido
+2020-10-03 17:06:15 -  ip inválido
+2020-10-03 17:06:15 -  ip inválido
+2020-10-03 17:06:15 -  ip inválido
+2020-10-03 17:06:15 -  ip inválido
+2020-10-03 17:06:15 -  
+2020-10-03 17:06:15 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-03 17:06:15 -  data/globalevents/scripts/Ghulosh.lua:onThink
+2020-10-03 17:06:15 -  data/globalevents/scripts/Ghulosh.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-03 17:06:15 -  stack traceback:
+2020-10-03 17:06:15 -  	[C]: in function '__index'
+2020-10-03 17:06:15 -  	data/globalevents/scripts/Ghulosh.lua:34: in function <data/globalevents/scripts/Ghulosh.lua:21>
+2020-10-03 17:06:15 -  [Error - GlobalEvents::think] Failed to execute event: Ghulosh
+2020-10-03 17:06:15 -  
+2020-10-03 17:06:15 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-03 17:06:15 -  data/globalevents/scripts/Gorzindel.lua:onThink
+2020-10-03 17:06:15 -  data/globalevents/scripts/Gorzindel.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-03 17:06:15 -  stack traceback:
+2020-10-03 17:06:15 -  	[C]: in function '__index'
+2020-10-03 17:06:15 -  	data/globalevents/scripts/Gorzindel.lua:34: in function <data/globalevents/scripts/Gorzindel.lua:21>
+2020-10-03 17:06:15 -  [Error - GlobalEvents::think] Failed to execute event: Gorzindel
+2020-10-03 17:06:15 -  
+2020-10-03 17:06:15 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-03 17:06:15 -  data/globalevents/scripts/Lokathmor.lua:onThink
+2020-10-03 17:06:15 -  data/globalevents/scripts/Lokathmor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-03 17:06:15 -  stack traceback:
+2020-10-03 17:06:15 -  	[C]: in function '__index'
+2020-10-03 17:06:15 -  	data/globalevents/scripts/Lokathmor.lua:34: in function <data/globalevents/scripts/Lokathmor.lua:21>
+2020-10-03 17:06:15 -  [Error - GlobalEvents::think] Failed to execute event: Lokathmor
+2020-10-03 17:06:15 -  
+2020-10-03 17:06:15 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-03 17:06:15 -  data/globalevents/scripts/Mazzinor.lua:onThink
+2020-10-03 17:06:15 -  data/globalevents/scripts/Mazzinor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-03 17:06:15 -  stack traceback:
+2020-10-03 17:06:15 -  	[C]: in function '__index'
+2020-10-03 17:06:15 -  	data/globalevents/scripts/Mazzinor.lua:34: in function <data/globalevents/scripts/Mazzinor.lua:21>
+2020-10-03 17:06:15 -  [Error - GlobalEvents::think] Failed to execute event: Mazzinor
+2020-10-03 17:06:15 -  
+2020-10-03 17:06:15 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-03 17:06:15 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:onThink
+2020-10-03 17:06:15 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-03 17:06:15 -  stack traceback:
+2020-10-03 17:06:15 -  	[C]: in function '__index'
+2020-10-03 17:06:15 -  	data/globalevents/scripts/The Scourge Of Oblivion.lua:34: in function <data/globalevents/scripts/The Scourge Of Oblivion.lua:21>
+2020-10-03 17:06:15 -  [Error - GlobalEvents::think] Failed to execute event: The Scourge Of Oblivion
+2020-10-03 17:13:32 -  ip inválido
+2020-10-03 17:13:32 -  ip inválido
+2020-10-03 17:13:32 -  ip inválido
+2020-10-03 17:13:32 -  ip inválido
+2020-10-03 17:13:32 -  ip inválido
+2020-10-03 17:13:32 -  ip inválido
+2020-10-03 17:13:32 -  ip inválido
+2020-10-03 17:13:32 -  ip inválido
+2020-10-03 17:13:32 -  ip inválido
+2020-10-03 17:13:32 -  ip inválido
+2020-10-03 17:13:32 -  ip inválido
+2020-10-03 17:13:32 -  ip inválido
+2020-10-03 17:13:32 -  ip inválido
+2020-10-03 17:13:32 -  ip inválido
+2020-10-03 17:13:32 -  ip inválido
+2020-10-03 17:13:32 -  ip inválido
+2020-10-03 17:13:32 -  ip inválido
+2020-10-03 17:13:32 -  ip inválido
+2020-10-03 17:13:32 -  ip inválido
+2020-10-03 17:13:32 -  ip inválido
+2020-10-03 17:13:32 -  ip inválido
+2020-10-03 17:13:32 -  Dev Marson has logged out.
+2020-10-03 17:13:33 -  Dev Marson has logged in.
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  Dev Marson moveu corpo dentro de corpo
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  Dev Marson moveu corpo dentro de corpo
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  Dev Marson moveu corpo dentro de corpo
+2020-10-03 17:53:09 -  Dev Marson moveu corpo dentro de corpo
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  [Castle War votacao aberta]
+2020-10-03 17:53:09 -  > Broadcasted message: "[Castle War]: Foi iniciada a votação para decidir o objetivo do castelo que abre em alguns minutos. Use !castle1 para votar no objetivo (Dominar o castelo por mais tempo). Use !castle2 para votar no objetivo (Ultimo que dominar o castelo). Caso não haja votações, o objetivo será aleatorio.".
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  > Broadcasted message: "[CastleWar] Atencao, O CASTELO esta aberto para batalha, junte-se com sua guild e  conquiste-o. O castelo encerra em 1 hora. Resultado das votacoes: First: 0 Second: 1 Resultado: (Ultimo a Dominar o castelo) foi escolhido".
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  castleWar Encerrado
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  Dev Marson moveu corpo dentro de corpo
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  ip inválido
+2020-10-03 17:53:09 -  [Warning - Events::load] Can not load script: player.lua
+2020-10-03 17:53:09 -  data/events/scripts/player.lua:1192: 'end' expected (to close 'function' at line 282) near '<eof>'
+2020-10-03 17:58:26 -  
+2020-10-03 17:58:26 -  Thread 2 "tfs" received signal SIGSEGV, Segmentation fault.
+2020-10-03 17:58:26 -  [Switching to Thread 0x7ffff3dbb700 (LWP 25233)]
+2020-10-03 17:58:26 -  0x00000000005e7cde in Item::getHoldingPlayer() const (this=this@entry=0x7fffed061ec0) at /home/otg/src/item.cpp:379
+2020-10-03 17:58:26 -  379			if (p->getCreature()) {
+2020-10-03 17:58:26 -  
+2020-10-03 17:58:26 -  Thread 4 (Thread 0x7ffff2ba7700 (LWP 25235)):
+2020-10-03 17:58:26 -  #0  pthread_cond_wait@@GLIBC_2.3.2 () at ../sysdeps/unix/sysv/linux/x86_64/pthread_cond_wait.S:185
+2020-10-03 17:58:26 -  No locals.
+2020-10-03 17:58:26 -  #1  0x00007ffff5e7491c in std::condition_variable::wait(std::unique_lock<std::mutex>&) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-03 17:58:26 -  No symbol table info available.
+2020-10-03 17:58:26 -  #2  0x00000000006228bf in DatabaseTasks::threadMain() (this=0x8e39a0 <g_databaseTasks>) at /home/otg/src/databasetasks.cpp:42
+2020-10-03 17:58:26 -          taskLockUnique = {_M_device = 0x8e3a08 <g_databaseTasks+104>, _M_owns = true}
+2020-10-03 17:58:26 -  #3  0x00007ffff5e79c80 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-03 17:58:26 -  No symbol table info available.
+2020-10-03 17:58:26 -  #4  0x00007ffff614a6ba in start_thread (arg=0x7ffff2ba7700) at pthread_create.c:333
+2020-10-03 17:58:26 -          __res = <optimized out>
+2020-10-03 17:58:26 -          pd = 0x7ffff2ba7700
+2020-10-03 17:58:26 -          now = <optimized out>
+2020-10-03 17:58:26 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737265694464, -953460081682730609, 0, 140737284647471, 140737265695168, 9334528, 953430992428282255, 953440624188797327}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2020-10-03 17:58:26 -          not_first_call = <optimized out>
+2020-10-03 17:58:26 -          pagesize_m1 = <optimized out>
+2020-10-03 17:58:26 -          sp = <optimized out>
+2020-10-03 17:58:26 -          freesize = <optimized out>
+2020-10-03 17:58:26 -          __PRETTY_FUNCTION__ = "start_thread"
+2020-10-03 17:58:26 -  #5  0x00007ffff7b144dd in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+2020-10-03 17:58:26 -  No locals.
+2020-10-03 17:58:26 -  
+2020-10-03 17:58:26 -  Thread 3 (Thread 0x7ffff35ba700 (LWP 25234)):
+2020-10-03 17:58:26 -  #0  pthread_cond_timedwait@@GLIBC_2.3.2 () at ../sysdeps/unix/sysv/linux/x86_64/pthread_cond_timedwait.S:225
+2020-10-03 17:58:26 -  No locals.
+2020-10-03 17:58:26 -  #1  0x0000000000506210 in __gthread_cond_timedwait () at /usr/include/x86_64-linux-gnu/c++/5/bits/gthr-default.h:871
+2020-10-03 17:58:26 -  No locals.
+2020-10-03 17:58:26 -  #2  std::condition_variable::__wait_until_impl (__atime=..., __lock=..., this=0x8e6fa0 <g_scheduler+64>) at /usr/include/c++/5/condition_variable:165
+2020-10-03 17:58:26 -          __ts = {tv_sec = 1601762306, tv_nsec = 444344683}
+2020-10-03 17:58:26 -  #3  std::condition_variable::wait_until<std::chrono::duration<long, std::ratio<1l, 1000000000l> > > () at /usr/include/c++/5/condition_variable:105
+2020-10-03 17:58:26 -          __lock = @0x7ffff35b9e90: {_M_device = 0x8e6f78 <g_scheduler+24>, _M_owns = true}
+2020-10-03 17:58:26 -          this = 0x8e6fa0 <g_scheduler+64>
+2020-10-03 17:58:26 -  #4  Scheduler::threadMain (this=0x8e6f60 <g_scheduler>) at /home/otg/src/scheduler.cpp:36
+2020-10-03 17:58:26 -          ret = std::cv_status::no_timeout
+2020-10-03 17:58:26 -          eventLockUnique = {_M_device = 0x8e6f78 <g_scheduler+24>, _M_owns = true}
+2020-10-03 17:58:26 -  #5  0x00007ffff5e79c80 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-03 17:58:26 -  No symbol table info available.
+2020-10-03 17:58:26 -  #6  0x00007ffff614a6ba in start_thread (arg=0x7ffff35ba700) at pthread_create.c:333
+2020-10-03 17:58:26 -          __res = <optimized out>
+2020-10-03 17:58:26 -          pd = 0x7ffff35ba700
+2020-10-03 17:58:26 -          now = <optimized out>
+2020-10-03 17:58:26 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737276258048, -953460081682730609, 0, 140737488346847, 140737276258752, 9437376, 953434551345557903, 953440624188797327}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2020-10-03 17:58:26 -          not_first_call = <optimized out>
+2020-10-03 17:58:26 -          pagesize_m1 = <optimized out>
+2020-10-03 17:58:26 -          sp = <optimized out>
+2020-10-03 17:58:26 -          freesize = <optimized out>
+2020-10-03 17:58:26 -          __PRETTY_FUNCTION__ = "start_thread"
+2020-10-03 17:58:26 -  #7  0x00007ffff7b144dd in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+2020-10-03 17:58:26 -  No locals.
+2020-10-03 17:58:26 -  
+2020-10-03 17:58:26 -  Thread 2 (Thread 0x7ffff3dbb700 (LWP 25233)):
+2020-10-03 17:58:26 -  #0  0x00000000005e7cde in Item::getHoldingPlayer() const (this=this@entry=0x7fffed061ec0) at /home/otg/src/item.cpp:379
+2020-10-03 17:58:27 -          p = 0x7fffb42a3598
+2020-10-03 17:58:27 -  #1  0x00000000005b1060 in Game::internalDecayItem(Item*) (this=0x8e7760 <g_game>, item=0x7fffed061ec0) at /home/otg/src/game.cpp:4882
+2020-10-03 17:58:27 -          player = <optimized out>
+2020-10-03 17:58:27 -          newItem = <optimized out>
+2020-10-03 17:58:27 -          it = @0x7ffff10c4d30: {group = ITEM_GROUP_NONE, type = ITEM_TYPE_NONE, id = 2814, clientId = 3995, stackable = false, isAnimation = false, name = <incomplete type>, article = <incomplete type>, pluralName = <incomplete type>, description = <incomplete type>, runeSpellName = <incomplete type>, vocationString = <incomplete type>, abilities = {_M_t = {<No data fields>}}, conditionDamage = {_M_t = {<No data fields>}}, weight = 4400, levelDoor = 0, decayTime = 300, wieldInfo = 0, minReqLevel = 0, minReqMagicLevel = 0, charges = 0, maxHitChance = -1, decayTo = 2815, attack = 0, defense = 0, extraDefense = 0, armor = 0, imbuingSlots = 0, rotateTo = 0, runeMagLevel = 0, runeLevel = 0, wrapableTo = 0, unmoveabledItem = 0, combatType = COMBAT_NONE, transformToOnUse = {0, 0}, transformToFree = 0, destroyTo = 0, maxTextLen = 0, writeOnceItemId = 0, transformEquipTo = 0, transformDeEquipTo = 0, maxItems = 10, slotPosition = 48, speed = 0, wareId = 0, magicEffect = CONST_ME_NONE, bedPartnerDir = DIRECTION_NONE, quickLootCategory = LOOT_NONE, weaponType = WEAPON_NONE, ammoType = AMMO_NONE, shootType = CONST_ANI_NONE, corpseType = RACE_BLOOD, fluidSource = FLUID_NONE, floorChange = 0 '\000', alwaysOnTopOrder = 0 '\000', lightLevel = 0 '\000', lightColor = 0 '\000', shootRange = 1 '\001', hitChance = 0 '\000', forceUse = false, hasHeight = false, walkStack = true, blockSolid = false, blockPickupable = false, blockProjectile = false, blockPathFind = false, allowPickupable = false, showDuration = false, showCharges = false, showAttributes = false, replaceable = true, pickupable = true, rotatable = false, wrapable = false, wrapContainer = false, useable = false, moveable = true, alwaysOnTop = false, canReadText = false, canWriteText = false, isVertical = false, isHorizontal = false, isHangable = false, allowDistRead = false, lookThrough = false, stopTime = false, showCount = true}
+2020-10-03 17:58:27 -  #2  0x00000000005b140b in Game::checkDecay() (this=0x8e7760 <g_game>) at /home/otg/src/game.cpp:4953
+2020-10-03 17:58:27 -          item = 0x7fffed061ec0
+2020-10-03 17:58:27 -          duration = <optimized out>
+2020-10-03 17:58:27 -          bucket = 1
+2020-10-03 17:58:27 -          it = {_M_node = 0x7fff16871c00}
+2020-10-03 17:58:27 -          end = {_M_node = 0x8e7bf8 <g_game+1176>}
+2020-10-03 17:58:27 -  #3  0x000000000055af2d in std::function<void ()>::operator()() const () at /usr/include/c++/5/functional:2267
+2020-10-03 17:58:27 -          this = 0x7fff386e84e0
+2020-10-03 17:58:27 -  #4  Task::operator()() () at /home/otg/src/tasks.h:42
+2020-10-03 17:58:27 -          this = 0x7fff386e84d0
+2020-10-03 17:58:27 -  #5  Dispatcher::threadMain() (this=0x8e6ec0 <g_dispatcher>) at /home/otg/src/tasks.cpp:62
+2020-10-03 17:58:27 -          task = 0x7fff386e84d0
+2020-10-03 17:58:27 -          taskLockUnique = {_M_device = 0x8e6ed8 <g_dispatcher+24>, _M_owns = false}
+2020-10-03 17:58:27 -  #6  0x00007ffff5e79c80 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-03 17:58:27 -  No symbol table info available.
+2020-10-03 17:58:27 -  #7  0x00007ffff614a6ba in start_thread (arg=0x7ffff3dbb700) at pthread_create.c:333
+2020-10-03 17:58:27 -          __res = <optimized out>
+2020-10-03 17:58:27 -          pd = 0x7ffff3dbb700
+2020-10-03 17:58:27 -          now = <optimized out>
+2020-10-03 17:58:27 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737284650752, -953460081682730609, 0, 140737488346847, 140737284651456, 9437376, 953433451297059215, 953440624188797327}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2020-10-03 17:58:27 -          not_first_call = <optimized out>
+2020-10-03 17:58:27 -          pagesize_m1 = <optimized out>
+2020-10-03 17:58:27 -          sp = <optimized out>
+2020-10-03 17:58:27 -          freesize = <optimized out>
+2020-10-03 17:58:27 -          __PRETTY_FUNCTION__ = "start_thread"
+2020-10-03 17:58:27 -  #8  0x00007ffff7b144dd in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+2020-10-03 17:58:27 -  No locals.
+2020-10-03 17:58:27 -  
+2020-10-03 17:58:27 -  Thread 1 (Thread 0x7ffff7fe6740 (LWP 25229)):
+2020-10-03 17:58:27 -  #0  0x00007ffff7b14ad3 in epoll_wait () at ../sysdeps/unix/syscall-template.S:84
+2020-10-03 17:58:27 -  No locals.
+2020-10-03 17:58:27 -  #1  0x00000000005b70e7 in boost::asio::detail::epoll_reactor::run(bool, boost::asio::detail::op_queue<boost::asio::detail::task_io_service_operation>&) [clone .constprop.204] (this=0x901570, block=<optimized out>, ops=...) at /usr/include/boost/asio/detail/impl/epoll_reactor.ipp:392
+2020-10-03 17:58:27 -          timeout = <optimized out>
+2020-10-03 17:58:27 -          events = {{events = 1, data = {ptr = 0x9015c8, fd = 9442760, u32 = 9442760, u64 = 9442760}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}} <repeats 51 times>, {events = 11, data = {ptr = 0xa100000000, fd = 0, u32 = 0, u64 = 691489734656}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 4155593817, data = {ptr = 0x7fff, fd = 32767, u32 = 32767, u64 = 32767}}, {events = 0, data = {ptr = 0x5828f4 <boost::asio::detail::reactive_socket_recv_op_base<boost::asio::mutable_buffers_1>::do_perform(boost::asio::detail::reactor_op*)+228>, fd = 5777652, u32 = 5777652, u64 = 5777652}}, {events = 0, data = {ptr = 0x1000000, fd = 16777216, u32 = 16777216, u64 = 16777216}}, {events = 18, data = {ptr = 0x9324e6, fd = 9643238, u32 = 9643238, u64 = 9643238}}, {events = 2, data = {ptr = 0x200000000, fd = 0, u32 = 0, u64 = 8589934592}}, {events = 0, data = {ptr = 0x5f78f401, fd = 1601762305, u32 = 1601762305, u64 = 1601762305}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x7fffffffdb80, fd = -9344, u32 = 4294957952, u64 = 140737488345984}}, {events = 1, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x9324c000000000, fd = 0, u32 = 0, u64 = 41417228628787200}}, {events = 0, data = {ptr = 0x7fffd1adb2f0, fd = -777145616, u32 = 3517821680, u64 = 140736711209712}}, {events = 9714000, data = {ptr = 0x9425c800000000, fd = 0, u32 = 0, u64 = 41699837476864000}}, {events = 0, data = {ptr = 0x942908, fd = 9709832, u32 = 9709832, u64 = 9709832}}, {events = 18, data = {ptr = 0x5200000000, fd = 0, u32 = 0, u64 = 352187318272}}, {events = 0, data = {ptr = 0x901570, fd = 9442672, u32 = 9442672, u64 = 9442672}}, {events = 6449413, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x12, fd = 18, u32 = 18, u64 = 18}}, {events = 0, data = {ptr = 0x56f20000000000, fd = 0, u32 = 0, u64 = 24472929811038208}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0xffffdc7000000000, fd = 0, u32 = 0, u64 = 18446704972327288832}}, {events = 32767, data = {ptr = 0x943950, fd = 9714000, u32 = 9714000, u64 = 9714000}}, {events = 9714000, data = {ptr = 0x7df007000000000, fd = 0, u32 = 0, u64 = 567172559108308992}}, {events = 32767, data = {ptr = 0x9425c8, fd = 9709000, u32 = 9709000, u64 = 9709000}}, {events = 9643238, data = {ptr = 0x200000000, fd = 0, u32 = 0, u64 = 8589934592}}, {events = 0, data = {ptr = 0x7fff00000001, fd = 1, u32 = 1, u64 = 140733193388033}}, {events = 0, data = {ptr = 0x56f20000000000, fd = 0, u32 = 0, u64 = 24472929811038208}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x94256800000000, fd = 0, u32 = 0, u64 = 41699425160003584}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 4128564479, data = {ptr = 0x9324d000007fff, fd = 32767, u32 = 32767, u64 = 41417297348296703}}, {events = 0, data = {ptr = 0x7fffc408d070, fd = -1006055312, u32 = 3288911984, u64 = 140736482300016}}, {events = 3955669952, data = {ptr = 0x94256800007fff, fd = 32767, u32 = 32767, u64 = 41699425160036351}}, {events = 0, data = {ptr = 0x7fffffffde78, fd = -8584, u32 = 4294958712, u64 = 140737488346744}}, {events = 0, data = {ptr = 0xf7a9158c00000000, fd = 0, u32 = 0, u64 = 17845818689471905792}}, {events = 32767, data = {ptr = 0x900090, fd = 9437328, u32 = 9437328, u64 = 9437328}}, {events = 4294958640, data = {ptr = 0x90009000007fff, fd = 32767, u32 = 32767, u64 = 40533015121657855}}, {events = 0, data = {ptr = 0x9324d0, fd = 9643216, u32 = 9643216, u64 = 9643216}}, {events = 22, data = {ptr = 0x9324d000000000, fd = 0, u32 = 0, u64 = 41417297348263936}}, {events = 0, data = {ptr = 0x7fffc408d070, fd = -1006055312, u32 = 3288911984, u64 = 140736482300016}}, {events = 3955669952, data = {ptr = 0x94256800007fff, fd = 32767, u32 = 32767, u64 = 41699425160036351}}, {events = 0, data = {ptr = 0x58a8b4 <Connection::onWriteOperation(boost::system::error_code const&)+260>, fd = 5810356, u32 = 5810356, u64 = 5810356}}, {events = 0, data = {ptr = 0xf71e50e000000000, fd = 0, u32 = 0, u64 = 17806758899672416256}}, {events = 32767, data = {ptr = 0xffffde30, fd = -8656, u32 = 4294958640, u64 = 4294958640}}, {events = 22, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 4294958640, data = {ptr = 0x58574500007fff, fd = 32767, u32 = 32767, u64 = 24865751814930431}}, {events = 0, data = {ptr = 0x46e960 <__pthread_key_create@plt>, fd = 4647264, u32 = 4647264, u64 = 4647264}}, {events = 4155593817, data = {ptr = 0xffffde3000007fff, fd = 32767, u32 = 32767, u64 = 18446706896472670207}}, {events = 32767, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 18, data = {ptr = 0x9425c8, fd = 9709000, u32 = 9709000, u64 = 9709000}}, {events = 4294958720, data = {ptr = 0x90009000007fff, fd = 32767, u32 = 32767, u64 = 40533015121657855}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x9000c000000000, fd = 0, u32 = 0, u64 = 40533221280055296}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 4155053452, data = {ptr = 0x9324c000007fff, fd = 32767, u32 = 32767, u64 = 41417228628819967}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 4145959136, data = {ptr = 0x58a73100007fff, fd = 32767, u32 = 32767, u64 = 24953626845806591}}, {events = 0, data = {ptr = 0x7fffc63d5f70, fd = -969056400, u32 = 3325910896, u64 = 140736519298928}}, {events = 4294958720, data = {ptr = 0x90009000007fff, fd = 32767, u32 = 32767, u64 = 40533015121657855}}, {events = 0, data = {ptr = 0x7fffffffde80, fd = -8576, u32 = 4294958720, u64 = 140737488346752}}, {events = 9437328, data = {ptr = 0x58646e00000000, fd = 0, u32 = 0, u64 = 24880221559717888}}, {events = 0, data = {ptr = 0x9324d0, fd = 9643216, u32 = 9643216, u64 = 9643216}}, {events = 9643200, data = {ptr = 0xffffde8000000000, fd = 0, u32 = 0, u64 = 18446707240070021120}}, {events = 32767, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x58a720 <Connection::handleTimeout(std::weak_ptr<Connection>, boost::system::error_code const&)>, fd = 5809952, u32 = 5809952, u64 = 5809952}}, {events = 9643216, data = {ptr = 0x9324c000000000, fd = 0, u32 = 0, u64 = 41417228628787200}}, {events = 0, data = {ptr = 0x6e696f700000007d, fd = 125, u32 = 125, u64 = 7956012743553712253}}}
+2020-10-03 17:58:27 -          num_events = <optimized out>
+2020-10-03 17:58:27 -          check_timers = <optimized out>
+2020-10-03 17:58:27 -  #2  0x000000000055dcd3 in do_run_one (ec=..., this_thread=..., lock=<synthetic pointer>, this=0x900090) at /usr/include/boost/asio/detail/impl/task_io_service.ipp:356
+2020-10-03 17:58:27 -          more_handlers = <optimized out>
+2020-10-03 17:58:27 -  #3  run (ec=..., this=0x900090) at /usr/include/boost/asio/detail/impl/task_io_service.ipp:149
+2020-10-03 17:58:27 -          this_thread = {private_op_queue = {front_ = 0x0, back_ = 0x0}, private_outstanding_work = 0}
+2020-10-03 17:58:27 -          ctx = {key_ = 0x900090, value_ = 0x7fffffffdf40, next_ = 0x0}
+2020-10-03 17:58:27 -          lock = {mutex_ = @0x9000c0, locked_ = <optimized out>}
+2020-10-03 17:58:27 -          n = 2566253
+2020-10-03 17:58:27 -  #4  _ZN5boost4asio10io_service3runEv.isra.226 () at /usr/include/boost/asio/impl/io_service.ipp:59
+2020-10-03 17:58:27 -          ec = {m_val = 0, m_cat = 0x7ffff71e50e0}
+2020-10-03 17:58:27 -  #5  ServiceManager::run() (this=this@entry=0x7fffffffdff0) at /home/otg/src/server.cpp:47
+2020-10-03 17:58:27 -  No locals.
+2020-10-03 17:58:27 -  #6  0x0000000000474c46 in main (argc=1, argv=0x7fffffffe1b8) at /home/otg/src/otserv.cpp:96
+2020-10-03 17:58:27 -          serviceManager = {acceptors = {_M_h = {_M_buckets = 0x7fffc60f4fd0, _M_bucket_count = 5, _M_before_begin = {_M_nxt = 0x7fffc60f4fa0}, _M_element_count = 2, _M_rehash_policy = {_M_max_load_factor = 1, _M_next_resize = 5}, _M_single_bucket = 0x0}}, io_service = {service_registry_ = 0x900040, impl_ = @0x900090}, signals = {set = {<No data fields>}}, death_timer = {<No data fields>}, running = true}
+2020-10-03 17:58:27 -  ip inválido
+2020-10-03 17:58:27 -  ip inválido
+2020-10-03 17:58:27 -  ip inválido
+2020-10-03 17:58:27 -  ip inválido
+2020-10-03 17:58:27 -  ip inválido
+2020-10-03 17:58:27 -  ip inválido
+2020-10-03 17:58:27 -  ip inválido
+2020-10-03 17:58:27 -  ip inválido
+2020-10-03 17:58:27 -  ip inválido
+2020-10-03 17:58:27 -  ip inválido
+2020-10-03 17:58:27 -  ip inválido
+2020-10-03 17:58:27 -  ip inválido
+2020-10-03 17:58:27 -  ip inválido
+2020-10-03 17:58:27 -  ip inválido
+2020-10-03 17:58:27 -  ip inválido
+2020-10-03 17:58:27 -  ip inválido
+2020-10-03 17:58:27 -  ip inválido
+2020-10-03 17:58:27 -  ip inválido
+2020-10-03 17:58:27 -  Saving server...
+2020-10-03 17:58:28 -  > Saved house items in: 0.965 s
+2020-10-03 17:58:28 -  A debugging session is active.
+2020-10-03 17:58:28 -  
+2020-10-03 17:58:28 -  	Inferior 1 [process 25229] will be killed.
+2020-10-03 17:58:28 -  
+2020-10-03 17:58:28 -  Quit anyway? (y or n) [answered Y; input not from terminal]

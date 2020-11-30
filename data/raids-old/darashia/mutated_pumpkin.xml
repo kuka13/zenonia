@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+    <!--
+	// Raid System by 5mok3
+	// DO NOT CHANGE INTERVAL UNLESS YOU ARE SURE WHAT YOU ARE DOING!!
+	-->
+
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="A furious pumpkin is preparing to invade Darashia." />
+  <announce delay="20000" type="Event" message="A horrifying Halloween for everyone" />
+  <announce delay="60000" type="Event" message="Oh noes! It's a Mutated Pumpkin" />
+  <!--Single Spawns-->
+  <script delay="60000" script="mutated_pumpkin.lua" />
+  <!--<singlespawn delay="60000" name="Orshabaal" x="33207" y="31719" z="7" />-->
+  <!--Area Spawns-->
+</raid>

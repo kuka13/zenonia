@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="Demons apareceram ao redor da Ferumbras tower." />
+  <announce delay="80000" type="Event" message="Uma grande magia negra foi detectada nesse local." />
+  <announce delay="200000" type="Event" message="Algo de terrível está por vir." />
+  
+	 <!--Single Spawns-->
+	 <areaspawn delay="2000" fromx="32098" fromy="32665" fromz="7" tox="32140" toy="32717" toz="7">
+	    <monster name="Demon" amount="50" />
+		<monster name="Demon" amount="100" />
+		<monster name="Demon" amount="150" />
+			 </areaspawn>
+			 
+			 
+			 	 <areaspawn delay="2000" fromx="32121" fromy="32709" fromz="8" tox="32054" toy="32724" toz="8">
+	    <monster name="Demon" amount="50" />
+		<monster name="Demon" amount="100" />
+		<monster name="Demon" amount="150" />
+			 </areaspawn>
+</raid>

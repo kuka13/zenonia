@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="The Mutated Pumpkin" nameDescription="a mutated pumpkin" race="undead" experience="350000" speed="400" manacost="0" script="boss.lua">
+	<health now="9500000" max="9500000"/>
+	<look type="292" corpse="8960"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag preyable="0" />
+        <flag rewardboss="1" />
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="85"/>
+		<flag runonhealth="300"/>
+		<flag canwalkonfire="1" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	
+	<attacks>
+		<attack name="melee" interval="2000" skill="105" attack="85"/>
+		<attack name="manadrain" interval="3000" chance="18" range="7" target="1" min="-100" max="-2300">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		<attack name="earth" interval="2000" chance="15" radius="7" target="0" min="-100" max="-5300">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="energy" interval="3000" chance="14" radius="7" target="0" min="-40" max="-2300">
+			<attribute key="areaEffect" value="energy"/>
+		</attack>
+		<attack name="death" interval="1000" chance="10" radius="8" target="0" min="-30" max="-2300">
+			<attribute key="areaEffect" value="poff"/>
+                </attack>
+                <attack name="earth" interval="3000" chance="12" length="8" spread="3" min="-100" max="-2300">
+                <attribute key="areaEffect" value="plantattack"/>
+                </attack>
+		<attack name="lifedrain" interval="1000" chance="10" length="6" spread="0" min="-100" max="-2400">
+			<attribute key="areaEffect" value="greenspark"/>
+		</attack>
+		<attack name="outfit" interval="1000" chance="20" radius="8" target="0" monster="The Mutated Pumpkin" duration="5000">
+			<attribute key="areaEffect" value="bluebubble"/>
+		</attack>
+	</attacks>
+	<defenses armor="70" defense="70">
+		<defense name="invisible" interval="8000" chance="13" duration="5000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="90"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="20">
+		<voice sentence="I had the Halloween Hare for breakfast!"/>
+		<voice sentence="Your soul will be mine...wait, wrong line"/>
+		<voice sentence="Trick or treat? I saw death!"/>
+		<voice sentence="No wait! Don't kill me! It's me, your friend!"/>
+		<voice sentence="Bunnies, bah! I'm the real thing!"/>
+		<voice sentence="Muahahahaha!"/>
+		<voice sentence="I've come to avenge all those mutilated pumpkins!"/>
+		<voice sentence="Wait until I get you!"/>
+		<voice sentence="Fear the spirit of Halloween!"/>
+	</voices>
+	<loot>
+		<item name="Ferumbras' Candy Hat" chance="3" />
+		<item id="6574" countmax="2" chance="1000"/> <!--Gold-->		
+		<item id="2688" countmax="5" chance="500"/> <!--candy-->
+		<item id="18423" countmax="5" chance="500"/> <!--candy-->
+		<item id="2683" countmax="5" chance="200000"/> <!--pumpkin -->
+		<item id="8860" chance="300"/> <!-- spiderwab -->
+		<item id="22608" chance="2"/>	
+		<item id="6526" chance="300"/>
+		<item name="Pumpkinhead" chance="500" />
+		<item id="8981" chance="20"/> <!-- premium points -->
+		<item id="9006" chance="300"/> <!-- toy spider -->
+		<item id="6492" chance="300"/> <!-- bat -->
+		<item id="9005" countmax="5" chance="300000"/> <!-- yumme worms -->
+	<item name="Book Backpack" chance="40" /> 
+	<item name="Ectoplasmic Shield" chance="50" /> 
+	<item name="Spirit Guide" chance="30" /> 
+		<item name="golden legs" chance="440" />
+		<item name="magic plate armor" chance="130" />
+		<item name="mastermind shield" chance="480" />
+		<item name="demon shield" chance="740" />
+		<item id="25174" chance="1000" />
+		<item id="25191" chance="1000" />
+		<item id="25187" chance="1000" />
+		<item id="25179" chance="1000" />
+		<item id="36322" chance="100" /> <!-- bat -->
+		<item id="25178" chance="1000" />
+		<item id="8885" chance="2000" />				<!-- divine plate -->
+		<item id="7894" chance="2000" />				<!-- magma legs -->
+		<item id="2542" chance="100" />				<!-- tempest shield -->
+	<item id="25378" chance="2000" countmax="20" />			<!-- Cooper Token -->
+	<item name="Cyan Crystal Fragment"  chance="890" /> 
+	<item name="Ice Rapier"  countmax="2" chance="810" />
+	<item name="Green Crystal Shard" chance="750" />
+	<item name="Green Gem" chance="650" />
+	<item name="Lightning Pendant" chance="556" />
+	<item name="Red Crystal Fragment" chance="780" />
+	<item name="Terra Rod" chance="712" />
+		
+	</loot>
+</monster>

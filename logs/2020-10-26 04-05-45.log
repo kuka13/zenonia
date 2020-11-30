@@ -1,0 +1,1073 @@
+2020-10-26 04:05:45 -  [Thread debugging using libthread_db enabled]
+2020-10-26 04:05:45 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2020-10-26 04:05:45 -  [New Thread 0x7ffff3dbb700 (LWP 522)]
+2020-10-26 04:05:45 -  [New Thread 0x7ffff35ba700 (LWP 523)]
+2020-10-26 04:05:45 -  The OTG-Premium-Version - Version: (1.3)
+2020-10-26 04:05:45 -  Compiled with: GNU C++ version 5.4.0 20160609
+2020-10-26 04:05:45 -  Compiled on Sep 17 2020 19:49:36 for platform x64
+2020-10-26 04:05:45 -  
+2020-10-26 04:05:45 -  Special Credits for: OTG Team, Johncore, Vankk, Erick Nunes, Leonardo Pereira, Leandro Baldissera, Talis, Marcomoa, Marson Schneider, Douglas, Mark Samman, OTXServer (Mattyx Gomez) and The Forgotten Server Developers.
+2020-10-26 04:05:45 -  Link of repository: https://github.com/Johncorex/OTG-Premium-Version
+2020-10-26 04:05:45 -  
+2020-10-26 04:05:45 -  >> Loading config: config.lua
+2020-10-26 04:05:45 -  >> Establishing database connection... MySQL 5.7.31
+2020-10-26 04:05:45 -  >> Running database manager
+2020-10-26 04:05:45 -  [New Thread 0x7ffff2ba7700 (LWP 524)]
+2020-10-26 04:05:45 -  > Optimizing table players_online... [success]
+2020-10-26 04:05:45 -  > Optimizing table tile_store... [success]
+2020-10-26 04:05:45 -  >> Loading vocations
+2020-10-26 04:05:45 -  >> Loading items
+2020-10-26 04:05:46 -  >> Loading script systems
+2020-10-26 04:05:46 -  >> Loading lua libs
+2020-10-26 04:05:46 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-26 04:05:46 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-26 04:05:47 -  >> Loading lua scripts
+2020-10-26 04:05:47 -  >> Loading monsters
+2020-10-26 04:05:47 -  >> Loading lua monsters
+2020-10-26 04:05:47 -  >> Loading outfits
+2020-10-26 04:05:47 -  >> Loading prey data
+2020-10-26 04:05:47 -  >> Checking world type... PVP
+2020-10-26 04:05:47 -  >> Loading map
+2020-10-26 04:05:49 -  > Map size: 34143x33812.
+2020-10-26 04:05:55 -  > Map loading time: 7.288 seconds.
+2020-10-26 04:05:57 -  > Loaded house items in: 0.024 s
+2020-10-26 04:05:57 -  >> Initializing gamestate
+2020-10-26 04:05:59 -  >> Loaded 43 npcs and spawned 72903 monsters.
+2020-10-26 04:05:59 -  >> Loaded 27 towns with 1074 houses in total.
+2020-10-26 04:05:59 -  [Castle War]
+2020-10-26 04:05:59 -  [POWERGAMERS]
+2020-10-26 04:05:59 -  [SISTEMA DE LOTERIA] OPERANTE
+2020-10-26 04:05:59 -  Advanced NPC spawn system | All NPCs will be loaded trough lib.
+2020-10-26 04:05:59 -  [REGEN BOOST] CARREGADO
+2020-10-26 04:05:59 -  [SPOOF COUNTER]
+2020-10-26 04:05:59 -  [STAMINA]
+2020-10-26 04:05:59 -  warvariables
+2020-10-26 04:05:59 -  >> Loaded all modules, server starting up...
+2020-10-26 04:05:59 -  > Warning: OTG-Premium-Version has been executed as root user, please consider running it as a normal user.
+2020-10-26 04:05:59 -  >> Honera Global Server Online!
+2020-10-26 04:05:59 -  
+2020-10-26 04:06:01 -  [Error - Npc::loadFromXml] Failed to load data/npc/Raffael.xml: File was not found
+2020-10-26 04:06:01 -  [Error - Npc::loadFromXml] Failed to load data/npc/Paladin Narai.xml: File was not found
+2020-10-26 04:06:01 -  [Error - Npc::loadFromXml] Failed to load data/npc/Knight Hykrion.xml: File was not found
+2020-10-26 04:06:01 -  [Error - Npc::loadFromXml] Failed to load data/npc/Sorcerer Estrella.xml: File was not found
+2020-10-26 04:06:01 -  [Error - Npc::loadFromXml] Failed to load data/npc/Druid Yandur.xml: File was not found
+2020-10-26 04:06:01 -  [Error - Npc::loadFromXml] Failed to load data/npc/Tylius.xml: File was not found
+2020-10-26 04:06:01 -  [Error - Npc::loadFromXml] Failed to load data/npc/Ula.xml: File was not found
+2020-10-26 04:06:01 -  [Error - Npc::loadFromXml] Failed to load data/npc/Shanoya.xml: File was not found
+2020-10-26 04:06:01 -  [Error - Npc::loadFromXml] Failed to load data/npc/Willem.xml: File was not found
+2020-10-26 04:06:01 -  [Error - Npc::loadFromXml] Failed to load data/npc/Neill.xml: File was not found
+2020-10-26 04:06:01 -  [Error - Npc::loadFromXml] Failed to load data/npc/Weaponmaster.xml: File was not found
+2020-10-26 05:24:03 -  SABADOU!! NPC HONERA CRIADO
+2020-10-26 05:24:03 -  eu sou o checkWarmode... 5:0!
+2020-10-26 05:24:03 -  Cabritaowz has logged in.
+2020-10-26 05:37:10 -  funcao onLogin
+2020-10-26 05:37:10 -  ip inválido
+2020-10-26 05:37:10 -  Cabritaowz has logged out.
+2020-10-26 05:51:11 -  Invasor Zim has logged in.
+2020-10-26 05:51:21 -  funcao onLogin
+2020-10-26 05:51:21 -  Invasor Zim has logged out.
+2020-10-26 05:51:22 -  Invasor Zim has logged in.
+2020-10-26 06:00:48 -  funcao onLogin
+2020-10-26 06:00:48 -  > Broadcasted message: "Rat Plague in Thais!".
+2020-10-26 06:09:16 -  eu sou o checkWarmode... 6:0!
+2020-10-26 06:09:16 -  > Broadcasted message: "Corrida de cavalos: O cavalo 4 Pocoyo venceu!".
+2020-10-26 06:09:16 -  ip inválido
+2020-10-26 06:09:16 -  Invasor Zim has logged out.
+2020-10-26 06:54:00 -  > Broadcasted message: "Beware! Mawhawk!".
+2020-10-26 07:05:47 -  eu sou o checkWarmode... 7:0!
+2020-10-26 07:05:47 -  
+2020-10-26 07:05:47 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-26 07:05:47 -  data/globalevents/scripts/bosses/Gnomevil.lua:onThink
+2020-10-26 07:05:47 -  data/lib/rewardboss.lua:8: Rewards can only be enabled to rewards bosses.
+2020-10-26 07:05:47 -  stack traceback:
+2020-10-26 07:05:47 -  	[C]: at 0x00602980
+2020-10-26 07:05:47 -  	[C]: in function 'error'
+2020-10-26 07:05:47 -  	data/lib/rewardboss.lua:8: in function 'setReward'
+2020-10-26 07:05:47 -  	data/globalevents/scripts/bosses/Gnomevil.lua:28: in function <data/globalevents/scripts/bosses/Gnomevil.lua:21>
+2020-10-26 07:05:47 -  [Error - GlobalEvents::think] Failed to execute event: Gnomevil
+2020-10-26 07:05:47 -  
+2020-10-26 07:05:47 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-26 07:05:47 -  data/globalevents/scripts/bosses/Abyssador.lua:onThink
+2020-10-26 07:05:47 -  data/lib/rewardboss.lua:8: Rewards can only be enabled to rewards bosses.
+2020-10-26 07:05:47 -  stack traceback:
+2020-10-26 07:05:47 -  	[C]: at 0x00602980
+2020-10-26 07:05:47 -  	[C]: in function 'error'
+2020-10-26 07:05:47 -  	data/lib/rewardboss.lua:8: in function 'setReward'
+2020-10-26 07:05:47 -  	data/globalevents/scripts/bosses/Abyssador.lua:28: in function <data/globalevents/scripts/bosses/Abyssador.lua:21>
+2020-10-26 07:05:47 -  [Error - GlobalEvents::think] Failed to execute event: Abyssador
+2020-10-26 07:05:47 -  
+2020-10-26 07:05:47 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-26 07:05:47 -  data/globalevents/scripts/bosses/Deathstrike.lua:onThink
+2020-10-26 07:05:47 -  data/lib/rewardboss.lua:8: Rewards can only be enabled to rewards bosses.
+2020-10-26 07:05:47 -  stack traceback:
+2020-10-26 07:05:47 -  	[C]: at 0x00602980
+2020-10-26 07:05:47 -  	[C]: in function 'error'
+2020-10-26 07:05:47 -  	data/lib/rewardboss.lua:8: in function 'setReward'
+2020-10-26 07:05:47 -  	data/globalevents/scripts/bosses/Deathstrike.lua:28: in function <data/globalevents/scripts/bosses/Deathstrike.lua:21>
+2020-10-26 07:05:47 -  [Error - GlobalEvents::think] Failed to execute event: Deathstrike
+2020-10-26 07:20:17 -  Vinny has logged in.
+2020-10-26 07:26:16 -  funcao onLogin
+2020-10-26 07:26:16 -  Invasor Zim has logged in.
+2020-10-26 07:31:44 -  funcao onLogin
+2020-10-26 07:31:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 07:35:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 07:36:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 07:37:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 07:37:09 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 07:38:05 -  ip inválido
+2020-10-26 07:38:05 -  Invasor Zim has logged out.
+2020-10-26 07:39:20 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 07:39:26 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 07:39:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 07:41:29 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 07:41:33 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 07:41:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 07:41:35 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 07:41:35 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 07:41:55 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 07:46:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 07:47:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 07:48:20 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 07:55:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 07:57:00 -  > Broadcasted message: "The dragons of the Dragonblaze Mountains have descended to Zao to protect the lizardkin!".
+2020-10-26 08:09:57 -  eu sou o checkWarmode... 8:0!
+2020-10-26 08:09:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 08:09:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 08:11:06 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 08:11:47 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 08:11:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 08:14:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 08:16:20 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 08:19:25 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 08:19:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 08:20:08 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 08:25:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 08:26:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 08:29:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 08:29:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 08:29:10 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 08:29:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 08:29:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 08:30:03 -  Vinny has logged out.
+2020-10-26 08:30:06 -  Vinny has logged in.
+2020-10-26 08:30:15 -  funcao onLogin
+2020-10-26 08:30:15 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 08:30:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 08:32:08 -  Invasor Zim has logged in.
+2020-10-26 08:35:05 -  funcao onLogin
+2020-10-26 08:35:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 08:47:16 -  Vinny has logged out.
+2020-10-26 08:47:43 -  Vinny has logged in.
+2020-10-26 08:57:19 -  funcao onLogin
+2020-10-26 08:57:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2205
+2020-10-26 09:03:07 -  eu sou o checkWarmode... 9:0!
+2020-10-26 09:03:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 09:03:09 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:03:48 -  [!] -> Invalid achievement "Treasure Hunter".
+2020-10-26 09:03:48 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 09:03:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:04:50 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:05:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:08:55 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 09:10:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 09:10:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:12:14 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 09:12:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 09:14:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 09:14:59 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 09:15:04 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 09:15:32 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 09:16:14 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 09:17:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:22:09 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:22:12 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:23:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 09:24:33 -  Invasor Zim has logged out.
+2020-10-26 09:24:34 -  Invasor Zim has logged in.
+2020-10-26 09:25:17 -  funcao onLogin
+2020-10-26 09:25:17 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 09:25:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 09:30:41 -  Vinny has logged out.
+2020-10-26 09:30:43 -  Vinny has logged in.
+2020-10-26 09:33:27 -  funcao onLogin
+2020-10-26 09:33:27 -  Vinny has logged out.
+2020-10-26 09:33:29 -  Vinny has logged in.
+2020-10-26 09:35:10 -  funcao onLogin
+2020-10-26 09:35:10 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 09:35:12 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 09:35:38 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:35:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:35:44 -  Vinny has logged out.
+2020-10-26 09:35:46 -  Vinny has logged in.
+2020-10-26 09:35:47 -  funcao onLogin
+2020-10-26 09:35:47 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:35:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:35:53 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:37:27 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:37:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:37:58 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:37:58 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:38:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:38:37 -  Vinny has logged out.
+2020-10-26 09:38:40 -  Vinny has logged in.
+2020-10-26 09:38:59 -  funcao onLogin
+2020-10-26 09:38:59 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:39:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:39:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:39:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:39:04 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:39:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:39:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:39:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:39:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:39:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:39:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:39:15 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:44:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:44:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:44:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:44:53 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:44:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:44:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:44:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:44:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:45:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:45:08 -  Vinny has logged out.
+2020-10-26 09:45:10 -  Vinny has logged in.
+2020-10-26 09:49:38 -  funcao onLogin
+2020-10-26 09:49:38 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:49:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 09:50:37 -  Dax Buduvieiser has logged in.
+2020-10-26 09:53:53 -  funcao onLogin
+2020-10-26 09:53:53 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 09:53:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 09:53:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 09:55:17 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 09:56:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 09:56:25 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2205
+2020-10-26 09:56:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2205
+2020-10-26 10:01:20 -  eu sou o checkWarmode... 10:0!
+2020-10-26 10:01:20 -  Bazuka has logged in.
+2020-10-26 10:02:42 -  funcao onLogin
+2020-10-26 10:02:42 -  Invasor Zim has logged out.
+2020-10-26 10:04:44 -  Bazuka has logged out.
+2020-10-26 10:04:47 -  Bazuka has logged in.
+2020-10-26 10:04:56 -  funcao onLogin
+2020-10-26 10:04:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:05:47 -  
+2020-10-26 10:05:47 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-26 10:05:47 -  data/globalevents/scripts/Ghulosh.lua:onThink
+2020-10-26 10:05:47 -  data/globalevents/scripts/Ghulosh.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-26 10:05:47 -  stack traceback:
+2020-10-26 10:05:47 -  	[C]: in function '__index'
+2020-10-26 10:05:47 -  	data/globalevents/scripts/Ghulosh.lua:34: in function <data/globalevents/scripts/Ghulosh.lua:21>
+2020-10-26 10:05:47 -  [Error - GlobalEvents::think] Failed to execute event: Ghulosh
+2020-10-26 10:05:47 -  
+2020-10-26 10:05:47 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-26 10:05:47 -  data/globalevents/scripts/Gorzindel.lua:onThink
+2020-10-26 10:05:47 -  data/globalevents/scripts/Gorzindel.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-26 10:05:47 -  stack traceback:
+2020-10-26 10:05:47 -  	[C]: in function '__index'
+2020-10-26 10:05:47 -  	data/globalevents/scripts/Gorzindel.lua:34: in function <data/globalevents/scripts/Gorzindel.lua:21>
+2020-10-26 10:05:47 -  [Error - GlobalEvents::think] Failed to execute event: Gorzindel
+2020-10-26 10:05:47 -  
+2020-10-26 10:05:47 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-26 10:05:47 -  data/globalevents/scripts/Lokathmor.lua:onThink
+2020-10-26 10:05:47 -  data/globalevents/scripts/Lokathmor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-26 10:05:47 -  stack traceback:
+2020-10-26 10:05:47 -  	[C]: in function '__index'
+2020-10-26 10:05:47 -  	data/globalevents/scripts/Lokathmor.lua:34: in function <data/globalevents/scripts/Lokathmor.lua:21>
+2020-10-26 10:05:47 -  [Error - GlobalEvents::think] Failed to execute event: Lokathmor
+2020-10-26 10:05:47 -  
+2020-10-26 10:05:47 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-26 10:05:47 -  data/globalevents/scripts/Mazzinor.lua:onThink
+2020-10-26 10:05:47 -  data/globalevents/scripts/Mazzinor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-26 10:05:47 -  stack traceback:
+2020-10-26 10:05:47 -  	[C]: in function '__index'
+2020-10-26 10:05:47 -  	data/globalevents/scripts/Mazzinor.lua:34: in function <data/globalevents/scripts/Mazzinor.lua:21>
+2020-10-26 10:05:47 -  [Error - GlobalEvents::think] Failed to execute event: Mazzinor
+2020-10-26 10:05:47 -  [Warning - Monsters::loadMonster] Non-unique loot item "Giant Sapphire". 
+2020-10-26 10:05:47 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-26 10:05:47 -  [Warning - Monsters::loadMonster] Non-unique loot item "Collar of Blue Plasma". 
+2020-10-26 10:05:47 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-26 10:05:47 -  [Warning - Monsters::loadMonster] Non-unique loot item "Giant Shimmering Pearl". 
+2020-10-26 10:05:47 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-26 10:05:47 -  [Warning - Monsters::loadMonster] Unknown loot item "The Calamity". 
+2020-10-26 10:05:47 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-26 10:05:47 -  
+2020-10-26 10:05:47 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-26 10:05:47 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:onThink
+2020-10-26 10:05:47 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-26 10:05:47 -  stack traceback:
+2020-10-26 10:05:47 -  	[C]: in function '__index'
+2020-10-26 10:05:47 -  	data/globalevents/scripts/The Scourge Of Oblivion.lua:34: in function <data/globalevents/scripts/The Scourge Of Oblivion.lua:21>
+2020-10-26 10:05:47 -  [Error - GlobalEvents::think] Failed to execute event: The Scourge Of Oblivion
+2020-10-26 10:09:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:09:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:09:59 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:10:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:10:04 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:10:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:10:49 -  ip inválido
+2020-10-26 10:10:49 -  Bazuka has logged out.
+2020-10-26 10:12:08 -  
+2020-10-26 10:12:08 -  Lua Script Error: [Modules Interface] 
+2020-10-26 10:12:08 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-26 10:12:08 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-26 10:12:08 -  stack traceback:
+2020-10-26 10:12:08 -  	[C]: in function 'getPreyMonsterList'
+2020-10-26 10:12:08 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-26 10:12:08 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-26 10:12:13 -  
+2020-10-26 10:12:13 -  Lua Script Error: [Modules Interface] 
+2020-10-26 10:12:13 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-26 10:12:13 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-26 10:12:13 -  stack traceback:
+2020-10-26 10:12:13 -  	[C]: in function 'getPreyUnlocked'
+2020-10-26 10:12:13 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-26 10:12:13 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-26 10:12:16 -  
+2020-10-26 10:12:16 -  Lua Script Error: [Modules Interface] 
+2020-10-26 10:12:16 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-26 10:12:16 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-26 10:12:16 -  stack traceback:
+2020-10-26 10:12:16 -  	[C]: in function 'getPreyUnlocked'
+2020-10-26 10:12:16 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-26 10:12:16 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-26 10:12:16 -  
+2020-10-26 10:12:16 -  Lua Script Error: [Modules Interface] 
+2020-10-26 10:12:16 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-26 10:12:16 -  data/modules/scripts/prey system/prey.lua:405: attempt to call method 'getPreyCurrentMonster' (a nil value)
+2020-10-26 10:12:16 -  stack traceback:
+2020-10-26 10:12:16 -  	[C]: in function 'getPreyCurrentMonster'
+2020-10-26 10:12:16 -  	data/modules/scripts/prey system/prey.lua:405: in function 'sendPreyData'
+2020-10-26 10:12:16 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-26 10:14:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:14:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:14:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:15:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:15:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:15:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:15:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:15:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:15:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:15:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:15:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:15:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:15:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:15:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:15:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:15:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:15:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:15:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:15:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:15:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:15:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:15:58 -  Vinny has logged out.
+2020-10-26 10:16:00 -  Vinny has logged in.
+2020-10-26 10:16:46 -  funcao onLogin
+2020-10-26 10:16:46 -  
+2020-10-26 10:16:46 -  Lua Script Error: [Action Interface] 
+2020-10-26 10:16:46 -  data/actions/scripts/rewardchest.lua:onUse
+2020-10-26 10:16:46 -  data/actions/scripts/rewardchest.lua:2: attempt to call method 'updateRewardChest' (a nil value)
+2020-10-26 10:16:46 -  stack traceback:
+2020-10-26 10:16:46 -  	[C]: in function 'updateRewardChest'
+2020-10-26 10:16:46 -  	data/actions/scripts/rewardchest.lua:2: in function <data/actions/scripts/rewardchest.lua:1>
+2020-10-26 10:16:46 -  
+2020-10-26 10:16:46 -  Lua Script Error: [Action Interface] 
+2020-10-26 10:16:46 -  data/actions/scripts/rewardchest.lua:onUse
+2020-10-26 10:16:46 -  data/actions/scripts/rewardchest.lua:2: attempt to call method 'updateRewardChest' (a nil value)
+2020-10-26 10:16:46 -  stack traceback:
+2020-10-26 10:16:46 -  	[C]: in function 'updateRewardChest'
+2020-10-26 10:16:46 -  	data/actions/scripts/rewardchest.lua:2: in function <data/actions/scripts/rewardchest.lua:1>
+2020-10-26 10:18:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 10:20:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 10:20:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 10:20:58 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:20:59 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:21:00 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:21:03 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:21:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 10:22:41 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 10:24:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:24:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:24:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:24:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:24:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:24:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:25:39 -  King Romanov has logged in.
+2020-10-26 10:29:14 -  funcao onLogin
+2020-10-26 10:29:14 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:29:14 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:29:17 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:29:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:29:20 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:29:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:29:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:29:25 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:30:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 10:31:47 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 10:32:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 10:32:25 -  King Romanov has logged out.
+2020-10-26 10:36:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:36:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:36:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:36:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:36:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:36:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:36:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:36:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 10:38:07 -  King Romanov has logged in.
+2020-10-26 10:39:51 -  funcao onLogin
+2020-10-26 10:39:51 -  Cassiano has logged in.
+2020-10-26 10:40:22 -  funcao onLogin
+2020-10-26 10:40:22 -  > Broadcasted message: "Cassiano: Bom dia :)".
+2020-10-26 10:40:22 -  Kdz Sacana has logged in.
+2020-10-26 10:42:23 -  funcao onLogin
+2020-10-26 10:42:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 10:42:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:42:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:42:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:43:00 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:45:14 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 10:45:32 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 10:45:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 10:48:47 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:48:47 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:57:59 -  
+2020-10-26 10:57:59 -  Lua Script Error: [Modules Interface] 
+2020-10-26 10:57:59 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-26 10:57:59 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-26 10:57:59 -  stack traceback:
+2020-10-26 10:57:59 -  	[C]: in function 'getPreyMonsterList'
+2020-10-26 10:57:59 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-26 10:57:59 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-26 10:59:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:59:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:59:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:59:59 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 10:59:59 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 11:05:47 -  eu sou o checkWarmode... 11:0!
+2020-10-26 11:05:47 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 11:05:48 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 11:06:42 -  Kdz Sacana has logged out.
+2020-10-26 11:06:43 -  Kdz Sacana has logged in.
+2020-10-26 11:06:44 -  funcao onLogin
+2020-10-26 11:06:44 -  
+2020-10-26 11:06:44 -  Lua Script Error: [Modules Interface] 
+2020-10-26 11:06:44 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-26 11:06:44 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-26 11:06:44 -  stack traceback:
+2020-10-26 11:06:44 -  	[C]: in function 'getPreyMonsterList'
+2020-10-26 11:06:44 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-26 11:06:44 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-26 11:06:55 -  
+2020-10-26 11:06:55 -  Lua Script Error: [Action Interface] 
+2020-10-26 11:06:55 -  data/actions/scripts/rewardchest.lua:onUse
+2020-10-26 11:06:55 -  data/actions/scripts/rewardchest.lua:2: attempt to call method 'updateRewardChest' (a nil value)
+2020-10-26 11:06:55 -  stack traceback:
+2020-10-26 11:06:55 -  	[C]: in function 'updateRewardChest'
+2020-10-26 11:06:55 -  	data/actions/scripts/rewardchest.lua:2: in function <data/actions/scripts/rewardchest.lua:1>
+2020-10-26 11:08:12 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:08:47 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:08:53 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:11:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:11:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:13:36 -  Invasor Zim has logged in.
+2020-10-26 11:13:49 -  funcao onLogin
+2020-10-26 11:13:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 11:13:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 11:13:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 11:13:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 11:16:31 -  
+2020-10-26 11:16:31 -  Lua Script Error: [Action Interface] 
+2020-10-26 11:16:31 -  data/actions/scripts/rewardchest.lua:onUse
+2020-10-26 11:16:31 -  data/actions/scripts/rewardchest.lua:2: attempt to call method 'updateRewardChest' (a nil value)
+2020-10-26 11:16:31 -  stack traceback:
+2020-10-26 11:16:31 -  	[C]: in function 'updateRewardChest'
+2020-10-26 11:16:31 -  	data/actions/scripts/rewardchest.lua:2: in function <data/actions/scripts/rewardchest.lua:1>
+2020-10-26 11:17:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:19:41 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 11:21:09 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 11:23:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:23:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:23:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:23:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:23:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:23:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:23:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:23:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:23:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:23:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:23:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:23:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:23:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:23:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:23:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:23:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:23:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:23:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:24:00 -  > Broadcasted message: "Something is moving in the northern grounds of the Rookgaard.".
+2020-10-26 11:24:20 -  Kdz Tacaspear has logged in.
+2020-10-26 11:26:15 -  funcao onLogin
+2020-10-26 11:26:15 -  
+2020-10-26 11:26:15 -  Lua Script Error: [Modules Interface] 
+2020-10-26 11:26:15 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-26 11:26:15 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-26 11:26:15 -  stack traceback:
+2020-10-26 11:26:15 -  	[C]: in function 'getPreyMonsterList'
+2020-10-26 11:26:15 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-26 11:26:15 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-26 11:26:39 -  
+2020-10-26 11:26:39 -  Lua Script Error: [Modules Interface] 
+2020-10-26 11:26:39 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-26 11:26:39 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-26 11:26:39 -  stack traceback:
+2020-10-26 11:26:39 -  	[C]: in function 'getPreyMonsterList'
+2020-10-26 11:26:39 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-26 11:26:39 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-26 11:26:47 -  
+2020-10-26 11:26:47 -  Lua Script Error: [Modules Interface] 
+2020-10-26 11:26:47 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-26 11:26:47 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-26 11:26:47 -  stack traceback:
+2020-10-26 11:26:47 -  	[C]: in function 'getPreyUnlocked'
+2020-10-26 11:26:47 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-26 11:26:47 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-26 11:26:59 -  
+2020-10-26 11:26:59 -  Lua Script Error: [Modules Interface] 
+2020-10-26 11:26:59 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-26 11:26:59 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-26 11:26:59 -  stack traceback:
+2020-10-26 11:26:59 -  	[C]: in function 'getPreyUnlocked'
+2020-10-26 11:26:59 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-26 11:26:59 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-26 11:26:59 -  
+2020-10-26 11:26:59 -  Lua Script Error: [Modules Interface] 
+2020-10-26 11:26:59 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-26 11:26:59 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-26 11:26:59 -  stack traceback:
+2020-10-26 11:26:59 -  	[C]: in function 'getPreyMonsterList'
+2020-10-26 11:26:59 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-26 11:26:59 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-26 11:27:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:28:12 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 11:28:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 11:28:27 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:28:27 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:28:27 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:28:27 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:28:27 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:28:27 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:28:39 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:28:39 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:28:39 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:28:39 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:28:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:29:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:29:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:29:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:29:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:29:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:29:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:29:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:29:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:29:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:29:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:29:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:29:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:29:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:29:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:29:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:29:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:29:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:30:00 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:30:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:30:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:30:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:30:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:30:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:30:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:30:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:30:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:30:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:30:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:30:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:30:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:30:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:30:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:30:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:30:53 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:30:53 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:30:53 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:30:53 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:30:53 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:30:53 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:31:01 -  Kdz Tacaspear has logged out.
+2020-10-26 11:31:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 11:31:13 -  Kdz Vishur has logged in.
+2020-10-26 11:31:14 -  funcao onLogin
+2020-10-26 11:31:14 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:31:24 -  
+2020-10-26 11:31:24 -  Lua Script Error: [Modules Interface] 
+2020-10-26 11:31:24 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-26 11:31:24 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-26 11:31:24 -  stack traceback:
+2020-10-26 11:31:24 -  	[C]: in function 'getPreyMonsterList'
+2020-10-26 11:31:24 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-26 11:31:24 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-26 11:34:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:34:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:34:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:34:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:34:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:34:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:34:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:34:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:34:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:34:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:34:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:34:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:35:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 11:36:08 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:36:29 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:36:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:37:17 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:37:29 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:37:44 -  Kdz Vishur has logged out.
+2020-10-26 11:37:55 -  Kdz Golpista has logged in.
+2020-10-26 11:39:05 -  funcao onLogin
+2020-10-26 11:39:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 11:39:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:39:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:39:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:39:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:39:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:39:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:39:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:39:18 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:39:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 11:39:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:40:04 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:40:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:40:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:40:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:40:44 -  
+2020-10-26 11:40:44 -  Lua Script Error: [Action Interface] 
+2020-10-26 11:40:44 -  data/actions/scripts/rewardchest.lua:onUse
+2020-10-26 11:40:44 -  data/actions/scripts/rewardchest.lua:2: attempt to call method 'updateRewardChest' (a nil value)
+2020-10-26 11:40:44 -  stack traceback:
+2020-10-26 11:40:44 -  	[C]: in function 'updateRewardChest'
+2020-10-26 11:40:44 -  	data/actions/scripts/rewardchest.lua:2: in function <data/actions/scripts/rewardchest.lua:1>
+2020-10-26 11:41:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 11:41:33 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:41:39 -  Kdz Vishur has logged in.
+2020-10-26 11:41:46 -  funcao onLogin
+2020-10-26 11:41:46 -  Kdz Vishur has logged out.
+2020-10-26 11:42:10 -  ip inválido
+2020-10-26 11:42:10 -  
+2020-10-26 11:42:10 -  Lua Script Error: [Modules Interface] 
+2020-10-26 11:42:10 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-26 11:42:10 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-26 11:42:10 -  stack traceback:
+2020-10-26 11:42:10 -  	[C]: in function 'getPreyMonsterList'
+2020-10-26 11:42:10 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-26 11:42:10 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-26 11:42:11 -  Kdz Sacana has logged out.
+2020-10-26 11:42:12 -  
+2020-10-26 11:42:12 -  Lua Script Error: [Modules Interface] 
+2020-10-26 11:42:12 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-26 11:42:12 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-26 11:42:12 -  stack traceback:
+2020-10-26 11:42:12 -  	[C]: in function 'getPreyUnlocked'
+2020-10-26 11:42:12 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-26 11:42:12 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-26 11:42:12 -  
+2020-10-26 11:42:12 -  Lua Script Error: [Modules Interface] 
+2020-10-26 11:42:12 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-26 11:42:12 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-26 11:42:12 -  stack traceback:
+2020-10-26 11:42:12 -  	[C]: in function 'getPreyMonsterList'
+2020-10-26 11:42:12 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-26 11:42:12 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-26 11:42:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 11:42:18 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 11:42:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 11:42:56 -  Kdz Golpista has logged out.
+2020-10-26 11:43:02 -  Kdz Golpista has logged in.
+2020-10-26 11:43:05 -  funcao onLogin
+2020-10-26 11:43:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:43:16 -  Kdz Sacana has logged in.
+2020-10-26 11:43:44 -  funcao onLogin
+2020-10-26 11:43:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:43:48 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 11:43:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:43:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:43:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:43:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:43:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:43:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:43:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:43:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:43:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:43:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:43:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:43:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:44:04 -  Kdz Golpista has logged out.
+2020-10-26 11:44:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:45:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:46:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:46:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:46:26 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:47:05 -  ip inválido
+2020-10-26 11:47:05 -  Kdz Sacana has logged out.
+2020-10-26 11:47:08 -  Kdz Sacana has logged in.
+2020-10-26 11:47:14 -  funcao onLogin
+2020-10-26 11:47:14 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:47:33 -  Kdz Sacana has logged out.
+2020-10-26 11:48:09 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:48:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:48:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:48:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:48:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:48:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:48:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:48:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:48:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:48:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:48:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:48:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:49:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:50:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:51:24 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:51:36 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 11:51:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:52:37 -  Gummy Bear has logged in.
+2020-10-26 11:53:45 -  funcao onLogin
+2020-10-26 11:53:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:54:25 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:54:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:57:03 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:57:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:58:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:58:47 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 11:59:33 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:59:33 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:59:33 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:59:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:59:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:59:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:59:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:59:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:59:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:59:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 11:59:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:00:39 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 12:01:50 -  eu sou o checkWarmode... 12:0!
+2020-10-26 12:01:50 -  Gummy Bear has logged out.
+2020-10-26 12:01:51 -  Gummy Bear has logged in.
+2020-10-26 12:03:05 -  funcao onLogin
+2020-10-26 12:03:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:03:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:03:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:03:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:03:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:03:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:03:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:03:36 -  Invasor Zim has logged out.
+2020-10-26 12:05:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:05:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:05:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:05:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:05:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:05:26 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 12:05:29 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 12:06:14 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 12:06:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 12:07:14 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:07:14 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:07:18 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:07:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:07:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:07:35 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 12:07:35 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:07:35 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:07:35 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:08:27 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 12:08:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 12:09:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 12:10:14 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 12:15:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 12:15:31 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 12:15:36 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 12:15:38 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 12:15:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 12:15:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 12:15:53 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 12:15:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 12:15:59 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 12:18:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:18:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:18:04 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:18:04 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:18:10 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:18:10 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:18:10 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:18:10 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:18:10 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:18:10 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:18:10 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:18:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:18:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:18:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:19:33 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 12:19:38 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 12:19:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 12:19:48 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 12:19:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 12:20:35 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 12:22:15 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 12:22:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 12:22:20 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 12:22:22 -  Gummy Bear has logged out.
+2020-10-26 12:22:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:22:55 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 12:22:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:22:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:22:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:22:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:22:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:22:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:23:25 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 12:23:33 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:23:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:23:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:23:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:23:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 12:24:12 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:24:12 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:24:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:24:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:24:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:24:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:24:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:24:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:24:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:24:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:24:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:24:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:24:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:24:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:24:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:28:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 12:29:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 12:29:59 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 12:32:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:32:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:32:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:32:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:32:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:32:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:32:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:32:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:32:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:32:41 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:35:06 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 12:35:08 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 12:36:24 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:37:04 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:37:04 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:40:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:40:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:40:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:40:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:41:08 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:41:20 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:41:20 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:41:20 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:41:20 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-26 12:42:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 12:43:00 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 12:43:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 12:46:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 12:47:53 -  ip inválido
+2020-10-26 12:47:53 -  Cassiano has logged out.
+2020-10-26 12:48:17 -  King Romanov has logged out.
+2020-10-26 12:51:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 13:10:53 -  eu sou o checkWarmode... 13:0!
+2020-10-26 13:10:53 -  Cassiano has logged in.
+2020-10-26 13:20:53 -  funcao onLogin
+2020-10-26 13:20:53 -  Cassiano has logged out.
+2020-10-26 13:26:46 -  Dax Buduvieiser has logged out.
+2020-10-26 13:31:43 -  > Broadcasted message: "Corrida de cavalos: O cavalo 4 Pocoyo venceu!".
+2020-10-26 13:31:43 -  
+2020-10-26 13:31:43 -  Lua Script Error: [Modules Interface] 
+2020-10-26 13:31:43 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-26 13:31:43 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-26 13:31:43 -  stack traceback:
+2020-10-26 13:31:43 -  	[C]: in function 'getPreyMonsterList'
+2020-10-26 13:31:43 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-26 13:31:43 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-26 13:31:46 -  
+2020-10-26 13:31:46 -  Lua Script Error: [Modules Interface] 
+2020-10-26 13:31:46 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-26 13:31:46 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-26 13:31:46 -  stack traceback:
+2020-10-26 13:31:46 -  	[C]: in function 'getPreyUnlocked'
+2020-10-26 13:31:46 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-26 13:31:46 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-26 13:31:46 -  
+2020-10-26 13:31:46 -  Lua Script Error: [Modules Interface] 
+2020-10-26 13:31:46 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-26 13:31:46 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-26 13:31:46 -  stack traceback:
+2020-10-26 13:31:46 -  	[C]: in function 'getPreyMonsterList'
+2020-10-26 13:31:46 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-26 13:31:46 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-26 13:31:47 -  
+2020-10-26 13:31:47 -  Lua Script Error: [Modules Interface] 
+2020-10-26 13:31:47 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-26 13:31:47 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-26 13:31:47 -  stack traceback:
+2020-10-26 13:31:47 -  	[C]: in function 'getPreyUnlocked'
+2020-10-26 13:31:47 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-26 13:31:47 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-26 13:31:47 -  
+2020-10-26 13:31:47 -  Lua Script Error: [Modules Interface] 
+2020-10-26 13:31:47 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-26 13:31:47 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-26 13:31:47 -  stack traceback:
+2020-10-26 13:31:47 -  	[C]: in function 'getPreyMonsterList'
+2020-10-26 13:31:47 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-26 13:31:47 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-26 13:35:04 -  Cassiano has logged in.
+2020-10-26 13:48:55 -  funcao onLogin
+2020-10-26 13:48:55 -  
+2020-10-26 13:48:55 -  Lua Script Error: [Modules Interface] 
+2020-10-26 13:48:55 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-26 13:48:55 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-26 13:48:55 -  stack traceback:
+2020-10-26 13:48:55 -  	[C]: in function 'getPreyMonsterList'
+2020-10-26 13:48:55 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-26 13:48:55 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-26 14:00:00 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:00:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:00:37 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:00:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:03:56 -  eu sou o checkWarmode... 14:0!
+2020-10-26 14:03:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:03:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:04:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:05:03 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:05:06 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:06:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:06:47 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:07:25 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:07:26 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:07:31 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:08:20 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:09:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:09:25 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:09:31 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:09:47 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 14:10:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:10:03 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:10:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:10:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:11:17 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:11:20 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:11:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:11:25 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:11:27 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:11:38 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:11:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:13:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:13:36 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:14:08 -  King Romanov has logged in.
+2020-10-26 14:14:32 -  funcao onLogin
+2020-10-26 14:14:32 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:15:39 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:15:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:16:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:16:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:16:39 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:16:41 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:16:57 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:17:29 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 14:17:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:17:43 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:17:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:17:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:18:02 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-26 14:22:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 14:22:35 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 14:24:47 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 14:27:07 -  Easyy Changewar has logged in.
+2020-10-26 14:35:45 -  funcao onLogin
+2020-10-26 14:35:45 -  Easyy Changewar has logged out.
+2020-10-26 14:39:47 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 14:39:51 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-26 14:46:41 -  King Romanov has logged out.
+2020-10-26 14:49:24 -  Vinny has logged out.
+2020-10-26 14:49:26 -  Vinny has logged in.
+2020-10-26 15:08:00 -  funcao onLogin
+2020-10-26 15:08:00 -  eu sou o checkWarmode... 15:0!
+2020-10-26 15:08:00 -  > Broadcasted message: "Something is moving in the depths of the sea around Liberty Bay".
+2020-10-26 15:08:19 -  > Broadcasted message: "Numerous Quara fins have been sighted in the seas around Liberty Bay.".
+2020-10-26 15:08:59 -  > Broadcasted message: "Quara emerged from the sea to attack Liberty Bay.".
+2020-10-26 15:10:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 15:10:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 15:10:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 15:10:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-26 15:24:16 -  Cassiano has logged out.
+2020-10-26 16:05:47 -  eu sou o checkWarmode... 16:0!
+2020-10-26 16:05:47 -  
+2020-10-26 16:05:47 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-26 16:05:47 -  data/globalevents/scripts/Ghulosh.lua:onThink
+2020-10-26 16:05:47 -  data/globalevents/scripts/Ghulosh.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-26 16:05:47 -  stack traceback:
+2020-10-26 16:05:47 -  	[C]: in function '__index'
+2020-10-26 16:05:47 -  	data/globalevents/scripts/Ghulosh.lua:34: in function <data/globalevents/scripts/Ghulosh.lua:21>
+2020-10-26 16:05:47 -  [Error - GlobalEvents::think] Failed to execute event: Ghulosh
+2020-10-26 16:05:47 -  
+2020-10-26 16:05:47 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-26 16:05:47 -  data/globalevents/scripts/Gorzindel.lua:onThink
+2020-10-26 16:05:47 -  data/globalevents/scripts/Gorzindel.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-26 16:05:47 -  stack traceback:
+2020-10-26 16:05:47 -  	[C]: in function '__index'
+2020-10-26 16:05:47 -  	data/globalevents/scripts/Gorzindel.lua:34: in function <data/globalevents/scripts/Gorzindel.lua:21>
+2020-10-26 16:05:47 -  [Error - GlobalEvents::think] Failed to execute event: Gorzindel
+2020-10-26 16:05:47 -  
+2020-10-26 16:05:47 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-26 16:05:47 -  data/globalevents/scripts/Lokathmor.lua:onThink
+2020-10-26 16:05:47 -  data/globalevents/scripts/Lokathmor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-26 16:05:47 -  stack traceback:
+2020-10-26 16:05:47 -  	[C]: in function '__index'
+2020-10-26 16:05:47 -  	data/globalevents/scripts/Lokathmor.lua:34: in function <data/globalevents/scripts/Lokathmor.lua:21>
+2020-10-26 16:05:47 -  [Error - GlobalEvents::think] Failed to execute event: Lokathmor
+2020-10-26 16:05:47 -  
+2020-10-26 16:05:47 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-26 16:05:47 -  data/globalevents/scripts/Mazzinor.lua:onThink
+2020-10-26 16:05:47 -  data/globalevents/scripts/Mazzinor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-26 16:05:47 -  stack traceback:
+2020-10-26 16:05:47 -  	[C]: in function '__index'
+2020-10-26 16:05:47 -  	data/globalevents/scripts/Mazzinor.lua:34: in function <data/globalevents/scripts/Mazzinor.lua:21>
+2020-10-26 16:05:47 -  [Error - GlobalEvents::think] Failed to execute event: Mazzinor
+2020-10-26 16:05:47 -  
+2020-10-26 16:05:47 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-26 16:05:47 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:onThink
+2020-10-26 16:05:47 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-26 16:05:47 -  stack traceback:
+2020-10-26 16:05:47 -  	[C]: in function '__index'
+2020-10-26 16:05:47 -  	data/globalevents/scripts/The Scourge Of Oblivion.lua:34: in function <data/globalevents/scripts/The Scourge Of Oblivion.lua:21>
+2020-10-26 16:05:47 -  [Error - GlobalEvents::think] Failed to execute event: The Scourge Of Oblivion
+2020-10-26 16:54:31 -  Invasor Zim has logged in.
+2020-10-26 16:58:00 -  funcao onLogin
+2020-10-26 16:58:00 -  > Broadcasted message: "Barbarians are gathering at Bittermor. They seem to be up to something.".
+2020-10-26 16:58:19 -  > Broadcasted message: "The barbarian pack is roaming around in Bittermor.".
+2020-10-26 17:06:50 -  eu sou o checkWarmode... 17:0!
+2020-10-26 17:06:50 -  Invasor Zim has logged out.
+2020-10-26 17:06:57 -  Gummy Bear has logged in.
+2020-10-26 17:16:57 -  funcao onLogin
+2020-10-26 17:16:57 -  Gummy Bear has logged out.
+2020-10-26 17:21:59 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018

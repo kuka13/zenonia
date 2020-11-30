@@ -1,0 +1,1279 @@
+2020-10-19 05:06:25 -  [Thread debugging using libthread_db enabled]
+2020-10-19 05:06:25 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2020-10-19 05:06:25 -  [New Thread 0x7ffff3dbb700 (LWP 9208)]
+2020-10-19 05:06:25 -  [New Thread 0x7ffff35ba700 (LWP 9209)]
+2020-10-19 05:06:25 -  The OTG-Premium-Version - Version: (1.3)
+2020-10-19 05:06:25 -  Compiled with: GNU C++ version 5.4.0 20160609
+2020-10-19 05:06:25 -  Compiled on Sep 17 2020 19:49:36 for platform x64
+2020-10-19 05:06:25 -  
+2020-10-19 05:06:25 -  Special Credits for: OTG Team, Johncore, Vankk, Erick Nunes, Leonardo Pereira, Leandro Baldissera, Talis, Marcomoa, Marson Schneider, Douglas, Mark Samman, OTXServer (Mattyx Gomez) and The Forgotten Server Developers.
+2020-10-19 05:06:25 -  Link of repository: https://github.com/Johncorex/OTG-Premium-Version
+2020-10-19 05:06:25 -  
+2020-10-19 05:06:25 -  >> Loading config: config.lua
+2020-10-19 05:06:25 -  >> Establishing database connection... MySQL 5.7.31
+2020-10-19 05:06:25 -  >> Running database manager
+2020-10-19 05:06:25 -  [New Thread 0x7ffff2ba7700 (LWP 9210)]
+2020-10-19 05:06:25 -  > Optimizing table players_online... [success]
+2020-10-19 05:06:25 -  > Optimizing table tile_store... [success]
+2020-10-19 05:06:25 -  >> Loading vocations
+2020-10-19 05:06:25 -  >> Loading items
+2020-10-19 05:06:26 -  >> Loading script systems
+2020-10-19 05:06:26 -  >> Loading lua libs
+2020-10-19 05:06:26 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-19 05:06:26 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-19 05:06:27 -  >> Loading lua scripts
+2020-10-19 05:06:27 -  >> Loading monsters
+2020-10-19 05:06:27 -  >> Loading lua monsters
+2020-10-19 05:06:27 -  >> Loading outfits
+2020-10-19 05:06:27 -  >> Loading prey data
+2020-10-19 05:06:27 -  >> Checking world type... PVP
+2020-10-19 05:06:27 -  >> Loading map
+2020-10-19 05:06:29 -  > Map size: 34143x33812.
+2020-10-19 05:06:35 -  > Map loading time: 7.346 seconds.
+2020-10-19 05:07:17 -  > Loaded house items in: 0.028 s
+2020-10-19 05:07:17 -  >> Initializing gamestate
+2020-10-19 05:07:20 -  >> Loaded 43 npcs and spawned 72708 monsters.
+2020-10-19 05:07:20 -  >> Loaded 27 towns with 1074 houses in total.
+2020-10-19 05:07:20 -  [Castle War]
+2020-10-19 05:07:20 -  [POWERGAMERS]
+2020-10-19 05:07:20 -  [SISTEMA DE LOTERIA] OPERANTE
+2020-10-19 05:07:20 -  Advanced NPC spawn system | All NPCs will be loaded trough lib.
+2020-10-19 05:07:20 -  [REGEN BOOST] CARREGADO
+2020-10-19 05:07:20 -  [SPOOF COUNTER]
+2020-10-19 05:07:20 -  [STAMINA]
+2020-10-19 05:07:20 -  warvariables
+2020-10-19 05:07:20 -  05	07	53
+2020-10-19 05:07:20 -  >> Loaded all modules, server starting up...
+2020-10-19 05:07:20 -  > Warning: OTG-Premium-Version has been executed as root user, please consider running it as a normal user.
+2020-10-19 05:07:20 -  >> Honera Global Server Online!
+2020-10-19 05:07:20 -  
+2020-10-19 05:34:21 -  SABADOU!! NPC HONERA CRIADO
+2020-10-19 05:34:21 -  > Broadcasted message: "There seems to be a big gnarlhoud gang in Zao Steppe.".
+2020-10-19 05:34:40 -  > Broadcasted message: "The gnarlhounds seem to multiply by the minute.".
+2020-10-19 05:36:20 -  > Broadcasted message: "The gnarlhounds roam free in the Zao Steppe. Watch out!".
+2020-10-19 06:00:28 -  eu sou o checkWarmode... 06:00
+2020-10-19 06:00:28 -  > Broadcasted message: "Rat Plague in Thais!".
+2020-10-19 07:18:21 -  eu sou o checkWarmode... 07:00
+2020-10-19 07:18:21 -  > Broadcasted message: "Beware! Mawhawk!".
+2020-10-19 08:05:21 -  eu sou o checkWarmode... 08:00
+2020-10-19 08:05:21 -  > Broadcasted message: "Barbarians are gathering at Bittermor. They seem to be up to something.".
+2020-10-19 08:05:40 -  > Broadcasted message: "The barbarian pack is roaming around in Bittermor.".
+2020-10-19 08:06:27 -  
+2020-10-19 08:06:27 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-19 08:06:27 -  data/globalevents/scripts/bosses/Abyssador.lua:onThink
+2020-10-19 08:06:27 -  data/lib/rewardboss.lua:8: Rewards can only be enabled to rewards bosses.
+2020-10-19 08:06:27 -  stack traceback:
+2020-10-19 08:06:27 -  	[C]: at 0x00602980
+2020-10-19 08:06:27 -  	[C]: in function 'error'
+2020-10-19 08:06:27 -  	data/lib/rewardboss.lua:8: in function 'setReward'
+2020-10-19 08:06:27 -  	data/globalevents/scripts/bosses/Abyssador.lua:28: in function <data/globalevents/scripts/bosses/Abyssador.lua:21>
+2020-10-19 08:06:27 -  [Error - GlobalEvents::think] Failed to execute event: Abyssador
+2020-10-19 08:06:27 -  
+2020-10-19 08:06:27 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-19 08:06:27 -  data/globalevents/scripts/bosses/Deathstrike.lua:onThink
+2020-10-19 08:06:27 -  data/lib/rewardboss.lua:8: Rewards can only be enabled to rewards bosses.
+2020-10-19 08:06:27 -  stack traceback:
+2020-10-19 08:06:27 -  	[C]: at 0x00602980
+2020-10-19 08:06:27 -  	[C]: in function 'error'
+2020-10-19 08:06:27 -  	data/lib/rewardboss.lua:8: in function 'setReward'
+2020-10-19 08:06:27 -  	data/globalevents/scripts/bosses/Deathstrike.lua:28: in function <data/globalevents/scripts/bosses/Deathstrike.lua:21>
+2020-10-19 08:06:27 -  [Error - GlobalEvents::think] Failed to execute event: Deathstrike
+2020-10-19 08:06:27 -  
+2020-10-19 08:06:27 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-19 08:06:27 -  data/globalevents/scripts/bosses/Gnomevil.lua:onThink
+2020-10-19 08:06:27 -  data/lib/rewardboss.lua:8: Rewards can only be enabled to rewards bosses.
+2020-10-19 08:06:27 -  stack traceback:
+2020-10-19 08:06:27 -  	[C]: at 0x00602980
+2020-10-19 08:06:27 -  	[C]: in function 'error'
+2020-10-19 08:06:27 -  	data/lib/rewardboss.lua:8: in function 'setReward'
+2020-10-19 08:06:27 -  	data/globalevents/scripts/bosses/Gnomevil.lua:28: in function <data/globalevents/scripts/bosses/Gnomevil.lua:21>
+2020-10-19 08:06:27 -  [Error - GlobalEvents::think] Failed to execute event: Gnomevil
+2020-10-19 08:25:00 -  Dev Marson has logged in.
+2020-10-19 08:36:59 -  aqui eu checkei o choiceID para atualizar o warmode temp4
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:36:59 -  93	93
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:36:59 -  141	141
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:36:59 -  231	231
+2020-10-19 08:36:59 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:36:59 -  93	93
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:36:59 -  141	141
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:36:59 -  231	231
+2020-10-19 08:36:59 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:36:59 -  93	93
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:36:59 -  141	141
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:36:59 -  231	231
+2020-10-19 08:36:59 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:36:59 -  93	93
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:36:59 -  141	141
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:36:59 -  231	231
+2020-10-19 08:36:59 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:36:59 -  93	93
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:36:59 -  141	141
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:36:59 -  231	231
+2020-10-19 08:36:59 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:36:59 -  93	93
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:36:59 -  141	141
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:36:59 -  231	231
+2020-10-19 08:36:59 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:36:59 -  93	93
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:36:59 -  141	141
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:36:59 -  231	231
+2020-10-19 08:36:59 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:36:59 -  93	93
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:36:59 -  141	141
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:36:59 -  231	231
+2020-10-19 08:36:59 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:36:59 -  93	93
+2020-10-19 08:36:59 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:37:44 -  141	141
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:37:44 -  231	231
+2020-10-19 08:37:44 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:37:44 -  93	93
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:37:44 -  141	141
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:37:44 -  231	231
+2020-10-19 08:37:44 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:37:44 -  false	93
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:37:44 -  141	141
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:37:44 -  231	231
+2020-10-19 08:37:44 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:37:44 -  false	93
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:37:44 -  141	141
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:37:44 -  231	231
+2020-10-19 08:37:44 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:37:44 -  false	93
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:37:44 -  141	141
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:37:44 -  231	231
+2020-10-19 08:37:44 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:37:44 -  false	93
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:37:44 -  141	141
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:37:44 -  231	231
+2020-10-19 08:37:44 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:37:44 -  false	93
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:37:44 -  141	141
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:37:44 -  231	231
+2020-10-19 08:37:44 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:37:44 -  false	93
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:37:44 -  141	141
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:37:44 -  231	231
+2020-10-19 08:37:44 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:37:44 -  false	93
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:37:44 -  141	141
+2020-10-19 08:37:44 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:37:44 -  231	231
+2020-10-19 08:37:44 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:40:57 -  false	93
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:40:57 -  141	141
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:40:57 -  231	231
+2020-10-19 08:40:57 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:40:57 -  false	93
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:40:57 -  false	141
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:40:57 -  231	231
+2020-10-19 08:40:57 -  aqui eu checkei o choiceID para atualizar o warmode temp3
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:40:57 -  false	93
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:40:57 -  false	141
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:40:57 -  false	231
+2020-10-19 08:40:57 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:40:57 -  93	93
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:40:57 -  false	141
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:40:57 -  false	231
+2020-10-19 08:40:57 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:40:57 -  93	93
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:40:57 -  false	141
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:40:57 -  false	231
+2020-10-19 08:40:57 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:40:57 -  93	93
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:40:57 -  false	141
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:40:57 -  false	231
+2020-10-19 08:40:57 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:40:57 -  93	93
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:40:57 -  false	141
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:40:57 -  false	231
+2020-10-19 08:40:57 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:40:57 -  93	93
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:40:57 -  false	141
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:40:57 -  false	231
+2020-10-19 08:40:57 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:40:57 -  93	93
+2020-10-19 08:40:57 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:40:57 -  false	141
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:57:36 -  false	231
+2020-10-19 08:57:36 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:57:36 -  93	93
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:57:36 -  false	141
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:57:36 -  false	231
+2020-10-19 08:57:36 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:57:36 -  93	93
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:57:36 -  false	141
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:57:36 -  false	231
+2020-10-19 08:57:36 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:57:36 -  93	93
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:57:36 -  false	141
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:57:36 -  false	231
+2020-10-19 08:57:36 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:57:36 -  93	93
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:57:36 -  false	141
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:57:36 -  false	231
+2020-10-19 08:57:36 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:57:36 -  93	93
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:57:36 -  false	141
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:57:36 -  false	231
+2020-10-19 08:57:36 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:57:36 -  93	93
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:57:36 -  false	141
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:57:36 -  false	231
+2020-10-19 08:57:36 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:57:36 -  93	93
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:57:36 -  141	141
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:57:36 -  false	231
+2020-10-19 08:57:36 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:57:36 -  93	93
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 08:57:36 -  141	141
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 08:57:36 -  false	231
+2020-10-19 08:57:36 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 08:57:36 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 08:57:36 -  93	93
+2020-10-19 09:16:21 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:16:21 -  141	141
+2020-10-19 09:16:21 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:16:21 -  false	231
+2020-10-19 09:16:21 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:16:21 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:16:21 -  93	93
+2020-10-19 09:16:21 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:16:21 -  141	141
+2020-10-19 09:16:21 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:16:21 -  false	231
+2020-10-19 09:16:21 -  aqui eu checkei o choiceID para atualizar o warmode temp3
+2020-10-19 09:16:21 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:16:21 -  93	93
+2020-10-19 09:16:21 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:16:21 -  141	141
+2020-10-19 09:16:21 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:16:21 -  231	231
+2020-10-19 09:16:21 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:16:21 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:16:21 -  93	93
+2020-10-19 09:16:21 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:16:21 -  141	141
+2020-10-19 09:16:21 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:16:21 -  231	231
+2020-10-19 09:16:21 -  eu sou o checkWarmode... 09:00
+2020-10-19 09:16:21 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:16:21 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:16:21 -  93	93
+2020-10-19 09:16:21 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:16:21 -  141	141
+2020-10-19 09:16:21 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:16:21 -  231	231
+2020-10-19 09:16:21 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:16:21 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:16:21 -  93	93
+2020-10-19 09:16:21 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:16:21 -  141	141
+2020-10-19 09:16:21 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:16:21 -  231	231
+2020-10-19 09:16:21 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:16:21 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:16:21 -  93	93
+2020-10-19 09:16:21 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:16:21 -  141	141
+2020-10-19 09:16:21 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:16:21 -  231	231
+2020-10-19 09:16:21 -  > Broadcasted message: "Something is moving in the northern grounds of the Rookgaard.".
+2020-10-19 09:16:47 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:16:47 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:16:47 -  93	93
+2020-10-19 09:16:47 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:16:47 -  141	141
+2020-10-19 09:16:47 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:16:47 -  231	231
+2020-10-19 09:16:47 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 09:16:47 -  
+2020-10-19 09:16:47 -  Lua Script Error: [CreatureScript Interface] 
+2020-10-19 09:16:47 -  data/creaturescripts/scripts/warmode.lua:onModalWindow
+2020-10-19 09:16:47 -  data/creaturescripts/scripts/warmode.lua:190: attempt to concatenate a nil value
+2020-10-19 09:16:47 -  stack traceback:
+2020-10-19 09:16:47 -  	[C]: in function '__concat'
+2020-10-19 09:16:47 -  	data/creaturescripts/scripts/warmode.lua:190: in function <data/creaturescripts/scripts/warmode.lua:1>
+2020-10-19 09:21:55 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:21:55 -  93	93
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:21:55 -  141	141
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:21:55 -  231	231
+2020-10-19 09:21:55 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:21:55 -  93	93
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:21:55 -  141	141
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:21:55 -  231	231
+2020-10-19 09:21:55 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:21:55 -  93	93
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:21:55 -  141	141
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:21:55 -  231	231
+2020-10-19 09:21:55 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:21:55 -  93	93
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:21:55 -  141	141
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:21:55 -  231	231
+2020-10-19 09:21:55 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:21:55 -  false	93
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:21:55 -  false	141
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:21:55 -  false	231
+2020-10-19 09:21:55 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:21:55 -  93	93
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:21:55 -  false	141
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:21:55 -  false	231
+2020-10-19 09:21:55 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:21:55 -  93	93
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:21:55 -  141	141
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:21:55 -  false	231
+2020-10-19 09:21:55 -  aqui eu checkei o choiceID para atualizar o warmode temp3
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:21:55 -  93	93
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:21:55 -  141	141
+2020-10-19 09:21:55 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:21:55 -  231	231
+2020-10-19 09:21:55 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 09:21:55 -  
+2020-10-19 09:21:55 -  Lua Script Error: [CreatureScript Interface] 
+2020-10-19 09:21:55 -  data/creaturescripts/scripts/warmode.lua:onModalWindow
+2020-10-19 09:21:55 -  data/creaturescripts/scripts/warmode.lua:190: attempt to concatenate a nil value
+2020-10-19 09:21:55 -  stack traceback:
+2020-10-19 09:21:55 -  	[C]: in function '__concat'
+2020-10-19 09:21:55 -  	data/creaturescripts/scripts/warmode.lua:190: in function <data/creaturescripts/scripts/warmode.lua:1>
+2020-10-19 09:34:51 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:34:51 -  93	93
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:34:51 -  141	141
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:34:51 -  231	231
+2020-10-19 09:34:51 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:34:51 -  93	93
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:34:51 -  141	141
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:34:51 -  231	231
+2020-10-19 09:34:51 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 09:34:51 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:34:51 -  93	93
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:34:51 -  141	141
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:34:51 -  231	231
+2020-10-19 09:34:51 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:34:51 -  93	93
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:34:51 -  141	141
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:34:51 -  231	231
+2020-10-19 09:34:51 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 09:34:51 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:34:51 -  93	93
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:34:51 -  141	141
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:34:51 -  231	231
+2020-10-19 09:34:51 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:34:51 -  93	93
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:34:51 -  141	141
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:34:51 -  231	231
+2020-10-19 09:34:51 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:34:51 -  false	93
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:34:51 -  false	141
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:34:51 -  false	231
+2020-10-19 09:34:51 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:34:51 -  93	93
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:34:51 -  false	141
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:34:51 -  false	231
+2020-10-19 09:34:51 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-19 09:34:51 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:34:51 -  93	93
+2020-10-19 09:37:54 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:37:54 -  141	141
+2020-10-19 09:37:54 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:37:54 -  false	231
+2020-10-19 09:37:54 -  aqui eu checkei o choiceID para atualizar o warmode temp3
+2020-10-19 09:37:54 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:37:54 -  93	93
+2020-10-19 09:37:54 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:37:54 -  141	141
+2020-10-19 09:37:54 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:37:54 -  231	231
+2020-10-19 09:37:54 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 09:37:54 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:37:54 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:37:54 -  93	93
+2020-10-19 09:37:54 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:37:54 -  141	141
+2020-10-19 09:37:54 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:37:54 -  231	231
+2020-10-19 09:37:54 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 09:37:54 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:37:54 -  false	93
+2020-10-19 09:37:54 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:37:54 -  false	141
+2020-10-19 09:37:54 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:37:54 -  false	231
+2020-10-19 09:37:54 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:37:54 -  
+2020-10-19 09:37:54 -  Lua Script Error: [CreatureScript Interface] 
+2020-10-19 09:37:54 -  data/creaturescripts/scripts/warmode.lua:onModalWindow
+2020-10-19 09:37:54 -  data/creaturescripts/scripts/warmode.lua:214: attempt to concatenate local 'nomeid' (a boolean value)
+2020-10-19 09:37:54 -  stack traceback:
+2020-10-19 09:37:54 -  	[C]: in function '__concat'
+2020-10-19 09:37:54 -  	data/creaturescripts/scripts/warmode.lua:214: in function <data/creaturescripts/scripts/warmode.lua:1>
+2020-10-19 09:48:13 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:48:13 -  false	93
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:48:13 -  false	141
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:48:13 -  false	231
+2020-10-19 09:48:13 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:48:13 -  false	93
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:48:13 -  false	141
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:48:13 -  false	231
+2020-10-19 09:48:13 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:48:13 -  93	93
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:48:13 -  false	141
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:48:13 -  false	231
+2020-10-19 09:48:13 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:48:13 -  93	93
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:48:13 -  141	141
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:48:13 -  false	231
+2020-10-19 09:48:13 -  aqui eu checkei o choiceID para atualizar o warmode temp3
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:48:13 -  93	93
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:48:13 -  141	141
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:48:13 -  231	231
+2020-10-19 09:48:13 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 09:48:13 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:48:13 -  93	93
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:48:13 -  141	141
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:48:13 -  231	231
+2020-10-19 09:48:13 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 09:48:13 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:48:13 -  93	93
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:48:13 -  141	141
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:48:13 -  231	231
+2020-10-19 09:48:13 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 09:48:13 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 09:48:13 -  93	93
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 09:48:13 -  141	141
+2020-10-19 09:48:13 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 09:48:13 -  231	231
+2020-10-19 09:48:13 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 09:48:13 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:07:29 -  93	93
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:07:29 -  141	141
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:07:29 -  231	231
+2020-10-19 10:07:29 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 10:07:29 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:07:29 -  93	93
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:07:29 -  141	141
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:07:29 -  231	231
+2020-10-19 10:07:29 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 10:07:29 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:07:29 -  93	93
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:07:29 -  141	141
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:07:29 -  231	231
+2020-10-19 10:07:29 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 10:07:29 -  eu sou o checkWarmode... 10:00
+2020-10-19 10:07:29 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:07:29 -  93	93
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:07:29 -  141	141
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:07:29 -  231	231
+2020-10-19 10:07:29 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 10:07:29 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:07:29 -  93	93
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:07:29 -  141	141
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:07:29 -  231	231
+2020-10-19 10:07:29 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 10:07:29 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:07:29 -  93	93
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:07:29 -  141	141
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:07:29 -  231	231
+2020-10-19 10:07:29 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:07:29 -  false	93
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:07:29 -  false	141
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:07:29 -  false	231
+2020-10-19 10:07:29 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:07:29 -  93	93
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:07:29 -  false	141
+2020-10-19 10:07:29 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:07:29 -  false	231
+2020-10-19 10:12:45 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-19 10:12:45 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:12:45 -  93	93
+2020-10-19 10:12:45 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:12:45 -  141	141
+2020-10-19 10:12:45 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:12:45 -  false	231
+2020-10-19 10:12:45 -  aqui eu checkei o choiceID para atualizar o warmode temp3
+2020-10-19 10:12:45 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:12:45 -  93	93
+2020-10-19 10:12:45 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:12:45 -  141	141
+2020-10-19 10:12:45 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:12:45 -  231	231
+2020-10-19 10:12:45 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 10:12:45 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 10:12:45 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:12:45 -  93	93
+2020-10-19 10:12:45 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:12:45 -  141	141
+2020-10-19 10:12:45 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:12:45 -  231	231
+2020-10-19 10:12:45 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 10:12:45 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 10:12:45 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:12:45 -  93	93
+2020-10-19 10:12:45 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:12:45 -  141	141
+2020-10-19 10:12:45 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:12:45 -  231	231
+2020-10-19 10:12:45 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 10:12:45 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 10:12:45 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:12:45 -  93	93
+2020-10-19 10:12:45 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:12:45 -  141	141
+2020-10-19 10:12:45 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:12:45 -  231	231
+2020-10-19 10:12:45 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 10:12:45 -  
+2020-10-19 10:12:45 -  Lua Script Error: [CreatureScript Interface] 
+2020-10-19 10:12:45 -  data/creaturescripts/scripts/warmode.lua:onModalWindow
+2020-10-19 10:12:45 -  data/creaturescripts/scripts/warmode.lua:342: attempt to concatenate a nil value
+2020-10-19 10:12:45 -  stack traceback:
+2020-10-19 10:12:45 -  	[C]: in function '__concat'
+2020-10-19 10:12:45 -  	data/creaturescripts/scripts/warmode.lua:342: in function <data/creaturescripts/scripts/warmode.lua:1>
+2020-10-19 10:23:00 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 10:23:00 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:23:00 -  93	93
+2020-10-19 10:23:00 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:23:00 -  141	141
+2020-10-19 10:23:00 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:23:00 -  231	231
+2020-10-19 10:23:00 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 10:23:00 -  aqui eu checkei o choiceID para atualizar o warmode temp5
+2020-10-19 10:23:00 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:23:00 -  93	93
+2020-10-19 10:23:00 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:23:00 -  141	141
+2020-10-19 10:23:00 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:23:00 -  231	231
+2020-10-19 10:23:00 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 10:23:00 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 10:23:00 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:23:00 -  false	93
+2020-10-19 10:23:00 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:23:00 -  false	141
+2020-10-19 10:23:00 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:23:00 -  false	231
+2020-10-19 10:23:00 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 10:23:00 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:23:00 -  93	93
+2020-10-19 10:23:00 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:23:00 -  false	141
+2020-10-19 10:23:00 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:23:00 -  false	231
+2020-10-19 10:23:00 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-19 10:23:00 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:23:00 -  93	93
+2020-10-19 10:23:00 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:23:00 -  141	141
+2020-10-19 10:23:00 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:23:00 -  false	231
+2020-10-19 10:23:00 -  aqui eu checkei o choiceID para atualizar o warmode temp3
+2020-10-19 10:23:00 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:23:00 -  93	93
+2020-10-19 10:23:00 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:23:00 -  141	141
+2020-10-19 10:23:00 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:23:00 -  231	231
+2020-10-19 10:23:00 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 10:23:00 -  Robalo has logged in.
+2020-10-19 10:23:07 -  Robalo has logged out.
+2020-10-19 10:23:09 -  Flash has logged in.
+2020-10-19 10:23:15 -  Flash has logged out.
+2020-10-19 10:23:16 -  Arrow has logged in.
+2020-10-19 10:23:21 -  Arrow has logged out.
+2020-10-19 10:23:23 -  Scooby Doo has logged in.
+2020-10-19 10:23:29 -  Scooby Doo has logged out.
+2020-10-19 10:24:29 -  aqui eu checkei o choiceID para atualizar o warmode temp5
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:24:29 -  false	93
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:24:29 -  false	141
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:24:29 -  false	231
+2020-10-19 10:24:29 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:24:29 -  false	93
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:24:29 -  false	141
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:24:29 -  false	231
+2020-10-19 10:24:29 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:24:29 -  93	93
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:24:29 -  false	141
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:24:29 -  false	231
+2020-10-19 10:24:29 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:24:29 -  93	93
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:24:29 -  141	141
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:24:29 -  false	231
+2020-10-19 10:24:29 -  aqui eu checkei o choiceID para atualizar o warmode temp3
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:24:29 -  93	93
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:24:29 -  141	141
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:24:29 -  231	231
+2020-10-19 10:24:29 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 10:24:29 -  aqui eu checkei o choiceID para atualizar o warmode temp5
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:24:29 -  false	93
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:24:29 -  false	141
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:24:29 -  false	231
+2020-10-19 10:24:29 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:24:29 -  93	93
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:24:29 -  false	141
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:24:29 -  false	231
+2020-10-19 10:24:29 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:24:29 -  93	93
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:24:29 -  141	141
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:24:29 -  false	231
+2020-10-19 10:24:29 -  aqui eu checkei o choiceID para atualizar o warmode temp3
+2020-10-19 10:24:29 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 10:24:29 -  93	93
+2020-10-19 10:24:59 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 10:24:59 -  141	141
+2020-10-19 10:24:59 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 10:24:59 -  231	231
+2020-10-19 10:24:59 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 10:24:59 -  Robalo has logged in.
+2020-10-19 11:05:54 -  aqui eu checkei o choiceID para atualizar o warmode temp5
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 11:05:54 -  false	93
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 11:05:54 -  false	141
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 11:05:54 -  false	231
+2020-10-19 11:05:54 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 11:05:54 -  93	93
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 11:05:54 -  false	141
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 11:05:54 -  false	231
+2020-10-19 11:05:54 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 11:05:54 -  93	93
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 11:05:54 -  141	141
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 11:05:54 -  false	231
+2020-10-19 11:05:54 -  aqui eu checkei o choiceID para atualizar o warmode temp3
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 11:05:54 -  93	93
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 11:05:54 -  141	141
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 11:05:54 -  231	231
+2020-10-19 11:05:54 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 11:05:54 -  aqui eu checkei o choiceID para atualizar o warmode temp5
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 11:05:54 -  false	93
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 11:05:54 -  false	141
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 11:05:54 -  false	231
+2020-10-19 11:05:54 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 11:05:54 -  93	93
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 11:05:54 -  false	141
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 11:05:54 -  false	231
+2020-10-19 11:05:54 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 11:05:54 -  93	93
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 11:05:54 -  141	141
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 11:05:54 -  false	231
+2020-10-19 11:05:54 -  aqui eu checkei o choiceID para atualizar o warmode temp3
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 11:05:54 -  93	93
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 11:05:54 -  141	141
+2020-10-19 11:05:54 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 11:05:54 -  231	231
+2020-10-19 11:05:54 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 11:05:54 -  eu sou o checkWarmode... 11:00
+2020-10-19 11:05:54 -  aqui eu checkei o choiceID para atualizar o warmode temp5
+2020-10-19 11:06:27 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 11:06:27 -  false	93
+2020-10-19 11:06:27 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 11:06:27 -  false	141
+2020-10-19 11:06:27 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 11:06:27 -  false	231
+2020-10-19 11:06:27 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 11:06:27 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 11:06:27 -  93	93
+2020-10-19 11:06:27 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 11:06:27 -  false	141
+2020-10-19 11:06:27 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 11:06:27 -  false	231
+2020-10-19 11:06:27 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-19 11:06:27 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 11:06:27 -  93	93
+2020-10-19 11:06:27 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 11:06:27 -  141	141
+2020-10-19 11:06:27 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 11:06:27 -  false	231
+2020-10-19 11:06:27 -  aqui eu checkei o choiceID para atualizar o warmode temp3
+2020-10-19 11:06:27 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 11:06:27 -  93	93
+2020-10-19 11:06:27 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 11:06:27 -  141	141
+2020-10-19 11:06:27 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 11:06:27 -  231	231
+2020-10-19 11:06:27 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 11:06:27 -  
+2020-10-19 11:06:27 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-19 11:06:27 -  data/globalevents/scripts/Ghulosh.lua:onThink
+2020-10-19 11:06:27 -  data/globalevents/scripts/Ghulosh.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-19 11:06:27 -  stack traceback:
+2020-10-19 11:06:27 -  	[C]: in function '__index'
+2020-10-19 11:06:27 -  	data/globalevents/scripts/Ghulosh.lua:34: in function <data/globalevents/scripts/Ghulosh.lua:21>
+2020-10-19 11:06:27 -  [Error - GlobalEvents::think] Failed to execute event: Ghulosh
+2020-10-19 11:06:27 -  
+2020-10-19 11:06:27 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-19 11:06:27 -  data/globalevents/scripts/Gorzindel.lua:onThink
+2020-10-19 11:06:27 -  data/globalevents/scripts/Gorzindel.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-19 11:06:27 -  stack traceback:
+2020-10-19 11:06:27 -  	[C]: in function '__index'
+2020-10-19 11:06:27 -  	data/globalevents/scripts/Gorzindel.lua:34: in function <data/globalevents/scripts/Gorzindel.lua:21>
+2020-10-19 11:06:27 -  [Error - GlobalEvents::think] Failed to execute event: Gorzindel
+2020-10-19 11:06:27 -  
+2020-10-19 11:06:27 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-19 11:06:27 -  data/globalevents/scripts/Lokathmor.lua:onThink
+2020-10-19 11:06:27 -  data/globalevents/scripts/Lokathmor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-19 11:06:27 -  stack traceback:
+2020-10-19 11:06:27 -  	[C]: in function '__index'
+2020-10-19 11:06:27 -  	data/globalevents/scripts/Lokathmor.lua:34: in function <data/globalevents/scripts/Lokathmor.lua:21>
+2020-10-19 11:06:27 -  [Error - GlobalEvents::think] Failed to execute event: Lokathmor
+2020-10-19 11:06:27 -  
+2020-10-19 11:06:27 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-19 11:06:27 -  data/globalevents/scripts/Mazzinor.lua:onThink
+2020-10-19 11:06:27 -  data/globalevents/scripts/Mazzinor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-19 11:06:27 -  stack traceback:
+2020-10-19 11:06:27 -  	[C]: in function '__index'
+2020-10-19 11:06:27 -  	data/globalevents/scripts/Mazzinor.lua:34: in function <data/globalevents/scripts/Mazzinor.lua:21>
+2020-10-19 11:06:27 -  [Error - GlobalEvents::think] Failed to execute event: Mazzinor
+2020-10-19 11:06:27 -  [Warning - Monsters::loadMonster] Non-unique loot item "Giant Sapphire". 
+2020-10-19 11:06:27 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-19 11:06:27 -  [Warning - Monsters::loadMonster] Non-unique loot item "Collar of Blue Plasma". 
+2020-10-19 11:06:27 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-19 11:06:27 -  [Warning - Monsters::loadMonster] Non-unique loot item "Giant Shimmering Pearl". 
+2020-10-19 11:06:27 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-19 11:06:27 -  [Warning - Monsters::loadMonster] Unknown loot item "The Calamity". 
+2020-10-19 11:06:27 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-19 11:06:27 -  
+2020-10-19 11:06:27 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-19 11:06:27 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:onThink
+2020-10-19 11:06:27 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-19 11:06:27 -  stack traceback:
+2020-10-19 11:06:27 -  	[C]: in function '__index'
+2020-10-19 11:06:27 -  	data/globalevents/scripts/The Scourge Of Oblivion.lua:34: in function <data/globalevents/scripts/The Scourge Of Oblivion.lua:21>
+2020-10-19 11:06:27 -  [Error - GlobalEvents::think] Failed to execute event: The Scourge Of Oblivion
+2020-10-19 11:23:21 -  aqui eu checkei o choiceID para atualizar o warmode temp5
+2020-10-19 11:23:21 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 11:23:21 -  false	93
+2020-10-19 11:23:21 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 11:23:21 -  false	141
+2020-10-19 11:23:21 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 11:23:21 -  false	231
+2020-10-19 11:23:21 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 11:23:21 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 11:23:21 -  93	93
+2020-10-19 11:23:21 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 11:23:21 -  false	141
+2020-10-19 11:23:21 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 11:23:21 -  false	231
+2020-10-19 11:23:21 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-19 11:23:21 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 11:23:21 -  93	93
+2020-10-19 11:23:21 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 11:23:21 -  141	141
+2020-10-19 11:23:21 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 11:23:21 -  false	231
+2020-10-19 11:23:21 -  aqui eu checkei o choiceID para atualizar o warmode temp3
+2020-10-19 11:23:21 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 11:23:21 -  93	93
+2020-10-19 11:23:21 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 11:23:21 -  141	141
+2020-10-19 11:23:21 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 11:23:21 -  231	231
+2020-10-19 11:23:21 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 11:23:21 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 11:23:21 -  debug mode: for i = 1, 2 pegar o id: 224, fazer um select no banco pra pegar o nome onde contem o id: Master, converter para o 
+2020-10-19 11:23:21 -  false	224
+2020-10-19 11:23:21 -  debug mode: for i = 1, 2 pegar o id: 255, fazer um select no banco pra pegar o nome onde contem o id: Robalo, converter para o 
+2020-10-19 11:23:21 -  false	255
+2020-10-19 11:23:21 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 11:23:21 -  debug mode: for i = 1, 2 pegar o id: 224, fazer um select no banco pra pegar o nome onde contem o id: Master, converter para o 
+2020-10-19 11:23:21 -  false	224
+2020-10-19 11:23:21 -  debug mode: for i = 1, 2 pegar o id: 255, fazer um select no banco pra pegar o nome onde contem o id: Robalo, converter para o 
+2020-10-19 11:23:21 -  false	255
+2020-10-19 11:23:21 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 11:23:21 -  debug mode: for i = 1, 2 pegar o id: 224, fazer um select no banco pra pegar o nome onde contem o id: Master, converter para o 
+2020-10-19 11:23:21 -  false	224
+2020-10-19 11:23:21 -  debug mode: for i = 1, 2 pegar o id: 255, fazer um select no banco pra pegar o nome onde contem o id: Robalo, converter para o 
+2020-10-19 11:23:21 -  false	255
+2020-10-19 11:23:21 -  > Broadcasted message: "Something bad is happening deep, deep down under Banuta.".
+2020-10-19 11:23:40 -  > Broadcasted message: "Something is sizzling deep under many sheets of soil in Banuta.".
+2020-10-19 11:25:21 -  > Broadcasted message: "Hordes of slippery spawns slither in Deeper Banuta!".
+2020-10-19 11:35:27 -  Dev Marson has logged out.
+2020-10-19 11:35:29 -  Dev Marson has logged in.
+2020-10-19 11:42:36 -  aqui eu checkei o choiceID para atualizar o warmode temp5
+2020-10-19 11:42:36 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 11:42:36 -  false	93
+2020-10-19 11:42:36 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 11:42:36 -  false	141
+2020-10-19 11:42:36 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 11:42:36 -  false	231
+2020-10-19 11:42:36 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 11:42:36 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 11:42:36 -  93	93
+2020-10-19 11:42:36 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 11:42:36 -  false	141
+2020-10-19 11:42:36 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 11:42:36 -  false	231
+2020-10-19 11:42:36 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-19 11:42:36 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 11:42:36 -  93	93
+2020-10-19 11:42:36 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 11:42:36 -  141	141
+2020-10-19 11:42:36 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 11:42:36 -  false	231
+2020-10-19 11:42:36 -  aqui eu checkei o choiceID para atualizar o warmode temp3
+2020-10-19 11:42:36 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 11:42:36 -  93	93
+2020-10-19 11:42:36 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 11:42:36 -  141	141
+2020-10-19 11:42:36 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 11:42:36 -  231	231
+2020-10-19 11:42:36 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-19 11:42:36 -  ip inválido
+2020-10-19 11:42:36 -  ip inválido
+2020-10-19 11:42:36 -  Dev Marson has logged out.
+2020-10-19 11:42:36 -  Robalo has logged out.
+2020-10-19 11:43:44 -  Dev Marson has logged in.
+2020-10-19 11:43:47 -  Robalo has logged in.
+2020-10-19 11:45:24 -  Robalo has logged out.
+2020-10-19 11:45:26 -  Robalo has logged in.
+2020-10-19 11:48:30 -  ip inválido
+2020-10-19 11:48:30 -  Dev Marson has logged out.
+2020-10-19 11:55:04 -  Robalo has logged out.
+2020-10-19 12:10:21 -  eu sou o checkWarmode... 12:00
+2020-10-19 12:10:21 -  > Broadcasted message: "The dragons of the Dragonblaze Mountains have descended to Zao to protect the lizardkin!".
+2020-10-19 13:13:21 -  eu sou o checkWarmode... 13:00
+2020-10-19 13:13:21 -  [ProtocolGame::onRecvFirstMessage] RSA Decrypt Failed
+2020-10-19 13:41:21 -  > Broadcasted message: "Forrest animals spread out close to Ab'Dendriel!".
+2020-10-19 14:15:39 -  eu sou o checkWarmode... 14:00
+2020-10-19 14:15:39 -  Dev Marson has logged in.
+2020-10-19 14:15:57 -  Robalo has logged in.
+2020-10-19 14:19:06 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 14:19:06 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 14:19:06 -  false	93
+2020-10-19 14:19:06 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 14:19:06 -  false	141
+2020-10-19 14:19:06 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 14:19:06 -  false	231
+2020-10-19 14:19:06 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 14:19:06 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 14:19:06 -  93	93
+2020-10-19 14:19:06 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 14:19:06 -  false	141
+2020-10-19 14:19:06 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 14:19:06 -  false	231
+2020-10-19 14:19:06 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-19 14:19:06 -  Dev Marson has logged out.
+2020-10-19 14:19:08 -  Robalo has logged out.
+2020-10-19 14:19:14 -  Robalo has logged in.
+2020-10-19 14:19:21 -  Dev Marson has logged in.
+2020-10-19 14:38:32 -  aqui eu checkei o choiceID para atualizar o warmode temp5
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 14:38:32 -  false	93
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 14:38:32 -  false	141
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 14:38:32 -  false	231
+2020-10-19 14:38:32 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 14:38:32 -  93	93
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 14:38:32 -  false	141
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 14:38:32 -  false	231
+2020-10-19 14:38:32 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-19 14:38:32 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 14:38:32 -  false	93
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 14:38:32 -  false	141
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 14:38:32 -  false	231
+2020-10-19 14:38:32 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 14:38:32 -  93	93
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 14:38:32 -  false	141
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 14:38:32 -  false	231
+2020-10-19 14:38:32 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-19 14:38:32 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 14:38:32 -  false	93
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 14:38:32 -  false	141
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 14:38:32 -  false	231
+2020-10-19 14:38:32 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 14:38:32 -  93	93
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 14:38:32 -  false	141
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 14:38:32 -  false	231
+2020-10-19 14:38:32 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-19 14:38:32 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 14:38:32 -  false	93
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 14:38:32 -  false	141
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 14:38:32 -  false	231
+2020-10-19 14:38:32 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 14:38:32 -  93	93
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 14:38:32 -  false	141
+2020-10-19 14:38:32 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 14:38:32 -  false	231
+2020-10-19 14:38:32 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-19 14:46:42 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 14:46:42 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 14:46:42 -  false	93
+2020-10-19 14:46:42 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 14:46:42 -  false	141
+2020-10-19 14:46:42 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 14:46:42 -  false	231
+2020-10-19 14:46:42 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-19 14:46:42 -  debug mode: for i = 1, 3 pegar o id: 93, fazer um select no banco pra pegar o nome onde contem o id: Cassiano, converter para o 
+2020-10-19 14:46:42 -  93	93
+2020-10-19 14:46:42 -  debug mode: for i = 1, 3 pegar o id: 141, fazer um select no banco pra pegar o nome onde contem o id: Dev Marson, converter para o 
+2020-10-19 14:46:42 -  false	141
+2020-10-19 14:46:42 -  debug mode: for i = 1, 3 pegar o id: 231, fazer um select no banco pra pegar o nome onde contem o id: Demonzin, converter para o 
+2020-10-19 14:46:42 -  false	231
+2020-10-19 14:46:42 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-19 14:46:42 -  ip inválido
+2020-10-19 14:46:42 -  Robalo has logged out.
+2020-10-19 14:58:05 -  Dev Marson has logged out.
+2020-10-19 14:59:30 -  Dev Marson has logged in.
+2020-10-19 14:59:44 -  Robalo has logged in.
+2020-10-19 15:00:27 -  
+2020-10-19 15:00:27 -  Thread 1 "tfs" received signal SIGINT, Interrupt.
+2020-10-19 15:00:27 -  0x00007ffff7b14ad3 in epoll_wait () at ../sysdeps/unix/syscall-template.S:84
+2020-10-19 15:00:27 -  84	../sysdeps/unix/syscall-template.S: No such file or directory.
+2020-10-19 15:00:27 -  
+2020-10-19 15:00:27 -  Thread 4 (Thread 0x7ffff2ba7700 (LWP 9210)):
+2020-10-19 15:00:27 -  #0  pthread_cond_wait@@GLIBC_2.3.2 () at ../sysdeps/unix/sysv/linux/x86_64/pthread_cond_wait.S:185
+2020-10-19 15:00:27 -  No locals.
+2020-10-19 15:00:27 -  #1  0x00007ffff5e7491c in std::condition_variable::wait(std::unique_lock<std::mutex>&) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-19 15:00:27 -  No symbol table info available.
+2020-10-19 15:00:27 -  #2  0x00000000006228bf in DatabaseTasks::threadMain() (this=0x8e39a0 <g_databaseTasks>) at /home/otg/src/databasetasks.cpp:42
+2020-10-19 15:00:27 -          taskLockUnique = {_M_device = 0x8e3a08 <g_databaseTasks+104>, _M_owns = true}
+2020-10-19 15:00:27 -  #3  0x00007ffff5e79c80 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-19 15:00:27 -  No symbol table info available.
+2020-10-19 15:00:27 -  #4  0x00007ffff614a6ba in start_thread (arg=0x7ffff2ba7700) at pthread_create.c:333
+2020-10-19 15:00:27 -          __res = <optimized out>
+2020-10-19 15:00:27 -          pd = 0x7ffff2ba7700
+2020-10-19 15:00:27 -          now = <optimized out>
+2020-10-19 15:00:27 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737265694464, 4172124784741168373, 0, 140737284647471, 140737265695168, 9334528, -4172101167245314827, -4172108647223806731}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2020-10-19 15:00:27 -          not_first_call = <optimized out>
+2020-10-19 15:00:27 -          pagesize_m1 = <optimized out>
+2020-10-19 15:00:27 -          sp = <optimized out>
+2020-10-19 15:00:27 -          freesize = <optimized out>
+2020-10-19 15:00:27 -          __PRETTY_FUNCTION__ = "start_thread"
+2020-10-19 15:00:27 -  #5  0x00007ffff7b144dd in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+2020-10-19 15:00:27 -  No locals.
+2020-10-19 15:00:27 -  
+2020-10-19 15:00:27 -  Thread 3 (Thread 0x7ffff35ba700 (LWP 9209)):
+2020-10-19 15:00:27 -  #0  pthread_cond_timedwait@@GLIBC_2.3.2 () at ../sysdeps/unix/sysv/linux/x86_64/pthread_cond_timedwait.S:225
+2020-10-19 15:00:27 -  No locals.
+2020-10-19 15:00:27 -  #1  0x0000000000506210 in __gthread_cond_timedwait () at /usr/include/x86_64-linux-gnu/c++/5/bits/gthr-default.h:871
+2020-10-19 15:00:27 -  No locals.
+2020-10-19 15:00:27 -  #2  std::condition_variable::__wait_until_impl (__atime=..., __lock=..., this=0x8e6fa0 <g_scheduler+64>) at /usr/include/c++/5/condition_variable:165
+2020-10-19 15:00:27 -          __ts = {tv_sec = 1603134027, tv_nsec = 264511762}
+2020-10-19 15:00:27 -  #3  std::condition_variable::wait_until<std::chrono::duration<long, std::ratio<1l, 1000000000l> > > () at /usr/include/c++/5/condition_variable:105
+2020-10-19 15:00:27 -          __lock = @0x7ffff35b9e90: {_M_device = 0x8e6f78 <g_scheduler+24>, _M_owns = true}
+2020-10-19 15:00:27 -          this = 0x8e6fa0 <g_scheduler+64>
+2020-10-19 15:00:27 -  #4  Scheduler::threadMain (this=0x8e6f60 <g_scheduler>) at /home/otg/src/scheduler.cpp:36
+2020-10-19 15:00:27 -          ret = std::cv_status::no_timeout
+2020-10-19 15:00:27 -          eventLockUnique = {_M_device = 0x8e6f78 <g_scheduler+24>, _M_owns = true}
+2020-10-19 15:00:27 -  #5  0x00007ffff5e79c80 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-19 15:00:27 -  No symbol table info available.
+2020-10-19 15:00:27 -  #6  0x00007ffff614a6ba in start_thread (arg=0x7ffff35ba700) at pthread_create.c:333
+2020-10-19 15:00:27 -          __res = <optimized out>
+2020-10-19 15:00:27 -          pd = 0x7ffff35ba700
+2020-10-19 15:00:27 -          now = <optimized out>
+2020-10-19 15:00:27 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737276258048, 4172124784741168373, 0, 140737488346847, 140737276258752, 9437376, -4172097059645967115, -4172108647223806731}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2020-10-19 15:00:27 -          not_first_call = <optimized out>
+2020-10-19 15:00:27 -          pagesize_m1 = <optimized out>
+2020-10-19 15:00:27 -          sp = <optimized out>
+2020-10-19 15:00:27 -          freesize = <optimized out>
+2020-10-19 15:00:27 -          __PRETTY_FUNCTION__ = "start_thread"
+2020-10-19 15:00:27 -  #7  0x00007ffff7b144dd in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+2020-10-19 15:00:27 -  No locals.
+2020-10-19 15:00:27 -  
+2020-10-19 15:00:27 -  Thread 2 (Thread 0x7ffff3dbb700 (LWP 9208)):
+2020-10-19 15:00:27 -  #0  pthread_cond_wait@@GLIBC_2.3.2 () at ../sysdeps/unix/sysv/linux/x86_64/pthread_cond_wait.S:185
+2020-10-19 15:00:27 -  No locals.
+2020-10-19 15:00:27 -  #1  0x00007ffff5e7491c in std::condition_variable::wait(std::unique_lock<std::mutex>&) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-19 15:00:27 -  No symbol table info available.
+2020-10-19 15:00:27 -  #2  0x000000000055af7b in Dispatcher::threadMain() (this=0x8e6ec0 <g_dispatcher>) at /home/otg/src/tasks.cpp:50
+2020-10-19 15:00:27 -          taskLockUnique = {_M_device = 0x8e6ed8 <g_dispatcher+24>, _M_owns = true}
+2020-10-19 15:00:27 -  #3  0x00007ffff5e79c80 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-19 15:00:27 -  No symbol table info available.
+2020-10-19 15:00:27 -  #4  0x00007ffff614a6ba in start_thread (arg=0x7ffff3dbb700) at pthread_create.c:333
+2020-10-19 15:00:27 -          __res = <optimized out>
+2020-10-19 15:00:27 -          pd = 0x7ffff3dbb700
+2020-10-19 15:00:27 -          now = <optimized out>
+2020-10-19 15:00:27 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737284650752, 4172124784741168373, 0, 140737488346847, 140737284651456, 9437376, -4172098158620723979, -4172108647223806731}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2020-10-19 15:00:27 -          not_first_call = <optimized out>
+2020-10-19 15:00:27 -          pagesize_m1 = <optimized out>
+2020-10-19 15:00:27 -          sp = <optimized out>
+2020-10-19 15:00:27 -          freesize = <optimized out>
+2020-10-19 15:00:27 -          __PRETTY_FUNCTION__ = "start_thread"
+2020-10-19 15:00:27 -  #5  0x00007ffff7b144dd in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+2020-10-19 15:00:28 -  No locals.
+2020-10-19 15:00:28 -  
+2020-10-19 15:00:28 -  Thread 1 (Thread 0x7ffff7fe6740 (LWP 9204)):
+2020-10-19 15:00:28 -  #0  0x00007ffff7b14ad3 in epoll_wait () at ../sysdeps/unix/syscall-template.S:84
+2020-10-19 15:00:28 -  No locals.
+2020-10-19 15:00:28 -  #1  0x00000000005b70e7 in boost::asio::detail::epoll_reactor::run(bool, boost::asio::detail::op_queue<boost::asio::detail::task_io_service_operation>&) [clone .constprop.204] (this=0x901570, block=<optimized out>, ops=...) at /usr/include/boost/asio/detail/impl/epoll_reactor.ipp:392
+2020-10-19 15:00:28 -          timeout = <optimized out>
+2020-10-19 15:00:28 -          events = {{events = 1, data = {ptr = 0x9015c8, fd = 9442760, u32 = 9442760, u64 = 9442760}}, {events = 3553558528, data = {ptr = 0xd3d800007ffefd7c, fd = 2147417468, u32 = 2147417468, u64 = 15264950939119713660}}, {events = 2147417468, data = {ptr = 0x7fffcc8615000000, fd = 352321536, u32 = 352321536, u64 = 9223315438128070656}}, {events = 347078656, data = {ptr = 0x98c000007fffcc86, fd = 2147470470, u32 = 2147470470, u64 = 11006797491440962694}}, {events = 2147470469, data = {ptr = 0x7ffefd7cd3df0000, fd = -740360192, u32 = 3554607104, u64 = 9223087799473733632}}, {events = 3555196928, data = {ptr = 0x148800007ffefd7c, fd = 2147417468, u32 = 2147417468, u64 = 1479432479738625404}}, {events = 2147470470, data = {ptr = 0x7fffcc8614d80000, fd = 349700096, u32 = 349700096, u64 = 9223315438125449216}}, {events = 2562719744, data = {ptr = 0xd3ef00007fffcc85, fd = 2147470469, u32 = 2147470469, u64 = 15271424863584111749}}, {events = 2147417468, data = {ptr = 0x7ffefd7cd3f80000, fd = -738721792, u32 = 3556245504, u64 = 9223087799475372032}}, {events = 347078656, data = {ptr = 0x150000007fffcc86, fd = 2147470470, u32 = 2147470470, u64 = 1513209476943957126}}, {events = 2147470470, data = {ptr = 0x7fffcc8598c00000, fd = -1732247552, u32 = 2562719744, u64 = 9223315436043501568}}, {events = 3556507648, data = {ptr = 0xd40400007ffefd7c, fd = 2147417468, u32 = 2147417468, u64 = 15277335838094982524}}, {events = 2147417468, data = {ptr = 0x7fffcc8614d80000, fd = 349700096, u32 = 349700096, u64 = 9223315438125449216}}, {events = 0, data = {ptr = 0x98c1000000000000, fd = 0, u32 = 0, u64 = 11007078964270202880}}, {events = 2147470469, data = {ptr = 0x7ffefd7cd40b0000, fd = -737476608, u32 = 3557490688, u64 = 9223087799476617216}}, {events = 0, data = {ptr = 0x1448000000000000, fd = 0, u32 = 0, u64 = 1461418079081725952}}, {events = 2147470470, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 372244480, data = {ptr = 0x163000007fffcc86, fd = 2147470470, u32 = 2147470470, u64 = 1598777869863996550}}, {events = 2147470470, data = {ptr = 0x7fffcc8615680000, fd = 359137280, u32 = 359137280, u64 = 9223315438134886400}}, {events = 2562719744, data = {ptr = 0xd41300007fffcc85, fd = 2147470469, u32 = 2147470469, u64 = 15281557962745695365}}, {events = 2147417468, data = {ptr = 0x7ffefd7cd4190000, fd = -736559104, u32 = 3558408192, u64 = 9223087799477534720}}, {events = 369623040, data = {ptr = 0x159000007fffcc86, fd = 2147470470, u32 = 2147470470, u64 = 1553741873590291590}}, {events = 2147470470, data = {ptr = 0x7fffcc8598c00000, fd = -1732247552, u32 = 2562719744, u64 = 9223315436043501568}}, {events = 3559063552, data = {ptr = 0xd42600007ffefd7c, fd = 2147417468, u32 = 2147417468, u64 = 15286905987303144828}}, {events = 2147417468, data = {ptr = 0x7fffcc8615680000, fd = 359137280, u32 = 359137280, u64 = 9223315438134886400}}, {events = 364380160, data = {ptr = 0x98c000007fffcc86, fd = 2147470470, u32 = 2147470470, u64 = 11006797491440962694}}, {events = 2147470469, data = {ptr = 0x7ffefd7cd42a0000, fd = -735444992, u32 = 3559522304, u64 = 9223087799478648832}}, {events = 3559718912, data = {ptr = 0x159000007ffefd7c, fd = 2147417468, u32 = 2147417468, u64 = 1553741873590238588}}, {events = 2147470470, data = {ptr = 0x7fffcc8615e00000, fd = 367001600, u32 = 367001600, u64 = 9223315438142750720}}, {events = 2562719744, data = {ptr = 0xd43100007fffcc85, fd = 2147470469, u32 = 2147470469, u64 = 15290002212047015045}}, {events = 2147417468, data = {ptr = 0x7ffefd7cd4340000, fd = -734789632, u32 = 3560177664, u64 = 9223087799479304192}}, {events = 364380160, data = {ptr = 0x160800007fffcc86, fd = 2147470470, u32 = 2147470470, u64 = 1587518870795570310}}, {events = 2147470470, data = {ptr = 0x7fffcc8598c00000, fd = -1732247552, u32 = 2562719744, u64 = 9223315436043501568}}, {events = 3560439808, data = {ptr = 0xd44300007ffefd7c, fd = 2147417468, u32 = 2147417468, u64 = 15295068761627753852}}, {events = 2147417468, data = {ptr = 0x7fffcc8615e00000, fd = 367001600, u32 = 367001600, u64 = 9223315438142750720}}, {events = 0, data = {ptr = 0x98c1000000000000, fd = 0, u32 = 0, u64 = 11007078964270202880}}, {events = 2147470469, data = {ptr = 0x7ffefd7cd44d0000, fd = -733151232, u32 = 3561816064, u64 = 9223087799480942592}}, {events = 0, data = {ptr = 0x1448000000000000, fd = 0, u32 = 0, u64 = 1461418079081725952}}, {events = 2147470470, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 354942976, data = {ptr = 0x7fffcc86, fd = 2147470470, u32 = 2147470470, u64 = 2147470470}}, {events = 0, data = {ptr = 0x7fffcc8616700000, fd = 376438784, u32 = 376438784, u64 = 9223315438152187904}}, {events = 2562719744, data = {ptr = 0xd45500007fffcc85, fd = 2147470469, u32 = 2147470469, u64 = 15300135311208598661}}, {events = 2147417468, data = {ptr = 0x7ffefd7cd45b0000, fd = -732233728, u32 = 3562733568, u64 = 9223087799481860096}}, {events = 386924544, data = {ptr = 0x169800007fffcc86, fd = 2147470470, u32 = 2147470470, u64 = 1628051267441904774}}, {events = 2147470470, data = {ptr = 0x7fffcc8598c00000, fd = -1732247552, u32 = 2562719744, u64 = 9223315436043501568}}, {events = 3563388928, data = {ptr = 0xd46800007ffefd7c, fd = 2147417468, u32 = 2147417468, u64 = 15305483335766048124}}, {events = 2147417468, data = {ptr = 0x7fffcc8616700000, fd = 376438784, u32 = 376438784, u64 = 9223315438152187904}}, {events = 381681664, data = {ptr = 0x98c000007fffcc86, fd = 2147470470, u32 = 2147470470, u64 = 11006797491440962694}}, {events = 2147470469, data = {ptr = 0x7ffefd7cd46b0000, fd = -731185152, u32 = 3563782144, u64 = 9223087799482908672}}, {events = 3563978752, data = {ptr = 0x169800007ffefd7c, fd = 2147417468, u32 = 2147417468, u64 = 1628051267441851772}}, {events = 2147470470, data = {ptr = 0x7fffcc8616e80000, fd = 384303104, u32 = 384303104, u64 = 9223315438160052224}}, {events = 2562719744, data = {ptr = 0xd47100007fffcc85, fd = 2147470469, u32 = 2147470469, u64 = 15308016610556497029}}, {events = 11, data = {ptr = 0xa1d4740000, fd = -730595328, u32 = 3564371968, u64 = 695054106624}}, {events = 0, data = {ptr = 0x902050, fd = 9445456, u32 = 9445456, u64 = 9445456}}, {events = 2147470470, data = {ptr = 0x7fffcc8598c00000, fd = -1732247552, u32 = 2562719744, u64 = 9223315436043501568}}, {events = 3564634112, data = {ptr = 0xd48300007ffefd7c, fd = 2147417468, u32 = 2147417468, u64 = 15313083160137235836}}, {events = 9329, data = {ptr = 0xffffdb8fffff8000, fd = -32768, u32 = 4294934528, u64 = 18446704010254581760}}, {events = 32767, data = {ptr = 0x2, fd = 2, u32 = 2, u64 = 2}}, {events = 4155593817, data = {ptr = 0x7fff, fd = 32767, u32 = 32767, u64 = 32767}}, {events = 0, data = {ptr = 0x5828f4 <boost::asio::detail::reactive_socket_recv_op_base<boost::asio::mutable_buffers_1>::do_perform(boost::asio::detail::reactor_op*)+228>, fd = 5777652, u32 = 5777652, u64 = 5777652}}, {events = 91, data = {ptr = 0x100006e, fd = 16777326, u32 = 16777326, u64 = 16777326}}, {events = 13, data = {ptr = 0x922176, fd = 9576822, u32 = 9576822, u64 = 9576822}}, {events = 2, data = {ptr = 0x200000000, fd = 0, u32 = 0, u64 = 8589934592}}, {events = 0, data = {ptr = 0x5f8de24a, fd = 1603134026, u32 = 1603134026, u64 = 1603134026}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x7fffffffdb80, fd = -9344, u32 = 4294957952, u64 = 140737488345984}}, {events = 1, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x92215000000000, fd = 0, u32 = 0, u64 = 41131974080856064}}, {events = 0, data = {ptr = 0x7fffc2f20020, fd = -1024327648, u32 = 3270639648, u64 = 140736464027680}}, {events = 9445120, data = {ptr = 0x93225800000000, fd = 0, u32 = 0, u64 = 41414582928932864}}, {events = 0, data = {ptr = 0x902088, fd = 9445512, u32 = 9445512, u64 = 9445512}}, {events = 13, data = {ptr = 0x5200000000, fd = 0, u32 = 0, u64 = 352187318272}}, {events = 0, data = {ptr = 0x901570, fd = 9442672, u32 = 9442672, u64 = 9442672}}, {events = 6449413, data = {ptr = 0x7ffefd7c00000000, fd = 0, u32 = 0, u64 = 9223087795919126528}}, {events = 398983168, data = {ptr = 0xd, fd = 13, u32 = 13, u64 = 13}}, {events = 0, data = {ptr = 0x56f20000000000, fd = 0, u32 = 0, u64 = 24472929811038208}}, {events = 0, data = {ptr = 0x7ffefd7c, fd = 2147417468, u32 = 2147417468, u64 = 2147417468}}, {events = 0, data = {ptr = 0xffffdc7017380000, fd = 389545984, u32 = 389545984, u64 = 18446704972716834816}}, {events = 32767, data = {ptr = 0x901f00, fd = 9445120, u32 = 9445120, u64 = 9445120}}, {events = 9445120, data = {ptr = 0xeced208000000000, fd = 0, u32 = 0, u64 = 17072337496559321088}}, {events = 32767, data = {ptr = 0x932258, fd = 9642584, u32 = 9642584, u64 = 9642584}}, {events = 9576822, data = {ptr = 0x200000000, fd = 0, u32 = 0, u64 = 8589934592}}, {events = 0, data = {ptr = 0x7fff00000001, fd = 1, u32 = 1, u64 = 140733193388033}}, {events = 0, data = {ptr = 0x56f20000000000, fd = 0, u32 = 0, u64 = 24472929811038208}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x9321f800000000, fd = 0, u32 = 0, u64 = 41414170612072448}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 4128564479, data = {ptr = 0x92216000007fff, fd = 32767, u32 = 32767, u64 = 41132042800365567}}, {events = 0, data = {ptr = 0x7fffebfa1be0, fd = -335930400, u32 = 3959036896, u64 = 140737152424928}}, {events = 3280161744, data = {ptr = 0x9321f800007fff, fd = 32767, u32 = 32767, u64 = 41414170612105215}}, {events = 0, data = {ptr = 0x7fffffffde78, fd = -8584, u32 = 4294958712, u64 = 140737488346744}}, {events = 0, data = {ptr = 0xf7a9158c00000000, fd = 0, u32 = 0, u64 = 17845818689471905792}}, {events = 32767, data = {ptr = 0x900090, fd = 9437328, u32 = 9437328, u64 = 9437328}}, {events = 4294958640, data = {ptr = 0x90009000007fff, fd = 32767, u32 = 32767, u64 = 40533015121657855}}, {events = 0, data = {ptr = 0x922160, fd = 9576800, u32 = 9576800, u64 = 9576800}}, {events = 22, data = {ptr = 0x92216000000000, fd = 0, u32 = 0, u64 = 41132042800332800}}, {events = 0, data = {ptr = 0x7fffebfa1be0, fd = -335930400, u32 = 3959036896, u64 = 140737152424928}}, {events = 3280161744, data = {ptr = 0x9321f800007fff, fd = 32767, u32 = 32767, u64 = 41414170612105215}}, {events = 0, data = {ptr = 0x58a8b4 <Connection::onWriteOperation(boost::system::error_code const&)+260>, fd = 5810356, u32 = 5810356, u64 = 5810356}}, {events = 0, data = {ptr = 0xf71e50e000000000, fd = 0, u32 = 0, u64 = 17806758899672416256}}, {events = 32767, data = {ptr = 0xffffde30, fd = -8656, u32 = 4294958640, u64 = 4294958640}}, {events = 22, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 4294958640, data = {ptr = 0x58574500007fff, fd = 32767, u32 = 32767, u64 = 24865751814930431}}, {events = 0, data = {ptr = 0x46e960 <__pthread_key_create@plt>, fd = 4647264, u32 = 4647264, u64 = 4647264}}, {events = 4155593817, data = {ptr = 0xffffde3000007fff, fd = 32767, u32 = 32767, u64 = 18446706896472670207}}, {events = 32767, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 13, data = {ptr = 0x932258, fd = 9642584, u32 = 9642584, u64 = 9642584}}, {events = 4294958720, data = {ptr = 0x90009000007fff, fd = 32767, u32 = 32767, u64 = 40533015121657855}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x9000c000000000, fd = 0, u32 = 0, u64 = 40533221280055296}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 4155053452, data = {ptr = 0x92215000007fff, fd = 32767, u32 = 32767, u64 = 41131974080888831}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 4145959136, data = {ptr = 0x58a73100007fff, fd = 32767, u32 = 32767, u64 = 24953626845806591}}, {events = 0, data = {ptr = 0x7fffc2d9e750, fd = -1025906864, u32 = 3269060432, u64 = 140736462448464}}, {events = 4294958720, data = {ptr = 0x90009000007fff, fd = 32767, u32 = 32767, u64 = 40533015121657855}}, {events = 0, data = {ptr = 0x7fffffffde80, fd = -8576, u32 = 4294958720, u64 = 140737488346752}}, {events = 9437328, data = {ptr = 0x58646e00000000, fd = 0, u32 = 0, u64 = 24880221559717888}}, {events = 0, data = {ptr = 0x922160, fd = 9576800, u32 = 9576800, u64 = 9576800}}, {events = 9576784, data = {ptr = 0xffffde8000000000, fd = 0, u32 = 0, u64 = 18446707240070021120}}, {events = 32767, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x58a720 <Connection::handleTimeout(std::weak_ptr<Connection>, boost::system::error_code const&)>, fd = 5809952, u32 = 5809952, u64 = 5809952}}, {events = 9576800, data = {ptr = 0x92215000000000, fd = 0, u32 = 0, u64 = 41131974080856064}}, {events = 0, data = {ptr = 0x7d, fd = 125, u32 = 125, u64 = 125}}}
+2020-10-19 15:00:28 -          num_events = <optimized out>
+2020-10-19 15:00:28 -          check_timers = <optimized out>
+2020-10-19 15:00:28 -  #2  0x000000000055dcd3 in do_run_one (ec=..., this_thread=..., lock=<synthetic pointer>, this=0x900090) at /usr/include/boost/asio/detail/impl/task_io_service.ipp:356
+2020-10-19 15:00:28 -          more_handlers = <optimized out>
+2020-10-19 15:00:28 -  #3  run (ec=..., this=0x900090) at /usr/include/boost/asio/detail/impl/task_io_service.ipp:149
+2020-10-19 15:00:28 -          this_thread = {private_op_queue = {front_ = 0x0, back_ = 0x0}, private_outstanding_work = 0}
+2020-10-19 15:00:28 -          ctx = {key_ = 0x900090, value_ = 0x7fffffffdf40, next_ = 0x0}
+2020-10-19 15:00:28 -          lock = {mutex_ = @0x9000c0, locked_ = <optimized out>}
+2020-10-19 15:00:28 -          n = 106453
+2020-10-19 15:00:28 -  #4  _ZN5boost4asio10io_service3runEv.isra.226 () at /usr/include/boost/asio/impl/io_service.ipp:59
+2020-10-19 15:00:28 -          ec = {m_val = 0, m_cat = 0x7ffff71e50e0}
+2020-10-19 15:00:28 -  #5  ServiceManager::run() (this=this@entry=0x7fffffffdff0) at /home/otg/src/server.cpp:47
+2020-10-19 15:00:28 -  No locals.
+2020-10-19 15:00:28 -  #6  0x0000000000474c46 in main (argc=1, argv=0x7fffffffe1b8) at /home/otg/src/otserv.cpp:96
+2020-10-19 15:00:28 -          serviceManager = {acceptors = {_M_h = {_M_buckets = 0x7fffc2678c00, _M_bucket_count = 5, _M_before_begin = {_M_nxt = 0x7fffc2cf9500}, _M_element_count = 2, _M_rehash_policy = {_M_max_load_factor = 1, _M_next_resize = 5}, _M_single_bucket = 0x0}}, io_service = {service_registry_ = 0x900040, impl_ = @0x900090}, signals = {set = {<No data fields>}}, death_timer = {<No data fields>}, running = true}
+2020-10-19 15:00:28 -  eu sou o checkWarmode... 15:00
+2020-10-19 15:00:28 -  Saving server...
+2020-10-19 15:00:29 -  > Saved house items in: 0.858 s
+2020-10-19 15:00:29 -  A debugging session is active.
+2020-10-19 15:00:29 -  
+2020-10-19 15:00:29 -  	Inferior 1 [process 9204] will be killed.
+2020-10-19 15:00:29 -  
+2020-10-19 15:00:29 -  Quit anyway? (y or n) [answered Y; input not from terminal]

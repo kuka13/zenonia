@@ -1,0 +1,174 @@
+2020-10-24 11:50:22 -  [Thread debugging using libthread_db enabled]
+2020-10-24 11:50:22 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2020-10-24 11:50:22 -  [New Thread 0x7ffff3dbb700 (LWP 6745)]
+2020-10-24 11:50:22 -  [New Thread 0x7ffff35ba700 (LWP 6746)]
+2020-10-24 11:50:22 -  The OTG-Premium-Version - Version: (1.3)
+2020-10-24 11:50:22 -  Compiled with: GNU C++ version 5.4.0 20160609
+2020-10-24 11:50:22 -  Compiled on Sep 17 2020 19:49:36 for platform x64
+2020-10-24 11:50:22 -  
+2020-10-24 11:50:22 -  Special Credits for: OTG Team, Johncore, Vankk, Erick Nunes, Leonardo Pereira, Leandro Baldissera, Talis, Marcomoa, Marson Schneider, Douglas, Mark Samman, OTXServer (Mattyx Gomez) and The Forgotten Server Developers.
+2020-10-24 11:50:22 -  Link of repository: https://github.com/Johncorex/OTG-Premium-Version
+2020-10-24 11:50:22 -  
+2020-10-24 11:50:22 -  >> Loading config: config.lua
+2020-10-24 11:50:22 -  >> Establishing database connection... MySQL 5.7.31
+2020-10-24 11:50:22 -  >> Running database manager
+2020-10-24 11:50:22 -  [New Thread 0x7ffff2ba7700 (LWP 6747)]
+2020-10-24 11:50:22 -  > Optimizing table tile_store... [success]
+2020-10-24 11:50:22 -  >> Loading vocations
+2020-10-24 11:50:22 -  >> Loading items
+2020-10-24 11:50:22 -  >> Loading script systems
+2020-10-24 11:50:22 -  >> Loading lua libs
+2020-10-24 11:50:23 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-24 11:50:23 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-24 11:50:24 -  >> Loading lua scripts
+2020-10-24 11:50:24 -  >> Loading monsters
+2020-10-24 11:50:24 -  >> Loading lua monsters
+2020-10-24 11:50:24 -  >> Loading outfits
+2020-10-24 11:50:24 -  >> Loading prey data
+2020-10-24 11:50:24 -  >> Checking world type... PVP
+2020-10-24 11:50:24 -  >> Loading map
+2020-10-24 11:50:26 -  > Map size: 34143x33812.
+2020-10-24 11:50:31 -  > Map loading time: 7.16 seconds.
+2020-10-24 11:50:32 -  > Loaded house items in: 0.011 s
+2020-10-24 11:50:32 -  >> Initializing gamestate
+2020-10-24 11:50:34 -  >> Loaded 43 npcs and spawned 72708 monsters.
+2020-10-24 11:50:34 -  >> Loaded 27 towns with 1074 houses in total.
+2020-10-24 11:50:34 -  [Castle War]
+2020-10-24 11:50:34 -  [POWERGAMERS]
+2020-10-24 11:50:34 -  [SISTEMA DE LOTERIA] OPERANTE
+2020-10-24 11:50:34 -  Advanced NPC spawn system | All NPCs will be loaded trough lib.
+2020-10-24 11:50:34 -  [REGEN BOOST] CARREGADO
+2020-10-24 11:50:34 -  [SPOOF COUNTER]
+2020-10-24 11:50:34 -  [STAMINA]
+2020-10-24 11:50:34 -  warvariables
+2020-10-24 11:50:34 -  eu sou o checkWarmode... 11:50!
+2020-10-24 11:50:34 -  > Broadcasted message: "[Warmode] Atencao! A Guild TesteWarmode desafiou a Guild Vai tomando para uma batalha que vai iniciar agora! Use o comando !war, para juntar-se a sua guild.".
+2020-10-24 11:50:34 -  >> Loaded all modules, server starting up...
+2020-10-24 11:50:34 -  > Warning: OTG-Premium-Version has been executed as root user, please consider running it as a normal user.
+2020-10-24 11:50:34 -  >> Honera Global Server Online!
+2020-10-24 11:50:34 -  
+2020-10-24 11:50:35 -  Demonzin has logged in.
+2020-10-24 11:50:35 -  funcao onLogin
+2020-10-24 11:50:35 -  Reyzor has logged in.
+2020-10-24 11:50:35 -  funcao onLogin
+2020-10-24 11:50:35 -  Robalo has logged in.
+2020-10-24 11:50:35 -  funcao onLogin
+2020-10-24 11:50:35 -  Robalo has logged out.
+2020-10-24 11:50:44 -  SABADOU!! NPC HONERA CRIADO
+2020-10-24 11:50:44 -  Robalo has logged in.
+2020-10-24 11:50:46 -  funcao onLogin
+2020-10-24 11:50:46 -  Demonzin has logged out.
+2020-10-24 11:50:47 -  Demonzin has logged in.
+2020-10-24 11:50:53 -  funcao onLogin
+2020-10-24 11:50:53 -  Demonzin has logged out.
+2020-10-24 11:50:54 -  Demonzin has logged in.
+2020-10-24 11:50:54 -  funcao onLogin
+2020-10-24 11:50:54 -  um player que estava dentro da war, logou
+2020-10-24 11:50:54 -  Demonzin has logged out.
+2020-10-24 11:51:02 -  Demonzin has logged in.
+2020-10-24 11:51:57 -  
+2020-10-24 11:51:57 -  Thread 1 "tfs" received signal SIGINT, Interrupt.
+2020-10-24 11:51:57 -  0x00007ffff7b14ad3 in epoll_wait () at ../sysdeps/unix/syscall-template.S:84
+2020-10-24 11:51:57 -  84	../sysdeps/unix/syscall-template.S: No such file or directory.
+2020-10-24 11:51:57 -  
+2020-10-24 11:51:57 -  Thread 4 (Thread 0x7ffff2ba7700 (LWP 6747)):
+2020-10-24 11:51:57 -  #0  pthread_cond_wait@@GLIBC_2.3.2 () at ../sysdeps/unix/sysv/linux/x86_64/pthread_cond_wait.S:185
+2020-10-24 11:51:57 -  No locals.
+2020-10-24 11:51:57 -  #1  0x00007ffff5e7491c in std::condition_variable::wait(std::unique_lock<std::mutex>&) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-24 11:51:58 -  No symbol table info available.
+2020-10-24 11:51:58 -  #2  0x00000000006228bf in DatabaseTasks::threadMain() (this=0x8e39a0 <g_databaseTasks>) at /home/otg/src/databasetasks.cpp:42
+2020-10-24 11:51:58 -          taskLockUnique = {_M_device = 0x8e3a08 <g_databaseTasks+104>, _M_owns = true}
+2020-10-24 11:51:58 -  #3  0x00007ffff5e79c80 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-24 11:51:58 -  No symbol table info available.
+2020-10-24 11:51:58 -  #4  0x00007ffff614a6ba in start_thread (arg=0x7ffff2ba7700) at pthread_create.c:333
+2020-10-24 11:51:58 -          __res = <optimized out>
+2020-10-24 11:51:58 -          pd = 0x7ffff2ba7700
+2020-10-24 11:51:58 -          now = <optimized out>
+2020-10-24 11:51:58 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737265694464, 9145982547691768663, 0, 140737284647471, 140737265695168, 9334528, -9145988547216995497, -9145998844693247145}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2020-10-24 11:51:58 -          not_first_call = <optimized out>
+2020-10-24 11:51:58 -          pagesize_m1 = <optimized out>
+2020-10-24 11:51:58 -          sp = <optimized out>
+2020-10-24 11:51:58 -          freesize = <optimized out>
+2020-10-24 11:51:58 -          __PRETTY_FUNCTION__ = "start_thread"
+2020-10-24 11:51:58 -  #5  0x00007ffff7b144dd in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+2020-10-24 11:51:58 -  No locals.
+2020-10-24 11:51:58 -  
+2020-10-24 11:51:58 -  Thread 3 (Thread 0x7ffff35ba700 (LWP 6746)):
+2020-10-24 11:51:58 -  #0  pthread_cond_timedwait@@GLIBC_2.3.2 () at ../sysdeps/unix/sysv/linux/x86_64/pthread_cond_timedwait.S:225
+2020-10-24 11:51:58 -  No locals.
+2020-10-24 11:51:58 -  #1  0x0000000000506210 in __gthread_cond_timedwait () at /usr/include/x86_64-linux-gnu/c++/5/bits/gthr-default.h:871
+2020-10-24 11:51:58 -  No locals.
+2020-10-24 11:51:58 -  #2  std::condition_variable::__wait_until_impl (__atime=..., __lock=..., this=0x8e6fa0 <g_scheduler+64>) at /usr/include/c++/5/condition_variable:165
+2020-10-24 11:51:58 -          __ts = {tv_sec = 1603554717, tv_nsec = 810685896}
+2020-10-24 11:51:58 -  #3  std::condition_variable::wait_until<std::chrono::duration<long, std::ratio<1l, 1000000000l> > > () at /usr/include/c++/5/condition_variable:105
+2020-10-24 11:51:58 -          __lock = @0x7ffff35b9e90: {_M_device = 0x8e6f78 <g_scheduler+24>, _M_owns = true}
+2020-10-24 11:51:58 -          this = 0x8e6fa0 <g_scheduler+64>
+2020-10-24 11:51:58 -  #4  Scheduler::threadMain (this=0x8e6f60 <g_scheduler>) at /home/otg/src/scheduler.cpp:36
+2020-10-24 11:51:58 -          ret = std::cv_status::no_timeout
+2020-10-24 11:51:58 -          eventLockUnique = {_M_device = 0x8e6f78 <g_scheduler+24>, _M_owns = true}
+2020-10-24 11:51:58 -  #5  0x00007ffff5e79c80 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-24 11:51:58 -  No symbol table info available.
+2020-10-24 11:51:58 -  #6  0x00007ffff614a6ba in start_thread (arg=0x7ffff35ba700) at pthread_create.c:333
+2020-10-24 11:51:58 -          __res = <optimized out>
+2020-10-24 11:51:58 -          pd = 0x7ffff35ba700
+2020-10-24 11:51:58 -          now = <optimized out>
+2020-10-24 11:51:58 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737276258048, 9145982547691768663, 0, 140737488346847, 140737276258752, 9437376, -9145992684881114281, -9145998844693247145}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2020-10-24 11:51:58 -          not_first_call = <optimized out>
+2020-10-24 11:51:58 -          pagesize_m1 = <optimized out>
+2020-10-24 11:51:58 -          sp = <optimized out>
+2020-10-24 11:51:58 -          freesize = <optimized out>
+2020-10-24 11:51:58 -          __PRETTY_FUNCTION__ = "start_thread"
+2020-10-24 11:51:58 -  #7  0x00007ffff7b144dd in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+2020-10-24 11:51:58 -  No locals.
+2020-10-24 11:51:58 -  
+2020-10-24 11:51:58 -  Thread 2 (Thread 0x7ffff3dbb700 (LWP 6745)):
+2020-10-24 11:51:58 -  #0  pthread_cond_wait@@GLIBC_2.3.2 () at ../sysdeps/unix/sysv/linux/x86_64/pthread_cond_wait.S:185
+2020-10-24 11:51:58 -  No locals.
+2020-10-24 11:51:58 -  #1  0x00007ffff5e7491c in std::condition_variable::wait(std::unique_lock<std::mutex>&) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-24 11:51:58 -  No symbol table info available.
+2020-10-24 11:51:58 -  #2  0x000000000055af7b in Dispatcher::threadMain() (this=0x8e6ec0 <g_dispatcher>) at /home/otg/src/tasks.cpp:50
+2020-10-24 11:51:58 -          taskLockUnique = {_M_device = 0x8e6ed8 <g_dispatcher+24>, _M_owns = true}
+2020-10-24 11:51:58 -  #3  0x00007ffff5e79c80 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-24 11:51:58 -  No symbol table info available.
+2020-10-24 11:51:58 -  #4  0x00007ffff614a6ba in start_thread (arg=0x7ffff3dbb700) at pthread_create.c:333
+2020-10-24 11:51:58 -          __res = <optimized out>
+2020-10-24 11:51:58 -          pd = 0x7ffff3dbb700
+2020-10-24 11:51:58 -          now = <optimized out>
+2020-10-24 11:51:58 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737284650752, 9145982547691768663, 0, 140737488346847, 140737284651456, 9437376, -9145991585906357417, -9145998844693247145}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2020-10-24 11:51:58 -          not_first_call = <optimized out>
+2020-10-24 11:51:58 -          pagesize_m1 = <optimized out>
+2020-10-24 11:51:58 -          sp = <optimized out>
+2020-10-24 11:51:58 -          freesize = <optimized out>
+2020-10-24 11:51:58 -          __PRETTY_FUNCTION__ = "start_thread"
+2020-10-24 11:51:58 -  #5  0x00007ffff7b144dd in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+2020-10-24 11:51:58 -  No locals.
+2020-10-24 11:51:58 -  
+2020-10-24 11:51:58 -  Thread 1 (Thread 0x7ffff7fe6740 (LWP 6741)):
+2020-10-24 11:51:58 -  #0  0x00007ffff7b14ad3 in epoll_wait () at ../sysdeps/unix/syscall-template.S:84
+2020-10-24 11:51:58 -  No locals.
+2020-10-24 11:51:58 -  #1  0x00000000005b70e7 in boost::asio::detail::epoll_reactor::run(bool, boost::asio::detail::op_queue<boost::asio::detail::task_io_service_operation>&) [clone .constprop.204] (this=0x901570, block=<optimized out>, ops=...) at /usr/include/boost/asio/detail/impl/epoll_reactor.ipp:392
+2020-10-24 11:51:58 -          timeout = <optimized out>
+2020-10-24 11:51:58 -          events = {{events = 1, data = {ptr = 0x9015c8, fd = 9442760, u32 = 9442760, u64 = 9442760}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}} <repeats 51 times>, {events = 11, data = {ptr = 0xa100000000, fd = 0, u32 = 0, u64 = 691489734656}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 4155593817, data = {ptr = 0x7fff, fd = 32767, u32 = 32767, u64 = 32767}}, {events = 0, data = {ptr = 0x5828f4 <boost::asio::detail::reactive_socket_recv_op_base<boost::asio::mutable_buffers_1>::do_perform(boost::asio::detail::reactor_op*)+228>, fd = 5777652, u32 = 5777652, u64 = 5777652}}, {events = 0, data = {ptr = 0x1000000, fd = 16777216, u32 = 16777216, u64 = 16777216}}, {events = 16, data = {ptr = 0x922726, fd = 9578278, u32 = 9578278, u64 = 9578278}}, {events = 2, data = {ptr = 0x200000000, fd = 0, u32 = 0, u64 = 8589934592}}, {events = 0, data = {ptr = 0x5f944d9c, fd = 1603554716, u32 = 1603554716, u64 = 1603554716}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x7fffffffdb80, fd = -9344, u32 = 4294957952, u64 = 140737488345984}}, {events = 1, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x92270000000000, fd = 0, u32 = 0, u64 = 41138227553239040}}, {events = 0, data = {ptr = 0x7fffefd59c50, fd = -271213488, u32 = 4023753808, u64 = 140737217141840}}, {events = 9644800, data = {ptr = 0x93280800000000, fd = 0, u32 = 0, u64 = 41420836401315840}}, {events = 0, data = {ptr = 0x934bb8, fd = 9653176, u32 = 9653176, u64 = 9653176}}, {events = 16, data = {ptr = 0x5200000000, fd = 0, u32 = 0, u64 = 352187318272}}, {events = 0, data = {ptr = 0x901570, fd = 9442672, u32 = 9442672, u64 = 9442672}}, {events = 6449413, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x10, fd = 16, u32 = 16, u64 = 16}}, {events = 0, data = {ptr = 0x56f20000000000, fd = 0, u32 = 0, u64 = 24472929811038208}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0xffffdc7000000000, fd = 0, u32 = 0, u64 = 18446704972327288832}}, {events = 32767, data = {ptr = 0x932b00, fd = 9644800, u32 = 9644800, u64 = 9644800}}, {events = 9644800, data = {ptr = 0x934c3000000000, fd = 0, u32 = 0, u64 = 41460590618607616}}, {events = 0, data = {ptr = 0x932808, fd = 9644040, u32 = 9644040, u64 = 9644040}}, {events = 9578278, data = {ptr = 0x200000000, fd = 0, u32 = 0, u64 = 8589934592}}, {events = 0, data = {ptr = 0x7fff00000001, fd = 1, u32 = 1, u64 = 140733193388033}}, {events = 0, data = {ptr = 0x56f20000000000, fd = 0, u32 = 0, u64 = 24472929811038208}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x9327a800000000, fd = 0, u32 = 0, u64 = 41420424084455424}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 4128564479, data = {ptr = 0x92271000007fff, fd = 32767, u32 = 32767, u64 = 41138296272748543}}, {events = 0, data = {ptr = 0x7fffb5a50440, fd = -1247476672, u32 = 3047490624, u64 = 140736240878656}}, {events = 2921980448, data = {ptr = 0x9327a800007fff, fd = 32767, u32 = 32767, u64 = 41420424084488191}}, {events = 0, data = {ptr = 0x7fffffffde78, fd = -8584, u32 = 4294958712, u64 = 140737488346744}}, {events = 0, data = {ptr = 0xf7a9158c00000000, fd = 0, u32 = 0, u64 = 17845818689471905792}}, {events = 32767, data = {ptr = 0x900090, fd = 9437328, u32 = 9437328, u64 = 9437328}}, {events = 4294958640, data = {ptr = 0x90009000007fff, fd = 32767, u32 = 32767, u64 = 40533015121657855}}, {events = 0, data = {ptr = 0x922710, fd = 9578256, u32 = 9578256, u64 = 9578256}}, {events = 14, data = {ptr = 0x92271000000000, fd = 0, u32 = 0, u64 = 41138296272715776}}, {events = 0, data = {ptr = 0x7fffb5a50440, fd = -1247476672, u32 = 3047490624, u64 = 140736240878656}}, {events = 2921980448, data = {ptr = 0x9327a800007fff, fd = 32767, u32 = 32767, u64 = 41420424084488191}}, {events = 0, data = {ptr = 0x58a8b4 <Connection::onWriteOperation(boost::system::error_code const&)+260>, fd = 5810356, u32 = 5810356, u64 = 5810356}}, {events = 0, data = {ptr = 0xf71e50e000000000, fd = 0, u32 = 0, u64 = 17806758899672416256}}, {events = 32767, data = {ptr = 0xffffde30, fd = -8656, u32 = 4294958640, u64 = 4294958640}}, {events = 14, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 4294958640, data = {ptr = 0x58574500007fff, fd = 32767, u32 = 32767, u64 = 24865751814930431}}, {events = 0, data = {ptr = 0x11, fd = 17, u32 = 17, u64 = 17}}, {events = 4155593817, data = {ptr = 0xffffde3000007fff, fd = 32767, u32 = 32767, u64 = 18446706896472670207}}, {events = 32767, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 16, data = {ptr = 0x932808, fd = 9644040, u32 = 9644040, u64 = 9644040}}, {events = 4294958720, data = {ptr = 0x90009000007fff, fd = 32767, u32 = 32767, u64 = 40533015121657855}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x9000c000000000, fd = 0, u32 = 0, u64 = 40533221280055296}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 4155053452, data = {ptr = 0x92270000007fff, fd = 32767, u32 = 32767, u64 = 41138227553271807}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 4145959136, data = {ptr = 0x58a73100007fff, fd = 32767, u32 = 32767, u64 = 24953626845806591}}, {events = 0, data = {ptr = 0x7fffefd59cf0, fd = -271213328, u32 = 4023753968, u64 = 140737217142000}}, {events = 4294958720, data = {ptr = 0x90009000007fff, fd = 32767, u32 = 32767, u64 = 40533015121657855}}, {events = 0, data = {ptr = 0x7fffffffde80, fd = -8576, u32 = 4294958720, u64 = 140737488346752}}, {events = 9437328, data = {ptr = 0x58646e00000000, fd = 0, u32 = 0, u64 = 24880221559717888}}, {events = 0, data = {ptr = 0x922710, fd = 9578256, u32 = 9578256, u64 = 9578256}}, {events = 9578240, data = {ptr = 0xffffde8000000000, fd = 0, u32 = 0, u64 = 18446707240070021120}}, {events = 32767, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x58a720 <Connection::handleTimeout(std::weak_ptr<Connection>, boost::system::error_code const&)>, fd = 5809952, u32 = 5809952, u64 = 5809952}}, {events = 9578256, data = {ptr = 0x92270000000000, fd = 0, u32 = 0, u64 = 41138227553239040}}, {events = 0, data = {ptr = 0x7fff0000007d, fd = 125, u32 = 125, u64 = 140733193388157}}}
+2020-10-24 11:51:58 -          num_events = <optimized out>
+2020-10-24 11:51:58 -          check_timers = <optimized out>
+2020-10-24 11:51:58 -  #2  0x000000000055dcd3 in do_run_one (ec=..., this_thread=..., lock=<synthetic pointer>, this=0x900090) at /usr/include/boost/asio/detail/impl/task_io_service.ipp:356
+2020-10-24 11:51:58 -          more_handlers = <optimized out>
+2020-10-24 11:51:58 -  #3  run (ec=..., this=0x900090) at /usr/include/boost/asio/detail/impl/task_io_service.ipp:149
+2020-10-24 11:51:58 -          this_thread = {private_op_queue = {front_ = 0x0, back_ = 0x0}, private_outstanding_work = 0}
+2020-10-24 11:51:58 -          ctx = {key_ = 0x900090, value_ = 0x7fffffffdf40, next_ = 0x0}
+2020-10-24 11:51:58 -          lock = {mutex_ = @0x9000c0, locked_ = <optimized out>}
+2020-10-24 11:51:58 -          n = 1635
+2020-10-24 11:51:58 -  #4  _ZN5boost4asio10io_service3runEv.isra.226 () at /usr/include/boost/asio/impl/io_service.ipp:59
+2020-10-24 11:51:58 -          ec = {m_val = 0, m_cat = 0x7ffff71e50e0}
+2020-10-24 11:51:58 -  #5  ServiceManager::run() (this=this@entry=0x7fffffffdff0) at /home/otg/src/server.cpp:47
+2020-10-24 11:51:58 -  No locals.
+2020-10-24 11:51:58 -  #6  0x0000000000474c46 in main (argc=1, argv=0x7fffffffe1b8) at /home/otg/src/otserv.cpp:96
+2020-10-24 11:51:58 -          serviceManager = {acceptors = {_M_h = {_M_buckets = 0x7fffe8d12120, _M_bucket_count = 5, _M_before_begin = {_M_nxt = 0x7fffe8d120f0}, _M_element_count = 2, _M_rehash_policy = {_M_max_load_factor = 1, _M_next_resize = 5}, _M_single_bucket = 0x0}}, io_service = {service_registry_ = 0x900040, impl_ = @0x900090}, signals = {set = {<No data fields>}}, death_timer = {<No data fields>}, running = true}
+2020-10-24 11:51:58 -  funcao onLogin
+2020-10-24 11:51:58 -  Saving server...
+2020-10-24 11:51:59 -  > Saved house items in: 0.431 s
+2020-10-24 11:51:59 -  A debugging session is active.
+2020-10-24 11:51:59 -  
+2020-10-24 11:51:59 -  	Inferior 1 [process 6741] will be killed.
+2020-10-24 11:51:59 -  
+2020-10-24 11:51:59 -  Quit anyway? (y or n) [answered Y; input not from terminal]

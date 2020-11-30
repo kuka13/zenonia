@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+<!-- 3600000 1hrs -->
+<!-- 7200000 2hrs --> 
+<!-- 10800000 3hrs --> 
+<!-- 14400000 4hrs --> 
+<!-- 18000000 5hrs --> 
+<!-- 21600000 6hrs --> 
+	<globalevent name="warmode" type="startup" script="warmodeglobal.lua"/>
+	
+	
+	<globalevent name="bomberman" type="startup" script="bomberman.lua"/>
+
+	<globalevent name="jokey" type="startup" script="jokeystartup.lua"/>
+	<globalevent name="jokey" interval="120000" script="jokeyglobal.lua"/>
+
+
+	<globalevent name="stamina" type="startup" script="staminatreiner.lua"/>
+	<globalevent name="stamina" interval="120000" script="staminatreiner.lua"/>
+	
+	<!--Castle War-->
+	<globalevent name="castlewar" type="startup" script="globalcastlewar.lua"/>
+	<globalevent name="castlewar" time="17:39:00" script="globalcastlewar.lua"/>
+
+	<globalevent name="spoofstart" type="startup" script="spoof.lua"/>
+	<globalevent name="onlinetimereward" interval="60000" script="onlinetimereward.lua"/>
+
+	<!-- 36000 1hrs -->
+	<globalevent name="exptoday" type="startup" script="exptoday.lua"/>
+	<globalevent name="exptoday" time="00:00:00" script="exptoday.lua"/>
+	<globalevent name="exptoday" interval="60000" script="exptoday.lua"/>
+	
+	
+	<globalevent name="regenbooststart" type="startup" script="regenboost.lua"/>
+	<!--<globalevent name="regenboost" interval="2000" script="regenboost.lua"/>-->
+	
+	<!--ClickUp--> 
+    <globalevent name="megasena" interval="3600000" script="megasena.lua"/>
+	<globalevent name="megasenastart" type="startup" script="megasena.lua"/>
+	
+
+	
+	
+	
+	
+	<!-- Boss Secret Libraria --> 
+    <globalevent name="Ghulosh" interval="21600000" script="Ghulosh.lua"/>
+	<globalevent name="Mazzinor" interval="21600000" script="Mazzinor.lua"/>
+	<globalevent name="Gorzindel" interval="21600000" script="Gorzindel.lua"/>
+	<globalevent name="Lokathmor" interval="21600000" script="Lokathmor.lua"/>
+	<globalevent name="The Scourge Of Oblivion" interval="21600000" script="The Scourge Of Oblivion.lua"/>
+	
+    <!-- Bosses Quests --> 
+    <globalevent name="Obujos" interval="10800000" script="bosses/Obujos.lua"/>
+    <globalevent name="Tanjis" interval="10800000" script="bosses/Tanjis.lua"/>
+    <globalevent name="Jaul" interval="10800000" script="bosses/Jaul.lua"/>
+<globalevent name="Hotworm" interval="120000" script="bosses/Hotworm.lua"/>	
+	
+    <globalevent name="Mawhawk" interval="10800000" script="bosses/Mawhawk.lua"/> 
+
+	<!-- Pits of Inferno -->
+	<globalevent name="bosspoi" interval="46800000" script="bosses/bosspoi.lua"/>
+
+	<!--Gray Island Bosses -->
+    <globalevent name="grayIslandBosses" type="startup" script="gray island/grayIslandBosses.lua"/>
+	
+	<!-- Warzone 1 2 3 -->
+	<globalevent name="Gnomevil" interval="10800000" script="bosses/Gnomevil.lua" />
+	<globalevent name="Deathstrike" interval="10800000" script="bosses/Deathstrike.lua" />
+	<globalevent name="Abyssador" interval="10800000" script="bosses/Abyssador.lua" />
+			
+	<!-- boss falcon -->
+	<globalevent name="Canon Dominus" interval="14400000" script="bosses/Grand Canon Dominus.lua" />
+	<globalevent name="Chaplaingaunder" interval="14400000" script="bosses/Grand Chaplain Gaunder.lua" />
+    <globalevent name="Preceptor Lazare" interval="14400000" script="bosses/Preceptor Lazare.lua" />
+	<globalevent name="Grand Commander" interval="14400000" script="bosses/Grand Commander Soeren.lua" />
+    <globalevent name="Thawing Dragon Lord" interval="21600000" script="bosses/Thawing Dragon Lord.lua" /> 
+   
+  	<!-- Ferumbras Ascendant -->
+	<globalevent name="Effect" interval="3000" script="FerumbrasAscedantQuest/effect.lua"/>
+	<globalevent name="Effcts" interval="4000" script="FerumbrasAscedantQuest/effects.lua"/>
+
+    <globalevent name="npcs" type="startup" script="others/npcspawn.lua"/>
+
+	<!-- Blooming Griffinclaw -->
+	<globalevent name="GriffinclawFlower" type="startup" script="others/griffinclawFlower.lua" />
+	
+	<!-- Demon Oak Quest -->
+	<globalevent name="DemonOakVoices" interval="15000" script="demon oak quest/voices.lua" />
+
+	<!-- Rent Horses -->
+	<globalevent name="RentedMounts" interval="15000" script="others/checkMount.lua" />
+
+	<!-- Raids --> 
+	<globalevent name="SpawnRaid" interval="60000" script="spawn/raids.lua"/>
+	
+	<!-- Others -->
+	<globalevent name="autoBroadcast" interval="600000" script="autobroadcast.lua"/>
+    <!--  <globalevent interval="1800000" name="AutoSave" script="autosave.lua"/>	-->
+    <globalevent name="ServerSave" time="04:00:00" script="serversave.lua" /> 
+	<globalevent name="autoloot" type="startup" script="autoloot.lua"/>
+	<globalevent name="respawndano" interval="9000" script="respawndano.lua" />
+	<globalevent type="startup" name="ServerStartup" script="startup.lua" />
+	<globalevent type="record" name="PlayerRecord" script="record.lua" />
+	<globalevent name="checkInbox" interval="30000" script="others/checkInbox.lua"/>
+	<globalevent interval="100000" name="GuildWar" script="guildwar.lua"/>
+    <globalevent name="SummonTeleport" interval="1000" script="summon_teleport.lua"/>
+	<!--<globalevent name="text" interval="3000" script="textotp.lua"/>-->
+</globalevents>

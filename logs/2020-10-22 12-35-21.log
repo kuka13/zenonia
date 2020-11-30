@@ -1,0 +1,798 @@
+2020-10-22 12:35:22 -  [Thread debugging using libthread_db enabled]
+2020-10-22 12:35:22 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2020-10-22 12:35:22 -  [New Thread 0x7ffff3dbb700 (LWP 1714)]
+2020-10-22 12:35:22 -  [New Thread 0x7ffff35ba700 (LWP 1715)]
+2020-10-22 12:35:22 -  The OTG-Premium-Version - Version: (1.3)
+2020-10-22 12:35:22 -  Compiled with: GNU C++ version 5.4.0 20160609
+2020-10-22 12:35:22 -  Compiled on Sep 17 2020 19:49:36 for platform x64
+2020-10-22 12:35:22 -  
+2020-10-22 12:35:22 -  Special Credits for: OTG Team, Johncore, Vankk, Erick Nunes, Leonardo Pereira, Leandro Baldissera, Talis, Marcomoa, Marson Schneider, Douglas, Mark Samman, OTXServer (Mattyx Gomez) and The Forgotten Server Developers.
+2020-10-22 12:35:22 -  Link of repository: https://github.com/Johncorex/OTG-Premium-Version
+2020-10-22 12:35:22 -  
+2020-10-22 12:35:22 -  >> Loading config: config.lua
+2020-10-22 12:35:22 -  >> Establishing database connection... MySQL 5.7.31
+2020-10-22 12:35:22 -  >> Running database manager
+2020-10-22 12:35:22 -  [New Thread 0x7ffff2ba7700 (LWP 1716)]
+2020-10-22 12:35:22 -  > Optimizing table tile_store... [success]
+2020-10-22 12:35:22 -  >> Loading vocations
+2020-10-22 12:35:22 -  >> Loading items
+2020-10-22 12:35:22 -  >> Loading script systems
+2020-10-22 12:35:22 -  >> Loading lua libs
+2020-10-22 12:35:22 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-22 12:35:22 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-22 12:35:23 -  >> Loading lua scripts
+2020-10-22 12:35:24 -  >> Loading monsters
+2020-10-22 12:35:24 -  >> Loading lua monsters
+2020-10-22 12:35:24 -  >> Loading outfits
+2020-10-22 12:35:24 -  >> Loading prey data
+2020-10-22 12:35:24 -  >> Checking world type... PVP
+2020-10-22 12:35:24 -  >> Loading map
+2020-10-22 12:35:25 -  > Map size: 34143x33812.
+2020-10-22 12:35:31 -  > Map loading time: 7.229 seconds.
+2020-10-22 12:35:32 -  > Loaded house items in: 0.013 s
+2020-10-22 12:35:32 -  >> Initializing gamestate
+2020-10-22 12:35:34 -  >> Loaded 43 npcs and spawned 72708 monsters.
+2020-10-22 12:35:34 -  >> Loaded 27 towns with 1074 houses in total.
+2020-10-22 12:35:34 -  [Castle War]
+2020-10-22 12:35:34 -  [POWERGAMERS]
+2020-10-22 12:35:34 -  [SISTEMA DE LOTERIA] OPERANTE
+2020-10-22 12:35:34 -  Advanced NPC spawn system | All NPCs will be loaded trough lib.
+2020-10-22 12:35:34 -  [REGEN BOOST] CARREGADO
+2020-10-22 12:35:34 -  [SPOOF COUNTER]
+2020-10-22 12:35:34 -  [STAMINA]
+2020-10-22 12:35:34 -  warvariables
+2020-10-22 12:35:34 -  Agenda:	10
+2020-10-22 12:35:34 -  eu sou o checkWarmode... 12:35!
+2020-10-22 12:35:34 -  Buscando valores guilds where id = 5
+2020-10-22 12:35:34 -  > Broadcasted message: "[Warmode] Atencao Honerianos! A Guild Vai tomando desafiou a Guild TesteWarmode para uma batalha que vai iniciar agora!".
+2020-10-22 12:35:34 -  12	35	25
+2020-10-22 12:35:34 -  >> Loaded all modules, server starting up...
+2020-10-22 12:35:34 -  > Warning: OTG-Premium-Version has been executed as root user, please consider running it as a normal user.
+2020-10-22 12:35:34 -  >> Honera Global Server Online!
+2020-10-22 12:35:34 -  
+2020-10-22 12:35:35 -  Robalo has logged in.
+2020-10-22 12:35:35 -  funcao onLogin
+2020-10-22 12:35:35 -  Demonzin has logged in.
+2020-10-22 12:35:43 -  funcao onLogin
+2020-10-22 12:35:43 -  SABADOU!! NPC HONERA CRIADO
+2020-10-22 12:35:43 -  King Romanov has logged in.
+2020-10-22 12:35:43 -  funcao onLogin
+2020-10-22 12:35:43 -  Hromeu Pinto has logged in.
+2020-10-22 12:35:51 -  funcao onLogin
+2020-10-22 12:35:51 -  Demonzin has logged out.
+2020-10-22 12:35:52 -  Demonzin has logged in.
+2020-10-22 12:35:56 -  funcao onLogin
+2020-10-22 12:35:56 -  Demonzin has logged out.
+2020-10-22 12:35:59 -  Demonzin has logged in.
+2020-10-22 12:37:24 -  funcao onLogin
+2020-10-22 12:37:24 -  um player que estava dentro da war, logou
+2020-10-22 12:37:24 -  funcaoKill!!
+2020-10-22 12:37:24 -  um player que estava dentro da war, foi morto
+2020-10-22 12:37:24 -  endWarmode
+2020-10-22 12:37:24 -  > Broadcasted message: "[Warmode] Parabens a Guild TesteWarmode por ter eliminado todos os integrantes da Guild Vai tomando".
+2020-10-22 12:37:24 -  Robalo has logged out.
+2020-10-22 12:37:27 -  Robalo has logged in.
+2020-10-22 12:37:27 -  funcao onLogin
+2020-10-22 12:37:27 -  Robalo has logged out.
+2020-10-22 12:37:30 -  Robalo has logged in.
+2020-10-22 12:38:03 -  funcao onLogin
+2020-10-22 12:38:03 -  
+2020-10-22 12:38:03 -  Lua Script Error: [Modules Interface] 
+2020-10-22 12:38:03 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-22 12:38:03 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-22 12:38:03 -  stack traceback:
+2020-10-22 12:38:03 -  	[C]: in function 'getPreyMonsterList'
+2020-10-22 12:38:03 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-22 12:38:03 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-22 12:38:08 -  
+2020-10-22 12:38:08 -  Lua Script Error: [Modules Interface] 
+2020-10-22 12:38:08 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-22 12:38:08 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-22 12:38:08 -  stack traceback:
+2020-10-22 12:38:08 -  	[C]: in function 'getPreyMonsterList'
+2020-10-22 12:38:08 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-22 12:38:08 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-22 12:38:10 -  
+2020-10-22 12:38:10 -  Lua Script Error: [Modules Interface] 
+2020-10-22 12:38:10 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-22 12:38:10 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-22 12:38:10 -  stack traceback:
+2020-10-22 12:38:10 -  	[C]: in function 'getPreyMonsterList'
+2020-10-22 12:38:10 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-22 12:38:10 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-22 12:38:26 -  Robalo has logged out.
+2020-10-22 12:38:27 -  Robalo has logged in.
+2020-10-22 12:39:05 -  funcao onLogin
+2020-10-22 12:39:05 -  
+2020-10-22 12:39:05 -  Lua Script Error: [Modules Interface] 
+2020-10-22 12:39:05 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-22 12:39:05 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-22 12:39:05 -  stack traceback:
+2020-10-22 12:39:05 -  	[C]: in function 'getPreyMonsterList'
+2020-10-22 12:39:05 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-22 12:39:05 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-22 12:40:24 -  endWarmode
+2020-10-22 12:40:24 -  
+2020-10-22 12:40:24 -  Lua Script Error: [Modules Interface] 
+2020-10-22 12:40:24 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-22 12:40:24 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-22 12:40:24 -  stack traceback:
+2020-10-22 12:40:24 -  	[C]: in function 'getPreyMonsterList'
+2020-10-22 12:40:24 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-22 12:40:24 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-22 12:41:09 -  
+2020-10-22 12:41:09 -  Lua Script Error: [Modules Interface] 
+2020-10-22 12:41:09 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-22 12:41:09 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-22 12:41:09 -  stack traceback:
+2020-10-22 12:41:09 -  	[C]: in function 'getPreyMonsterList'
+2020-10-22 12:41:09 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-22 12:41:09 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-22 12:44:07 -  
+2020-10-22 12:44:07 -  Lua Script Error: [Modules Interface] 
+2020-10-22 12:44:07 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-22 12:44:07 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-22 12:44:07 -  stack traceback:
+2020-10-22 12:44:07 -  	[C]: in function 'getPreyMonsterList'
+2020-10-22 12:44:07 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-22 12:44:07 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-22 12:45:42 -  
+2020-10-22 12:45:42 -  Lua Script Error: [Modules Interface] 
+2020-10-22 12:45:42 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-22 12:45:42 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-22 12:45:42 -  stack traceback:
+2020-10-22 12:45:42 -  	[C]: in function 'getPreyMonsterList'
+2020-10-22 12:45:42 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-22 12:45:42 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-22 13:06:51 -  eu sou o checkWarmode... 13:0!
+2020-10-22 13:06:51 -  
+2020-10-22 13:06:51 -  Lua Script Error: [TalkAction Interface] 
+2020-10-22 13:06:51 -  data/talkactions/scripts/start_cast.lua:onSay
+2020-10-22 13:06:51 -  data/talkactions/scripts/start_cast.lua:11: attempt to call method 'startLiveCast' (a nil value)
+2020-10-22 13:06:51 -  stack traceback:
+2020-10-22 13:06:51 -  	[C]: in function 'startLiveCast'
+2020-10-22 13:06:51 -  	data/talkactions/scripts/start_cast.lua:11: in function <data/talkactions/scripts/start_cast.lua:1>
+2020-10-22 13:06:56 -  
+2020-10-22 13:06:56 -  Lua Script Error: [TalkAction Interface] 
+2020-10-22 13:06:56 -  data/talkactions/scripts/start_cast.lua:onSay
+2020-10-22 13:06:56 -  data/talkactions/scripts/start_cast.lua:11: attempt to call method 'startLiveCast' (a nil value)
+2020-10-22 13:06:56 -  stack traceback:
+2020-10-22 13:06:56 -  	[C]: in function 'startLiveCast'
+2020-10-22 13:06:56 -  	data/talkactions/scripts/start_cast.lua:11: in function <data/talkactions/scripts/start_cast.lua:1>
+2020-10-22 13:08:49 -  ip inválido
+2020-10-22 13:08:49 -  Bodinha Druid has logged in.
+2020-10-22 13:12:00 -  funcao onLogin
+2020-10-22 13:12:00 -  
+2020-10-22 13:12:00 -  Lua Script Error: [Npc interface] 
+2020-10-22 13:12:00 -  data/npc/scripts/Testserver Assistant.lua:onCreatureSay
+2020-10-22 13:12:00 -  data/npc/scripts/Testserver Assistant.lua:174: attempt to index a nil value
+2020-10-22 13:12:00 -  stack traceback:
+2020-10-22 13:12:00 -  	[C]: in function '__index'
+2020-10-22 13:12:00 -  	data/npc/scripts/Testserver Assistant.lua:174: in function 'callback'
+2020-10-22 13:12:00 -  	data/npc/lib/npcsystem/npchandler.lua:431: in function 'onCreatureSay'
+2020-10-22 13:12:00 -  	data/npc/scripts/Testserver Assistant.lua:7: in function <data/npc/scripts/Testserver Assistant.lua:7>
+2020-10-22 13:12:02 -  
+2020-10-22 13:12:02 -  Lua Script Error: [Npc interface] 
+2020-10-22 13:12:02 -  data/npc/scripts/Testserver Assistant.lua:onCreatureSay
+2020-10-22 13:12:02 -  data/npc/scripts/Testserver Assistant.lua:174: attempt to index a nil value
+2020-10-22 13:12:02 -  stack traceback:
+2020-10-22 13:12:02 -  	[C]: in function '__index'
+2020-10-22 13:12:02 -  	data/npc/scripts/Testserver Assistant.lua:174: in function 'callback'
+2020-10-22 13:12:02 -  	data/npc/lib/npcsystem/npchandler.lua:431: in function 'onCreatureSay'
+2020-10-22 13:12:02 -  	data/npc/scripts/Testserver Assistant.lua:7: in function <data/npc/scripts/Testserver Assistant.lua:7>
+2020-10-22 13:12:02 -  
+2020-10-22 13:12:02 -  Lua Script Error: [Npc interface] 
+2020-10-22 13:12:02 -  data/npc/scripts/Testserver Assistant.lua:onCreatureSay
+2020-10-22 13:12:02 -  data/npc/scripts/Testserver Assistant.lua:174: attempt to index a nil value
+2020-10-22 13:12:02 -  stack traceback:
+2020-10-22 13:12:02 -  	[C]: in function '__index'
+2020-10-22 13:12:02 -  	data/npc/scripts/Testserver Assistant.lua:174: in function 'callback'
+2020-10-22 13:12:02 -  	data/npc/lib/npcsystem/npchandler.lua:431: in function 'onCreatureSay'
+2020-10-22 13:12:02 -  	data/npc/scripts/Testserver Assistant.lua:7: in function <data/npc/scripts/Testserver Assistant.lua:7>
+2020-10-22 13:12:03 -  
+2020-10-22 13:12:03 -  Lua Script Error: [Npc interface] 
+2020-10-22 13:12:03 -  data/npc/scripts/Testserver Assistant.lua:onCreatureSay
+2020-10-22 13:12:03 -  data/npc/scripts/Testserver Assistant.lua:174: attempt to index a nil value
+2020-10-22 13:12:03 -  stack traceback:
+2020-10-22 13:12:03 -  	[C]: in function '__index'
+2020-10-22 13:12:03 -  	data/npc/scripts/Testserver Assistant.lua:174: in function 'callback'
+2020-10-22 13:12:03 -  	data/npc/lib/npcsystem/npchandler.lua:431: in function 'onCreatureSay'
+2020-10-22 13:12:03 -  	data/npc/scripts/Testserver Assistant.lua:7: in function <data/npc/scripts/Testserver Assistant.lua:7>
+2020-10-22 13:12:03 -  
+2020-10-22 13:12:03 -  Lua Script Error: [Npc interface] 
+2020-10-22 13:12:03 -  data/npc/scripts/Testserver Assistant.lua:onCreatureSay
+2020-10-22 13:12:03 -  data/npc/scripts/Testserver Assistant.lua:174: attempt to index a nil value
+2020-10-22 13:12:03 -  stack traceback:
+2020-10-22 13:12:03 -  	[C]: in function '__index'
+2020-10-22 13:12:03 -  	data/npc/scripts/Testserver Assistant.lua:174: in function 'callback'
+2020-10-22 13:12:03 -  	data/npc/lib/npcsystem/npchandler.lua:431: in function 'onCreatureSay'
+2020-10-22 13:12:03 -  	data/npc/scripts/Testserver Assistant.lua:7: in function <data/npc/scripts/Testserver Assistant.lua:7>
+2020-10-22 13:13:10 -  ip inválido
+2020-10-22 13:13:10 -  ip inválido
+2020-10-22 13:13:10 -  Demonzin has logged out.
+2020-10-22 13:13:13 -  Robalo has logged out.
+2020-10-22 13:16:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 13:16:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 13:17:24 -  Bodinha Druid has logged out.
+2020-10-22 13:17:25 -  Bodinha Druid has logged in.
+2020-10-22 13:20:24 -  funcao onLogin
+2020-10-22 13:20:24 -  > Broadcasted message: "Corrida de cavalos: O cavalo 5 Mustang venceu!".
+2020-10-22 13:20:24 -  
+2020-10-22 13:20:24 -  Lua Script Error: [TalkAction Interface] 
+2020-10-22 13:20:24 -  data/talkactions/scripts/start_cast.lua:onSay
+2020-10-22 13:20:24 -  data/talkactions/scripts/start_cast.lua:11: attempt to call method 'startLiveCast' (a nil value)
+2020-10-22 13:20:24 -  stack traceback:
+2020-10-22 13:20:24 -  	[C]: in function 'startLiveCast'
+2020-10-22 13:20:24 -  	data/talkactions/scripts/start_cast.lua:11: in function <data/talkactions/scripts/start_cast.lua:1>
+2020-10-22 13:20:26 -  
+2020-10-22 13:20:26 -  Lua Script Error: [TalkAction Interface] 
+2020-10-22 13:20:26 -  data/talkactions/scripts/start_cast.lua:onSay
+2020-10-22 13:20:26 -  data/talkactions/scripts/start_cast.lua:11: attempt to call method 'startLiveCast' (a nil value)
+2020-10-22 13:20:26 -  stack traceback:
+2020-10-22 13:20:26 -  	[C]: in function 'startLiveCast'
+2020-10-22 13:20:26 -  	data/talkactions/scripts/start_cast.lua:11: in function <data/talkactions/scripts/start_cast.lua:1>
+2020-10-22 13:20:31 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 13:21:32 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 13:21:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 13:22:22 -  [Network protection] - attack detected. IP: [179.93.158.17] - disconnected
+2020-10-22 13:22:34 -  ip inválido
+2020-10-22 13:22:34 -  Hromeu Pinto has logged out.
+2020-10-22 13:22:38 -  Hromeu Pinto has logged in.
+2020-10-22 13:24:39 -  funcao onLogin
+2020-10-22 13:24:39 -  
+2020-10-22 13:24:39 -  Lua Script Error: [Modules Interface] 
+2020-10-22 13:24:39 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-22 13:24:39 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-22 13:24:39 -  stack traceback:
+2020-10-22 13:24:39 -  	[C]: in function 'getPreyMonsterList'
+2020-10-22 13:24:39 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-22 13:24:39 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-22 13:24:57 -  [Network protection] - attack detected. IP: [179.255.128.94] - disconnected
+2020-10-22 13:25:30 -  ip inválido
+2020-10-22 13:25:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 13:25:37 -  [Network protection] - attack detected. IP: [179.93.158.17] - disconnected
+2020-10-22 13:25:38 -  Bodinha Druid has logged out.
+2020-10-22 13:25:44 -  Hromeu Pinto has logged out.
+2020-10-22 13:25:47 -  Hromeu Pinto has logged in.
+2020-10-22 13:25:48 -  funcao onLogin
+2020-10-22 13:25:48 -  Bodinha Druid has logged in.
+2020-10-22 13:25:49 -  funcao onLogin
+2020-10-22 13:25:49 -  Hromeu Pinto has logged out.
+2020-10-22 13:25:50 -  Hromeu Pinto has logged in.
+2020-10-22 13:25:53 -  funcao onLogin
+2020-10-22 13:25:53 -  Bodinha Druid has logged out.
+2020-10-22 13:25:55 -  Bodinha Druid has logged in.
+2020-10-22 13:26:17 -  funcao onLogin
+2020-10-22 13:26:17 -  Hromeu Pinto has logged out.
+2020-10-22 13:26:18 -  Hromeu Pinto has logged in.
+2020-10-22 13:27:11 -  funcao onLogin
+2020-10-22 13:27:11 -  
+2020-10-22 13:27:11 -  Lua Script Error: [Modules Interface] 
+2020-10-22 13:27:11 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-22 13:27:11 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-22 13:27:11 -  stack traceback:
+2020-10-22 13:27:11 -  	[C]: in function 'getPreyMonsterList'
+2020-10-22 13:27:11 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-22 13:27:11 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-22 13:29:46 -  [Network protection] - attack detected. IP: [179.255.128.94] - disconnected
+2020-10-22 13:31:07 -  ip inválido
+2020-10-22 13:31:07 -  Bodinha Druid has logged out.
+2020-10-22 13:33:37 -  [Network protection] - attack detected. IP: [179.93.158.17] - disconnected
+2020-10-22 13:34:17 -  Hromeu Pinto has logged out.
+2020-10-22 13:34:19 -  Hromeu Pinto has logged in.
+2020-10-22 13:38:12 -  funcao onLogin
+2020-10-22 13:38:12 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2204
+2020-10-22 13:41:38 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 13:41:48 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 13:41:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 13:43:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 26132
+2020-10-22 13:43:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 26132
+2020-10-22 13:43:31 -  [Network protection] - attack detected. IP: [179.93.158.17] - disconnected
+2020-10-22 13:44:11 -  Hromeu Pinto has logged out.
+2020-10-22 13:44:13 -  Hromeu Pinto has logged in.
+2020-10-22 13:49:13 -  funcao onLogin
+2020-10-22 13:49:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 13:51:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 13:51:36 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 13:54:17 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 13:54:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 13:54:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 13:54:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 13:55:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 13:55:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 13:56:08 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 13:56:08 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 13:56:08 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 13:56:18 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-22 13:56:26 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-22 13:56:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-22 13:57:04 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-22 13:57:04 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-22 13:57:04 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-22 13:57:04 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-22 13:57:04 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-22 13:57:04 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-22 13:57:15 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 13:57:25 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 13:57:26 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 13:57:31 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 13:57:46 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 13:58:14 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1489
+2020-10-22 13:58:18 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 13:58:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 14:02:45 -  eu sou o checkWarmode... 14:0!
+2020-10-22 14:02:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 14:03:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 14:03:47 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 14:03:47 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 14:03:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 14:03:49 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 14:03:55 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 14:04:00 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 14:04:00 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 14:04:00 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 14:04:00 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 14:04:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 14:04:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 14:08:27 -  Hromeu Pinto has logged out.
+2020-10-22 14:08:29 -  Hromeu Pinto has logged in.
+2020-10-22 14:09:21 -  funcao onLogin
+2020-10-22 14:09:21 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 26132
+2020-10-22 14:09:31 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 26132
+2020-10-22 14:09:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 26132
+2020-10-22 14:10:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29058
+2020-10-22 14:10:44 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29058
+2020-10-22 14:10:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29058
+2020-10-22 14:13:10 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 14:13:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 14:13:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 14:13:12 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 14:14:14 -  Hromeu Pinto has logged out.
+2020-10-22 14:14:16 -  Hromeu Pinto has logged in.
+2020-10-22 14:20:07 -  funcao onLogin
+2020-10-22 14:20:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29058
+2020-10-22 14:20:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29058
+2020-10-22 14:23:23 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 26131
+2020-10-22 14:23:34 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 26131
+2020-10-22 14:25:25 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 14:25:25 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 14:30:05 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 14:30:48 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 14:33:36 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 14:33:48 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 14:35:11 -  Hromeu Pinto has logged out.
+2020-10-22 14:35:31 -  Hromeu Pinto has logged in.
+2020-10-22 14:37:25 -  funcao onLogin
+2020-10-22 14:37:25 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 14:38:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 14:38:58 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 14:39:22 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 14:39:27 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 14:39:27 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 14:39:27 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 14:39:27 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 14:39:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 14:39:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 14:39:31 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 14:39:38 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 14:39:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 14:42:25 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 1499
+2020-10-22 14:44:16 -  
+2020-10-22 14:44:16 -  Lua Script Error: [Main Interface] 
+2020-10-22 14:44:16 -  in a timer event called from: 
+2020-10-22 14:44:16 -  (Unknown scriptfile)
+2020-10-22 14:44:16 -  data/modules/scripts/gamestore/init.lua:1365: attempt to index local 'kegExerciseItem' (a nil value)
+2020-10-22 14:44:16 -  stack traceback:
+2020-10-22 14:44:16 -  	[C]: in function '__index'
+2020-10-22 14:44:16 -  	data/modules/scripts/gamestore/init.lua:1365: in function 'changeParcel'
+2020-10-22 14:44:16 -  	data/modules/scripts/gamestore/init.lua:1370: in function <data/modules/scripts/gamestore/init.lua:1370>
+2020-10-22 14:45:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 14:46:35 -  > Broadcasted message: "A massive orc force is gathering at the gates of Zzaion.".
+2020-10-22 14:47:04 -  > Broadcasted message: "Orc reinforcements have arrived at the gates of Zzaion! The gates are under heavy attack!.".
+2020-10-22 14:47:34 -  > Broadcasted message: "More orc reinforcements have arrived at the gates of Zzaion! The gates are under heavy attack!.".
+2020-10-22 14:48:04 -  > Broadcasted message: "The gates to Zzaion have been breached! Orcs are invading the city!.".
+2020-10-22 14:48:34 -  > Broadcasted message: "More orcs have arrived in Zzaion! The city is under attack! Strong lizard leaders have come to defend the city.".
+2020-10-22 14:48:42 -  
+2020-10-22 14:48:42 -  Lua Script Error: [Modules Interface] 
+2020-10-22 14:48:42 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-22 14:48:42 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-22 14:48:42 -  stack traceback:
+2020-10-22 14:48:42 -  	[C]: in function 'getPreyMonsterList'
+2020-10-22 14:48:42 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-22 14:48:42 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-22 14:51:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 14:54:54 -  Cassiano has logged in.
+2020-10-22 14:56:56 -  funcao onLogin
+2020-10-22 14:56:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 15:03:13 -  eu sou o checkWarmode... 15:0!
+2020-10-22 15:03:13 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 15:03:14 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 15:06:30 -  
+2020-10-22 15:06:30 -  Lua Script Error: [TalkAction Interface] 
+2020-10-22 15:06:30 -  data/talkactions/scripts/start_cast.lua:onSay
+2020-10-22 15:06:30 -  data/talkactions/scripts/start_cast.lua:11: attempt to call method 'startLiveCast' (a nil value)
+2020-10-22 15:06:30 -  stack traceback:
+2020-10-22 15:06:30 -  	[C]: in function 'startLiveCast'
+2020-10-22 15:06:30 -  	data/talkactions/scripts/start_cast.lua:11: in function <data/talkactions/scripts/start_cast.lua:1>
+2020-10-22 15:06:32 -  
+2020-10-22 15:06:32 -  Lua Script Error: [TalkAction Interface] 
+2020-10-22 15:06:32 -  data/talkactions/scripts/start_cast.lua:onSay
+2020-10-22 15:06:32 -  data/talkactions/scripts/start_cast.lua:11: attempt to call method 'startLiveCast' (a nil value)
+2020-10-22 15:06:32 -  stack traceback:
+2020-10-22 15:06:32 -  	[C]: in function 'startLiveCast'
+2020-10-22 15:06:32 -  	data/talkactions/scripts/start_cast.lua:11: in function <data/talkactions/scripts/start_cast.lua:1>
+2020-10-22 15:06:34 -  
+2020-10-22 15:06:34 -  Lua Script Error: [TalkAction Interface] 
+2020-10-22 15:06:34 -  data/talkactions/scripts/start_cast.lua:onSay
+2020-10-22 15:06:34 -  data/talkactions/scripts/start_cast.lua:11: attempt to call method 'startLiveCast' (a nil value)
+2020-10-22 15:06:34 -  stack traceback:
+2020-10-22 15:06:34 -  	[C]: in function 'startLiveCast'
+2020-10-22 15:06:34 -  	data/talkactions/scripts/start_cast.lua:11: in function <data/talkactions/scripts/start_cast.lua:1>
+2020-10-22 15:06:37 -  
+2020-10-22 15:06:37 -  Lua Script Error: [TalkAction Interface] 
+2020-10-22 15:06:37 -  data/talkactions/scripts/start_cast.lua:onSay
+2020-10-22 15:06:37 -  data/talkactions/scripts/start_cast.lua:11: attempt to call method 'startLiveCast' (a nil value)
+2020-10-22 15:06:37 -  stack traceback:
+2020-10-22 15:06:37 -  	[C]: in function 'startLiveCast'
+2020-10-22 15:06:37 -  	data/talkactions/scripts/start_cast.lua:11: in function <data/talkactions/scripts/start_cast.lua:1>
+2020-10-22 15:06:53 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-22 15:06:53 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-22 15:12:36 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 15:12:47 -  Hromeu Pinto has logged out.
+2020-10-22 15:12:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 15:12:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 15:12:53 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 15:13:03 -  Hromeu Pinto has logged in.
+2020-10-22 15:18:22 -  funcao onLogin
+2020-10-22 15:18:22 -  Cassiano has logged out.
+2020-10-22 15:18:23 -  Cassiano has logged in.
+2020-10-22 15:27:28 -  funcao onLogin
+2020-10-22 15:27:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29058
+2020-10-22 15:27:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29058
+2020-10-22 15:27:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29058
+2020-10-22 15:33:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 15:33:08 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 15:33:08 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 15:39:08 -  Dev Marson has logged in.
+2020-10-22 15:42:10 -  funcao onLogin
+2020-10-22 15:42:10 -  Cassiano has logged out.
+2020-10-22 15:42:10 -  Cassiano has logged in.
+2020-10-22 15:54:59 -  funcao onLogin
+2020-10-22 15:54:59 -  Oi Amigos has logged in.
+2020-10-22 15:57:52 -  funcao onLogin
+2020-10-22 15:57:52 -  Oi Amigos has logged out.
+2020-10-22 15:57:55 -  Oi Amigos has logged in.
+2020-10-22 15:59:01 -  funcao onLogin
+2020-10-22 15:59:01 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 16:01:13 -  eu sou o checkWarmode... 16:0!
+2020-10-22 16:01:13 -  Oi Amigos has logged out.
+2020-10-22 16:01:14 -  Oi Amigos has logged in.
+2020-10-22 16:02:12 -  funcao onLogin
+2020-10-22 16:02:12 -  
+2020-10-22 16:02:12 -  Lua Script Error: [Npc interface] 
+2020-10-22 16:02:12 -  data/npc/scripts/Testserver Assistant.lua:onCreatureSay
+2020-10-22 16:02:12 -  data/npc/scripts/Testserver Assistant.lua:174: attempt to index a nil value
+2020-10-22 16:02:12 -  stack traceback:
+2020-10-22 16:02:12 -  	[C]: in function '__index'
+2020-10-22 16:02:12 -  	data/npc/scripts/Testserver Assistant.lua:174: in function 'callback'
+2020-10-22 16:02:12 -  	data/npc/lib/npcsystem/npchandler.lua:431: in function 'onCreatureSay'
+2020-10-22 16:02:12 -  	data/npc/scripts/Testserver Assistant.lua:7: in function <data/npc/scripts/Testserver Assistant.lua:7>
+2020-10-22 16:02:21 -  
+2020-10-22 16:02:21 -  Lua Script Error: [Npc interface] 
+2020-10-22 16:02:21 -  data/npc/scripts/Testserver Assistant.lua:onCreatureSay
+2020-10-22 16:02:21 -  data/npc/scripts/Testserver Assistant.lua:174: attempt to index a nil value
+2020-10-22 16:02:21 -  stack traceback:
+2020-10-22 16:02:21 -  	[C]: in function '__index'
+2020-10-22 16:02:21 -  	data/npc/scripts/Testserver Assistant.lua:174: in function 'callback'
+2020-10-22 16:02:21 -  	data/npc/lib/npcsystem/npchandler.lua:431: in function 'onCreatureSay'
+2020-10-22 16:02:21 -  	data/npc/scripts/Testserver Assistant.lua:7: in function <data/npc/scripts/Testserver Assistant.lua:7>
+2020-10-22 16:02:29 -  
+2020-10-22 16:02:29 -  Lua Script Error: [Npc interface] 
+2020-10-22 16:02:29 -  data/npc/scripts/Testserver Assistant.lua:onCreatureSay
+2020-10-22 16:02:29 -  data/npc/scripts/Testserver Assistant.lua:174: attempt to index a nil value
+2020-10-22 16:02:29 -  stack traceback:
+2020-10-22 16:02:29 -  	[C]: in function '__index'
+2020-10-22 16:02:29 -  	data/npc/scripts/Testserver Assistant.lua:174: in function 'callback'
+2020-10-22 16:02:29 -  	data/npc/lib/npcsystem/npchandler.lua:431: in function 'onCreatureSay'
+2020-10-22 16:02:29 -  	data/npc/scripts/Testserver Assistant.lua:7: in function <data/npc/scripts/Testserver Assistant.lua:7>
+2020-10-22 16:02:35 -  
+2020-10-22 16:02:35 -  Lua Script Error: [Npc interface] 
+2020-10-22 16:02:35 -  data/npc/scripts/Testserver Assistant.lua:onCreatureSay
+2020-10-22 16:02:35 -  data/npc/scripts/Testserver Assistant.lua:174: attempt to index a nil value
+2020-10-22 16:02:35 -  stack traceback:
+2020-10-22 16:02:35 -  	[C]: in function '__index'
+2020-10-22 16:02:35 -  	data/npc/scripts/Testserver Assistant.lua:174: in function 'callback'
+2020-10-22 16:02:35 -  	data/npc/lib/npcsystem/npchandler.lua:431: in function 'onCreatureSay'
+2020-10-22 16:02:35 -  	data/npc/scripts/Testserver Assistant.lua:7: in function <data/npc/scripts/Testserver Assistant.lua:7>
+2020-10-22 16:02:41 -  
+2020-10-22 16:02:41 -  Lua Script Error: [Npc interface] 
+2020-10-22 16:02:41 -  data/npc/scripts/Testserver Assistant.lua:onCreatureSay
+2020-10-22 16:02:41 -  data/npc/scripts/Testserver Assistant.lua:174: attempt to index a nil value
+2020-10-22 16:02:41 -  stack traceback:
+2020-10-22 16:02:41 -  	[C]: in function '__index'
+2020-10-22 16:02:41 -  	data/npc/scripts/Testserver Assistant.lua:174: in function 'callback'
+2020-10-22 16:02:41 -  	data/npc/lib/npcsystem/npchandler.lua:431: in function 'onCreatureSay'
+2020-10-22 16:02:41 -  	data/npc/scripts/Testserver Assistant.lua:7: in function <data/npc/scripts/Testserver Assistant.lua:7>
+2020-10-22 16:02:44 -  
+2020-10-22 16:02:44 -  Lua Script Error: [Npc interface] 
+2020-10-22 16:02:44 -  data/npc/scripts/Testserver Assistant.lua:onCreatureSay
+2020-10-22 16:02:44 -  data/npc/scripts/Testserver Assistant.lua:174: attempt to index a nil value
+2020-10-22 16:02:44 -  stack traceback:
+2020-10-22 16:02:44 -  	[C]: in function '__index'
+2020-10-22 16:02:44 -  	data/npc/scripts/Testserver Assistant.lua:174: in function 'callback'
+2020-10-22 16:02:44 -  	data/npc/lib/npcsystem/npchandler.lua:431: in function 'onCreatureSay'
+2020-10-22 16:02:44 -  	data/npc/scripts/Testserver Assistant.lua:7: in function <data/npc/scripts/Testserver Assistant.lua:7>
+2020-10-22 16:09:19 -  Gamestore: Purchase failed due to an unhandled script error. 
+2020-10-22 16:09:19 -  	Stacktrace: data/modules/scripts/gamestore/init.lua:1549: attempt to call method 'getPreyBonusRerolls' (a nil value)
+2020-10-22 16:09:19 -  
+2020-10-22 16:09:19 -  Gamestore: Purchase failed due to an unhandled script error. 
+2020-10-22 16:09:19 -  	Stacktrace: data/modules/scripts/gamestore/init.lua:1549: attempt to call method 'getPreyBonusRerolls' (a nil value)
+2020-10-22 16:09:19 -  
+2020-10-22 16:09:19 -  Gamestore: Purchase failed due to an unhandled script error. 
+2020-10-22 16:09:19 -  	Stacktrace: data/modules/scripts/gamestore/init.lua:1549: attempt to call method 'getPreyBonusRerolls' (a nil value)
+2020-10-22 16:09:19 -  
+2020-10-22 16:09:19 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29058
+2020-10-22 16:09:20 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29058
+2020-10-22 16:11:40 -  Hromeu Pinto has logged out.
+2020-10-22 16:11:42 -  Hromeu Pinto has logged in.
+2020-10-22 16:17:35 -  funcao onLogin
+2020-10-22 16:17:35 -  > Broadcasted message: "The dragons of the Dragonblaze Mountains have descended to Zao to protect the lizardkin!".
+2020-10-22 16:18:28 -  Hromeu Pinto has logged out.
+2020-10-22 16:18:30 -  Hromeu Pinto has logged in.
+2020-10-22 16:19:38 -  funcao onLogin
+2020-10-22 16:19:38 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 26183
+2020-10-22 16:19:39 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 26183
+2020-10-22 16:19:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 26188
+2020-10-22 16:19:55 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 26188
+2020-10-22 16:21:30 -  Master has logged in.
+2020-10-22 16:22:07 -  funcao onLogin
+2020-10-22 16:22:07 -  Ekzinho has logged in.
+2020-10-22 16:22:29 -  funcao onLogin
+2020-10-22 16:22:29 -  Master has logged out.
+2020-10-22 16:24:26 -  ip inválido
+2020-10-22 16:24:26 -  ip inválido
+2020-10-22 16:24:26 -  Bodinha Druid has logged in.
+2020-10-22 16:26:15 -  funcao onLogin
+2020-10-22 16:26:15 -  ip inválido
+2020-10-22 16:26:15 -  aqui eu checkei o choiceID para atualizar o warmode temp5
+2020-10-22 16:26:15 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-22 16:26:15 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-22 16:26:15 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-22 16:26:15 -  ip inválido
+2020-10-22 16:26:15 -  [Network protection] - attack detected. IP: [179.255.128.94] - disconnected
+2020-10-22 16:27:39 -  ip inválido
+2020-10-22 16:27:39 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 26183
+2020-10-22 16:27:43 -  Oi Amigos has logged out.
+2020-10-22 16:27:44 -  
+2020-10-22 16:27:44 -  Lua Script Error: [Main Interface] 
+2020-10-22 16:27:44 -  in a timer event called from: 
+2020-10-22 16:27:44 -  (Unknown scriptfile)
+2020-10-22 16:27:44 -  data/actions/scripts/exercise_training.lua:64: attempt to index local 'player' (a nil value)
+2020-10-22 16:27:44 -  stack traceback:
+2020-10-22 16:27:44 -  	[C]: in function '__index'
+2020-10-22 16:27:44 -  	data/actions/scripts/exercise_training.lua:64: in function <data/actions/scripts/exercise_training.lua:16>
+2020-10-22 16:28:11 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 26188
+2020-10-22 16:30:42 -  ip inválido
+2020-10-22 16:30:42 -  ip inválido
+2020-10-22 16:30:42 -  ip inválido
+2020-10-22 16:30:42 -  [Network protection] - attack detected. IP: [179.255.128.94] - disconnected
+2020-10-22 16:36:28 -  ip inválido
+2020-10-22 16:36:28 -  ip inválido
+2020-10-22 16:36:28 -  ip inválido
+2020-10-22 16:36:28 -  ip inválido
+2020-10-22 16:36:28 -  ip inválido
+2020-10-22 16:36:28 -  ip inválido
+2020-10-22 16:36:28 -  Ekzinho has logged out.
+2020-10-22 16:39:40 -  Hromeu Pinto has logged out.
+2020-10-22 16:39:45 -  Hromeu Pinto has logged in.
+2020-10-22 16:41:40 -  funcao onLogin
+2020-10-22 16:41:40 -  
+2020-10-22 16:41:40 -  Lua Script Error: [Action Interface] 
+2020-10-22 16:41:40 -  data/actions/scripts/tools/toolgear.lua:onUse
+2020-10-22 16:41:40 -  data/actions/scripts/tools/toolgear.lua:22: attempt to call global 'onUseSickle' (a nil value)
+2020-10-22 16:41:40 -  stack traceback:
+2020-10-22 16:41:40 -  	[C]: in function 'onUseSickle'
+2020-10-22 16:41:40 -  	data/actions/scripts/tools/toolgear.lua:22: in function <data/actions/scripts/tools/toolgear.lua:1>
+2020-10-22 16:46:30 -  [Network protection] - attack detected. IP: [179.255.128.94] - disconnected
+2020-10-22 16:47:35 -  
+2020-10-22 16:47:35 -  Lua Script Error: [Action Interface] 
+2020-10-22 16:47:35 -  data/actions/scripts/tools/toolgear.lua:onUse
+2020-10-22 16:47:35 -  data/actions/scripts/tools/toolgear.lua:22: attempt to call global 'onUseSickle' (a nil value)
+2020-10-22 16:47:35 -  stack traceback:
+2020-10-22 16:47:35 -  	[C]: in function 'onUseSickle'
+2020-10-22 16:47:35 -  	data/actions/scripts/tools/toolgear.lua:22: in function <data/actions/scripts/tools/toolgear.lua:1>
+2020-10-22 16:51:04 -  Hromeu Pinto has logged out.
+2020-10-22 16:51:06 -  Hromeu Pinto has logged in.
+2020-10-22 16:51:52 -  funcao onLogin
+2020-10-22 16:51:52 -  Hromeu Pinto has logged out.
+2020-10-22 16:51:54 -  Hromeu Pinto has logged in.
+2020-10-22 16:51:56 -  funcao onLogin
+2020-10-22 16:51:56 -  King Romanov has logged out.
+2020-10-22 16:51:59 -  King Romanov has logged in.
+2020-10-22 16:52:06 -  funcao onLogin
+2020-10-22 16:52:06 -  [Network protection] - attack detected. IP: [179.255.128.94] - disconnected
+2020-10-22 16:52:10 -  Bodinha Druid has logged out.
+2020-10-22 16:52:12 -  Bodinha Druid has logged in.
+2020-10-22 16:53:25 -  funcao onLogin
+2020-10-22 16:53:25 -  [Network protection] - attack detected. IP: [179.255.128.94] - disconnected
+2020-10-22 16:53:51 -  Hromeu Pinto has logged out.
+2020-10-22 16:53:53 -  Hromeu Pinto has logged in.
+2020-10-22 16:55:18 -  funcao onLogin
+2020-10-22 16:55:18 -  
+2020-10-22 16:55:18 -  Lua Script Error: [Action Interface] 
+2020-10-22 16:55:18 -  data/actions/scripts/tools/toolgear.lua:onUse
+2020-10-22 16:55:18 -  data/actions/scripts/tools/toolgear.lua:22: attempt to call global 'onUseSickle' (a nil value)
+2020-10-22 16:55:18 -  stack traceback:
+2020-10-22 16:55:18 -  	[C]: in function 'onUseSickle'
+2020-10-22 16:55:18 -  	data/actions/scripts/tools/toolgear.lua:22: in function <data/actions/scripts/tools/toolgear.lua:1>
+2020-10-22 16:57:31 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2204
+2020-10-22 16:59:53 -  Bodinha Druid has logged out.
+2020-10-22 17:01:44 -  eu sou o checkWarmode... 17:0!
+2020-10-22 17:01:44 -  
+2020-10-22 17:01:44 -  Lua Script Error: [CreatureScript Interface] 
+2020-10-22 17:01:44 -  data/creaturescripts/scripts/autoloot.lua:onModalWindow
+2020-10-22 17:01:44 -  data/creaturescripts/scripts/autoloot.lua:54: attempt to index a nil value
+2020-10-22 17:01:44 -  stack traceback:
+2020-10-22 17:01:44 -  	[C]: in function '__index'
+2020-10-22 17:01:44 -  	data/creaturescripts/scripts/autoloot.lua:54: in function <data/creaturescripts/scripts/autoloot.lua:5>
+2020-10-22 17:02:54 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 26132
+2020-10-22 17:02:55 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 26132
+2020-10-22 17:03:15 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29058
+2020-10-22 17:03:15 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29058
+2020-10-22 17:03:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29058
+2020-10-22 17:03:16 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29058
+2020-10-22 17:09:38 -  ip inválido
+2020-10-22 17:09:38 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 17:09:38 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 17:09:39 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 17:09:39 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29057
+2020-10-22 17:13:11 -  ip inválido
+2020-10-22 17:13:11 -  ip inválido
+2020-10-22 17:13:11 -  ip inválido
+2020-10-22 17:13:11 -  Dev Marson has logged out.
+2020-10-22 17:24:42 -  ip inválido
+2020-10-22 17:24:42 -  ip inválido
+2020-10-22 17:24:42 -  ip inválido
+2020-10-22 17:24:42 -  ip inválido
+2020-10-22 17:24:42 -  ip inválido
+2020-10-22 17:24:42 -  ip inválido
+2020-10-22 17:24:42 -  ip inválido
+2020-10-22 17:24:42 -  ip inválido
+2020-10-22 17:24:42 -  ip inválido
+2020-10-22 17:24:42 -  ip inválido
+2020-10-22 17:24:42 -  ip inválido
+2020-10-22 17:24:42 -  ip inválido
+2020-10-22 17:24:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 29058
+2020-10-22 17:25:35 -  ip inválido
+2020-10-22 17:25:35 -  Demonzin has logged in.
+2020-10-22 17:25:35 -  funcao onLogin
+2020-10-22 17:25:35 -  Demonzin has logged out.
+2020-10-22 17:25:43 -  Demonzin has logged in.
+2020-10-22 17:28:44 -  funcao onLogin
+2020-10-22 17:28:44 -  ip inválido
+2020-10-22 17:28:44 -  ip inválido
+2020-10-22 17:28:44 -  ip inválido
+2020-10-22 17:28:44 -  Dev Marson has logged in.
+2020-10-22 17:28:52 -  funcao onLogin
+2020-10-22 17:28:52 -  Demonzin has logged out.
+2020-10-22 17:28:53 -  Demonzin has logged in.
+2020-10-22 17:28:56 -  funcao onLogin
+2020-10-22 17:28:56 -  Dev Marson has logged out.
+2020-10-22 17:29:03 -  Robalo has logged in.
+2020-10-22 17:29:08 -  funcao onLogin
+2020-10-22 17:29:08 -  Robalo has logged out.
+2020-10-22 17:29:09 -  Robalo has logged in.
+2020-10-22 17:30:51 -  
+2020-10-22 17:30:51 -  Thread 1 "tfs" received signal SIGINT, Interrupt.
+2020-10-22 17:30:51 -  0x00007ffff7b14ad3 in epoll_wait () at ../sysdeps/unix/syscall-template.S:84
+2020-10-22 17:30:51 -  84	../sysdeps/unix/syscall-template.S: No such file or directory.
+2020-10-22 17:30:51 -  
+2020-10-22 17:30:51 -  Thread 4 (Thread 0x7ffff2ba7700 (LWP 1716)):
+2020-10-22 17:30:51 -  #0  pthread_cond_wait@@GLIBC_2.3.2 () at ../sysdeps/unix/sysv/linux/x86_64/pthread_cond_wait.S:185
+2020-10-22 17:30:51 -  No locals.
+2020-10-22 17:30:51 -  #1  0x00007ffff5e7491c in std::condition_variable::wait(std::unique_lock<std::mutex>&) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-22 17:30:51 -  No symbol table info available.
+2020-10-22 17:30:51 -  #2  0x00000000006228bf in DatabaseTasks::threadMain() (this=0x8e39a0 <g_databaseTasks>) at /home/otg/src/databasetasks.cpp:42
+2020-10-22 17:30:51 -          taskLockUnique = {_M_device = 0x8e3a08 <g_databaseTasks+104>, _M_owns = true}
+2020-10-22 17:30:51 -  #3  0x00007ffff5e79c80 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-22 17:30:51 -  No symbol table info available.
+2020-10-22 17:30:51 -  #4  0x00007ffff614a6ba in start_thread (arg=0x7ffff2ba7700) at pthread_create.c:333
+2020-10-22 17:30:51 -          __res = <optimized out>
+2020-10-22 17:30:51 -          pd = 0x7ffff2ba7700
+2020-10-22 17:30:51 -          now = <optimized out>
+2020-10-22 17:30:51 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737265694464, -5293908154954986453, 0, 140737284647471, 140737265695168, 9334528, 5293884467647958059, 5293892016364014635}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2020-10-22 17:30:51 -          not_first_call = <optimized out>
+2020-10-22 17:30:51 -          pagesize_m1 = <optimized out>
+2020-10-22 17:30:51 -          sp = <optimized out>
+2020-10-22 17:30:51 -          freesize = <optimized out>
+2020-10-22 17:30:51 -          __PRETTY_FUNCTION__ = "start_thread"
+2020-10-22 17:30:51 -  #5  0x00007ffff7b144dd in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+2020-10-22 17:30:51 -  No locals.
+2020-10-22 17:30:51 -  
+2020-10-22 17:30:51 -  Thread 3 (Thread 0x7ffff35ba700 (LWP 1715)):
+2020-10-22 17:30:51 -  #0  pthread_cond_timedwait@@GLIBC_2.3.2 () at ../sysdeps/unix/sysv/linux/x86_64/pthread_cond_timedwait.S:225
+2020-10-22 17:30:51 -  No locals.
+2020-10-22 17:30:51 -  #1  0x0000000000506210 in __gthread_cond_timedwait () at /usr/include/x86_64-linux-gnu/c++/5/bits/gthr-default.h:871
+2020-10-22 17:30:51 -  No locals.
+2020-10-22 17:30:51 -  #2  std::condition_variable::__wait_until_impl (__atime=..., __lock=..., this=0x8e6fa0 <g_scheduler+64>) at /usr/include/c++/5/condition_variable:165
+2020-10-22 17:30:51 -          __ts = {tv_sec = 1603402251, tv_nsec = 109223842}
+2020-10-22 17:30:51 -  #3  std::condition_variable::wait_until<std::chrono::duration<long, std::ratio<1l, 1000000000l> > > () at /usr/include/c++/5/condition_variable:105
+2020-10-22 17:30:51 -          __lock = @0x7ffff35b9e90: {_M_device = 0x8e6f78 <g_scheduler+24>, _M_owns = true}
+2020-10-22 17:30:51 -          this = 0x8e6fa0 <g_scheduler+64>
+2020-10-22 17:30:51 -  #4  Scheduler::threadMain (this=0x8e6f60 <g_scheduler>) at /home/otg/src/scheduler.cpp:36
+2020-10-22 17:30:51 -          ret = std::cv_status::no_timeout
+2020-10-22 17:30:51 -          eventLockUnique = {_M_device = 0x8e6f78 <g_scheduler+24>, _M_owns = true}
+2020-10-22 17:30:51 -  #5  0x00007ffff5e79c80 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-22 17:30:51 -  No symbol table info available.
+2020-10-22 17:30:51 -  #6  0x00007ffff614a6ba in start_thread (arg=0x7ffff35ba700) at pthread_create.c:333
+2020-10-22 17:30:51 -          __res = <optimized out>
+2020-10-22 17:30:51 -          pd = 0x7ffff35ba700
+2020-10-22 17:30:51 -          now = <optimized out>
+2020-10-22 17:30:51 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737276258048, -5293908154954986453, 0, 140737488346847, 140737276258752, 9437376, 5293880361122352171, 5293892016364014635}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2020-10-22 17:30:51 -          not_first_call = <optimized out>
+2020-10-22 17:30:51 -          pagesize_m1 = <optimized out>
+2020-10-22 17:30:51 -          sp = <optimized out>
+2020-10-22 17:30:51 -          freesize = <optimized out>
+2020-10-22 17:30:51 -          __PRETTY_FUNCTION__ = "start_thread"
+2020-10-22 17:30:51 -  #7  0x00007ffff7b144dd in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+2020-10-22 17:30:51 -  No locals.
+2020-10-22 17:30:51 -  
+2020-10-22 17:30:51 -  Thread 2 (Thread 0x7ffff3dbb700 (LWP 1714)):
+2020-10-22 17:30:51 -  #0  pthread_cond_wait@@GLIBC_2.3.2 () at ../sysdeps/unix/sysv/linux/x86_64/pthread_cond_wait.S:185
+2020-10-22 17:30:51 -  No locals.
+2020-10-22 17:30:51 -  #1  0x00007ffff5e7491c in std::condition_variable::wait(std::unique_lock<std::mutex>&) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-22 17:30:51 -  No symbol table info available.
+2020-10-22 17:30:51 -  #2  0x000000000055af7b in Dispatcher::threadMain() (this=0x8e6ec0 <g_dispatcher>) at /home/otg/src/tasks.cpp:50
+2020-10-22 17:30:51 -          taskLockUnique = {_M_device = 0x8e6ed8 <g_dispatcher+24>, _M_owns = true}
+2020-10-22 17:30:51 -  #3  0x00007ffff5e79c80 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+2020-10-22 17:30:51 -  No symbol table info available.
+2020-10-22 17:30:51 -  #4  0x00007ffff614a6ba in start_thread (arg=0x7ffff3dbb700) at pthread_create.c:333
+2020-10-22 17:30:51 -          __res = <optimized out>
+2020-10-22 17:30:51 -          pd = 0x7ffff3dbb700
+2020-10-22 17:30:51 -          now = <optimized out>
+2020-10-22 17:30:51 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737284650752, -5293908154954986453, 0, 140737488346847, 140737284651456, 9437376, 5293881459023367211, 5293892016364014635}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2020-10-22 17:30:51 -          not_first_call = <optimized out>
+2020-10-22 17:30:51 -          pagesize_m1 = <optimized out>
+2020-10-22 17:30:51 -          sp = <optimized out>
+2020-10-22 17:30:51 -          freesize = <optimized out>
+2020-10-22 17:30:51 -          __PRETTY_FUNCTION__ = "start_thread"
+2020-10-22 17:30:51 -  #5  0x00007ffff7b144dd in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+2020-10-22 17:30:51 -  No locals.
+2020-10-22 17:30:51 -  
+2020-10-22 17:30:51 -  Thread 1 (Thread 0x7ffff7fe6740 (LWP 1710)):
+2020-10-22 17:30:51 -  #0  0x00007ffff7b14ad3 in epoll_wait () at ../sysdeps/unix/syscall-template.S:84
+2020-10-22 17:30:51 -  No locals.
+2020-10-22 17:30:51 -  #1  0x00000000005b70e7 in boost::asio::detail::epoll_reactor::run(bool, boost::asio::detail::op_queue<boost::asio::detail::task_io_service_operation>&) [clone .constprop.204] (this=0x901570, block=<optimized out>, ops=...) at /usr/include/boost/asio/detail/impl/epoll_reactor.ipp:392
+2020-10-22 17:30:51 -          timeout = <optimized out>
+2020-10-22 17:30:51 -          events = {{events = 1, data = {ptr = 0x9015c8, fd = 9442760, u32 = 9442760, u64 = 9442760}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}} <repeats 51 times>, {events = 11, data = {ptr = 0xa100000000, fd = 0, u32 = 0, u64 = 691489734656}}, {events = 0, data = {ptr = 0x912060, fd = 9511008, u32 = 9511008, u64 = 9511008}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 9329, data = {ptr = 0xffffdb8fffff8000, fd = -32768, u32 = 4294934528, u64 = 18446704010254581760}}, {events = 32767, data = {ptr = 0x2, fd = 2, u32 = 2, u64 = 2}}, {events = 4155593817, data = {ptr = 0x7fff, fd = 32767, u32 = 32767, u64 = 32767}}, {events = 0, data = {ptr = 0x5828f4 <boost::asio::detail::reactive_socket_recv_op_base<boost::asio::mutable_buffers_1>::do_perform(boost::asio::detail::reactor_op*)+228>, fd = 5777652, u32 = 5777652, u64 = 5777652}}, {events = 91, data = {ptr = 0x100006e, fd = 16777326, u32 = 16777326, u64 = 16777326}}, {events = 17, data = {ptr = 0x9147a6, fd = 9521062, u32 = 9521062, u64 = 9521062}}, {events = 2, data = {ptr = 0x200000000, fd = 0, u32 = 0, u64 = 8589934592}}, {events = 0, data = {ptr = 0x5f91fa0a, fd = 1603402250, u32 = 1603402250, u64 = 1603402250}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x7fffffffdb80, fd = -9344, u32 = 4294957952, u64 = 140737488345984}}, {events = 1, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x91478000000000, fd = 0, u32 = 0, u64 = 40892486704431104}}, {events = 0, data = {ptr = 0x7fffeec39f80, fd = -289169536, u32 = 4005797760, u64 = 140737199185792}}, {events = 9510768, data = {ptr = 0x92488800000000, fd = 0, u32 = 0, u64 = 41175095552507904}}, {events = 0, data = {ptr = 0x9127f8, fd = 9512952, u32 = 9512952, u64 = 9512952}}, {events = 17, data = {ptr = 0x5200000000, fd = 0, u32 = 0, u64 = 352187318272}}, {events = 0, data = {ptr = 0x901570, fd = 9442672, u32 = 9442672, u64 = 9442672}}, {events = 6449413, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x11, fd = 17, u32 = 17, u64 = 17}}, {events = 0, data = {ptr = 0x56f20000000000, fd = 0, u32 = 0, u64 = 24472929811038208}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0xffffdc7000000000, fd = 0, u32 = 0, u64 = 18446704972327288832}}, {events = 32767, data = {ptr = 0x911f70, fd = 9510768, u32 = 9510768, u64 = 9510768}}, {events = 9510768, data = {ptr = 0x9129c000000000, fd = 0, u32 = 0, u64 = 40859776233504768}}, {events = 0, data = {ptr = 0x924888, fd = 9586824, u32 = 9586824, u64 = 9586824}}, {events = 9521062, data = {ptr = 0x200000000, fd = 0, u32 = 0, u64 = 8589934592}}, {events = 0, data = {ptr = 0x7fff00000001, fd = 1, u32 = 1, u64 = 140733193388033}}, {events = 0, data = {ptr = 0x56f20000000000, fd = 0, u32 = 0, u64 = 24472929811038208}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x92482800000000, fd = 0, u32 = 0, u64 = 41174683235647488}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 4128564479, data = {ptr = 0x91479000007fff, fd = 32767, u32 = 32767, u64 = 40892555423940607}}, {events = 0, data = {ptr = 0x7fffbce9a6d0, fd = -1125538096, u32 = 3169429200, u64 = 140736362817232}}, {events = 3000289296, data = {ptr = 0x92482800007fff, fd = 32767, u32 = 32767, u64 = 41174683235680255}}, {events = 0, data = {ptr = 0x7fffffffde78, fd = -8584, u32 = 4294958712, u64 = 140737488346744}}, {events = 0, data = {ptr = 0xf7a9158c00000000, fd = 0, u32 = 0, u64 = 17845818689471905792}}, {events = 32767, data = {ptr = 0x900090, fd = 9437328, u32 = 9437328, u64 = 9437328}}, {events = 4294958640, data = {ptr = 0x90009000007fff, fd = 32767, u32 = 32767, u64 = 40533015121657855}}, {events = 0, data = {ptr = 0x914790, fd = 9521040, u32 = 9521040, u64 = 9521040}}, {events = 14, data = {ptr = 0x91479000000000, fd = 0, u32 = 0, u64 = 40892555423907840}}, {events = 0, data = {ptr = 0x7fffbce9a6d0, fd = -1125538096, u32 = 3169429200, u64 = 140736362817232}}, {events = 3000289296, data = {ptr = 0x92482800007fff, fd = 32767, u32 = 32767, u64 = 41174683235680255}}, {events = 0, data = {ptr = 0x58a8b4 <Connection::onWriteOperation(boost::system::error_code const&)+260>, fd = 5810356, u32 = 5810356, u64 = 5810356}}, {events = 0, data = {ptr = 0xf71e50e000000000, fd = 0, u32 = 0, u64 = 17806758899672416256}}, {events = 32767, data = {ptr = 0xffffde30, fd = -8656, u32 = 4294958640, u64 = 4294958640}}, {events = 14, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 4294958640, data = {ptr = 0x58574500007fff, fd = 32767, u32 = 32767, u64 = 24865751814930431}}, {events = 0, data = {ptr = 0x15, fd = 21, u32 = 21, u64 = 21}}, {events = 4155593817, data = {ptr = 0xffffde3000007fff, fd = 32767, u32 = 32767, u64 = 18446706896472670207}}, {events = 32767, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 17, data = {ptr = 0x924888, fd = 9586824, u32 = 9586824, u64 = 9586824}}, {events = 4294958720, data = {ptr = 0x90009000007fff, fd = 32767, u32 = 32767, u64 = 40533015121657855}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x9000c000000000, fd = 0, u32 = 0, u64 = 40533221280055296}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 4155053452, data = {ptr = 0x91478000007fff, fd = 32767, u32 = 32767, u64 = 40892486704463871}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 4145959136, data = {ptr = 0x58a73100007fff, fd = 32767, u32 = 32767, u64 = 24953626845806591}}, {events = 0, data = {ptr = 0x7fffeed440f0, fd = -288079632, u32 = 4006887664, u64 = 140737200275696}}, {events = 4294958720, data = {ptr = 0x90009000007fff, fd = 32767, u32 = 32767, u64 = 40533015121657855}}, {events = 0, data = {ptr = 0x7fffffffde80, fd = -8576, u32 = 4294958720, u64 = 140737488346752}}, {events = 9437328, data = {ptr = 0x58646e00000000, fd = 0, u32 = 0, u64 = 24880221559717888}}, {events = 0, data = {ptr = 0x914790, fd = 9521040, u32 = 9521040, u64 = 9521040}}, {events = 9521024, data = {ptr = 0xffffde8000000000, fd = 0, u32 = 0, u64 = 18446707240070021120}}, {events = 32767, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 32767, data = {ptr = 0x58a720 <Connection::handleTimeout(std::weak_ptr<Connection>, boost::system::error_code const&)>, fd = 5809952, u32 = 5809952, u64 = 5809952}}, {events = 9521040, data = {ptr = 0x91478000000000, fd = 0, u32 = 0, u64 = 40892486704431104}}, {events = 0, data = {ptr = 0x6e6972750000007d, fd = 125, u32 = 125, u64 = 7956016063563432061}}}
+2020-10-22 17:30:51 -          num_events = <optimized out>
+2020-10-22 17:30:51 -          check_timers = <optimized out>
+2020-10-22 17:30:51 -  #2  0x000000000055dcd3 in do_run_one (ec=..., this_thread=..., lock=<synthetic pointer>, this=0x900090) at /usr/include/boost/asio/detail/impl/task_io_service.ipp:356
+2020-10-22 17:30:51 -          more_handlers = <optimized out>
+2020-10-22 17:30:51 -  #3  run (ec=..., this=0x900090) at /usr/include/boost/asio/detail/impl/task_io_service.ipp:149
+2020-10-22 17:30:51 -          this_thread = {private_op_queue = {front_ = 0x0, back_ = 0x0}, private_outstanding_work = 0}
+2020-10-22 17:30:51 -          ctx = {key_ = 0x900090, value_ = 0x7fffffffdf40, next_ = 0x0}
+2020-10-22 17:30:51 -          lock = {mutex_ = @0x9000c0, locked_ = <optimized out>}
+2020-10-22 17:30:51 -          n = 1525919
+2020-10-22 17:30:51 -  #4  _ZN5boost4asio10io_service3runEv.isra.226 () at /usr/include/boost/asio/impl/io_service.ipp:59
+2020-10-22 17:30:51 -          ec = {m_val = 0, m_cat = 0x7ffff71e50e0}
+2020-10-22 17:30:51 -  #5  ServiceManager::run() (this=this@entry=0x7fffffffdff0) at /home/otg/src/server.cpp:47
+2020-10-22 17:30:51 -  No locals.
+2020-10-22 17:30:51 -  #6  0x0000000000474c46 in main (argc=1, argv=0x7fffffffe1b8) at /home/otg/src/otserv.cpp:96
+2020-10-22 17:30:51 -          serviceManager = {acceptors = {_M_h = {_M_buckets = 0x7fffe9269e00, _M_bucket_count = 5, _M_before_begin = {_M_nxt = 0x7fffeed441c0}, _M_element_count = 2, _M_rehash_policy = {_M_max_load_factor = 1, _M_next_resize = 5}, _M_single_bucket = 0x0}}, io_service = {service_registry_ = 0x900040, impl_ = @0x900090}, signals = {set = {<No data fields>}}, death_timer = {<No data fields>}, running = true}
+2020-10-22 17:30:51 -  funcao onLogin
+2020-10-22 17:30:51 -  ip inválido
+2020-10-22 17:30:51 -  aqui eu checkei o choiceID para atualizar o warmode temp3
+2020-10-22 17:30:51 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-22 17:30:51 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-22 17:30:51 -  aqui eu checkei o choiceID para atualizar o warmode temp3
+2020-10-22 17:30:51 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-22 17:30:51 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-22 17:30:51 -  ip inválido
+2020-10-22 17:30:51 -  Saving server...
+2020-10-22 17:30:52 -  > Saved house items in: 0.477 s
+2020-10-22 17:30:52 -  A debugging session is active.
+2020-10-22 17:30:52 -  
+2020-10-22 17:30:52 -  	Inferior 1 [process 1710] will be killed.
+2020-10-22 17:30:52 -  
+2020-10-22 17:30:52 -  Quit anyway? (y or n) [answered Y; input not from terminal]

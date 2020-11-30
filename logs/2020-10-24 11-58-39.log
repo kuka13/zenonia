@@ -1,0 +1,1085 @@
+2020-10-24 11:58:39 -  [Thread debugging using libthread_db enabled]
+2020-10-24 11:58:39 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2020-10-24 11:58:39 -  [New Thread 0x7ffff3dbb700 (LWP 6974)]
+2020-10-24 11:58:39 -  [New Thread 0x7ffff35ba700 (LWP 6975)]
+2020-10-24 11:58:39 -  The OTG-Premium-Version - Version: (1.3)
+2020-10-24 11:58:39 -  Compiled with: GNU C++ version 5.4.0 20160609
+2020-10-24 11:58:39 -  Compiled on Sep 17 2020 19:49:36 for platform x64
+2020-10-24 11:58:39 -  
+2020-10-24 11:58:39 -  Special Credits for: OTG Team, Johncore, Vankk, Erick Nunes, Leonardo Pereira, Leandro Baldissera, Talis, Marcomoa, Marson Schneider, Douglas, Mark Samman, OTXServer (Mattyx Gomez) and The Forgotten Server Developers.
+2020-10-24 11:58:39 -  Link of repository: https://github.com/Johncorex/OTG-Premium-Version
+2020-10-24 11:58:39 -  
+2020-10-24 11:58:39 -  >> Loading config: config.lua
+2020-10-24 11:58:39 -  >> Establishing database connection... MySQL 5.7.31
+2020-10-24 11:58:39 -  >> Running database manager
+2020-10-24 11:58:39 -  [New Thread 0x7ffff2ba7700 (LWP 6976)]
+2020-10-24 11:58:39 -  > Optimizing table tile_store... [success]
+2020-10-24 11:58:39 -  >> Loading vocations
+2020-10-24 11:58:39 -  >> Loading items
+2020-10-24 11:58:39 -  >> Loading script systems
+2020-10-24 11:58:39 -  >> Loading lua libs
+2020-10-24 11:58:40 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-24 11:58:40 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-24 11:58:41 -  >> Loading lua scripts
+2020-10-24 11:58:41 -  >> Loading monsters
+2020-10-24 11:58:41 -  >> Loading lua monsters
+2020-10-24 11:58:41 -  >> Loading outfits
+2020-10-24 11:58:41 -  >> Loading prey data
+2020-10-24 11:58:41 -  >> Checking world type... PVP
+2020-10-24 11:58:41 -  >> Loading map
+2020-10-24 11:58:43 -  > Map size: 34143x33812.
+2020-10-24 11:58:49 -  > Map loading time: 7.215 seconds.
+2020-10-24 11:58:49 -  > Loaded house items in: 0.016 s
+2020-10-24 11:58:49 -  >> Initializing gamestate
+2020-10-24 11:58:51 -  >> Loaded 43 npcs and spawned 72708 monsters.
+2020-10-24 11:58:51 -  >> Loaded 27 towns with 1074 houses in total.
+2020-10-24 11:58:51 -  [Castle War]
+2020-10-24 11:58:51 -  [POWERGAMERS]
+2020-10-24 11:58:51 -  [SISTEMA DE LOTERIA] OPERANTE
+2020-10-24 11:58:51 -  Advanced NPC spawn system | All NPCs will be loaded trough lib.
+2020-10-24 11:58:51 -  [REGEN BOOST] CARREGADO
+2020-10-24 11:58:51 -  [SPOOF COUNTER]
+2020-10-24 11:58:51 -  [STAMINA]
+2020-10-24 11:58:51 -  warvariables
+2020-10-24 11:58:51 -  eu sou o checkWarmode... 11:58!
+2020-10-24 11:58:51 -  > Broadcasted message: "[Warmode] Atencao! A Guild TesteWarmode desafiou a Guild Vai tomando para uma batalha que vai iniciar agora! Use o comando !war, para juntar-se a sua guild.".
+2020-10-24 11:58:51 -  >> Loaded all modules, server starting up...
+2020-10-24 11:58:51 -  > Warning: OTG-Premium-Version has been executed as root user, please consider running it as a normal user.
+2020-10-24 11:58:51 -  >> Honera Global Server Online!
+2020-10-24 11:58:51 -  
+2020-10-24 11:58:52 -  Reyzor has logged in.
+2020-10-24 11:58:52 -  funcao onLogin
+2020-10-24 11:58:52 -  Robalo has logged in.
+2020-10-24 11:58:52 -  funcao onLogin
+2020-10-24 11:58:52 -  Demonzin has logged in.
+2020-10-24 11:58:52 -  funcao onLogin
+2020-10-24 11:58:52 -  Demonzin has logged out.
+2020-10-24 11:59:01 -  SABADOU!! NPC HONERA CRIADO
+2020-10-24 11:59:01 -  Demonzin has logged in.
+2020-10-24 11:59:16 -  funcao onLogin
+2020-10-24 11:59:16 -  Demonzin has logged out.
+2020-10-24 11:59:18 -  Demonzin has logged in.
+2020-10-24 11:59:41 -  funcao onLogin
+2020-10-24 11:59:41 -  registrei o evento do kill
+2020-10-24 11:59:41 -  Dev Marson has logged in.
+2020-10-24 11:59:41 -  funcao onLogin
+2020-10-24 11:59:41 -  Dev Marson has logged out.
+2020-10-24 11:59:44 -  Dev Marson has logged in.
+2020-10-24 12:00:03 -  funcao onLogin
+2020-10-24 12:00:03 -  funcaoKill!!
+2020-10-24 12:00:03 -  um player que estava dentro da war, foi morto
+2020-10-24 12:00:03 -  endWarmode
+2020-10-24 12:00:03 -  > Broadcasted message: "[Warmode] Parabens a Guild TesteWarmode por ter eliminado todos os integrantes da Guild Vai tomando".
+2020-10-24 12:00:03 -  Demonzin has logged out.
+2020-10-24 12:00:03 -  eu sou o checkWarmode... 12:0!
+2020-10-24 12:00:03 -  
+2020-10-24 12:00:03 -  Lua Script Error: [CreatureScript Interface] 
+2020-10-24 12:00:03 -  data/creaturescripts/scripts/others/playerdeath.lua:onDeath
+2020-10-24 12:00:03 -  luaIsInWar(). Player not found
+2020-10-24 12:00:03 -  stack traceback:
+2020-10-24 12:00:03 -  	[C]: in function 'isInWar'
+2020-10-24 12:00:03 -  	data/creaturescripts/scripts/others/playerdeath.lua:116: in function <data/creaturescripts/scripts/others/playerdeath.lua:21>
+2020-10-24 12:00:03 -  Robalo has logged out.
+2020-10-24 12:00:06 -  Robalo has logged in.
+2020-10-24 12:00:06 -  funcao onLogin
+2020-10-24 12:00:06 -  Robalo has logged out.
+2020-10-24 12:00:06 -  Demonzin has logged in.
+2020-10-24 12:00:06 -  funcao onLogin
+2020-10-24 12:00:06 -  Demonzin has logged out.
+2020-10-24 12:00:09 -  Demonzin has logged in.
+2020-10-24 12:12:36 -  funcao onLogin
+2020-10-24 12:12:36 -  aqui eu checkei o choiceID para atualizar o warmode temp8
+2020-10-24 12:12:36 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-24 12:12:36 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-24 12:12:36 -  eu sou o checkWarmode... 12:0!
+2020-10-24 12:12:36 -  aqui eu checkei o choiceID para atualizar o warmode temp8
+2020-10-24 12:12:36 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-24 12:12:36 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-24 12:12:36 -  endWarmode
+2020-10-24 12:12:36 -  eu sou o checkWarmode... 12:12!
+2020-10-24 12:12:36 -  > Broadcasted message: "[Warmode] Atencao! A Guild TesteWarmode desafiou a Guild testando para uma batalha que vai iniciar agora! Use o comando !war, para juntar-se a sua guild.".
+2020-10-24 12:12:36 -  Reyzor has logged out.
+2020-10-24 12:12:36 -  Reyzorii has logged in.
+2020-10-24 12:12:40 -  funcao onLogin
+2020-10-24 12:12:40 -  Reyzorii has logged out.
+2020-10-24 12:12:43 -  Euteamo has logged in.
+2020-10-24 12:12:49 -  funcao onLogin
+2020-10-24 12:12:49 -  Euteamo has logged out.
+2020-10-24 12:12:50 -  Euteamo has logged in.
+2020-10-24 12:12:56 -  funcao onLogin
+2020-10-24 12:12:56 -  registrei o evento do kill
+2020-10-24 12:12:56 -  Demonzin has logged out.
+2020-10-24 12:12:58 -  Demonzin has logged in.
+2020-10-24 12:15:05 -  funcao onLogin
+2020-10-24 12:15:05 -  registrei o evento do kill
+2020-10-24 12:15:05 -  funcaoKill!!
+2020-10-24 12:15:05 -  um player que estava dentro da war, foi morto
+2020-10-24 12:15:05 -  endWarmode
+2020-10-24 12:15:05 -  > Broadcasted message: "[Warmode] Parabens a Guild testando por ter eliminado todos os integrantes da Guild TesteWarmode".
+2020-10-24 12:15:05 -  Euteamo has logged out.
+2020-10-24 12:15:05 -  eu sou o checkWarmode... 12:15!
+2020-10-24 12:15:05 -  Demonzin has logged out.
+2020-10-24 12:15:14 -  Reyzor has logged in.
+2020-10-24 12:15:20 -  funcao onLogin
+2020-10-24 12:15:20 -  Reyzor has logged out.
+2020-10-24 12:15:21 -  Reyzorii has logged in.
+2020-10-24 12:15:21 -  funcao onLogin
+2020-10-24 12:15:21 -  registrei o evento do kill
+2020-10-24 12:15:21 -  
+2020-10-24 12:15:21 -  Lua Script Error: [CreatureScript Interface] 
+2020-10-24 12:15:21 -  data/creaturescripts/scripts/warmode.lua:onLogin
+2020-10-24 12:15:21 -  data/creaturescripts/scripts/warmode.lua:778: attempt to index a nil value
+2020-10-24 12:15:21 -  stack traceback:
+2020-10-24 12:15:21 -  	[C]: in function '__index'
+2020-10-24 12:15:21 -  	data/creaturescripts/scripts/warmode.lua:778: in function <data/creaturescripts/scripts/warmode.lua:753>
+2020-10-24 12:15:21 -  Reyzorii has logged out.
+2020-10-24 12:15:35 -  Reyzorii has logged in.
+2020-10-24 12:15:35 -  funcao onLogin
+2020-10-24 12:15:35 -  Reyzorii has logged out.
+2020-10-24 12:15:38 -  Demonzin has logged in.
+2020-10-24 12:15:38 -  funcao onLogin
+2020-10-24 12:15:38 -  Demonzin has logged out.
+2020-10-24 12:15:41 -  Demonzin has logged in.
+2020-10-24 12:15:46 -  funcao onLogin
+2020-10-24 12:15:46 -  Euteamo has logged in.
+2020-10-24 12:15:46 -  funcao onLogin
+2020-10-24 12:15:46 -  Euteamo has logged out.
+2020-10-24 12:16:03 -  Reyzor has logged in.
+2020-10-24 12:16:22 -  funcao onLogin
+2020-10-24 12:16:22 -  Reyzor has logged out.
+2020-10-24 12:16:24 -  Reyzorii has logged in.
+2020-10-24 12:16:28 -  funcao onLogin
+2020-10-24 12:16:28 -  Reyzorii has logged out.
+2020-10-24 12:16:30 -  Euteamo has logged in.
+2020-10-24 12:16:50 -  funcao onLogin
+2020-10-24 12:16:50 -  Euteamo has logged out.
+2020-10-24 12:16:51 -  Reyzorii has logged in.
+2020-10-24 12:29:14 -  funcao onLogin
+2020-10-24 12:29:14 -  endWarmode
+2020-10-24 12:29:14 -  ip inválido
+2020-10-24 12:29:14 -  Reyzorii has logged out.
+2020-10-24 14:29:00 -  eu sou o checkWarmode... 13:0!
+2020-10-24 14:29:00 -  eu sou o checkWarmode... 13:0!
+2020-10-24 14:29:00 -  eu sou o checkWarmode... 13:0!
+2020-10-24 14:29:00 -  eu sou o checkWarmode... 13:0!
+2020-10-24 14:29:00 -  eu sou o checkWarmode... 14:0!
+2020-10-24 14:29:00 -  eu sou o checkWarmode... 14:0!
+2020-10-24 14:29:00 -  eu sou o checkWarmode... 14:0!
+2020-10-24 14:29:00 -  eu sou o checkWarmode... 14:0!
+2020-10-24 14:29:00 -  Vinny has logged in.
+2020-10-24 14:30:54 -  funcao onLogin
+2020-10-24 14:30:54 -  Vinny has logged out.
+2020-10-24 14:30:56 -  Vinny has logged in.
+2020-10-24 14:37:52 -  funcao onLogin
+2020-10-24 14:37:52 -  > Broadcasted message: "Many aggressive beasts are roaming south of Ab'Dendriel! Take care!".
+2020-10-24 14:53:23 -  Tamarindo has logged in.
+2020-10-24 14:53:54 -  funcao onLogin
+2020-10-24 14:53:54 -  Groselha has logged in.
+2020-10-24 14:57:45 -  funcao onLogin
+2020-10-24 14:57:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-24 14:57:48 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-24 14:57:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-24 14:58:41 -  
+2020-10-24 14:58:41 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-24 14:58:41 -  data/globalevents/scripts/bosses/Abyssador.lua:onThink
+2020-10-24 14:58:41 -  data/lib/rewardboss.lua:8: Rewards can only be enabled to rewards bosses.
+2020-10-24 14:58:41 -  stack traceback:
+2020-10-24 14:58:41 -  	[C]: at 0x00602980
+2020-10-24 14:58:41 -  	[C]: in function 'error'
+2020-10-24 14:58:41 -  	data/lib/rewardboss.lua:8: in function 'setReward'
+2020-10-24 14:58:41 -  	data/globalevents/scripts/bosses/Abyssador.lua:28: in function <data/globalevents/scripts/bosses/Abyssador.lua:21>
+2020-10-24 14:58:41 -  [Error - GlobalEvents::think] Failed to execute event: Abyssador
+2020-10-24 14:58:41 -  
+2020-10-24 14:58:41 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-24 14:58:41 -  data/globalevents/scripts/bosses/Deathstrike.lua:onThink
+2020-10-24 14:58:41 -  data/lib/rewardboss.lua:8: Rewards can only be enabled to rewards bosses.
+2020-10-24 14:58:41 -  stack traceback:
+2020-10-24 14:58:41 -  	[C]: at 0x00602980
+2020-10-24 14:58:41 -  	[C]: in function 'error'
+2020-10-24 14:58:41 -  	data/lib/rewardboss.lua:8: in function 'setReward'
+2020-10-24 14:58:41 -  	data/globalevents/scripts/bosses/Deathstrike.lua:28: in function <data/globalevents/scripts/bosses/Deathstrike.lua:21>
+2020-10-24 14:58:41 -  [Error - GlobalEvents::think] Failed to execute event: Deathstrike
+2020-10-24 14:58:41 -  
+2020-10-24 14:58:41 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-24 14:58:41 -  data/globalevents/scripts/bosses/Gnomevil.lua:onThink
+2020-10-24 14:58:41 -  data/lib/rewardboss.lua:8: Rewards can only be enabled to rewards bosses.
+2020-10-24 14:58:41 -  stack traceback:
+2020-10-24 14:58:41 -  	[C]: at 0x00602980
+2020-10-24 14:58:41 -  	[C]: in function 'error'
+2020-10-24 14:58:41 -  	data/lib/rewardboss.lua:8: in function 'setReward'
+2020-10-24 14:58:41 -  	data/globalevents/scripts/bosses/Gnomevil.lua:28: in function <data/globalevents/scripts/bosses/Gnomevil.lua:21>
+2020-10-24 14:58:41 -  [Error - GlobalEvents::think] Failed to execute event: Gnomevil
+2020-10-24 15:06:33 -  eu sou o checkWarmode... 15:0!
+2020-10-24 15:06:33 -  eu sou o checkWarmode... 15:0!
+2020-10-24 15:06:33 -  eu sou o checkWarmode... 15:0!
+2020-10-24 15:06:33 -  eu sou o checkWarmode... 15:0!
+2020-10-24 15:06:33 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-24 15:06:45 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-24 15:06:55 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-24 15:07:24 -  [Error - mysql_real_query] Query: INSERT INTO `daily_reward_history`(`player_id`, `daystreak`, `timestamp`, `description`) VALUES (357, 0, 1603566444, 'Claimed reward no. 1. Picked items: 10x mana potion.')
+2020-10-24 15:07:24 -  Message: Table 'otserv.daily_reward_history' doesn't exist
+2020-10-24 15:07:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-24 15:08:08 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-24 15:10:14 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-24 15:10:49 -  Groselha has logged out.
+2020-10-24 15:10:50 -  Groselha has logged in.
+2020-10-24 15:10:54 -  funcao onLogin
+2020-10-24 15:10:54 -  
+2020-10-24 15:10:54 -  Lua Script Error: [Modules Interface] 
+2020-10-24 15:10:54 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 15:10:54 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-24 15:10:54 -  stack traceback:
+2020-10-24 15:10:54 -  	[C]: in function 'getPreyMonsterList'
+2020-10-24 15:10:54 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-24 15:10:54 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 15:10:54 -  
+2020-10-24 15:10:54 -  Lua Script Error: [Modules Interface] 
+2020-10-24 15:10:54 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 15:10:54 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-24 15:10:54 -  stack traceback:
+2020-10-24 15:10:54 -  	[C]: in function 'getPreyMonsterList'
+2020-10-24 15:10:54 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-24 15:10:54 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 15:10:54 -  
+2020-10-24 15:10:54 -  Lua Script Error: [Modules Interface] 
+2020-10-24 15:10:54 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 15:10:54 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-24 15:10:54 -  stack traceback:
+2020-10-24 15:10:54 -  	[C]: in function 'getPreyMonsterList'
+2020-10-24 15:10:54 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-24 15:10:54 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 15:11:00 -  Tamarindo has logged out.
+2020-10-24 15:11:01 -  Tamarindo has logged in.
+2020-10-24 15:11:03 -  funcao onLogin
+2020-10-24 15:11:03 -  
+2020-10-24 15:11:03 -  Lua Script Error: [Modules Interface] 
+2020-10-24 15:11:03 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 15:11:03 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-24 15:11:03 -  stack traceback:
+2020-10-24 15:11:03 -  	[C]: in function 'getPreyMonsterList'
+2020-10-24 15:11:03 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-24 15:11:03 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 15:11:03 -  
+2020-10-24 15:11:03 -  Lua Script Error: [Modules Interface] 
+2020-10-24 15:11:03 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 15:11:03 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-24 15:11:03 -  stack traceback:
+2020-10-24 15:11:03 -  	[C]: in function 'getPreyMonsterList'
+2020-10-24 15:11:03 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-24 15:11:03 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 15:11:03 -  
+2020-10-24 15:11:03 -  Lua Script Error: [Modules Interface] 
+2020-10-24 15:11:03 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 15:11:03 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-24 15:11:03 -  stack traceback:
+2020-10-24 15:11:03 -  	[C]: in function 'getPreyMonsterList'
+2020-10-24 15:11:03 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-24 15:11:03 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 15:11:06 -  
+2020-10-24 15:11:06 -  Lua Script Error: [Modules Interface] 
+2020-10-24 15:11:06 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 15:11:06 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 15:11:06 -  stack traceback:
+2020-10-24 15:11:06 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 15:11:06 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 15:11:06 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 15:11:06 -  
+2020-10-24 15:11:06 -  Lua Script Error: [Modules Interface] 
+2020-10-24 15:11:06 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 15:11:06 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 15:11:06 -  stack traceback:
+2020-10-24 15:11:06 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 15:11:06 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 15:11:06 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 15:12:07 -  
+2020-10-24 15:12:07 -  Lua Script Error: [Modules Interface] 
+2020-10-24 15:12:07 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 15:12:07 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-24 15:12:07 -  stack traceback:
+2020-10-24 15:12:07 -  	[C]: in function 'getPreyMonsterList'
+2020-10-24 15:12:07 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-24 15:12:07 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 15:12:07 -  
+2020-10-24 15:12:07 -  Lua Script Error: [Modules Interface] 
+2020-10-24 15:12:07 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 15:12:07 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-24 15:12:07 -  stack traceback:
+2020-10-24 15:12:07 -  	[C]: in function 'getPreyMonsterList'
+2020-10-24 15:12:07 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-24 15:12:07 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 15:12:07 -  
+2020-10-24 15:12:07 -  Lua Script Error: [Modules Interface] 
+2020-10-24 15:12:07 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 15:12:07 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-24 15:12:07 -  stack traceback:
+2020-10-24 15:12:07 -  	[C]: in function 'getPreyMonsterList'
+2020-10-24 15:12:07 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-24 15:12:07 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 15:12:09 -  
+2020-10-24 15:12:09 -  Lua Script Error: [Modules Interface] 
+2020-10-24 15:12:09 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 15:12:09 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 15:12:09 -  stack traceback:
+2020-10-24 15:12:09 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 15:12:09 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 15:12:09 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 15:12:10 -  
+2020-10-24 15:12:10 -  Lua Script Error: [Modules Interface] 
+2020-10-24 15:12:10 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 15:12:10 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 15:12:10 -  stack traceback:
+2020-10-24 15:12:10 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 15:12:10 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 15:12:10 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 15:12:11 -  
+2020-10-24 15:12:11 -  Lua Script Error: [Modules Interface] 
+2020-10-24 15:12:11 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 15:12:11 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 15:12:11 -  stack traceback:
+2020-10-24 15:12:11 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 15:12:11 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 15:12:11 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 15:12:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-24 15:12:56 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-24 15:13:00 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-24 15:17:58 -  Tamarindo has logged out.
+2020-10-24 15:17:59 -  Tamarindo has logged in.
+2020-10-24 15:18:03 -  funcao onLogin
+2020-10-24 15:18:03 -  Groselha has logged out.
+2020-10-24 15:18:04 -  Groselha has logged in.
+2020-10-24 15:29:02 -  funcao onLogin
+2020-10-24 15:29:02 -  aqui eu checkei o choiceID para atualizar o warmode temp9
+2020-10-24 15:29:02 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-24 15:29:02 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-24 15:29:02 -  aqui eu checkei o choiceID para atualizar o warmode temp9
+2020-10-24 15:29:02 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-24 15:29:02 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-24 15:29:02 -  eu sou o checkWarmode... 15:25!
+2020-10-24 15:29:02 -  Tamarindo has logged out.
+2020-10-24 15:29:03 -  Tamarindo has logged in.
+2020-10-24 15:33:44 -  funcao onLogin
+2020-10-24 15:33:44 -  aqui eu checkei o choiceID para atualizar o warmode temp3
+2020-10-24 15:33:44 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-24 15:33:44 -  aqui eu checkei o choiceID para atualizar o warmode temp255
+2020-10-24 15:33:44 -  eu sou o checkWarmode... 15:31!
+2020-10-24 15:33:44 -  aqui eu checkei o choiceID para atualizar o warmode temp9
+2020-10-24 15:33:44 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-24 15:33:44 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-24 15:33:44 -  aqui eu checkei o choiceID para atualizar o warmode temp10
+2020-10-24 15:33:44 -  Tamarindo has logged out.
+2020-10-24 15:33:55 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-24 15:33:55 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-24 15:33:55 -  Limao has logged in.
+2020-10-24 15:38:26 -  funcao onLogin
+2020-10-24 15:38:26 -  eu sou o checkWarmode... 15:34!
+2020-10-24 15:38:26 -  > Broadcasted message: "[Warmode] Atencao! A Guild TesteWarmode desafiou a Guild Groselha para uma batalha que vai iniciar agora! Use o comando !war, para juntar-se a sua guild.".
+2020-10-24 15:38:26 -  funcaoKill!!
+2020-10-24 15:38:26 -  um player que estava dentro da war, foi morto
+2020-10-24 15:38:26 -  endWarmode
+2020-10-24 15:38:26 -  > Broadcasted message: "[Warmode] Parabens a Guild Groselha por ter eliminado todos os integrantes da Guild TesteWarmode".
+2020-10-24 15:38:26 -  eu sou o checkWarmode... 15:38!
+2020-10-24 15:38:26 -  Demonzin has logged out.
+2020-10-24 15:38:29 -  Demonzin has logged in.
+2020-10-24 15:41:27 -  funcao onLogin
+2020-10-24 15:41:27 -  aqui eu checkei o choiceID para atualizar o warmode temp10
+2020-10-24 15:41:27 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-24 15:41:27 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-24 15:41:27 -  aqui eu checkei o choiceID para atualizar o warmode temp10
+2020-10-24 15:41:27 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-24 15:41:27 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-24 15:41:27 -  aqui eu checkei o choiceID para atualizar o warmode temp10
+2020-10-24 15:41:27 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-24 15:41:27 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-24 15:41:27 -  ip inválido
+2020-10-24 15:41:27 -  aqui eu checkei o choiceID para atualizar o warmode temp10
+2020-10-24 15:41:27 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-24 15:41:27 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-24 15:41:27 -  Vinny has logged out.
+2020-10-24 15:45:36 -  aqui eu checkei o choiceID para atualizar o warmode temp10
+2020-10-24 15:45:36 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-24 15:45:36 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-24 15:45:36 -  aqui eu checkei o choiceID para atualizar o warmode temp10
+2020-10-24 15:45:36 -  aqui eu checkei o choiceID para atualizar o warmode temp2
+2020-10-24 15:45:36 -  aqui eu checkei o choiceID para atualizar o warmode temp1
+2020-10-24 15:45:36 -  endWarmode
+2020-10-24 15:45:36 -  ip inválido
+2020-10-24 15:45:36 -  eu sou o checkWarmode... 15:45!
+2020-10-24 15:45:36 -  > Broadcasted message: "[Warmode] Atencao! A Guild TesteWarmode desafiou a Guild Groselha para uma batalha que vai iniciar agora! Use o comando !war, para juntar-se a sua guild.".
+2020-10-24 15:45:36 -  Demonzin has logged out.
+2020-10-24 15:45:38 -  Demonzin has logged in.
+2020-10-24 15:55:23 -  funcao onLogin
+2020-10-24 15:55:23 -  registrei o evento do kill
+2020-10-24 15:55:23 -  endWarmode
+2020-10-24 15:55:23 -  > Broadcasted message: "[Warmode] A War acabou por tempo! Parabens para ambas as guilds por este emocionante empate! 2".
+2020-10-24 15:55:23 -  removendo players da tabela porque a war acabou
+2020-10-24 15:55:23 -  Groselha has logged out.
+2020-10-24 15:55:23 -  removendo players da tabela porque a war acabou
+2020-10-24 15:55:23 -  Demonzin has logged out.
+2020-10-24 15:55:26 -  eu sou o checkWarmode... 15:55!
+2020-10-24 15:55:26 -  Demonzin has logged in.
+2020-10-24 15:55:26 -  funcao onLogin
+2020-10-24 15:55:26 -  Demonzin has logged out.
+2020-10-24 15:55:29 -  Demonzin has logged in.
+2020-10-24 16:40:05 -  funcao onLogin
+2020-10-24 16:40:05 -  eu sou o checkWarmode... 16:0!
+2020-10-24 16:40:05 -  eu sou o checkWarmode... 16:0!
+2020-10-24 16:40:05 -  eu sou o checkWarmode... 16:0!
+2020-10-24 16:40:05 -  eu sou o checkWarmode... 16:0!
+2020-10-24 16:40:05 -  eu sou o checkWarmode... 16:0!
+2020-10-24 16:40:05 -  eu sou o checkWarmode... 16:0!
+2020-10-24 16:40:05 -  eu sou o checkWarmode... 16:0!
+2020-10-24 16:40:05 -  eu sou o checkWarmode... 16:0!
+2020-10-24 16:40:05 -  eu sou o checkWarmode... 16:0!
+2020-10-24 16:40:05 -  eu sou o checkWarmode... 16:0!
+2020-10-24 16:40:05 -  Groselha has logged in.
+2020-10-24 16:40:05 -  funcao onLogin
+2020-10-24 16:40:05 -  Groselha has logged out.
+2020-10-24 16:40:06 -  Groselha has logged in.
+2020-10-24 16:41:22 -  funcao onLogin
+2020-10-24 16:41:22 -  
+2020-10-24 16:41:22 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:41:22 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:41:22 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-24 16:41:22 -  stack traceback:
+2020-10-24 16:41:22 -  	[C]: in function 'getPreyMonsterList'
+2020-10-24 16:41:22 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-24 16:41:22 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:41:22 -  
+2020-10-24 16:41:22 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:41:22 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:41:22 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-24 16:41:22 -  stack traceback:
+2020-10-24 16:41:22 -  	[C]: in function 'getPreyMonsterList'
+2020-10-24 16:41:22 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-24 16:41:22 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:41:22 -  
+2020-10-24 16:41:22 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:41:22 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:41:22 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-24 16:41:22 -  stack traceback:
+2020-10-24 16:41:22 -  	[C]: in function 'getPreyMonsterList'
+2020-10-24 16:41:22 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-24 16:41:22 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:41:24 -  
+2020-10-24 16:41:24 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:41:24 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:41:24 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:41:24 -  stack traceback:
+2020-10-24 16:41:24 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:41:24 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:41:24 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:41:26 -  
+2020-10-24 16:41:26 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:41:26 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:41:26 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:41:26 -  stack traceback:
+2020-10-24 16:41:26 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:41:26 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:41:26 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:41:27 -  
+2020-10-24 16:41:27 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:41:27 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:41:27 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:41:27 -  stack traceback:
+2020-10-24 16:41:27 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:41:27 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:41:27 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:41:27 -  
+2020-10-24 16:41:27 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:41:27 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:41:27 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:41:27 -  stack traceback:
+2020-10-24 16:41:27 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:41:27 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:41:27 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:41:46 -  Groselha has logged out.
+2020-10-24 16:41:54 -  Tamarindo has logged in.
+2020-10-24 16:41:59 -  funcao onLogin
+2020-10-24 16:41:59 -  
+2020-10-24 16:41:59 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:41:59 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:41:59 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-24 16:41:59 -  stack traceback:
+2020-10-24 16:41:59 -  	[C]: in function 'getPreyMonsterList'
+2020-10-24 16:41:59 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-24 16:41:59 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:41:59 -  
+2020-10-24 16:41:59 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:41:59 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:41:59 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-24 16:41:59 -  stack traceback:
+2020-10-24 16:41:59 -  	[C]: in function 'getPreyMonsterList'
+2020-10-24 16:41:59 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-24 16:41:59 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:41:59 -  
+2020-10-24 16:41:59 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:41:59 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:41:59 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-24 16:41:59 -  stack traceback:
+2020-10-24 16:41:59 -  	[C]: in function 'getPreyMonsterList'
+2020-10-24 16:41:59 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-24 16:41:59 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:37 -  Limao has logged out.
+2020-10-24 16:44:42 -  
+2020-10-24 16:44:42 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:42 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:42 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-24 16:44:42 -  stack traceback:
+2020-10-24 16:44:42 -  	[C]: in function 'getPreyMonsterList'
+2020-10-24 16:44:42 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-24 16:44:42 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:42 -  
+2020-10-24 16:44:42 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:42 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:42 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-24 16:44:42 -  stack traceback:
+2020-10-24 16:44:42 -  	[C]: in function 'getPreyMonsterList'
+2020-10-24 16:44:42 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-24 16:44:42 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:42 -  
+2020-10-24 16:44:42 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:42 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:42 -  data/modules/scripts/prey system/prey.lua:376: attempt to call method 'getPreyMonsterList' (a nil value)
+2020-10-24 16:44:42 -  stack traceback:
+2020-10-24 16:44:42 -  	[C]: in function 'getPreyMonsterList'
+2020-10-24 16:44:42 -  	data/modules/scripts/prey system/prey.lua:376: in function 'sendPreyData'
+2020-10-24 16:44:42 -  	data/modules/scripts/prey system/prey.lua:212: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:43 -  
+2020-10-24 16:44:43 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:43 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:43 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:43 -  stack traceback:
+2020-10-24 16:44:43 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:43 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:43 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:45 -  
+2020-10-24 16:44:45 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:45 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:45 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:45 -  stack traceback:
+2020-10-24 16:44:45 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:45 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:45 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:45 -  
+2020-10-24 16:44:45 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:45 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:45 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:45 -  stack traceback:
+2020-10-24 16:44:45 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:45 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:45 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:46 -  
+2020-10-24 16:44:46 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:46 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:46 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:46 -  stack traceback:
+2020-10-24 16:44:46 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:46 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:46 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:46 -  
+2020-10-24 16:44:46 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:46 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:46 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:46 -  stack traceback:
+2020-10-24 16:44:46 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:46 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:46 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:47 -  
+2020-10-24 16:44:47 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:47 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:47 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:47 -  stack traceback:
+2020-10-24 16:44:47 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:47 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:47 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:47 -  
+2020-10-24 16:44:47 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:47 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:47 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:47 -  stack traceback:
+2020-10-24 16:44:47 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:47 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:47 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:47 -  
+2020-10-24 16:44:47 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:47 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:47 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:47 -  stack traceback:
+2020-10-24 16:44:47 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:47 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:47 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:47 -  
+2020-10-24 16:44:47 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:47 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:47 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:47 -  stack traceback:
+2020-10-24 16:44:47 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:47 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:47 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:48 -  
+2020-10-24 16:44:48 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:48 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:48 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:48 -  stack traceback:
+2020-10-24 16:44:48 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:48 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:48 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:48 -  
+2020-10-24 16:44:48 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:48 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:48 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:48 -  stack traceback:
+2020-10-24 16:44:48 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:48 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:48 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:48 -  
+2020-10-24 16:44:48 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:48 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:48 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:48 -  stack traceback:
+2020-10-24 16:44:48 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:48 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:48 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:48 -  
+2020-10-24 16:44:48 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:48 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:48 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:48 -  stack traceback:
+2020-10-24 16:44:48 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:48 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:48 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:48 -  
+2020-10-24 16:44:48 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:48 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:48 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:48 -  stack traceback:
+2020-10-24 16:44:48 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:48 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:48 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:48 -  
+2020-10-24 16:44:48 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:48 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:48 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:48 -  stack traceback:
+2020-10-24 16:44:48 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:48 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:48 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:49 -  
+2020-10-24 16:44:49 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:49 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:49 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:49 -  stack traceback:
+2020-10-24 16:44:49 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:49 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:49 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:49 -  
+2020-10-24 16:44:49 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:49 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:49 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:49 -  stack traceback:
+2020-10-24 16:44:49 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:49 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:49 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:49 -  
+2020-10-24 16:44:49 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:49 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:49 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:49 -  stack traceback:
+2020-10-24 16:44:49 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:49 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:49 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:49 -  
+2020-10-24 16:44:49 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:49 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:49 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:49 -  stack traceback:
+2020-10-24 16:44:49 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:49 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:49 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:49 -  
+2020-10-24 16:44:49 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:49 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:49 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:49 -  stack traceback:
+2020-10-24 16:44:49 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:49 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:49 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:49 -  
+2020-10-24 16:44:49 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:49 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:49 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:49 -  stack traceback:
+2020-10-24 16:44:49 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:49 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:49 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:50 -  
+2020-10-24 16:44:50 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:50 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:50 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:50 -  stack traceback:
+2020-10-24 16:44:50 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:50 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:50 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:50 -  
+2020-10-24 16:44:50 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:50 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:50 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:50 -  stack traceback:
+2020-10-24 16:44:50 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:50 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:50 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:50 -  
+2020-10-24 16:44:50 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:50 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:50 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:50 -  stack traceback:
+2020-10-24 16:44:50 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:50 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:50 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:50 -  
+2020-10-24 16:44:50 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:50 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:50 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:50 -  stack traceback:
+2020-10-24 16:44:50 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:50 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:50 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:44:51 -  
+2020-10-24 16:44:51 -  Lua Script Error: [Modules Interface] 
+2020-10-24 16:44:51 -  data/modules/scripts/prey system/prey.lua:onRecvbyte
+2020-10-24 16:44:51 -  data/modules/scripts/prey system/prey.lua:230: attempt to call method 'getPreyUnlocked' (a nil value)
+2020-10-24 16:44:51 -  stack traceback:
+2020-10-24 16:44:51 -  	[C]: in function 'getPreyUnlocked'
+2020-10-24 16:44:51 -  	data/modules/scripts/prey system/prey.lua:230: in function 'preyAction'
+2020-10-24 16:44:51 -  	data/modules/scripts/prey system/prey.lua:216: in function <data/modules/scripts/prey system/prey.lua:210>
+2020-10-24 16:45:43 -  
+2020-10-24 16:45:43 -  Lua Script Error: [Npc interface] 
+2020-10-24 16:45:43 -  data/npc/scripts/Testserver Assistant.lua:onCreatureSay
+2020-10-24 16:45:43 -  data/npc/scripts/Testserver Assistant.lua:174: attempt to index a nil value
+2020-10-24 16:45:43 -  stack traceback:
+2020-10-24 16:45:43 -  	[C]: in function '__index'
+2020-10-24 16:45:43 -  	data/npc/scripts/Testserver Assistant.lua:174: in function 'callback'
+2020-10-24 16:45:43 -  	data/npc/lib/npcsystem/npchandler.lua:431: in function 'onCreatureSay'
+2020-10-24 16:45:43 -  	data/npc/scripts/Testserver Assistant.lua:7: in function <data/npc/scripts/Testserver Assistant.lua:7>
+2020-10-24 16:45:47 -  
+2020-10-24 16:45:47 -  Lua Script Error: [Npc interface] 
+2020-10-24 16:45:47 -  data/npc/scripts/Testserver Assistant.lua:onCreatureSay
+2020-10-24 16:45:47 -  data/npc/scripts/Testserver Assistant.lua:174: attempt to index a nil value
+2020-10-24 16:45:47 -  stack traceback:
+2020-10-24 16:45:47 -  	[C]: in function '__index'
+2020-10-24 16:45:47 -  	data/npc/scripts/Testserver Assistant.lua:174: in function 'callback'
+2020-10-24 16:45:47 -  	data/npc/lib/npcsystem/npchandler.lua:431: in function 'onCreatureSay'
+2020-10-24 16:45:47 -  	data/npc/scripts/Testserver Assistant.lua:7: in function <data/npc/scripts/Testserver Assistant.lua:7>
+2020-10-24 16:45:47 -  
+2020-10-24 16:45:47 -  Lua Script Error: [Npc interface] 
+2020-10-24 16:45:47 -  data/npc/scripts/Testserver Assistant.lua:onCreatureSay
+2020-10-24 16:45:47 -  data/npc/scripts/Testserver Assistant.lua:174: attempt to index a nil value
+2020-10-24 16:45:47 -  stack traceback:
+2020-10-24 16:45:47 -  	[C]: in function '__index'
+2020-10-24 16:45:47 -  	data/npc/scripts/Testserver Assistant.lua:174: in function 'callback'
+2020-10-24 16:45:47 -  	data/npc/lib/npcsystem/npchandler.lua:431: in function 'onCreatureSay'
+2020-10-24 16:45:47 -  	data/npc/scripts/Testserver Assistant.lua:7: in function <data/npc/scripts/Testserver Assistant.lua:7>
+2020-10-24 16:45:47 -  
+2020-10-24 16:45:47 -  Lua Script Error: [Npc interface] 
+2020-10-24 16:45:47 -  data/npc/scripts/Testserver Assistant.lua:onCreatureSay
+2020-10-24 16:45:47 -  data/npc/scripts/Testserver Assistant.lua:174: attempt to index a nil value
+2020-10-24 16:45:47 -  stack traceback:
+2020-10-24 16:45:47 -  	[C]: in function '__index'
+2020-10-24 16:45:47 -  	data/npc/scripts/Testserver Assistant.lua:174: in function 'callback'
+2020-10-24 16:45:47 -  	data/npc/lib/npcsystem/npchandler.lua:431: in function 'onCreatureSay'
+2020-10-24 16:45:47 -  	data/npc/scripts/Testserver Assistant.lua:7: in function <data/npc/scripts/Testserver Assistant.lua:7>
+2020-10-24 16:45:48 -  
+2020-10-24 16:45:48 -  Lua Script Error: [Npc interface] 
+2020-10-24 16:45:48 -  data/npc/scripts/Testserver Assistant.lua:onCreatureSay
+2020-10-24 16:45:48 -  data/npc/scripts/Testserver Assistant.lua:174: attempt to index a nil value
+2020-10-24 16:45:48 -  stack traceback:
+2020-10-24 16:45:48 -  	[C]: in function '__index'
+2020-10-24 16:45:48 -  	data/npc/scripts/Testserver Assistant.lua:174: in function 'callback'
+2020-10-24 16:45:48 -  	data/npc/lib/npcsystem/npchandler.lua:431: in function 'onCreatureSay'
+2020-10-24 16:45:48 -  	data/npc/scripts/Testserver Assistant.lua:7: in function <data/npc/scripts/Testserver Assistant.lua:7>
+2020-10-24 16:45:48 -  
+2020-10-24 16:45:48 -  Lua Script Error: [Npc interface] 
+2020-10-24 16:45:48 -  data/npc/scripts/Testserver Assistant.lua:onCreatureSay
+2020-10-24 16:45:48 -  data/npc/scripts/Testserver Assistant.lua:174: attempt to index a nil value
+2020-10-24 16:45:48 -  stack traceback:
+2020-10-24 16:45:48 -  	[C]: in function '__index'
+2020-10-24 16:45:48 -  	data/npc/scripts/Testserver Assistant.lua:174: in function 'callback'
+2020-10-24 16:45:48 -  	data/npc/lib/npcsystem/npchandler.lua:431: in function 'onCreatureSay'
+2020-10-24 16:45:48 -  	data/npc/scripts/Testserver Assistant.lua:7: in function <data/npc/scripts/Testserver Assistant.lua:7>
+2020-10-24 16:45:48 -  
+2020-10-24 16:45:48 -  Lua Script Error: [Npc interface] 
+2020-10-24 16:45:48 -  data/npc/scripts/Testserver Assistant.lua:onCreatureSay
+2020-10-24 16:45:48 -  data/npc/scripts/Testserver Assistant.lua:174: attempt to index a nil value
+2020-10-24 16:45:48 -  stack traceback:
+2020-10-24 16:45:48 -  	[C]: in function '__index'
+2020-10-24 16:45:48 -  	data/npc/scripts/Testserver Assistant.lua:174: in function 'callback'
+2020-10-24 16:45:48 -  	data/npc/lib/npcsystem/npchandler.lua:431: in function 'onCreatureSay'
+2020-10-24 16:45:48 -  	data/npc/scripts/Testserver Assistant.lua:7: in function <data/npc/scripts/Testserver Assistant.lua:7>
+2020-10-24 16:45:49 -  
+2020-10-24 16:45:49 -  Lua Script Error: [Npc interface] 
+2020-10-24 16:45:49 -  data/npc/scripts/Testserver Assistant.lua:onCreatureSay
+2020-10-24 16:45:49 -  data/npc/scripts/Testserver Assistant.lua:174: attempt to index a nil value
+2020-10-24 16:45:49 -  stack traceback:
+2020-10-24 16:45:49 -  	[C]: in function '__index'
+2020-10-24 16:45:49 -  	data/npc/scripts/Testserver Assistant.lua:174: in function 'callback'
+2020-10-24 16:45:49 -  	data/npc/lib/npcsystem/npchandler.lua:431: in function 'onCreatureSay'
+2020-10-24 16:45:49 -  	data/npc/scripts/Testserver Assistant.lua:7: in function <data/npc/scripts/Testserver Assistant.lua:7>
+2020-10-24 16:45:49 -  
+2020-10-24 16:45:49 -  Lua Script Error: [Npc interface] 
+2020-10-24 16:45:49 -  data/npc/scripts/Testserver Assistant.lua:onCreatureSay
+2020-10-24 16:45:49 -  data/npc/scripts/Testserver Assistant.lua:174: attempt to index a nil value
+2020-10-24 16:45:49 -  stack traceback:
+2020-10-24 16:45:49 -  	[C]: in function '__index'
+2020-10-24 16:45:49 -  	data/npc/scripts/Testserver Assistant.lua:174: in function 'callback'
+2020-10-24 16:45:49 -  	data/npc/lib/npcsystem/npchandler.lua:431: in function 'onCreatureSay'
+2020-10-24 16:45:49 -  	data/npc/scripts/Testserver Assistant.lua:7: in function <data/npc/scripts/Testserver Assistant.lua:7>
+2020-10-24 16:58:00 -  Tamarindo has logged out.
+2020-10-24 17:48:42 -  eu sou o checkWarmode... 17:0!
+2020-10-24 17:48:42 -  eu sou o checkWarmode... 17:0!
+2020-10-24 17:48:42 -  eu sou o checkWarmode... 17:0!
+2020-10-24 17:48:42 -  eu sou o checkWarmode... 17:0!
+2020-10-24 17:48:42 -  eu sou o checkWarmode... 17:0!
+2020-10-24 17:48:42 -  eu sou o checkWarmode... 17:0!
+2020-10-24 17:48:42 -  eu sou o checkWarmode... 17:0!
+2020-10-24 17:48:42 -  eu sou o checkWarmode... 17:0!
+2020-10-24 17:48:42 -  eu sou o checkWarmode... 17:0!
+2020-10-24 17:48:42 -  eu sou o checkWarmode... 17:0!
+2020-10-24 17:48:42 -  [Castle War votacao aberta]
+2020-10-24 17:48:42 -  > Broadcasted message: "[Castle War]: Foi iniciada a votação para decidir o objetivo do castelo que abre em alguns minutos. Use !castle1 para votar no objetivo (Dominar o castelo por mais tempo). Use !castle2 para votar no objetivo (Ultimo que dominar o castelo). Caso não haja votações, o objetivo será aleatorio.".
+2020-10-24 17:48:42 -  > Broadcasted message: "[CastleWar] Atencao, O CASTELO esta aberto para batalha, junte-se com sua guild e  conquiste-o. O castelo encerra em 1 hora. Resultado das votacoes: First: 0 Second: 1 Resultado: (Ultimo a Dominar o castelo) foi escolhido".
+2020-10-24 17:48:42 -  castleWar Encerrado
+2020-10-24 17:48:42 -  ip inválido
+2020-10-24 17:48:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 26132
+2020-10-24 17:58:41 -  
+2020-10-24 17:58:41 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-24 17:58:41 -  data/globalevents/scripts/Ghulosh.lua:onThink
+2020-10-24 17:58:41 -  data/globalevents/scripts/Ghulosh.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-24 17:58:41 -  stack traceback:
+2020-10-24 17:58:41 -  	[C]: in function '__index'
+2020-10-24 17:58:41 -  	data/globalevents/scripts/Ghulosh.lua:34: in function <data/globalevents/scripts/Ghulosh.lua:21>
+2020-10-24 17:58:41 -  [Error - GlobalEvents::think] Failed to execute event: Ghulosh
+2020-10-24 17:58:41 -  
+2020-10-24 17:58:41 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-24 17:58:41 -  data/globalevents/scripts/Gorzindel.lua:onThink
+2020-10-24 17:58:41 -  data/globalevents/scripts/Gorzindel.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-24 17:58:41 -  stack traceback:
+2020-10-24 17:58:41 -  	[C]: in function '__index'
+2020-10-24 17:58:41 -  	data/globalevents/scripts/Gorzindel.lua:34: in function <data/globalevents/scripts/Gorzindel.lua:21>
+2020-10-24 17:58:41 -  [Error - GlobalEvents::think] Failed to execute event: Gorzindel
+2020-10-24 17:58:41 -  
+2020-10-24 17:58:41 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-24 17:58:41 -  data/globalevents/scripts/Lokathmor.lua:onThink
+2020-10-24 17:58:41 -  data/globalevents/scripts/Lokathmor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-24 17:58:41 -  stack traceback:
+2020-10-24 17:58:41 -  	[C]: in function '__index'
+2020-10-24 17:58:41 -  	data/globalevents/scripts/Lokathmor.lua:34: in function <data/globalevents/scripts/Lokathmor.lua:21>
+2020-10-24 17:58:41 -  [Error - GlobalEvents::think] Failed to execute event: Lokathmor
+2020-10-24 17:58:41 -  
+2020-10-24 17:58:41 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-24 17:58:41 -  data/globalevents/scripts/Mazzinor.lua:onThink
+2020-10-24 17:58:41 -  data/globalevents/scripts/Mazzinor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-24 17:58:41 -  stack traceback:
+2020-10-24 17:58:41 -  	[C]: in function '__index'
+2020-10-24 17:58:41 -  	data/globalevents/scripts/Mazzinor.lua:34: in function <data/globalevents/scripts/Mazzinor.lua:21>
+2020-10-24 17:58:41 -  [Error - GlobalEvents::think] Failed to execute event: Mazzinor
+2020-10-24 17:58:41 -  [Warning - Monsters::loadMonster] Non-unique loot item "Giant Sapphire". 
+2020-10-24 17:58:41 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-24 17:58:41 -  [Warning - Monsters::loadMonster] Non-unique loot item "Collar of Blue Plasma". 
+2020-10-24 17:58:41 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-24 17:58:41 -  [Warning - Monsters::loadMonster] Non-unique loot item "Giant Shimmering Pearl". 
+2020-10-24 17:58:41 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-24 17:58:41 -  [Warning - Monsters::loadMonster] Unknown loot item "The Calamity". 
+2020-10-24 17:58:41 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-24 17:58:41 -  
+2020-10-24 17:58:41 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-24 17:58:41 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:onThink
+2020-10-24 17:58:41 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-24 17:58:41 -  stack traceback:
+2020-10-24 17:58:41 -  	[C]: in function '__index'
+2020-10-24 17:58:41 -  	data/globalevents/scripts/The Scourge Of Oblivion.lua:34: in function <data/globalevents/scripts/The Scourge Of Oblivion.lua:21>
+2020-10-24 17:58:41 -  [Error - GlobalEvents::think] Failed to execute event: The Scourge Of Oblivion
+2020-10-24 19:28:52 -  eu sou o checkWarmode... 18:0!
+2020-10-24 19:28:52 -  eu sou o checkWarmode... 18:0!
+2020-10-24 19:28:52 -  eu sou o checkWarmode... 18:0!
+2020-10-24 19:28:52 -  eu sou o checkWarmode... 18:0!
+2020-10-24 19:28:52 -  eu sou o checkWarmode... 18:0!
+2020-10-24 19:28:52 -  eu sou o checkWarmode... 18:0!
+2020-10-24 19:28:52 -  eu sou o checkWarmode... 18:0!
+2020-10-24 19:28:52 -  eu sou o checkWarmode... 18:0!
+2020-10-24 19:28:52 -  eu sou o checkWarmode... 18:0!
+2020-10-24 19:28:52 -  eu sou o checkWarmode... 18:0!
+2020-10-24 19:28:52 -  eu sou o checkWarmode... 19:0!
+2020-10-24 19:28:52 -  eu sou o checkWarmode... 19:0!
+2020-10-24 19:28:52 -  eu sou o checkWarmode... 19:0!
+2020-10-24 19:28:52 -  eu sou o checkWarmode... 19:0!
+2020-10-24 19:28:52 -  eu sou o checkWarmode... 19:0!
+2020-10-24 19:28:52 -  eu sou o checkWarmode... 19:0!
+2020-10-24 19:28:52 -  eu sou o checkWarmode... 19:0!
+2020-10-24 19:28:52 -  eu sou o checkWarmode... 19:0!
+2020-10-24 19:28:52 -  eu sou o checkWarmode... 19:0!
+2020-10-24 19:28:52 -  eu sou o checkWarmode... 19:0!
+2020-10-24 19:28:52 -  > Broadcasted message: "The dragons of the Dragonblaze Mountains have descended to Zao to protect the lizardkin!".
+2020-10-24 21:02:52 -  eu sou o checkWarmode... 20:0!
+2020-10-24 21:02:52 -  eu sou o checkWarmode... 20:0!
+2020-10-24 21:02:52 -  eu sou o checkWarmode... 20:0!
+2020-10-24 21:02:52 -  eu sou o checkWarmode... 20:0!
+2020-10-24 21:02:52 -  eu sou o checkWarmode... 20:0!
+2020-10-24 21:02:52 -  eu sou o checkWarmode... 20:0!
+2020-10-24 21:02:52 -  eu sou o checkWarmode... 20:0!
+2020-10-24 21:02:52 -  eu sou o checkWarmode... 20:0!
+2020-10-24 21:02:52 -  eu sou o checkWarmode... 20:0!
+2020-10-24 21:02:52 -  eu sou o checkWarmode... 20:0!
+2020-10-24 21:02:52 -  eu sou o checkWarmode... 21:0!
+2020-10-24 21:02:52 -  eu sou o checkWarmode... 21:0!
+2020-10-24 21:02:52 -  eu sou o checkWarmode... 21:0!
+2020-10-24 21:02:52 -  eu sou o checkWarmode... 21:0!
+2020-10-24 21:02:52 -  eu sou o checkWarmode... 21:0!
+2020-10-24 21:02:52 -  eu sou o checkWarmode... 21:0!
+2020-10-24 21:02:52 -  eu sou o checkWarmode... 21:0!
+2020-10-24 21:02:52 -  eu sou o checkWarmode... 21:0!
+2020-10-24 21:02:52 -  eu sou o checkWarmode... 21:0!
+2020-10-24 21:02:52 -  eu sou o checkWarmode... 21:0!
+2020-10-24 21:02:52 -  > Broadcasted message: "Feverish Citizens are invading the streets of Venore!".
+2020-10-24 21:37:53 -  > Broadcasted message: "Beware! Mawhawk!".
+2020-10-24 23:21:53 -  ip inválido
+2020-10-24 23:21:53 -  eu sou o checkWarmode... 22:0!
+2020-10-24 23:21:53 -  eu sou o checkWarmode... 22:0!
+2020-10-24 23:21:53 -  eu sou o checkWarmode... 22:0!
+2020-10-24 23:21:53 -  eu sou o checkWarmode... 22:0!
+2020-10-24 23:21:53 -  eu sou o checkWarmode... 22:0!
+2020-10-24 23:21:53 -  eu sou o checkWarmode... 22:0!
+2020-10-24 23:21:53 -  eu sou o checkWarmode... 22:0!
+2020-10-24 23:21:53 -  eu sou o checkWarmode... 22:0!
+2020-10-24 23:21:53 -  eu sou o checkWarmode... 22:0!
+2020-10-24 23:21:53 -  eu sou o checkWarmode... 22:0!
+2020-10-24 23:21:53 -  eu sou o checkWarmode... 23:0!
+2020-10-24 23:21:53 -  eu sou o checkWarmode... 23:0!
+2020-10-24 23:21:53 -  eu sou o checkWarmode... 23:0!
+2020-10-24 23:21:53 -  eu sou o checkWarmode... 23:0!
+2020-10-24 23:21:53 -  eu sou o checkWarmode... 23:0!
+2020-10-24 23:21:53 -  eu sou o checkWarmode... 23:0!
+2020-10-24 23:21:53 -  eu sou o checkWarmode... 23:0!
+2020-10-24 23:21:53 -  eu sou o checkWarmode... 23:0!
+2020-10-24 23:21:53 -  eu sou o checkWarmode... 23:0!
+2020-10-24 23:21:53 -  eu sou o checkWarmode... 23:0!
+2020-10-24 23:21:53 -  > Broadcasted message: "There seems to be a big gnarlhoud gang in Zao Steppe.".
+2020-10-24 23:22:12 -  > Broadcasted message: "The gnarlhounds seem to multiply by the minute.".
+2020-10-24 23:23:52 -  > Broadcasted message: "The gnarlhounds roam free in the Zao Steppe. Watch out!".
+2020-10-24 23:58:41 -  ip inválido
+2020-10-24 23:58:41 -  
+2020-10-24 23:58:41 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-24 23:58:41 -  data/globalevents/scripts/Ghulosh.lua:onThink
+2020-10-24 23:58:41 -  data/globalevents/scripts/Ghulosh.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-24 23:58:41 -  stack traceback:
+2020-10-24 23:58:41 -  	[C]: in function '__index'
+2020-10-24 23:58:41 -  	data/globalevents/scripts/Ghulosh.lua:34: in function <data/globalevents/scripts/Ghulosh.lua:21>
+2020-10-24 23:58:41 -  [Error - GlobalEvents::think] Failed to execute event: Ghulosh
+2020-10-24 23:58:41 -  
+2020-10-24 23:58:41 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-24 23:58:41 -  data/globalevents/scripts/Gorzindel.lua:onThink
+2020-10-24 23:58:41 -  data/globalevents/scripts/Gorzindel.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-24 23:58:41 -  stack traceback:
+2020-10-24 23:58:41 -  	[C]: in function '__index'
+2020-10-24 23:58:41 -  	data/globalevents/scripts/Gorzindel.lua:34: in function <data/globalevents/scripts/Gorzindel.lua:21>
+2020-10-24 23:58:41 -  [Error - GlobalEvents::think] Failed to execute event: Gorzindel
+2020-10-24 23:58:41 -  
+2020-10-24 23:58:41 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-24 23:58:41 -  data/globalevents/scripts/Lokathmor.lua:onThink
+2020-10-24 23:58:41 -  data/globalevents/scripts/Lokathmor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-24 23:58:41 -  stack traceback:
+2020-10-24 23:58:41 -  	[C]: in function '__index'
+2020-10-24 23:58:41 -  	data/globalevents/scripts/Lokathmor.lua:34: in function <data/globalevents/scripts/Lokathmor.lua:21>
+2020-10-24 23:58:41 -  [Error - GlobalEvents::think] Failed to execute event: Lokathmor
+2020-10-24 23:58:41 -  
+2020-10-24 23:58:41 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-24 23:58:41 -  data/globalevents/scripts/Mazzinor.lua:onThink
+2020-10-24 23:58:41 -  data/globalevents/scripts/Mazzinor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-24 23:58:41 -  stack traceback:
+2020-10-24 23:58:41 -  	[C]: in function '__index'
+2020-10-24 23:58:41 -  	data/globalevents/scripts/Mazzinor.lua:34: in function <data/globalevents/scripts/Mazzinor.lua:21>
+2020-10-24 23:58:41 -  [Error - GlobalEvents::think] Failed to execute event: Mazzinor
+2020-10-24 23:58:41 -  
+2020-10-24 23:58:41 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-24 23:58:41 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:onThink
+2020-10-24 23:58:41 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-24 23:58:41 -  stack traceback:
+2020-10-24 23:58:41 -  	[C]: in function '__index'
+2020-10-24 23:58:41 -  	data/globalevents/scripts/The Scourge Of Oblivion.lua:34: in function <data/globalevents/scripts/The Scourge Of Oblivion.lua:21>
+2020-10-24 23:58:41 -  [Error - GlobalEvents::think] Failed to execute event: The Scourge Of Oblivion
+2020-10-25 00:39:53 -  eu sou o checkWarmode... 0:0!
+2020-10-25 00:39:53 -  eu sou o checkWarmode... 0:0!
+2020-10-25 00:39:53 -  eu sou o checkWarmode... 0:0!
+2020-10-25 00:39:53 -  eu sou o checkWarmode... 0:0!
+2020-10-25 00:39:53 -  eu sou o checkWarmode... 0:0!
+2020-10-25 00:39:53 -  eu sou o checkWarmode... 0:0!
+2020-10-25 00:39:53 -  eu sou o checkWarmode... 0:0!
+2020-10-25 00:39:53 -  eu sou o checkWarmode... 0:0!
+2020-10-25 00:39:53 -  eu sou o checkWarmode... 0:0!
+2020-10-25 00:39:53 -  eu sou o checkWarmode... 0:0!
+2020-10-25 00:39:53 -  > Broadcasted message: "There is something stony moving down in the Ankrahmun Rahemos tombs.".
+2020-10-25 00:40:12 -  > Broadcasted message: "Gargoyle attack in the Ankrahmun Rahemos tombs!".
+2020-10-25 01:20:53 -  eu sou o checkWarmode... 1:0!
+2020-10-25 01:20:53 -  eu sou o checkWarmode... 1:0!
+2020-10-25 01:20:53 -  eu sou o checkWarmode... 1:0!
+2020-10-25 01:20:53 -  eu sou o checkWarmode... 1:0!
+2020-10-25 01:20:53 -  eu sou o checkWarmode... 1:0!
+2020-10-25 01:20:53 -  eu sou o checkWarmode... 1:0!
+2020-10-25 01:20:53 -  eu sou o checkWarmode... 1:0!
+2020-10-25 01:20:53 -  eu sou o checkWarmode... 1:0!
+2020-10-25 01:20:53 -  eu sou o checkWarmode... 1:0!
+2020-10-25 01:20:53 -  eu sou o checkWarmode... 1:0!
+2020-10-25 01:20:53 -  > Broadcasted message: "Let da mashing begin! Cyclops riot east of Thais.".
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 2:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 2:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 2:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 2:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 2:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 2:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 2:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 2:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 2:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 2:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 3:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 3:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 3:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 3:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 3:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 3:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 3:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 3:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 3:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 3:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 4:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 4:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 4:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 4:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 4:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 4:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 4:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 4:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 4:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 4:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 5:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 5:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 5:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 5:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 5:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 5:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 5:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 5:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 5:0!
+2020-10-25 05:05:00 -  eu sou o checkWarmode... 5:0!
+2020-10-25 05:05:00 -  Saving server...
+2020-10-25 05:05:02 -  > Saved house items in: 1.715 s
+2020-10-25 05:05:02 -  Demonzin has logged out.
+2020-10-25 05:05:02 -  Dev Marson has logged out.
+2020-10-25 05:05:02 -  Saving server...
+2020-10-25 05:05:03 -  > Saved house items in: 0.294 s
+2020-10-25 05:05:03 -  eu sou o checkname
+2020-10-25 05:05:03 -  Shutting down...Saving server...
+2020-10-25 05:05:03 -  > Saved house items in: 0.262 s
+2020-10-25 05:05:04 -  [Thread 0x7ffff2ba7700 (LWP 6976) exited]
+2020-10-25 05:05:04 -  [Thread 0x7ffff35ba700 (LWP 6975) exited]
+2020-10-25 05:05:09 -   done!
+2020-10-25 05:05:09 -  [Thread 0x7ffff3dbb700 (LWP 6974) exited]
+2020-10-25 05:05:28 -  [Inferior 1 (process 6970) exited normally]

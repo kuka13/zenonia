@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Luan dos Tokens" script="Luan dos Tokens.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="152" head="88" body="114" legs="94" feet="0" addons="2" mount="0"/>
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+		    gold token,25377,500000;
+			silver raid token,21400,100000;
+			silver token,25172,1000000;
+			Major Crystalline Token,18423,30000;
+			Minor Crystalline Token,18422,10000;" />
+		<parameter key="shop_sellable" value="
+			cyclops toe,10574,50;" />
+	</parameters>
+</npc>

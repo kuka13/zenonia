@@ -1,0 +1,76 @@
+2020-10-23 17:36:13 -  [Thread debugging using libthread_db enabled]
+2020-10-23 17:36:13 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2020-10-23 17:36:13 -  [New Thread 0x7ffff3dbb700 (LWP 11033)]
+2020-10-23 17:36:13 -  [New Thread 0x7ffff35ba700 (LWP 11034)]
+2020-10-23 17:36:13 -  The OTG-Premium-Version - Version: (1.3)
+2020-10-23 17:36:13 -  Compiled with: GNU C++ version 5.4.0 20160609
+2020-10-23 17:36:13 -  Compiled on Sep 17 2020 19:49:36 for platform x64
+2020-10-23 17:36:13 -  
+2020-10-23 17:36:13 -  Special Credits for: OTG Team, Johncore, Vankk, Erick Nunes, Leonardo Pereira, Leandro Baldissera, Talis, Marcomoa, Marson Schneider, Douglas, Mark Samman, OTXServer (Mattyx Gomez) and The Forgotten Server Developers.
+2020-10-23 17:36:13 -  Link of repository: https://github.com/Johncorex/OTG-Premium-Version
+2020-10-23 17:36:13 -  
+2020-10-23 17:36:13 -  >> Loading config: config.lua
+2020-10-23 17:36:13 -  >> Establishing database connection... MySQL 5.7.31
+2020-10-23 17:36:13 -  >> Running database manager
+2020-10-23 17:36:13 -  [New Thread 0x7ffff2ba7700 (LWP 11035)]
+2020-10-23 17:36:13 -  > Optimizing table tile_store... [success]
+2020-10-23 17:36:13 -  >> Loading vocations
+2020-10-23 17:36:13 -  >> Loading items
+2020-10-23 17:36:13 -  >> Loading script systems
+2020-10-23 17:36:13 -  >> Loading lua libs
+2020-10-23 17:36:14 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-23 17:36:14 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-23 17:36:15 -  >> Loading lua scripts
+2020-10-23 17:36:15 -  >> Loading monsters
+2020-10-23 17:36:15 -  >> Loading lua monsters
+2020-10-23 17:36:15 -  >> Loading outfits
+2020-10-23 17:36:15 -  >> Loading prey data
+2020-10-23 17:36:15 -  >> Checking world type... PVP
+2020-10-23 17:36:15 -  >> Loading map
+2020-10-23 17:36:17 -  > Map size: 34143x33812.
+2020-10-23 17:36:23 -  > Map loading time: 7.27 seconds.
+2020-10-23 17:36:23 -  > Loaded house items in: 0.013 s
+2020-10-23 17:36:23 -  >> Initializing gamestate
+2020-10-23 17:36:26 -  >> Loaded 43 npcs and spawned 72708 monsters.
+2020-10-23 17:36:26 -  >> Loaded 27 towns with 1074 houses in total.
+2020-10-23 17:36:26 -  [Castle War]
+2020-10-23 17:36:26 -  [POWERGAMERS]
+2020-10-23 17:36:26 -  [SISTEMA DE LOTERIA] OPERANTE
+2020-10-23 17:36:26 -  Advanced NPC spawn system | All NPCs will be loaded trough lib.
+2020-10-23 17:36:26 -  [REGEN BOOST] CARREGADO
+2020-10-23 17:36:26 -  [SPOOF COUNTER]
+2020-10-23 17:36:26 -  [STAMINA]
+2020-10-23 17:36:26 -  warvariables
+2020-10-23 17:36:26 -  Agenda:	2
+2020-10-23 17:36:26 -  eu sou o checkWarmode... 17:36!
+2020-10-23 17:36:26 -  Buscando valores guilds where id = 3
+2020-10-23 17:36:26 -  > Broadcasted message: "[Warmode] Atencao Honerianos! A Guild TesteWarmode desafiou a Guild Vai tomando para uma batalha que vai iniciar agora!".
+2020-10-23 17:36:26 -  17	36	24
+2020-10-23 17:36:26 -  >> Loaded all modules, server starting up...
+2020-10-23 17:36:26 -  > Warning: OTG-Premium-Version has been executed as root user, please consider running it as a normal user.
+2020-10-23 17:36:26 -  >> Honera Global Server Online!
+2020-10-23 17:36:26 -  
+2020-10-23 17:36:26 -  Demonzin has logged in.
+2020-10-23 17:36:26 -  funcao onLogin
+2020-10-23 17:36:26 -  Demonzin has logged out.
+2020-10-23 17:36:28 -  SABADOU!! NPC HONERA CRIADO
+2020-10-23 17:36:28 -  Robalo has logged in.
+2020-10-23 17:36:28 -  funcao onLogin
+2020-10-23 17:36:28 -  Robalo has logged out.
+2020-10-23 17:36:36 -  Demonzin has logged in.
+2020-10-23 17:36:36 -  funcao onLogin
+2020-10-23 17:36:36 -  Dev Marson has logged in.
+2020-10-23 17:36:36 -  funcao onLogin
+2020-10-23 17:36:36 -  Robalo has logged in.
+2020-10-23 17:36:46 -  funcao onLogin
+2020-10-23 17:36:46 -  Demonzin has logged out.
+2020-10-23 17:36:48 -  Demonzin has logged in.
+2020-10-23 17:39:09 -  
+2020-10-23 17:39:09 -  Thread 1 "tfs" received signal SIGINT, Interrupt.
+2020-10-23 17:39:09 -  0x00007ffff7b14ad3 in epoll_wait () at ../sysdeps/unix/syscall-template.S:84
+2020-10-23 17:39:09 -  84	../sysdeps/unix/syscall-template.S: No such file or directory.
+2020-10-23 17:39:09 -  
+2020-10-23 17:39:09 -  Thread 4 (Thread 0x7ffff2ba7700 (LWP 11035)):
+2020-10-23 17:39:09 -  #0  pthread_cond_wait@@GLIBC_2.3.2 () at ../sysdeps/unix/sysv/linux/x86_64/pthread_cond_wait.S:185
+2020-10-23 17:39:09 -  No locals.
+2020-10-23 17:39:09 -  #1  0x00007ffff5e7491c in std::condition_variable::wait(std::unique_lock<std::mutex>&) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6

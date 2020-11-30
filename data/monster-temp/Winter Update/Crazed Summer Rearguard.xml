@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Crazed Summer Rearguard" nameDescription="a Crazed Summer Rearguard" race="blood" experience="4700" speed="250" manacost="0">
+	<health now="5300" max="5300" />
+	<look type="1137" head="3" body="94" legs="101" feet="38" corpse="6325" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+				<flag isblockable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-550" />
+		<attack name="effect" interval="1000" chance="6" radius="5" target="0">
+			<attribute key="areaEffect" value="blackspark" />
+		</attack>
+		<attack name="fire" interval="1000" chance="34" range="7" radius="7" target="1" min="-150" max="-300">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+	</attacks>
+	<defenses armor="76" defense="20" />
+	<elements>
+		<element firePercent="20" />
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+	</immunities>
+	<loot>
+		<!--common-->
+<item id="2547" chance="1000000" /> 
+<item id="7759" count="2" chance="1000000" /> 
+<item id="2152" count="11" chance="1000000" /> 
+<!--uncommon-->
+<item id="5921" chance="3000" />
+<item id="34643" chance="3000" />    
+<item id="10552" chance="3000" />
+<item id="18414" chance="3000" />
+<item id="7760" chance="3000" />
+<item id="18420" chance="3000" />
+<!--semi-rare-->
+<item id="29036" chance="500" /> 
+<item id="26186" chance="400" /> 
+<item id="34633" chance="400" /> 
+<item id="26198" chance="300" />
+<item id="2664" chance="300" />
+<!--rare-->  
+<item id="2145" chance="200" /> 
+<item id="2154" chance="200" />  
+<item id="18453" chance="200" />
+	</loot>
+</monster>

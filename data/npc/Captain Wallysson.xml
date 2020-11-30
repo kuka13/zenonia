@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain Wallysson" script="Captain Wallysson.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="152" head="87" body="114" legs="114" feet="87" addons="0" />
+</npc>

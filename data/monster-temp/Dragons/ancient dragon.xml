@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ancient Dragon" nameDescription="a ancient dragon " race="blood" experience="14600" speed="420" manacost="0">
+<health now="22800" max="22800"/>
+<look type="947" head="5" body="5" legs="8" feet="8" corpse="27854"/>
+  <targetchange interval="2000" chance="5" />
+  <strategy attack="70" defense="10" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="0" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="366" />
+	<flag isblockable="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="150" attack="130" />
+   <attack name="fire" interval="2000" chance="17" length="8" spread="3" min="-550" max="-1230">
+		<attribute key="areaEffect" value="firearea"/>
+	</attack>
+  </attacks>
+  <defenses armor="45" defense="35" >
+    <defense name="healing" interval="2000" chance="9" min="570" max="1300">
+      <attribute key="areaEffect" value="blueshimmer" />
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity paralyze="1" />
+    <immunity invisible="1" />
+    <immunity lifedrain="1" />
+    <immunity drunk="1" />
+  </immunities>
+ 	<loot>
+		<item name="platinum coin" countmax="30" chance="82430" />
+		<item name="dragon ham" countmax="3" chance="48550" />
+		<item name="dragon scale mail" chance="3090" />
+		<item name="royal helmet" chance="2090" />
+		<item name="dragon shield" chance="2090" />
+		<item name="dragon lance" chance="2090" />
+		<item name="giant sword" chance="2660" />
+	</loot>
+</monster>

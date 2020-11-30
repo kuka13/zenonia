@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+  <announce delay="9000" type="Event" message="NÃO DEIXEM ESSE ORC PASSAR! ELE ROUBOU MINHA RED BACKPACK!" />
+  <announce delay="30000" type="Event" message="Uma horda de Orcs está chegando até Thais! Protejam nosso REI!!!" />
+  <announce delay="60000" type="Event" message="Thais is under attack!" />
+
+  <areaspawn delay="60000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Berserker" amount="80" />
+  </areaspawn>
+  <areaspawn delay="60000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Warlord" amount="80" />
+  </areaspawn>
+  <areaspawn delay="60000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Leader" amount="100" />
+  </areaspawn>
+  <areaspawn delay="60000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Leader" amount="150" />
+  </areaspawn>
+  <areaspawn delay="60000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Rider" amount="3" />
+  </areaspawn>
+  <areaspawn delay="90000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Warlord" amount="80" />
+    <monster name="Orc Leader" amount="60" />
+    <monster name="Orc Leader" amount="130" />
+    <monster name="Orc Leader" amount="120" />
+    <monster name="Orc Leader" amount="50" />
+  </areaspawn>
+  <areaspawn delay="90000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Warlord" amount="80" />
+    <monster name="Orc Leader" amount="60" />
+    <monster name="Orc Leader" amount="130" />
+    <monster name="Orc Leader" amount="230" />
+    <monster name="Orc Leader" amount="180" />
+  </areaspawn>
+  <areaspawn delay="90000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Warlord" amount="180" />
+    <monster name="Orc Rider" amount="30" />
+    <monster name="Orc Leader" amount="260" />
+    <monster name="Orc Leader" amount="130" />
+    <monster name="Orc Leader" amount="210" />
+  </areaspawn>
+
+  <areaspawn delay="120000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Leader" amount="140" />
+  </areaspawn>
+  <areaspawn delay="120000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Leader" amount="130" />
+  </areaspawn>
+  <areaspawn delay="120000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Leader" amount="130" />
+  </areaspawn>
+  <areaspawn delay="120000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Warlord" amount="100" />
+  </areaspawn>
+  <areaspawn delay="120000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Berserker" amount="100" />
+  </areaspawn>
+  <areaspawn delay="120000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Leader" amount="60" />
+    <monster name="Orc Leader" amount="130" />
+    <monster name="Orc Leader" amount="130" />
+    <monster name="Orc Rider" amount="30" />
+  </areaspawn>
+  <areaspawn delay="120000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Warlord" amount="80" />
+    <monster name="Orc Leader" amount="160" />
+    <monster name="Orc Leader" amount="130" />
+    <monster name="Orc Leader" amount="130" />
+  </areaspawn>
+  <areaspawn delay="120000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Warlord" amount="80" />
+    <monster name="Orc Rider" amount="30" />
+    <monster name="Orc Leader" amount="60" />
+    <monster name="Orc Leader" amount="130" />
+    <monster name="Orc Leader" amount="130" />
+  </areaspawn>
+    <areaspawn delay="150000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Berserker" amount="80" />
+  </areaspawn>
+  <areaspawn delay="150000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Warlord" amount="80" />
+  </areaspawn>
+  <areaspawn delay="150000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Leader" amount="100" />
+  </areaspawn>
+  <areaspawn delay="150000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Leader" amount="150" />
+  </areaspawn>
+  <areaspawn delay="150000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Rider" amount="30" />
+  </areaspawn>
+  <areaspawn delay="150000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Warlord" amount="80" />
+    <monster name="Orc Leader" amount="60" />
+    <monster name="Orc Leader" amount="130" />
+    <monster name="Orc Leader" amount="120" />
+    <monster name="Orc Leader" amount="50" />
+  </areaspawn>
+  <areaspawn delay="150000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Warlord" amount="80" />
+    <monster name="Orc Leader" amount="60" />
+    <monster name="Orc Leader" amount="130" />
+    <monster name="Orc Leader" amount="130" />
+    <monster name="Orc Leader" amount="180" />
+  </areaspawn>
+  <areaspawn delay="180000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Warlord" amount="180" />
+    <monster name="Orc Rider" amount="30" />
+    <monster name="Orc Leader" amount="160" />
+    <monster name="Orc Leader" amount="130" />
+    <monster name="Orc Leader" amount="21" />
+  </areaspawn>
+
+  <areaspawn delay="180000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Leader" amount="140" />
+  </areaspawn>
+  <areaspawn delay="180000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Leader" amount="130" />
+  </areaspawn>
+  <areaspawn delay="180000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Leader" amount="130" />
+  </areaspawn>
+  <areaspawn delay="180000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Warlord" amount="100" />
+  </areaspawn>
+  <areaspawn delay="180000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Berserker" amount="100" />
+  </areaspawn>
+  <areaspawn delay="230000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Leader" amount="60" />
+    <monster name="Orc Leader" amount="130" />
+    <monster name="Orc Leader" amount="130" />
+    <monster name="Orc Rider" amount="30" />
+  </areaspawn>
+  <areaspawn delay="230000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Warlord" amount="80" />
+    <monster name="Orc Leader" amount="160" />
+	<monster name="Orc Sambackpack" amount="1" />
+    <monster name="Orc Leader" amount="130" />
+    <monster name="Orc Leader" amount="130" />
+  </areaspawn>
+  <areaspawn delay="230000" fromx="32316" fromy="32283" fromz="7" tox="32425" toy="32162" toz="7">
+    <monster name="Orc Warlord" amount="80" />
+    <monster name="Orc Rider" amount="30" />
+    <monster name="Orc Leader" amount="60" />
+    <monster name="Orc Leader" amount="130" />
+    <monster name="Orc Leader" amount="130" />
+  </areaspawn>
+</raid>

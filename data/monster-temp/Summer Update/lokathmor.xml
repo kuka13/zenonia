@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lokathmor" nameDescription="an Lokathmor" race="blood" experience="40000" speed="230" manacost="0" script="boss.lua">
+	<health now="300000" max="300000" />
+	<look type="1062" head="22" body="22" legs="79" feet="97" corpse="6068" />
+	<targetchange interval="2000" chance="4" />
+	<flags>
+		<flag boss="1" />
+        	<flag rewardboss="1" />
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag isblockable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="150" attack="250" />
+		<attack name="lifedrain" interval="2000" chance="8" range="7" radius="5" target="1" min="-1900" max="-2800">
+			<attribute key="shootEffect" value="whirlwindaxe" />
+			<attribute key="areaEffect" value="redspark" />
+		</attack>
+		<attack name="death" interval="1000" chance="8" radius="9" target="0" min="-800" max="-1900">
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+		<attack name="poisoncondition" interval="5000" chance="18" length="0" spread="0" min="-1500" max="-2500">
+			<attribute key="areaEffect" value="greenspark" />
+		</attack>
+		<attack name="poison" max="-255" chance="20" interval="1000" min="-1000" range="7" target="0" radius="6">
+			<attribute value="bluebubble" key="areaEffect"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="8" range="7" target="1" min="-390" max="-1200">
+			<attribute key="shootEffect" value="whirlwindaxe" />
+			<attribute key="areaEffect" value="explosionarea" />
+		</attack>
+	</attacks>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="2000" chance="5">
+		<voice sentence="give my book's!" />
+	</voices>
+	<loot>
+		<item id="32492" chance="2000" />		<!-- tome -->
+		<item id="33319" chance="2000" />		<!-- tome -->
+		<item id="25172" countmax="6" chance="4920" />		<!-- silver token -->
+		<item id="2656" chance="2500" />		<!-- blue robe -->
+		<item id="7419" chance="2500" />		<!-- dreaded cleaver -->
+		<item id="9816" chance="2500" />		<!-- rusty shield -->
+		<item id="2187" chance="2900" />		<!-- WOI -->
+		<item id="2152" countmax="63" chance="10000" />		<!-- platinum coin -->
+		<item id="2160" countmax="4" chance="10000" />		<!-- crystal coin -->
+		<item id="26029" countmax="12" chance="4920" />		<!-- UMP -->
+		<item id="8473" countmax="18" chance="4920" />		<!-- UHP -->
+		<item id="7590" countmax="18" chance="4920" />		<!-- GSP -->
+		<item id="8472" countmax="18" chance="4920" />		<!-- GMP -->
+		<item id="7440" countmax="2" chance="4920" />		<!-- mms potion -->
+		<item id="24849" countmax="12" chance="4920" />		<!-- onyx chips -->
+		<item id="5904" countmax="3" chance="4920" />		<!-- magic sulphur -->
+		<item id="7633" countmax="2" chance="4920" />		<!-- giant shim~ -->
+		<item id="2155" countmax="1" chance="4920" />		<!-- green gem -->
+		<item id="6500" countmax="3" chance="4920" />		<!-- demonic -->
+		<item id="2197" countmax="1" chance="4920" />		<!-- ssa -->
+	</loot>
+</monster>

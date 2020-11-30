@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Glaucio Warzona" script="Glaucio Warzave.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="278" head="19" body="94" legs="114" feet="0" addons="3" mount="0"/>
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+		    Stamina Refill,12544,10000000;
+			Skull Remover,11144,5000000;
+			Blood Herb,2798,100000;" />
+		<parameter key="shop_sellable" value="
+			cyclops toe,10574,50;" />
+	</parameters>
+</npc>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Le Postiche" script="Le Postiche.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+<look type="128" head="115" body="39" legs="96" feet="118" addons="3" />
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+		orange backpack, 10519, 20;
+		backpack, 1988, 20;
+		green backpack, 1998, 20;
+		yellow backpack, 1999, 20;
+		red backpack, 2000, 20;
+		purple backpack, 2001, 20;
+		blue backpack, 2002, 20;
+		grey backpack, 2003, 20;
+		camouflage backpack, 3940, 20;
+		jewelled backpack, 5801, 500000;
+		pirate backpack, 5926, 10000;
+		beach backpack, 5949, 20;
+		fur backpack, 7342, 20;
+		brocade backpack, 2004, 20;
+		demon backpack, 10518, 10000;
+		moon backpack, 10521, 500000;
+		crown backpack, 10522, 500000;
+		expedition backpack, 11241, 500000;
+		dragon backpack, 11243, 500000;
+		minotaur backpack, 11244, 20;
+		deepling backpack, 15645, 500000;
+		buggy backpack, 15646, 500000;
+		anniversary backpack, 16007, 500000;
+		mushroom backpack, 18393, 500000;
+		crystal backpack, 18394, 500000;
+		pannier backpack, 21475, 500000;
+		cake backpack, 22696, 500000;
+		energetic backpack, 26181, 500000;
+		festive backpack, 35056, 500000;"  />
+		<parameter key="shop_sellable" value="
+			cyclops toe,10574,50;" />
+	</parameters>
+</npc>

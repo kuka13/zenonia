@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Black Bert" script="Black Bert.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="151" head="0" body="38" legs="19" feet="76" addons="0" />
+<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="
+			green book, 1980, 15;
+		orange book, 1977, 30;
+		blue book, 1978, 20;
+		gemmed book, 1976, 100;
+		wooden hammer, 2556, 15" />
+	</parameters>
+</npc>

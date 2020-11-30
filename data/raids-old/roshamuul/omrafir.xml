@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+    <!--
+	// Raid System by 5mok3
+	// DO NOT CHANGE INTERVAL UNLESS YOU ARE SURE WHAT YOU ARE DOING!! {x = 33587, y = 32378, z = 12}
+	-->
+
+  <!--Announcements-->
+  
+  <announce delay="1000" type="Event" message="Omrafir esta prestes a entrar na prisao de Roshamuul. Corra por suas vidas!" />
+  <announce delay="20000" type="Event" message="Esse terrivel demonio convida todos os jogadores para uma brava batalha de vida ou morte!" />
+  <announce delay="60000" type="Event" message="mallldicaooooo Omrafir esta eliminando todos." />
+  <!--Single Spawns-->
+   <script delay="60000" script="omrafir.lua" />
+  <!--<singlespawn delay="60000" name="Omrafir" x="33587" y="32378" z="12" />-->
+  <!--Area Spawns-->
+</raid>

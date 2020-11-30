@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Insane Siren" nameDescription="a Insane Siren" race="blood" experience="6900" speed="250" manacost="0">
+	<health now="7600" max="7600" />
+	<look type="1137" head="79" body="94" legs="79" feet="38" addons="3" corpse="6325" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+				<flag isblockable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-450" />
+		<attack name="effect" interval="1000" chance="6" radius="5" target="0">
+			<attribute key="areaEffect" value="blackspark" />
+		</attack>
+		<attack name="fire" interval="1000" chance="34" range="7" radius="7" target="1" min="-250" max="-350">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+		<attack name="firefield" interval="1000" chance="10" range="7" radius="4" target="1">
+			<attribute key="shootEffect" value="fire" />
+		</attack>
+		<attack name="energy" interval="1000" chance="15" length="8" spread="0" min="-100" max="-350">
+			<attribute key="areaEffect" value="energy" />
+		</attack>
+	</attacks>
+	<defenses armor="70" defense="20" />
+	<elements>
+		<element firePercent="20" />
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+	</immunities>
+	<loot>
+		<!--common-->
+<item name="platinum coin" countmin="1" countmax="12" chance="100000" /> 
+
+<item name="dream essence egg" chance="15000" />
+<item name="miraculum" chance="11550" />    
+<item name="ultimate health potion" chance="13550" />
+<item name="holy orchid" chance="14750" />
+<item name="magma coat" chance="17550" />
+<item name="wand of inferno" chance="12350" />
+<item name="fire axe" chance="14600" />
+
+<item name="magma amulet" chance="25100" /> 
+<item name="wand of draconia" chance="25000" /> 
+<item name="wand of dragonbreath" chance="12800" /> 
+<item name="sun fruit" chance="12000" />
+	</loot>
+</monster>

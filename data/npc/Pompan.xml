@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Pompan" script="Pompan.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="132" head="78" body="13" legs="32" feet="108" addons="0" />
+<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+			green book, 1980, 15;
+		orange book, 1977, 30;
+		blue book, 1978, 20;
+		gemmed book, 1976, 100;
+		crowbar, 2416, 50; 
+		fishing rod, 2580, 40; 
+		inkwell, 2600, 8;
+		machete, 2420, 6; 
+		parchment, 7696, 5;
+		pick, 2553, 15;
+		rope, 2120, 15;
+		scythe, 2550, 10;
+		shovel, 2554,8;
+		watch, 2036, 6;
+		arrow,2544,3;
+		assassin star,7368,100;
+		bolt,2543,4;
+		bow,2456,400;
+		crossbow,2455,500;
+		infernal bolt,6529,10000;
+		spear,2389,9;
+		crystalline arrow,18304,10;
+		earth arrow,7850,3;
+		envenomed arrow,18437,5;
+		flaming arrow,7840,3;
+		flash arrow,7838,3;
+		onyx arrow,7365,4;
+		shiver arrow,7839,3;
+		sniper arrow,7364,3;
+		tarsal arrow,15648,3;
+		drill bolt,18436,5;
+		glooth spear,23529,20;
+		piercing bolt,7363,4;
+		power bolt,2547,4;
+		prismatic bolt,18435,10;
+		minotaur backpack,11244,200;
+		backpack,1988,15;
+		dragon backpack,11243,200;
+		dragon tapestry,11264,80;
+		expedition backpack,11241,100;	
+		wooden hammer, 2556, 15" />
+	</parameters>
+</npc>

@@ -1,0 +1,229 @@
+2020-10-22 18:01:41 -  [Thread debugging using libthread_db enabled]
+2020-10-22 18:01:41 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2020-10-22 18:01:41 -  [New Thread 0x7ffff3dbb700 (LWP 10017)]
+2020-10-22 18:01:41 -  [New Thread 0x7ffff35ba700 (LWP 10018)]
+2020-10-22 18:01:41 -  The OTG-Premium-Version - Version: (1.3)
+2020-10-22 18:01:41 -  Compiled with: GNU C++ version 5.4.0 20160609
+2020-10-22 18:01:41 -  Compiled on Sep 17 2020 19:49:36 for platform x64
+2020-10-22 18:01:41 -  
+2020-10-22 18:01:41 -  Special Credits for: OTG Team, Johncore, Vankk, Erick Nunes, Leonardo Pereira, Leandro Baldissera, Talis, Marcomoa, Marson Schneider, Douglas, Mark Samman, OTXServer (Mattyx Gomez) and The Forgotten Server Developers.
+2020-10-22 18:01:41 -  Link of repository: https://github.com/Johncorex/OTG-Premium-Version
+2020-10-22 18:01:41 -  
+2020-10-22 18:01:41 -  >> Loading config: config.lua
+2020-10-22 18:01:41 -  >> Establishing database connection... MySQL 5.7.31
+2020-10-22 18:01:41 -  >> Running database manager
+2020-10-22 18:01:41 -  [New Thread 0x7ffff2ba7700 (LWP 10019)]
+2020-10-22 18:01:42 -  > Optimizing table tile_store... [success]
+2020-10-22 18:01:42 -  >> Loading vocations
+2020-10-22 18:01:42 -  >> Loading items
+2020-10-22 18:01:42 -  >> Loading script systems
+2020-10-22 18:01:42 -  >> Loading lua libs
+2020-10-22 18:01:42 -  [Warning - Event::checkScript] Can not load script: scripts/expboostaction.lua
+2020-10-22 18:01:42 -  cannot open data/actions/scripts/expboostaction.lua: No such file or directory
+2020-10-22 18:01:43 -  >> Loading lua scripts
+2020-10-22 18:01:43 -  >> Loading monsters
+2020-10-22 18:01:43 -  >> Loading lua monsters
+2020-10-22 18:01:43 -  >> Loading outfits
+2020-10-22 18:01:43 -  >> Loading prey data
+2020-10-22 18:01:44 -  >> Checking world type... PVP
+2020-10-22 18:01:44 -  >> Loading map
+2020-10-22 18:01:45 -  > Map size: 34143x33812.
+2020-10-22 18:01:51 -  > Map loading time: 7.049 seconds.
+2020-10-22 18:01:52 -  > Loaded house items in: 0.013 s
+2020-10-22 18:01:52 -  >> Initializing gamestate
+2020-10-22 18:01:54 -  >> Loaded 43 npcs and spawned 72708 monsters.
+2020-10-22 18:01:54 -  >> Loaded 27 towns with 1074 houses in total.
+2020-10-22 18:01:54 -  [Castle War]
+2020-10-22 18:01:54 -  [POWERGAMERS]
+2020-10-22 18:01:54 -  [SISTEMA DE LOTERIA] OPERANTE
+2020-10-22 18:01:54 -  Advanced NPC spawn system | All NPCs will be loaded trough lib.
+2020-10-22 18:01:54 -  [REGEN BOOST] CARREGADO
+2020-10-22 18:01:54 -  [SPOOF COUNTER]
+2020-10-22 18:01:54 -  [STAMINA]
+2020-10-22 18:01:54 -  warvariables
+2020-10-22 18:01:54 -  Agenda:	2
+2020-10-22 18:01:54 -  eu sou o checkWarmode... 18:1!
+2020-10-22 18:01:54 -  Buscando valores guilds where id = 3
+2020-10-22 18:01:54 -  > Broadcasted message: "[Warmode] Atencao Honerianos! A Guild TesteWarmode desafiou a Guild Vai tomando para uma batalha que vai iniciar agora!".
+2020-10-22 18:01:54 -  18	01	59
+2020-10-22 18:01:54 -  >> Loaded all modules, server starting up...
+2020-10-22 18:01:54 -  > Warning: OTG-Premium-Version has been executed as root user, please consider running it as a normal user.
+2020-10-22 18:01:54 -  >> Honera Global Server Online!
+2020-10-22 18:01:54 -  
+2020-10-22 18:01:54 -  Robalo has logged in.
+2020-10-22 18:01:54 -  funcao onLogin
+2020-10-22 18:01:54 -  Demonzin has logged in.
+2020-10-22 18:01:56 -  funcao onLogin
+2020-10-22 18:01:56 -  SABADOU!! NPC HONERA CRIADO
+2020-10-22 18:01:56 -  One Hitt has logged in.
+2020-10-22 18:02:14 -  funcao onLogin
+2020-10-22 18:02:14 -  Demonzin has logged out.
+2020-10-22 18:02:16 -  Demonzin has logged in.
+2020-10-22 18:05:54 -  funcao onLogin
+2020-10-22 18:05:54 -  um player que estava dentro da war, logou
+2020-10-22 18:05:54 -  endWarmode
+2020-10-22 18:05:54 -  > Broadcasted message: "[Warmode] A War acabou por tempo! Parabens para ambas as guilds por este emocionante empate!".
+2020-10-22 18:05:54 -  removendo players da tabela porque a war acabou
+2020-10-22 18:05:54 -  Robalo has logged out.
+2020-10-22 18:05:57 -  Robalo has logged in.
+2020-10-22 18:05:57 -  funcao onLogin
+2020-10-22 18:05:57 -  Robalo has logged out.
+2020-10-22 18:06:10 -  Robalo has logged in.
+2020-10-22 18:09:27 -  funcao onLogin
+2020-10-22 18:09:27 -  One Hitt has logged out.
+2020-10-22 18:17:03 -  One Hitt has logged in.
+2020-10-22 18:30:01 -  funcao onLogin
+2020-10-22 18:30:01 -  ip inválido
+2020-10-22 18:30:01 -  One Hitt has logged out.
+2020-10-22 18:39:12 -  Boladao has logged in.
+2020-10-22 18:45:14 -  funcao onLogin
+2020-10-22 18:45:14 -  Boladao has logged out.
+2020-10-22 18:45:37 -  Fellypera has logged in.
+2020-10-22 18:46:45 -  funcao onLogin
+2020-10-22 18:46:45 -  ip inválido
+2020-10-22 18:46:45 -  Fellypera has logged out.
+2020-10-22 18:48:01 -  Fellypera has logged in.
+2020-10-22 18:52:07 -  funcao onLogin
+2020-10-22 18:52:07 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 18:52:27 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 19:01:20 -  eu sou o checkWarmode... 19:0!
+2020-10-22 19:01:20 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 19:01:30 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 19:03:32 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 26132
+2020-10-22 19:03:52 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 26131
+2020-10-22 19:11:06 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 26132
+2020-10-22 19:11:27 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 26131
+2020-10-22 19:13:10 -  ip inválido
+2020-10-22 19:13:10 -  Demonzin has logged out.
+2020-10-22 19:25:34 -  Fellypera has logged out.
+2020-10-22 19:25:35 -  Fellypera has logged in.
+2020-10-22 19:26:42 -  funcao onLogin
+2020-10-22 19:26:42 -  Fellypera has logged out.
+2020-10-22 19:27:20 -  Boladao has logged in.
+2020-10-22 19:27:24 -  funcao onLogin
+2020-10-22 19:27:24 -  Boladao has logged out.
+2020-10-22 19:27:28 -  Fellypera has logged in.
+2020-10-22 19:33:40 -  funcao onLogin
+2020-10-22 19:33:40 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 19:35:10 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 19:35:28 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 19:35:35 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2021
+2020-10-22 19:41:57 -  Fellypera has logged out.
+2020-10-22 19:42:00 -  Fellypera has logged in.
+2020-10-22 19:42:42 -  funcao onLogin
+2020-10-22 19:42:42 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 19:42:53 -  [Debug - Game::internalDecayItem] internalDecayItem failed, error code: 1, item id: 2018
+2020-10-22 19:45:34 -  
+2020-10-22 19:45:34 -  Lua Script Error: [Action Interface] 
+2020-10-22 19:45:34 -  data/actions/scripts/rewardchest.lua:onUse
+2020-10-22 19:45:34 -  data/actions/scripts/rewardchest.lua:2: attempt to call method 'updateRewardChest' (a nil value)
+2020-10-22 19:45:34 -  stack traceback:
+2020-10-22 19:45:34 -  	[C]: in function 'updateRewardChest'
+2020-10-22 19:45:34 -  	data/actions/scripts/rewardchest.lua:2: in function <data/actions/scripts/rewardchest.lua:1>
+2020-10-22 19:50:04 -  Fellypera has logged out.
+2020-10-22 21:01:43 -  eu sou o checkWarmode... 20:0!
+2020-10-22 21:01:43 -  eu sou o checkWarmode... 21:0!
+2020-10-22 21:01:43 -  
+2020-10-22 21:01:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-22 21:01:43 -  data/globalevents/scripts/bosses/Abyssador.lua:onThink
+2020-10-22 21:01:43 -  data/lib/rewardboss.lua:8: Rewards can only be enabled to rewards bosses.
+2020-10-22 21:01:43 -  stack traceback:
+2020-10-22 21:01:43 -  	[C]: at 0x00602980
+2020-10-22 21:01:43 -  	[C]: in function 'error'
+2020-10-22 21:01:43 -  	data/lib/rewardboss.lua:8: in function 'setReward'
+2020-10-22 21:01:43 -  	data/globalevents/scripts/bosses/Abyssador.lua:28: in function <data/globalevents/scripts/bosses/Abyssador.lua:21>
+2020-10-22 21:01:43 -  [Error - GlobalEvents::think] Failed to execute event: Abyssador
+2020-10-22 21:01:43 -  
+2020-10-22 21:01:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-22 21:01:43 -  data/globalevents/scripts/bosses/Deathstrike.lua:onThink
+2020-10-22 21:01:43 -  data/lib/rewardboss.lua:8: Rewards can only be enabled to rewards bosses.
+2020-10-22 21:01:43 -  stack traceback:
+2020-10-22 21:01:43 -  	[C]: at 0x00602980
+2020-10-22 21:01:43 -  	[C]: in function 'error'
+2020-10-22 21:01:43 -  	data/lib/rewardboss.lua:8: in function 'setReward'
+2020-10-22 21:01:43 -  	data/globalevents/scripts/bosses/Deathstrike.lua:28: in function <data/globalevents/scripts/bosses/Deathstrike.lua:21>
+2020-10-22 21:01:43 -  [Error - GlobalEvents::think] Failed to execute event: Deathstrike
+2020-10-22 21:01:43 -  
+2020-10-22 21:01:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-22 21:01:43 -  data/globalevents/scripts/bosses/Gnomevil.lua:onThink
+2020-10-22 21:01:43 -  data/lib/rewardboss.lua:8: Rewards can only be enabled to rewards bosses.
+2020-10-22 21:01:43 -  stack traceback:
+2020-10-22 21:01:43 -  	[C]: at 0x00602980
+2020-10-22 21:01:43 -  	[C]: in function 'error'
+2020-10-22 21:01:43 -  	data/lib/rewardboss.lua:8: in function 'setReward'
+2020-10-22 21:01:43 -  	data/globalevents/scripts/bosses/Gnomevil.lua:28: in function <data/globalevents/scripts/bosses/Gnomevil.lua:21>
+2020-10-22 21:01:43 -  [Error - GlobalEvents::think] Failed to execute event: Gnomevil
+2020-10-22 21:13:09 -  ip inválido
+2020-10-22 21:13:09 -  Robalo has logged out.
+2020-10-22 22:10:55 -  eu sou o checkWarmode... 22:0!
+2020-10-22 22:10:55 -  > Broadcasted message: "Beware! Mawhawk!".
+2020-10-22 23:17:55 -  eu sou o checkWarmode... 23:0!
+2020-10-22 23:17:55 -  > Broadcasted message: "There seems to be a big gnarlhoud gang in Zao Steppe.".
+2020-10-22 23:18:14 -  > Broadcasted message: "The gnarlhounds seem to multiply by the minute.".
+2020-10-22 23:19:54 -  > Broadcasted message: "The gnarlhounds roam free in the Zao Steppe. Watch out!".
+2020-10-23 00:01:43 -  eu sou o checkWarmode... 0:0!
+2020-10-23 00:01:43 -  
+2020-10-23 00:01:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-23 00:01:43 -  data/globalevents/scripts/Ghulosh.lua:onThink
+2020-10-23 00:01:43 -  data/globalevents/scripts/Ghulosh.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-23 00:01:43 -  stack traceback:
+2020-10-23 00:01:43 -  	[C]: in function '__index'
+2020-10-23 00:01:43 -  	data/globalevents/scripts/Ghulosh.lua:34: in function <data/globalevents/scripts/Ghulosh.lua:21>
+2020-10-23 00:01:43 -  [Error - GlobalEvents::think] Failed to execute event: Ghulosh
+2020-10-23 00:01:43 -  
+2020-10-23 00:01:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-23 00:01:43 -  data/globalevents/scripts/Gorzindel.lua:onThink
+2020-10-23 00:01:43 -  data/globalevents/scripts/Gorzindel.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-23 00:01:43 -  stack traceback:
+2020-10-23 00:01:43 -  	[C]: in function '__index'
+2020-10-23 00:01:43 -  	data/globalevents/scripts/Gorzindel.lua:34: in function <data/globalevents/scripts/Gorzindel.lua:21>
+2020-10-23 00:01:43 -  [Error - GlobalEvents::think] Failed to execute event: Gorzindel
+2020-10-23 00:01:43 -  
+2020-10-23 00:01:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-23 00:01:43 -  data/globalevents/scripts/Lokathmor.lua:onThink
+2020-10-23 00:01:43 -  data/globalevents/scripts/Lokathmor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-23 00:01:43 -  stack traceback:
+2020-10-23 00:01:43 -  	[C]: in function '__index'
+2020-10-23 00:01:43 -  	data/globalevents/scripts/Lokathmor.lua:34: in function <data/globalevents/scripts/Lokathmor.lua:21>
+2020-10-23 00:01:43 -  [Error - GlobalEvents::think] Failed to execute event: Lokathmor
+2020-10-23 00:01:43 -  
+2020-10-23 00:01:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-23 00:01:43 -  data/globalevents/scripts/Mazzinor.lua:onThink
+2020-10-23 00:01:43 -  data/globalevents/scripts/Mazzinor.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-23 00:01:43 -  stack traceback:
+2020-10-23 00:01:43 -  	[C]: in function '__index'
+2020-10-23 00:01:43 -  	data/globalevents/scripts/Mazzinor.lua:34: in function <data/globalevents/scripts/Mazzinor.lua:21>
+2020-10-23 00:01:43 -  [Error - GlobalEvents::think] Failed to execute event: Mazzinor
+2020-10-23 00:01:43 -  [Warning - Monsters::loadMonster] Non-unique loot item "Giant Sapphire". 
+2020-10-23 00:01:43 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-23 00:01:43 -  [Warning - Monsters::loadMonster] Non-unique loot item "Collar of Blue Plasma". 
+2020-10-23 00:01:43 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-23 00:01:43 -  [Warning - Monsters::loadMonster] Non-unique loot item "Giant Shimmering Pearl". 
+2020-10-23 00:01:43 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-23 00:01:43 -  [Warning - Monsters::loadMonster] Unknown loot item "The Calamity". 
+2020-10-23 00:01:43 -  [Warning - Monsters::loadMonster] Cant load loot. data/monster/Secret Library/the scourge of oblivion.xml
+2020-10-23 00:01:43 -  
+2020-10-23 00:01:43 -  Lua Script Error: [GlobalEvent Interface] 
+2020-10-23 00:01:43 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:onThink
+2020-10-23 00:01:43 -  data/globalevents/scripts/The Scourge Of Oblivion.lua:34: attempt to index local 'boss' (a nil value)
+2020-10-23 00:01:43 -  stack traceback:
+2020-10-23 00:01:43 -  	[C]: in function '__index'
+2020-10-23 00:01:43 -  	data/globalevents/scripts/The Scourge Of Oblivion.lua:34: in function <data/globalevents/scripts/The Scourge Of Oblivion.lua:21>
+2020-10-23 00:01:43 -  [Error - GlobalEvents::think] Failed to execute event: The Scourge Of Oblivion
+2020-10-23 05:05:00 -  eu sou o checkWarmode... 1:0!
+2020-10-23 05:05:00 -  eu sou o checkWarmode... 2:0!
+2020-10-23 05:05:00 -  eu sou o checkWarmode... 3:0!
+2020-10-23 05:05:00 -  eu sou o checkWarmode... 4:0!
+2020-10-23 05:05:00 -  eu sou o checkWarmode... 5:0!
+2020-10-23 05:05:00 -  Saving server...
+2020-10-23 05:05:01 -  > Saved house items in: 1.321 s
+2020-10-23 05:05:01 -  Saving server...
+2020-10-23 05:05:02 -  > Saved house items in: 0.315 s
+2020-10-23 05:05:02 -  eu sou o checkname
+2020-10-23 05:05:02 -  Shutting down...Saving server...
+2020-10-23 05:05:02 -  > Saved house items in: 0.23 s
+2020-10-23 05:05:02 -  [Thread 0x7ffff2ba7700 (LWP 10019) exited]
+2020-10-23 05:05:02 -  [Thread 0x7ffff35ba700 (LWP 10018) exited]
+2020-10-23 05:05:06 -   done!
+2020-10-23 05:05:06 -  [Thread 0x7ffff3dbb700 (LWP 10017) exited]
+2020-10-23 05:05:24 -  [Inferior 1 (process 10013) exited normally]

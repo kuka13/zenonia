@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Earworm" nameDescription="an earworm" race="blood" experience="2000" speed="158">
+	<health now="4000" max="4000"/>
+	<look type="26" corpse="5967"/>
+	<targetchange interval="2000" chance="50"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="70"/>
+		<flag runonhealth="0"/>
+		<flag canwalkonenergy="0"/>
+		<flag canwalkonfire="0"/>
+		<flag canwalkonpoison="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-340"/>
+	</attacks>
+	<defenses armor="40" defense="40"/>
+	<loot>
+		<item name="gold coin" countmax="150" chance="71760" />
+		<item name="platinum coin" countmax="85" chance="71760" />
+		<item id="2376" chance="3000" /><!-- sword -->
+		<item id="18437" chance="3000" /><!-- envenomed arrow -->
+		<item id="7850" chance="3000" /><!-- earth arrow -->
+		<item id="7887" chance="300" /><!-- terra amulet -->
+		<item id="10219" chance="300" /><!-- sacred tree amulet -->
+		<item name="mace" chance="4500" />
+		<item name="meat" countmax="8" chance="20000" />
+		<item name="ham" countmax="15" chance="20120" />
+		<item name="worm" countmax="13" chance="5000" />
+		<item name="lump of dirt" chance="20000" />
+	</loot>
+</monster>
