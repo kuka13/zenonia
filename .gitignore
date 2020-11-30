@@ -1,0 +1,11 @@
+*.otbm
+*.dll
+data/world/otgpremium.otbm
+*.exe
+.vscode/
+build/
+cmake-build-debug/
+.idea/
+tfs
+config.lua
+client_assertions.txt

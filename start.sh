@@ -35,18 +35,7 @@ do
 		git commit -m "autobackup"
 		git push
 		
-		echo *******BACKUP2********
-		cd /var/www/html
-		git add .
-		git commit -m "autobackup"
-		git push
 		
-		cd /home/otg
-		
-		cd build
-		sudo make
-		sudo cp tfs /home/otserver
-		cd /home/otserver
 		
 		sleep 5	#3 minutos						
 	else											
@@ -60,18 +49,7 @@ do
 		git commit -m "autobackup"
 		git push
 		
-		echo *******BACKUP2********
-		cd /var/www/html
-		git add .
-		git commit -m "autobackup"
-		git push
 		
-		cd /home/otg
-		
-		cd build
-		sudo make
-		sudo cp tfs /home/otserver
-		cd /home/otserver
 		
 		sleep 5										
 	fi												
