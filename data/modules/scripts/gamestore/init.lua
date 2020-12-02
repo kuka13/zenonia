@@ -58,17 +58,18 @@ local storeImbuement = {
 	
 	[99907] = {
 		items = {
-			[1] = {id = 10552, amount = 25}, 
-			[2] = {id = 12408, amount = 15},
-			[3] = {id = 11226, amount = 15}
+			[1] = {id = 12420, amount = 25}, 
+			[2] = {id = 21311, amount = 20},
+			[3] = {id = 11215, amount = 10}
 		}
 	},
 	
 	[99908] = {
 		items = {
-			[1] = {id = 12420, amount = 25}, 
-			[2] = {id = 21311, amount = 20},
-			[3] = {id = 11215, amount = 10}
+
+			[1] = {id = 10552, amount = 25}, 
+			[2] = {id = 12408, amount = 15},
+			[3] = {id = 11226, amount = 15}
 		}
 	},
 	
