@@ -122,7 +122,7 @@ rateExp = 5
 rateSkill = 10
 rateMagic = 10
 rateSpawn = 1
-rateLoot = 5
+rateLoot = 100
 
 -- Monster rates
 rateMonsterHealth = 1.0
