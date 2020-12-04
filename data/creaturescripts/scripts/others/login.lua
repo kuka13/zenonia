@@ -242,7 +242,7 @@ function onLogin(player)
 	--player:sendTextMessage(messageType or MESSAGE_STATUS_CONSOLE_ORANGE, '[SITE] http://honera.com.br/')
 	--player:sendTextMessage(messageType or MESSAGE_STATUS_CONSOLE_ORANGE, '[DONATE] PagSeguro, PayPal, Picpay, NuBank, Santander e Caixa, acima de R$ 20,00 e receba 2x em coins imediatamente.')
 	--player:sendTextMessage(messageType or MESSAGE_STATUS_CONSOLE_ORANGE, '[DONATE] PagSeguro, PayPal, Picpay, NuBank, Santander e Caixa, acima de R$ 100,00 e receba 3x em coins imediatamente.')
-	player:sendTextMessage(messageType or MESSAGE_STATUS_CONSOLE_ORANGE, '[STAMINA] Ataque nossos Treiners Online e receba 1 de Stamina a cada 2 minuto.')
+	player:sendTextMessage(messageType or MESSAGE_STATUS_CONSOLE_ORANGE, '[STAMINA] Ataque nossos Treiners Online e receba 5 de Stamina a cada 2 minuto.')
 	
     -- Events
     for i = 1, #events do

@@ -7,6 +7,10 @@
 	
 	<movevent event="StepIn" uniqueid="29503" script="jokey.lua" />
 	
+	<!-- New items -->
+	<movevent event="StepIn" itemid="29313" script="bathTube.lua"/>
+	<movevent event="StepOut" itemid="29313" script="bathTube.lua"/>
+	
 	<!-- Treiner -->
 	<movevent event="StepIn" actionid="50100" script="others/treinersportal.lua" />
 	<movevent event="StepIn" actionid="50101" script="others/treinersportal_out.lua" />
