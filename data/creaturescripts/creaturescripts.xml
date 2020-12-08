@@ -3,7 +3,7 @@
 	<event type="modalwindow" name="modalWarmode" script="warmode.lua"/>
 	<event type="kill" name="killWarmode" script="warmode.lua"/>
 	<event type="login" name="loginWarmode" script="warmode.lua"/>
-	
+	<event type="healthchange" name="StaminaRegen" script="Creature_MonkStamina.lua" />
 	<event type="modalwindow" name="jokey" script="jokeymodal.lua"/>
 	
 	<!--

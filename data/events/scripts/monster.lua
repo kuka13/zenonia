@@ -37,6 +37,10 @@ function Monster:onDropLoot(corpse)
 end
 
 function Monster:onSpawn(position)
+	if self:getName() == "Training Monk" then
+		self:registerEvent("StaminaRegen")
+	end
+
 	if self:getType():isRewardBoss() then
 		self:setReward(true)
 	end
