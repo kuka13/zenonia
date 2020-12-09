@@ -1,5 +1,5 @@
 function onHealthChange(creature, attacker, primaryDamage, primaryType, secondaryDamage, secondaryType , origin)
-  local staminaRegen = 20
+  local staminaRegen = 2
   
   if attacker:isPlayer() then
 	attacker:setStamina(attacker:getStamina() + staminaRegen)

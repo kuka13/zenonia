@@ -6,6 +6,8 @@
 	<action actionid="26003" script="freemount.lua"/>
 	<!--Greenhorn -->
 	<action actionid="26101" script="Novos/greenhorn.lua"/>
+	<action actionid="27101" script="Novos/scrapper.lua"/>
+	<action actionid="28101" script="Novos/warlord.lua"/>
 	<!--Castle WAR-->
 	<action fromaid="26001" toaid="26002" script="others/gatecastlewar.lua"/>
 
