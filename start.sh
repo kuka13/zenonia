@@ -35,20 +35,9 @@ do
 		git commit -m "autobackup"
 		git push
 		
-		
-		
-		sleep 5	#3 minutos						
-	else											
-		echo "Crash!! Reiniciando o servidor em 5 segundos (O arquivo de log está guardado na pasta logs)"
-		echo "Se quiser encerrar o servidor, pressione CTRL + C..."
 	echo *******BACKUP3********
 		mysqldump -u$USER -p$SENHA $BANCO > $CAMINHO"/"$NOMEBACKUP"-"$TEMPO".sql"
 	
-	echo *******BACKUP1********
-		git add .
-		git commit -m "autobackup"
-		git push
-		
 		
 		
 		sleep 5										
