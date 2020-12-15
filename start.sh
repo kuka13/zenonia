@@ -41,7 +41,7 @@ do
 		git commit -m "autobackup"
 		git push
 		
-		cd /home/otg
+		cd /home/otserver
 		
 		cd build
 		sudo make
@@ -66,7 +66,7 @@ do
 		git commit -m "autobackup"
 		git push
 		
-		cd /home/otg
+		cd /home/otserver
 		
 		cd build
 		sudo make
