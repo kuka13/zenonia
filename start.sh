@@ -35,6 +35,23 @@ do
 		git commit -m "autobackup"
 		git push
 		
+		echo *******BACKUP2********
+		cd /var/www/html
+		git add .
+		git commit -m "autobackup"
+		git push
+		
+		cd /home/otg
+		
+		cd build
+		sudo make
+		sudo cp tfs /home/otserver
+		cd /home/otserver
+		
+		sleep 5	#3 minutos						
+	else											
+		echo "Crash!! Reiniciando o servidor em 5 segundos (O arquivo de log está guardado na pasta logs)"
+		echo "Se quiser encerrar o servidor, pressione CTRL + C..."
 	echo *******BACKUP3********
 		mysqldump -u$USER -p$SENHA $BANCO > $CAMINHO"/"$NOMEBACKUP"-"$TEMPO".sql"
 	
@@ -42,6 +59,19 @@ do
 		git add .
 		git commit -m "autobackup"
 		git push
+		
+		echo *******BACKUP2********
+		cd /var/www/html
+		git add .
+		git commit -m "autobackup"
+		git push
+		
+		cd /home/otg
+		
+		cd build
+		sudo make
+		sudo cp tfs /home/otserver
+		cd /home/otserver
 		
 		sleep 5										
 	fi												
