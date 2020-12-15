@@ -38,7 +38,10 @@ do
 	echo *******BACKUP3********
 		mysqldump -u$USER -p$SENHA $BANCO > $CAMINHO"/"$NOMEBACKUP"-"$TEMPO".sql"
 	
-		
+	echo *******BACKUP1********
+		git add .
+		git commit -m "autobackup"
+		git push
 		
 		sleep 5										
 	fi												
