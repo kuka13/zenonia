@@ -11,7 +11,7 @@ mkdir -p logs
 ulimit -c unlimited
 set -o pipefail
 CAMINHO="logs"
-NOMEBACKUP="Zenonia"
+NOMEBACKUP="Zeno"
 USER="root"
 SENHA="J4K39090"
 BANCO="otserv"
